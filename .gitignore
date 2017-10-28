@@ -1,0 +1,16 @@
+# unity
+Temp/
+Library/
+Obj/
+
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.userprefs
+*.DS_store
+
+# atlas to sprite
+.idea/
+output/
+*.class

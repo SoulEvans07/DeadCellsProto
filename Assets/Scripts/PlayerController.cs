@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
 	// jump
 	public float jumpForce = 400.0f;
 	private bool doubleJumped = false;
+	private bool stomped = false;
 
 	void Start ()
 	{
@@ -33,7 +34,9 @@ public class PlayerController : MonoBehaviour
 		grounded = Physics2D.OverlapCircle (groundCheck.position, groundRadius, whatIsGround);
 		if (grounded && doubleJumped) {
 			doubleJumped = false;
+			stomped = false;
 			anim.SetBool ("player-doublejump", doubleJumped);
+			anim.SetBool ("player-stomp", doubleJumped);
 		}
 		
 		anim.SetBool ("player-ground", grounded);
@@ -55,11 +58,17 @@ public class PlayerController : MonoBehaviour
 			anim.SetBool ("player-ground", false);
 			rd2d.AddForce (new Vector2 (0, jumpForce));
 		}
-		if (!grounded && !doubleJumped && Input.GetButtonDown ("Jump")) {
+		if (!grounded && !doubleJumped && !stomped && Input.GetButtonDown ("Jump") && Input.GetAxis("Vertical") > 0) {
 			rd2d.velocity = new Vector2 (rd2d.velocity.x, 0);
 			rd2d.AddRelativeForce (new Vector2 (0, jumpForce));
 			doubleJumped = true;
 			anim.SetBool ("player-doublejump", doubleJumped);
+		}
+		if (!grounded && !stomped && Input.GetButtonDown ("Jump") && Input.GetAxis("Vertical") < 0) {
+			rd2d.velocity = new Vector2 (rd2d.velocity.x, 0);
+			rd2d.AddRelativeForce (new Vector2 (0, -1*jumpForce));
+			stomped = true;
+			anim.SetBool ("player-stomp", stomped);
 		}
 	}
 

@@ -18,17 +18,24 @@ public class PlayerController : MonoBehaviour
 	private float groundRadius = 0.2f;
 
 	// jump
-	public float jumpForce = 80.0f;
+	public float jumpForce = 400.0f;
+	private bool doubleJumped = false;
 
 	void Start ()
 	{
 		rd2d = GetComponent<Rigidbody2D> ();
 		anim = GetComponent<Animator> ();
+		anim.SetBool ("player-doublejump", doubleJumped);
 	}
 
 	void FixedUpdate ()
 	{
 		grounded = Physics2D.OverlapCircle (groundCheck.position, groundRadius, whatIsGround);
+		if (grounded && doubleJumped) {
+			doubleJumped = false;
+			anim.SetBool ("player-doublejump", doubleJumped);
+		}
+		
 		anim.SetBool ("player-ground", grounded);
 		anim.SetFloat ("player-y-speed", rd2d.velocity.y);
 
@@ -44,9 +51,15 @@ public class PlayerController : MonoBehaviour
 
 	void Update ()
 	{
-		if (grounded && Input.GetButton ("Jump")) {
+		if (grounded && Input.GetButtonDown ("Jump")) {
 			anim.SetBool ("player-ground", false);
 			rd2d.AddForce (new Vector2 (0, jumpForce));
+		}
+		if (!grounded && !doubleJumped && Input.GetButtonDown ("Jump")) {
+			rd2d.velocity = new Vector2 (rd2d.velocity.x, 0);
+			rd2d.AddRelativeForce (new Vector2 (0, jumpForce));
+			doubleJumped = true;
+			anim.SetBool ("player-doublejump", doubleJumped);
 		}
 	}
 

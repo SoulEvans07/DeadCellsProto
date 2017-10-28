@@ -22,10 +22,15 @@ public class PlayerController : MonoBehaviour
 	private bool doubleJumped = false;
 	private bool stomped = false;
 
+	// crouch
+	private bool crouch;
+	private SpriteRenderer spriteRenderer;
+
 	void Start ()
 	{
 		rd2d = GetComponent<Rigidbody2D> ();
 		anim = GetComponent<Animator> ();
+		spriteRenderer = GetComponent<SpriteRenderer> ();
 		anim.SetBool ("player-doublejump", doubleJumped);
 	}
 
@@ -42,14 +47,22 @@ public class PlayerController : MonoBehaviour
 		anim.SetBool ("player-ground", grounded);
 		anim.SetFloat ("player-y-speed", rd2d.velocity.y);
 
+		float vertical = Input.GetAxis ("Vertical");
+		crouch = grounded && (vertical < 0);
+		anim.SetBool ("player-crouch", crouch);
+
 		float move = Input.GetAxis ("Horizontal");
-		anim.SetFloat ("player-x-speed", Mathf.Abs (move));
-		rd2d.velocity = new Vector2 (move * maxSpeed, rd2d.velocity.y);
+		if (!crouch) {
+			anim.SetFloat ("player-x-speed", Mathf.Abs (move));
+			rd2d.velocity = new Vector2 (move * maxSpeed, rd2d.velocity.y);
+		}
 
 		if (move > 0 && !facingRight)
 			Flip ();
 		else if (move < 0 & facingRight)
 			Flip ();
+
+		SetBoxCollider ();
 	}
 
 	void Update ()
@@ -58,15 +71,15 @@ public class PlayerController : MonoBehaviour
 			anim.SetBool ("player-ground", false);
 			rd2d.AddForce (new Vector2 (0, jumpForce));
 		}
-		if (!grounded && !doubleJumped && !stomped && Input.GetButtonDown ("Jump") && Input.GetAxis("Vertical") > 0) {
+		if (!grounded && !doubleJumped && !stomped && Input.GetButtonDown ("Jump") && Input.GetAxis ("Vertical") > 0) {
 			rd2d.velocity = new Vector2 (rd2d.velocity.x, 0);
 			rd2d.AddRelativeForce (new Vector2 (0, jumpForce));
 			doubleJumped = true;
 			anim.SetBool ("player-doublejump", doubleJumped);
 		}
-		if (!grounded && !stomped && Input.GetButtonDown ("Jump") && Input.GetAxis("Vertical") < 0) {
+		if (!grounded && !stomped && Input.GetButtonDown ("Jump") && Input.GetAxis ("Vertical") < 0) {
 			rd2d.velocity = new Vector2 (rd2d.velocity.x, 0);
-			rd2d.AddRelativeForce (new Vector2 (0, -1*jumpForce));
+			rd2d.AddRelativeForce (new Vector2 (0, -1 * jumpForce));
 			stomped = true;
 			anim.SetBool ("player-stomp", stomped);
 		}
@@ -78,5 +91,13 @@ public class PlayerController : MonoBehaviour
 		Vector3 theScale = transform.localScale;
 		theScale.x *= -1;
 		transform.localScale = theScale;
+	}
+
+	void SetBoxCollider ()
+	{
+		BoxCollider2D itemBoxCollider2D = GetComponent<BoxCollider2D> ();
+		if (itemBoxCollider2D != null) {
+			itemBoxCollider2D.size = spriteRenderer.sprite.bounds.size;
+		}
 	}
 }

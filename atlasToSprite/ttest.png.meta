@@ -1,0 +1,4222 @@
+fileFormatVersion: 2
+guid: 8a438e08ceed56b4eb9353b25c127d1c
+timeCreated: 1508015774
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: atkA_00
+    21300002: atkA_01
+    21300004: atkA_02
+    21300006: atkA_03
+    21300008: atkA_04
+    21300010: atkA_05
+    21300012: atkA_06
+    21300014: atkA_07
+    21300016: atkA_08
+    21300018: atkA_09
+    21300020: atkA_10
+    21300022: atkA_11
+    21300024: atkA_12
+    21300026: atkA_13
+    21300028: atkB_00
+    21300030: atkB_01
+    21300032: atkB_02
+    21300034: atkB_03
+    21300036: atkB_04
+    21300038: atkB_05
+    21300040: atkB_06
+    21300042: atkB_07
+    21300044: atkB_08
+    21300046: atkB_09
+    21300048: atkB_10
+    21300050: atkB_11
+    21300052: atkB_12
+    21300054: atkB_13
+    21300056: atkB_14
+    21300058: atkB_15
+    21300060: atkBackStabberA_00
+    21300062: atkBackStabberA_01
+    21300064: atkBackStabberA_02
+    21300066: atkBackStabberA_03
+    21300068: atkBackStabberA_04
+    21300070: atkBackStabberA_05
+    21300072: atkBackStabberA_06
+    21300074: atkBackStabberA_07
+    21300076: atkBackStabberA_08
+    21300078: atkBackStabberA_09
+    21300080: atkBackStabberA_10
+    21300082: atkBackStabberA_11
+    21300084: atkBackStabberA_12
+    21300086: atkBackStabberB_00
+    21300088: atkBackStabberB_01
+    21300090: atkBackStabberB_02
+    21300092: atkBackStabberB_03
+    21300094: atkBackStabberB_04
+    21300096: atkBackStabberB_05
+    21300098: atkBackStabberB_06
+    21300100: atkBackStabberB_07
+    21300102: atkBackStabberB_08
+    21300104: atkBackStabberB_09
+    21300106: atkBackStabberB_10
+    21300108: atkBackStabberB_11
+    21300110: atkBackStabberB_12
+    21300112: atkBackStabberB_13
+    21300114: atkBackStabberB_14
+    21300116: atkBackStabberB_15
+    21300118: atkBackStabberB_16
+    21300120: atkBroadSwordA_00
+    21300122: atkBroadSwordA_01
+    21300124: atkBroadSwordA_02
+    21300126: atkBroadSwordA_03
+    21300128: atkBroadSwordA_04
+    21300130: atkBroadSwordA_05
+    21300132: atkBroadSwordA_06
+    21300134: atkBroadSwordA_07
+    21300136: atkBroadSwordA_08
+    21300138: atkBroadSwordA_09
+    21300140: atkBroadSwordA_10
+    21300142: atkBroadSwordA_11
+    21300144: atkBroadSwordA_12
+    21300146: atkBroadSwordA_13
+    21300148: atkBroadSwordA_14
+    21300150: atkBroadSwordB_00
+    21300152: atkBroadSwordB_01
+    21300154: atkBroadSwordB_02
+    21300156: atkBroadSwordB_03
+    21300158: atkBroadSwordB_04
+    21300160: atkBroadSwordB_05
+    21300162: atkBroadSwordB_06
+    21300164: atkBroadSwordB_07
+    21300166: atkBroadSwordB_08
+    21300168: atkBroadSwordB_09
+    21300170: atkBroadSwordB_10
+    21300172: atkBroadSwordB_11
+    21300174: atkBroadSwordB_12
+    21300176: atkBroadSwordB_13
+    21300178: atkBroadSwordB_14
+    21300180: atkBroadSwordB_15
+    21300182: atkBroadSwordC_00
+    21300184: atkBroadSwordC_01
+    21300186: atkBroadSwordC_02
+    21300188: atkBroadSwordC_03
+    21300190: atkBroadSwordC_04
+    21300192: atkBroadSwordC_05
+    21300194: atkBroadSwordC_06
+    21300196: atkBroadSwordC_07
+    21300198: atkBroadSwordC_08
+    21300200: atkBroadSwordC_09
+    21300202: atkBroadSwordC_10
+    21300204: atkBroadSwordC_11
+    21300206: atkBroadSwordC_12
+    21300208: atkBroadSwordC_13
+    21300210: atkBroadSwordC_14
+    21300212: atkBroadSwordC_15
+    21300214: atkBroadSwordC_16
+    21300216: atkBroadSwordC_17
+    21300218: atkBroadSwordC_18
+    21300220: atkBroadSwordC_19
+    21300222: atkBroadSwordC_20
+    21300224: atkBroadSwordC_21
+    21300226: atkBroadSwordC_22
+    21300228: atkBroadSwordC_23
+    21300230: atkBroadSwordC_24
+    21300232: atkBroadSwordC_25
+    21300234: atkBroadSwordC_26
+    21300236: atkBroadSwordC_27
+    21300238: atkC_00
+    21300240: atkC_01
+    21300242: atkC_02
+    21300244: atkC_03
+    21300246: atkC_04
+    21300248: atkC_05
+    21300250: atkC_06
+    21300252: atkC_07
+    21300254: atkC_08
+    21300256: atkC_09
+    21300258: atkC_10
+    21300260: atkC_11
+    21300262: atkFireballA_00
+    21300264: atkFireballA_01
+    21300266: atkFireballA_02
+    21300268: atkFireballA_03
+    21300270: atkFireballA_04
+    21300272: atkFireballA_05
+    21300274: atkFireballA_06
+    21300276: atkFireballA_07
+    21300278: atkFireballA_08
+    21300280: atkFireballA_09
+    21300282: atkFireballA_10
+    21300284: atkFireballA_11
+    21300286: atkFireballA_12
+    21300288: atkFireballA_13
+    21300290: atkFireballA_14
+    21300292: atkFireballA_15
+    21300294: atkFireballA_16
+    21300296: atkFireballA_17
+    21300298: atkFireballA_18
+    21300300: atkFireballA_19
+    21300302: atkFireballA_20
+    21300304: atkFireballB_00
+    21300306: atkFireballB_01
+    21300308: atkFireballB_02
+    21300310: atkFireballB_03
+    21300312: atkFireballB_04
+    21300314: atkFireballB_05
+    21300316: atkFireballB_06
+    21300318: atkFireballB_07
+    21300320: atkFireballB_08
+    21300322: atkFireballB_09
+    21300324: atkFireballB_10
+    21300326: atkFireballB_11
+    21300328: atkFireballB_12
+    21300330: atkFireballB_13
+    21300332: atkFireballB_14
+    21300334: atkFireballB_15
+    21300336: atkFireballC_00
+    21300338: atkFireballC_01
+    21300340: atkFireballC_02
+    21300342: atkFireballC_03
+    21300344: atkFireballC_04
+    21300346: atkFireballC_05
+    21300348: atkFireballC_06
+    21300350: atkFireballC_07
+    21300352: atkFireballC_08
+    21300354: atkFireballC_09
+    21300356: atkFireballC_10
+    21300358: atkFireballC_11
+    21300360: atkFireballC_12
+    21300362: atkFireballC_13
+    21300364: atkFireballC_14
+    21300366: atkFireballC_15
+    21300368: atkFireballC_16
+    21300370: atkFireballC_17
+    21300372: atkFireballC_18
+    21300374: atkFireballC_19
+    21300376: atkFireballC_20
+    21300378: atkFireballC_21
+    21300380: atkFireballC_22
+    21300382: atkFireballC_23
+    21300384: atkFireballC_24
+    21300386: atkFireballC_25
+    21300388: atkFireballC_26
+    21300390: atkFireballC_27
+    21300392: atkFireballC_28
+    21300394: atkFireballC_29
+    21300396: atkFireballC_30
+    21300398: atkFireballC_31
+    21300400: atkFireballC_32
+    21300402: atkFireballC_33
+    21300404: atkKnifeA_00
+    21300406: atkKnifeA_01
+    21300408: atkKnifeA_02
+    21300410: atkKnifeA_03
+    21300412: atkKnifeA_04
+    21300414: atkKnifeA_05
+    21300416: atkKnifeA_06
+    21300418: atkKnifeA_07
+    21300420: atkKnifeA_08
+    21300422: atkKnifeA_09
+    21300424: atkKnifeA_10
+    21300426: atkKnifeB_00
+    21300428: atkKnifeB_01
+    21300430: atkKnifeB_02
+    21300432: atkKnifeB_03
+    21300434: atkKnifeB_04
+    21300436: atkKnifeB_05
+    21300438: atkKnifeB_06
+    21300440: atkKnifeB_07
+    21300442: atkKnifeB_08
+    21300444: atkKnifeB_09
+    21300446: atkKnifeB_10
+    21300448: atkRapier_00
+    21300450: atkRapier_01
+    21300452: atkRapier_02
+    21300454: atkRapier_03
+    21300456: atkRapier_04
+    21300458: atkRapier_05
+    21300460: atkRapier_06
+    21300462: atkRapier_07
+    21300464: atkRapier_08
+    21300466: atkRapier_09
+    21300468: atkRapier_10
+    21300470: atkRapier_11
+    21300472: atkRapier_12
+    21300474: atkRapier_13
+    21300476: atkRapier_14
+    21300478: atkRapier_15
+    21300480: atkRapier_16
+    21300482: atkRapier_17
+    21300484: atkRapier_18
+    21300486: atkRapier_19
+    21300488: atkRapier_20
+    21300490: atkRapier_21
+    21300492: atkRapier_22
+    21300494: atkRapier_23
+    21300496: atkRapier_24
+    21300498: atkRapier_25
+    21300500: atkRapier_26
+    21300502: atkRapier_27
+    21300504: atkRapier_28
+    21300506: atkRapier_29
+    21300508: atkRapier_30
+    21300510: atkRapier_31
+    21300512: atkRapier_32
+    21300514: atkRapier_33
+    21300516: atkRapier_34
+    21300518: atkRapier_35
+    21300520: atkRapier_36
+    21300522: atkRapier_37
+    21300524: atkRapier_38
+    21300526: atkRapier_39
+    21300528: atkRapier_40
+    21300530: atkRapier_41
+    21300532: atkRapier_42
+    21300534: atkRapier_43
+    21300536: atkRapierA_00
+    21300538: atkRapierA_01
+    21300540: atkRapierA_02
+    21300542: atkRapierA_03
+    21300544: atkRapierA_04
+    21300546: atkRapierA_05
+    21300548: atkRapierA_06
+    21300550: atkRapierA_07
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: atkA_00
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 868
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkA_01
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1328
+        width: 48
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkA_02
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 477
+        width: 64
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkA_03
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 463
+        width: 66
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkA_04
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 550
+        width: 59
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkA_05
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 644
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkA_06
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 796
+        width: 57
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkA_07
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 479
+        width: 68
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkA_08
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 791
+        width: 58
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkA_09
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 791
+        width: 58
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkA_10
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 791
+        width: 58
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkA_11
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 791
+        width: 58
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkA_12
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 791
+        width: 58
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkA_13
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 791
+        width: 58
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkB_00
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 705
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkB_01
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 1224
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkB_02
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 984
+        width: 45
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkB_03
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1808
+        width: 39
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkB_04
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 611
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkB_05
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 806
+        width: 53
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkB_06
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 715
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkB_07
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 849
+        width: 49
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkB_08
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 575
+        width: 63
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkB_09
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 575
+        width: 63
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkB_10
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 575
+        width: 63
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkB_11
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 575
+        width: 63
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkB_12
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 575
+        width: 63
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkB_13
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 597
+        width: 63
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkB_14
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 597
+        width: 63
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkB_15
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 597
+        width: 63
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberA_00
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 217
+        width: 75
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberA_01
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 829
+        width: 57
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberA_02
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1252
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberA_03
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 802
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberA_04
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1227
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberA_05
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1051
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberA_06
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1052
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberA_07
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 1701
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberA_08
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 1962
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberA_09
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 1962
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberA_10
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 1962
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberA_11
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 1962
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberA_12
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 1962
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberB_00
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 1962
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberB_01
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 1962
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberB_02
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1691
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberB_03
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1384
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberB_04
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1457
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberB_05
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1581
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberB_06
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 286
+        width: 73
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberB_07
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 397
+        width: 63
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberB_08
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 341
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberB_09
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 244
+        width: 75
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberB_10
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 244
+        width: 75
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberB_11
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 244
+        width: 75
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberB_12
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 244
+        width: 75
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberB_13
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 244
+        width: 75
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberB_14
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 244
+        width: 75
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberB_15
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 278
+        width: 75
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBackStabberB_16
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 278
+        width: 75
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordA_00
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 482
+        width: 85
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordA_01
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 451
+        width: 85
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordA_02
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 829
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordA_03
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 736
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordA_04
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 677
+        width: 53
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordA_05
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 420
+        width: 57
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordA_06
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 353
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordA_07
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 1337
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordA_08
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 238
+        width: 116
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordA_09
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 279
+        width: 115
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordA_10
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 296
+        width: 115
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordA_11
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 238
+        width: 116
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordA_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 279
+        width: 116
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordA_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 279
+        width: 116
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordA_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 279
+        width: 116
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordB_00
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 95
+        width: 101
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordB_01
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 1055
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordB_02
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 1235
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordB_03
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 442
+        width: 71
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordB_04
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 91
+        width: 90
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordB_05
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 504
+        width: 86
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordB_06
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 162
+        width: 77
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordB_07
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 284
+        width: 74
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordB_08
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 410
+        width: 70
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordB_09
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 467
+        width: 65
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordB_10
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 744
+        width: 61
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordB_11
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 754
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordB_12
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 225
+        width: 74
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordB_13
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 473
+        width: 64
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordB_14
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 187
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordB_15
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 309
+        width: 83
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordC_00
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 291
+        width: 81
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordC_01
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 532
+        width: 81
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordC_02
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 594
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordC_03
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 607
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordC_04
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 1
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordC_05
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 47
+        width: 79
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordC_06
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 79
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordC_07
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 106
+        width: 77
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordC_08
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 104
+        width: 78
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordC_09
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 670
+        width: 80
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordC_10
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 513
+        width: 82
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordC_11
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 458
+        width: 85
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordC_12
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 369
+        width: 88
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordC_13
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1
+        width: 92
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordC_14
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 299
+        width: 94
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordC_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 374
+        width: 107
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordC_16
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 94
+        width: 106
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordC_17
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 54
+        width: 106
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordC_18
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 1
+        width: 107
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordC_19
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1
+        width: 107
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordC_20
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 44
+        width: 106
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordC_21
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 45
+        width: 106
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordC_22
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 95
+        width: 105
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordC_23
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 95
+        width: 105
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordC_24
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 95
+        width: 105
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordC_25
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 95
+        width: 105
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordC_26
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 95
+        width: 105
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkBroadSwordC_27
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 95
+        width: 105
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkC_00
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 1613
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkC_01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1052
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkC_02
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 1181
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkC_03
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 324
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkC_04
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 1277
+        width: 48
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkC_05
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 1887
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkC_06
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1172
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkC_07
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 670
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkC_08
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 575
+        width: 55
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkC_09
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 666
+        width: 54
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkC_10
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 676
+        width: 54
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkC_11
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 679
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballA_00
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 723
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballA_01
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 756
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballA_02
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 1004
+        width: 56
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballA_03
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1065
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballA_04
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 931
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballA_05
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 2206
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballA_06
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 2080
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballA_07
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1328
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballA_08
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 849
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballA_09
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 651
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballA_10
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 678
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballA_11
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 776
+        width: 58
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballA_12
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 979
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballA_13
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1014
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballA_14
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 1179
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballA_15
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 948
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballA_16
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 948
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballA_17
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 948
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballA_18
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 948
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballA_19
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 948
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballA_20
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 948
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballB_00
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 775
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballB_01
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 1897
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballB_02
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1447
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballB_03
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 1237
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballB_04
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 849
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballB_05
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 621
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballB_06
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 568
+        width: 66
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballB_07
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 498
+        width: 66
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballB_08
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 487
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballB_09
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 573
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballB_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 819
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballB_11
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 617
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballB_12
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 617
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballB_13
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 617
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballB_14
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 617
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballB_15
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 617
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_00
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 848
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_01
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 1094
+        width: 42
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_02
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 946
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_03
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 683
+        width: 61
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_04
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 514
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_05
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 228
+        width: 40
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_06
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 1761
+        width: 39
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_07
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 2002
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_08
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1800
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_09
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1529
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_10
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 898
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_11
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 1053
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_12
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 902
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_13
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 1053
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_14
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 932
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_15
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 937
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_16
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 1053
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_17
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 1069
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_18
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 955
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_19
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 1113
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_20
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 931
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_21
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 858
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_22
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 919
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_23
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 587
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_24
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 631
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_25
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 633
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_26
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 657
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_27
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 677
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_28
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 677
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_29
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 677
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_30
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 677
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_31
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 677
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_32
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 677
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkFireballC_33
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 677
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkKnifeA_00
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 904
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkKnifeA_01
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 1131
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkKnifeA_02
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 647
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkKnifeA_03
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 259
+        width: 55
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkKnifeA_04
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 323
+        width: 57
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkKnifeA_05
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 762
+        width: 51
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkKnifeA_06
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 432
+        width: 66
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkKnifeA_07
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 473
+        width: 66
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkKnifeA_08
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 431
+        width: 66
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkKnifeA_09
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 546
+        width: 67
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkKnifeA_10
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 443
+        width: 66
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkKnifeB_00
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1684
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkKnifeB_01
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 592
+        width: 66
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkKnifeB_02
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 450
+        width: 69
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkKnifeB_03
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 383
+        width: 70
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkKnifeB_04
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 672
+        width: 56
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkKnifeB_05
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 881
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkKnifeB_06
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 468
+        width: 64
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkKnifeB_07
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 168
+        width: 40
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkKnifeB_08
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 139
+        width: 38
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkKnifeB_09
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 94
+        width: 40
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkKnifeB_10
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 888
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_00
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 300
+        width: 73
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_01
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1349
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_02
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 1754
+        width: 39
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_03
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1064
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_04
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 1526
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_05
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 1502
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_06
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 418
+        width: 93
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_07
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 337
+        width: 94
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_08
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 207
+        width: 95
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_09
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 198
+        width: 95
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 463
+        width: 93
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_11
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 373
+        width: 94
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_12
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 91
+        width: 92
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_13
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 201
+        width: 77
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_14
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1
+        width: 85
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 505
+        width: 86
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_16
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 384
+        width: 83
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_17
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 55
+        width: 79
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_18
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 250
+        width: 74
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_19
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 490
+        width: 67
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_20
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 515
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_21
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 828
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_22
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 493
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_23
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 46
+        width: 84
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_24
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 502
+        width: 85
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_25
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 553
+        width: 85
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_26
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 424
+        width: 86
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_27
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 593
+        width: 85
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_28
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 107
+        width: 84
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_29
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 698
+        width: 80
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_30
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 238
+        width: 74
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_31
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 605
+        width: 62
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_32
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 808
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_33
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1332
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_34
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 324
+        width: 83
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_35
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 1
+        width: 84
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_36
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 76
+        width: 84
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_37
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 612
+        width: 85
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_38
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 444
+        width: 86
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_39
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 189
+        width: 84
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_40
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 571
+        width: 80
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_41
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 387
+        width: 72
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_42
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 641
+        width: 62
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapier_43
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 808
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapierA_00
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 308
+        width: 70
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapierA_01
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 747
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapierA_02
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 795
+        width: 55
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapierA_03
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 808
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapierA_04
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 646
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapierA_05
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 519
+        width: 66
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapierA_06
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 220
+        width: 89
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atkRapierA_07
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 252
+        width: 91
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2572 @@
+fileFormatVersion: 2
+guid: 387ebefb86238954c8ac8ca90a057b5a
+timeCreated: 1510260292
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: basherAtkFx/basherAtkFx_0000
+    21300002: basherAtkFx/basherAtkFx_0001
+    21300004: basherAtkFx/basherAtkFx_0002
+    21300006: basherAtkFx/basherAtkFx_0003
+    21300008: basherAtkFx/basherAtkFx_0004
+    21300010: basherAtkFx/basherAtkFx_0005
+    21300012: basherAtkFx/basherAtkFx_0006
+    21300014: basherAtkFx/basherAtkFx_0007
+    21300016: basherAtkFx/basherAtkFx_0008
+    21300018: basherAtkFx/basherAtkFx_0009
+    21300020: basherAtkFx/basherAtkFx_0010
+    21300022: basherAtkFx/basherAtkFx_0011
+    21300024: basherAtkFx/basherAtkFx_0012
+    21300026: basherAtkFx/basherAtkFx_0013
+    21300028: basherAtkFx/basherAtkFx_0014
+    21300030: beholderBullet/fxBeholderBullet_0000
+    21300032: beholderBullet/fxBeholderBullet_0001
+    21300034: beholderBullet/fxBeholderBullet_0002
+    21300036: beholderBullet/fxBeholderBullet_0003
+    21300038: beholderBullet/fxBeholderBullet_0004
+    21300040: beholderBullet/fxBeholderBullet_0005
+    21300042: beholderBullet/fxBeholderBullet_0006
+    21300044: beholderBullet/fxBeholderBullet_0007
+    21300046: beholderBullet/fxBeholderBullet_0008
+    21300048: beholderBullet/fxBeholderBullet_0009
+    21300050: beholderBullet/fxBeholderBullet_0010
+    21300052: beholderBullet/fxBeholderBullet_0011
+    21300054: beholderBullet/fxBeholderBullet_0012
+    21300056: beholderBullet/fxBeholderBullet_0013
+    21300058: beholderBullet/fxBeholderBullet_0014
+    21300060: beholderBullet/fxBeholderBullet_0015
+    21300062: beholderBullet/fxBeholderBullet_0016
+    21300064: bigZombieFxA/bigZombieFxA_0000
+    21300066: bigZombieFxA/bigZombieFxA_0001
+    21300068: bigZombieFxA/bigZombieFxA_0002
+    21300070: bigZombieFxA/bigZombieFxA_0003
+    21300072: bigZombieFxA/bigZombieFxA_0004
+    21300074: bigZombieFxA/bigZombieFxA_0005
+    21300076: bigZombieFxA/bigZombieFxA_0006
+    21300078: bigZombieFxB/bigZombieFxB_0000
+    21300080: bigZombieFxB/bigZombieFxB_0001
+    21300082: bigZombieFxB/bigZombieFxB_0002
+    21300084: bigZombieFxB/bigZombieFxB_0003
+    21300086: bigZombieFxB/bigZombieFxB_0004
+    21300088: bigZombieFxB/bigZombieFxB_0005
+    21300090: bigZombieFxB/bigZombieFxB_0006
+    21300092: exportFxBehe/fxBeheAtkA_0000
+    21300094: exportFxBehe/fxBeheAtkA_0001
+    21300096: exportFxBehe/fxBeheAtkA_0002
+    21300098: exportFxBehe/fxBeheAtkA_0003
+    21300100: exportFxBehe/fxBeheAtkA_0004
+    21300102: exportFxBehe/fxBeheAtkA_0005
+    21300104: exportFxBehe/fxBeheAtkA_0006
+    21300106: exportFxBehe/fxBeheAtkA_0007
+    21300108: exportFxBehe/fxBeheAtkA_0008
+    21300110: exportFxBehe/fxBeheAtkA_0009
+    21300112: exportFxBehe/fxBeheAtkA_0010
+    21300114: exportFxBehe/fxBeheAtkA_0011
+    21300116: exportFxBehe/fxBeheAtkB_0000
+    21300118: exportFxBehe/fxBeheAtkB_0001
+    21300120: exportFxBehe/fxBeheAtkB_0002
+    21300122: exportFxBehe/fxBeheAtkB_0003
+    21300124: exportFxBehe/fxBeheAtkB_0004
+    21300126: exportFxBehe/fxBeheAtkB_0005
+    21300128: exportFxBehe/fxBeheAtkB_0006
+    21300130: exportFxBehe/fxBeheAtkB_0007
+    21300132: exportFxBehe/fxBeheAtkB_0008
+    21300134: exportFxBehe/fxBeheAtkB_0009
+    21300136: exportFxBehe/fxBeheAtkB_0010
+    21300138: exportFxBehe/fxBeheAtkB_0011
+    21300140: exportFxBehe/fxBeheAtkB_0012
+    21300142: exportFxBehe/fxBeheAtkB_0013
+    21300144: exportFxBehe/fxBeheAtkB_0014
+    21300146: exportFxBehe/fxBeheAtkB_0015
+    21300148: exportFxBehe/fxBeheAtkB_0016
+    21300150: exportFxBehe/fxBeheAtkB_0017
+    21300152: exportFxBehe/fxBeheAtkB_0018
+    21300154: fxDashBeholder/fxDashBeholderA_0000
+    21300156: fxDashBeholder/fxDashBeholderA_0001
+    21300158: fxDashBeholder/fxDashBeholderA_0002
+    21300160: fxDashBeholder/fxDashBeholderA_0003
+    21300162: fxDashBeholder/fxDashBeholderA_0004
+    21300164: fxDashBeholder/fxDashBeholderA_0005
+    21300166: fxDashBeholder/fxDashBeholderA_0006
+    21300168: fxDashBeholder/fxDashBeholderA_0007
+    21300170: fxDashBeholder/fxDashBeholderA_0008
+    21300172: fxDashBeholder/fxDashBeholderA_0009
+    21300174: fxDashBeholder/fxDashBeholderA_0010
+    21300176: fxDashBeholder/fxDashBeholderA_0011
+    21300178: fxDashBeholder/fxDashBeholderA_0012
+    21300180: fxDashBeholder/fxDashBeholderA_0013
+    21300182: fxDashBeholder/fxDashBeholderA_0014
+    21300184: fxDashBeholder/fxDashBeholderA_0015
+    21300186: fxDashBeholderB/fxDashBeholderB_0000
+    21300188: fxDashBeholderB/fxDashBeholderB_0001
+    21300190: fxDashBeholderB/fxDashBeholderB_0002
+    21300192: fxDashBeholderB/fxDashBeholderB_0003
+    21300194: fxDashBeholderB/fxDashBeholderB_0004
+    21300196: fxDashBeholderB/fxDashBeholderB_0005
+    21300198: fxDashBeholderB/fxDashBeholderB_0006
+    21300200: fxDashBeholderB/fxDashBeholderB_0007
+    21300202: fxGroundBeholder/fxGround_0000
+    21300204: fxGroundBeholder/fxGround_0001
+    21300206: fxGroundBeholder/fxGround_0002
+    21300208: fxGroundBeholder/fxGround_0003
+    21300210: fxGroundBeholder/fxGround_0004
+    21300212: fxGroundBeholder/fxGround_0005
+    21300214: fxGroundBeholder/fxGround_0006
+    21300216: fxGroundBeholder/fxGround_0007
+    21300218: fxGroundBeholder/fxGround_0008
+    21300220: fxGroundBeholder/fxGround_0009
+    21300222: fxGroundBeholder/fxGround_0010
+    21300224: fxGroundBeholder/fxGround_0011
+    21300226: fxGroundBeholder/fxGround_0012
+    21300228: fxGroundBeholder/fxGround_0013
+    21300230: fxGroundBeholder/fxGround_0014
+    21300232: fxGroundBeholder/fxGround_0015
+    21300234: fxHookerExport/fxHookAtk_0000
+    21300236: fxHookerExport/fxHookAtk_0001
+    21300238: fxHookerExport/fxHookAtk_0002
+    21300240: fxHookerExport/fxHookAtk_0003
+    21300242: fxHookerExport/fxHookAtk_0004
+    21300244: fxHookerExport/fxHookAtk_0005
+    21300246: fxHookerExport/fxHookAtk_0006
+    21300248: fxShielder/fxShielderA_0000
+    21300250: fxShielder/fxShielderA_0001
+    21300252: fxShielder/fxShielderA_0002
+    21300254: fxShielder/fxShielderA_0003
+    21300256: fxShielder/fxShielderA_0004
+    21300258: fxShielder/fxShielderA_0005
+    21300260: fxShielder/fxShielderB_0000
+    21300262: fxShielder/fxShielderB_0001
+    21300264: fxShielder/fxShielderB_0002
+    21300266: fxShielder/fxShielderB_0003
+    21300268: fxShielder/fxShielderB_0004
+    21300270: fxShielder/fxShielderB_0005
+    21300272: fxShielder/fxShielderB_0006
+    21300274: fxShielder/fxShielderC_0000
+    21300276: fxShielder/fxShielderC_0001
+    21300278: fxShielder/fxShielderC_0002
+    21300280: fxShielder/fxShielderC_0003
+    21300282: fxShielder/fxShielderC_0004
+    21300284: fxShielder/fxShielderC_0005
+    21300286: fxShielder/fxShielderC_0006
+    21300288: fxShielder/fxShielderC_0007
+    21300290: fxShielder/fxShielderD_0000
+    21300292: fxShielder/fxShielderD_0001
+    21300294: fxShielder/fxShielderD_0002
+    21300296: fxShielder/fxShielderD_0003
+    21300298: fxShielder/fxShielderD_0004
+    21300300: shocker/shockerFx_0000
+    21300302: trackerAtkFx/fxTrackerAtk_0000
+    21300304: trackerAtkFx/fxTrackerAtk_0001
+    21300306: trackerAtkFx/fxTrackerAtk_0002
+    21300308: trackerAtkFx/fxTrackerAtk_0003
+    21300310: trackerAtkFx/fxTrackerAtk_0004
+    21300312: trackerAtkFx/fxTrackerAtk_0005
+    21300314: trackerAtkFx/fxTrackerAtk_0006
+    21300316: trackerAtkFx/fxTrackerAtk_0007
+    21300318: trackerAtkFx/fxTrackerAtk_0008
+    21300320: trackerAtkFx/fxTrackerAtk_0009
+    21300322: trackerAtkFx/fxTrackerAtk_0010
+    21300324: trackerAtkFx/fxTrackerAtk_0011
+    21300326: trackerAtkFx/fxTrackerAtk_0012
+    21300328: trackerAtkFx/fxTrackerAtk_0013
+    21300330: trackerAtkFx/fxTrackerAtk_0014
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: basherAtkFx/basherAtkFx_0000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1543
+        width: 156
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: basherAtkFx/basherAtkFx_0001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1543
+        width: 156
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: basherAtkFx/basherAtkFx_0002
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1738
+        width: 151
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: basherAtkFx/basherAtkFx_0003
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1738
+        width: 151
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: basherAtkFx/basherAtkFx_0004
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 962
+        width: 112
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: basherAtkFx/basherAtkFx_0005
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 962
+        width: 112
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: basherAtkFx/basherAtkFx_0006
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 890
+        width: 74
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: basherAtkFx/basherAtkFx_0007
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 890
+        width: 74
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: basherAtkFx/basherAtkFx_0008
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1144
+        width: 73
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: basherAtkFx/basherAtkFx_0009
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1144
+        width: 73
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: basherAtkFx/basherAtkFx_0010
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 806
+        width: 64
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: basherAtkFx/basherAtkFx_0011
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 806
+        width: 64
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: basherAtkFx/basherAtkFx_0012
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1849
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: basherAtkFx/basherAtkFx_0013
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1849
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: basherAtkFx/basherAtkFx_0014
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1849
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: beholderBullet/fxBeholderBullet_0000
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 858
+        width: 53
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: beholderBullet/fxBeholderBullet_0001
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 802
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: beholderBullet/fxBeholderBullet_0002
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 893
+        width: 55
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: beholderBullet/fxBeholderBullet_0003
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 886
+        width: 63
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: beholderBullet/fxBeholderBullet_0004
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 796
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: beholderBullet/fxBeholderBullet_0005
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 885
+        width: 66
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: beholderBullet/fxBeholderBullet_0006
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 927
+        width: 66
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: beholderBullet/fxBeholderBullet_0007
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1446
+        width: 67
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: beholderBullet/fxBeholderBullet_0008
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1403
+        width: 67
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: beholderBullet/fxBeholderBullet_0009
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1531
+        width: 67
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: beholderBullet/fxBeholderBullet_0010
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1489
+        width: 67
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: beholderBullet/fxBeholderBullet_0011
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 978
+        width: 67
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: beholderBullet/fxBeholderBullet_0012
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 887
+        width: 66
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: beholderBullet/fxBeholderBullet_0013
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 778
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: beholderBullet/fxBeholderBullet_0014
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 734
+        width: 61
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: beholderBullet/fxBeholderBullet_0015
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 692
+        width: 59
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: beholderBullet/fxBeholderBullet_0016
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 866
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bigZombieFxA/bigZombieFxA_0000
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1680
+        width: 179
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bigZombieFxA/bigZombieFxA_0001
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1682
+        width: 188
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bigZombieFxA/bigZombieFxA_0002
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1877
+        width: 188
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bigZombieFxA/bigZombieFxA_0003
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1565
+        width: 173
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bigZombieFxA/bigZombieFxA_0004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1435
+        width: 153
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bigZombieFxA/bigZombieFxA_0005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1250
+        width: 133
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bigZombieFxA/bigZombieFxA_0006
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1277
+        width: 111
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bigZombieFxB/bigZombieFxB_0000
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1641
+        width: 149
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bigZombieFxB/bigZombieFxB_0001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1864
+        width: 242
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bigZombieFxB/bigZombieFxB_0002
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1854
+        width: 238
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bigZombieFxB/bigZombieFxB_0003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1669
+        width: 224
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bigZombieFxB/bigZombieFxB_0004
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1683
+        width: 181
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bigZombieFxB/bigZombieFxB_0005
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1492
+        width: 167
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bigZombieFxB/bigZombieFxB_0006
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1864
+        width: 144
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkA_0000
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1577
+        width: 162
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkA_0001
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1538
+        width: 158
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkA_0002
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1337
+        width: 138
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkA_0003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1343
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkA_0004
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1253
+        width: 130
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkA_0005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1166
+        width: 130
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkA_0006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1092
+        width: 123
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkA_0007
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1092
+        width: 123
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkA_0008
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 897
+        width: 111
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkA_0009
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 897
+        width: 111
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkA_0010
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 924
+        width: 65
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkA_0011
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 924
+        width: 65
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkB_0000
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1353
+        width: 157
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkB_0001
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1429
+        width: 138
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkB_0002
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 960
+        width: 117
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkB_0003
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 970
+        width: 107
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkB_0004
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 930
+        width: 107
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkB_0005
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1294
+        width: 98
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkB_0006
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1294
+        width: 98
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkB_0007
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1021
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkB_0008
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1021
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkB_0009
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1178
+        width: 78
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkB_0010
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1178
+        width: 78
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkB_0011
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1111
+        width: 77
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkB_0012
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1111
+        width: 77
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkB_0013
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1849
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkB_0014
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1849
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkB_0015
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1849
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkB_0016
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1849
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkB_0017
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1849
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exportFxBehe/fxBeheAtkB_0018
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1849
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxDashBeholder/fxDashBeholderA_0000
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1254
+        width: 119
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxDashBeholder/fxDashBeholderA_0001
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1296
+        width: 120
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxDashBeholder/fxDashBeholderA_0002
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1129
+        width: 119
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxDashBeholder/fxDashBeholderA_0003
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1092
+        width: 119
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxDashBeholder/fxDashBeholderA_0004
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1131
+        width: 119
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxDashBeholder/fxDashBeholderA_0005
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1212
+        width: 119
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxDashBeholder/fxDashBeholderA_0006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1008
+        width: 121
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxDashBeholder/fxDashBeholderA_0007
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1312
+        width: 121
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxDashBeholder/fxDashBeholderA_0008
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1171
+        width: 119
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxDashBeholder/fxDashBeholderA_0009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1050
+        width: 122
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxDashBeholder/fxDashBeholderA_0010
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1088
+        width: 119
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxDashBeholder/fxDashBeholderA_0011
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1066
+        width: 119
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxDashBeholder/fxDashBeholderA_0012
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1105
+        width: 119
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxDashBeholder/fxDashBeholderA_0013
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1212
+        width: 119
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxDashBeholder/fxDashBeholderA_0014
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1170
+        width: 119
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxDashBeholder/fxDashBeholderA_0015
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1145
+        width: 119
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxDashBeholderB/fxDashBeholderB_0000
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1239
+        width: 106
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxDashBeholderB/fxDashBeholderB_0001
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1253
+        width: 120
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxDashBeholderB/fxDashBeholderB_0002
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1411
+        width: 99
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxDashBeholderB/fxDashBeholderB_0003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 838
+        width: 96
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxDashBeholderB/fxDashBeholderB_0004
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1309
+        width: 86
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxDashBeholderB/fxDashBeholderB_0005
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1287
+        width: 86
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxDashBeholderB/fxDashBeholderB_0006
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1272
+        width: 84
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxDashBeholderB/fxDashBeholderB_0007
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1260
+        width: 80
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxGroundBeholder/fxGround_0000
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 1016
+        width: 75
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxGroundBeholder/fxGround_0001
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 1016
+        width: 75
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxGroundBeholder/fxGround_0002
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1332
+        width: 85
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxGroundBeholder/fxGround_0003
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1332
+        width: 85
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxGroundBeholder/fxGround_0004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 762
+        width: 95
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxGroundBeholder/fxGround_0005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 762
+        width: 95
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxGroundBeholder/fxGround_0006
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1454
+        width: 100
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxGroundBeholder/fxGround_0007
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1454
+        width: 100
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxGroundBeholder/fxGround_0008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 936
+        width: 98
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxGroundBeholder/fxGround_0009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 936
+        width: 98
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxGroundBeholder/fxGround_0010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 868
+        width: 96
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxGroundBeholder/fxGround_0011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 868
+        width: 96
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxGroundBeholder/fxGround_0012
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 999
+        width: 95
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxGroundBeholder/fxGround_0013
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 999
+        width: 95
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxGroundBeholder/fxGround_0014
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 932
+        width: 91
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxGroundBeholder/fxGround_0015
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 932
+        width: 91
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxHookerExport/fxHookAtk_0000
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1098
+        width: 121
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxHookerExport/fxHookAtk_0001
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 699
+        width: 62
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxHookerExport/fxHookAtk_0002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 664
+        width: 62
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxHookerExport/fxHookAtk_0003
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 744
+        width: 59
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxHookerExport/fxHookAtk_0004
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 802
+        width: 51
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxHookerExport/fxHookAtk_0005
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1753
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxHookerExport/fxHookAtk_0006
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1825
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxShielder/fxShielderA_0000
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 838
+        width: 57
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxShielder/fxShielderA_0001
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1575
+        width: 68
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxShielder/fxShielderA_0002
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1600
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxShielder/fxShielderA_0003
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 738
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxShielder/fxShielderA_0004
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1805
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxShielder/fxShielderA_0005
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1849
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxShielder/fxShielderB_0000
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1717
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxShielder/fxShielderB_0001
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 744
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxShielder/fxShielderB_0002
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 634
+        width: 58
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxShielder/fxShielderB_0003
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 714
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxShielder/fxShielderB_0004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 606
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxShielder/fxShielderB_0005
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 852
+        width: 53
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxShielder/fxShielderB_0006
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1849
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxShielder/fxShielderC_0000
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1782
+        width: 43
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxShielder/fxShielderC_0001
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 821
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxShielder/fxShielderC_0002
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 1270
+        width: 71
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxShielder/fxShielderC_0003
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1078
+        width: 71
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxShielder/fxShielderC_0004
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1533
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxShielder/fxShielderC_0005
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 835
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxShielder/fxShielderC_0006
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 910
+        width: 63
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxShielder/fxShielderC_0007
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1849
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxShielder/fxShielderD_0000
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1638
+        width: 37
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxShielder/fxShielderD_0001
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 774
+        width: 51
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxShielder/fxShielderD_0002
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 896
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxShielder/fxShielderD_0003
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 840
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxShielder/fxShielderD_0004
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 865
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/shockerFx_0000
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 1843
+        width: 202
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: trackerAtkFx/fxTrackerAtk_0000
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1338
+        width: 157
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: trackerAtkFx/fxTrackerAtk_0001
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1381
+        width: 158
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: trackerAtkFx/fxTrackerAtk_0002
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1186
+        width: 126
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: trackerAtkFx/fxTrackerAtk_0003
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1058
+        width: 124
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: trackerAtkFx/fxTrackerAtk_0004
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 900
+        width: 118
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: trackerAtkFx/fxTrackerAtk_0005
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 900
+        width: 118
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: trackerAtkFx/fxTrackerAtk_0006
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1093
+        width: 112
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: trackerAtkFx/fxTrackerAtk_0007
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1093
+        width: 112
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: trackerAtkFx/fxTrackerAtk_0008
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 820
+        width: 97
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: trackerAtkFx/fxTrackerAtk_0009
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 820
+        width: 97
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: trackerAtkFx/fxTrackerAtk_0010
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1849
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: trackerAtkFx/fxTrackerAtk_0011
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1849
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: trackerAtkFx/fxTrackerAtk_0012
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1849
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: trackerAtkFx/fxTrackerAtk_0013
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1849
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: trackerAtkFx/fxTrackerAtk_0014
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1849
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

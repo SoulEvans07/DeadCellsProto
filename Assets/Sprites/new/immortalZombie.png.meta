@@ -1,0 +1,5077 @@
+fileFormatVersion: 2
+guid: 782a239a9d0e82a43908fe355f8ec17f
+timeCreated: 1510260296
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: immortalZombie/breach_00
+    21300002: immortalZombie/breach_01
+    21300004: immortalZombie/breach_02
+    21300006: immortalZombie/breach_03
+    21300008: immortalZombie/breach_04
+    21300010: immortalZombie/breach_05
+    21300012: immortalZombie/breach_06
+    21300014: immortalZombie/breach_07
+    21300016: immortalZombie/breach_08
+    21300018: immortalZombie/breach_09
+    21300020: immortalZombie/breach_10
+    21300022: immortalZombie/breach_11
+    21300024: immortalZombie/breach_12
+    21300026: immortalZombie/breach_13
+    21300028: immortalZombie/breach_14
+    21300030: immortalZombie/breach_15
+    21300032: immortalZombie/breach_16
+    21300034: immortalZombie/breach_17
+    21300036: immortalZombie/breach_18
+    21300038: immortalZombie/breach_19
+    21300040: immortalZombie/breach_20
+    21300042: immortalZombie/breach_21
+    21300044: immortalZombie/breach_22
+    21300046: immortalZombie/breach_23
+    21300048: immortalZombie/hit_00
+    21300050: immortalZombie/hit_01
+    21300052: immortalZombie/hit_02
+    21300054: immortalZombie/hit_03
+    21300056: immortalZombie/hit_04
+    21300058: immortalZombie/hit_05
+    21300060: immortalZombie/hit_06
+    21300062: immortalZombie/stun_00
+    21300064: immortalZombie/stun_01
+    21300066: immortalZombie/stun_02
+    21300068: immortalZombie/stun_03
+    21300070: immortalZombie/stun_04
+    21300072: immortalZombie/stun_05
+    21300074: immortalZombie/stun_06
+    21300076: immortalZombie/stun_07
+    21300078: immortalZombie/stun_08
+    21300080: immortalZombie/stun_09
+    21300082: immortalZombie/stun_10
+    21300084: immortalZombie/stun_11
+    21300086: immortalZombie/stun_12
+    21300088: immortalZombie/stun_13
+    21300090: immortalZombie/stun_14
+    21300092: immortalZombie/stun_15
+    21300094: immortalZombie/stun_16
+    21300096: immortalZombie/stun_17
+    21300098: immortalZombie/stun_18
+    21300100: immortalZombie/stun_19
+    21300102: immortalZombie/stun_20
+    21300104: immortalZombie/stun_21
+    21300106: immortalZombie/stun_22
+    21300108: immortalZombie/stun_23
+    21300110: immortalZombie/stun_24
+    21300112: immortalZombie/stun_25
+    21300114: immortalZombie/stun_26
+    21300116: immortalZombie/stun_27
+    21300118: immortalZombie/stun_28
+    21300120: immortalZombie/stun_29
+    21300122: immortalZombie/stun_30
+    21300124: immortalZombie/stun_31
+    21300126: immortalZombie/stun_32
+    21300128: immortalZombie/stun_33
+    21300130: immortalZombie/stun_34
+    21300132: immortalZombie/stun_35
+    21300134: immortalZombie/stun_36
+    21300136: immortalZombie/stun_37
+    21300138: immortalZombie/stun_38
+    21300140: immortalZombie/stun_39
+    21300142: immortalZombie/stunIdle_00
+    21300144: immortalZombie/stunIdle_01
+    21300146: immortalZombie/stunIdle_02
+    21300148: immortalZombie/stunIdle_03
+    21300150: immortalZombie/stunIdle_04
+    21300152: immortalZombie/stunIdle_05
+    21300154: immortalZombie/zombieAtkA_00
+    21300156: immortalZombie/zombieAtkA_01
+    21300158: immortalZombie/zombieAtkA_02
+    21300160: immortalZombie/zombieAtkA_03
+    21300162: immortalZombie/zombieAtkA_04
+    21300164: immortalZombie/zombieAtkA_05
+    21300166: immortalZombie/zombieAtkA_06
+    21300168: immortalZombie/zombieAtkA_07
+    21300170: immortalZombie/zombieAtkA_08
+    21300172: immortalZombie/zombieAtkB_00
+    21300174: immortalZombie/zombieAtkB_01
+    21300176: immortalZombie/zombieAtkB_02
+    21300178: immortalZombie/zombieAtkB_03
+    21300180: immortalZombie/zombieAtkB_04
+    21300182: immortalZombie/zombieAtkB_05
+    21300184: immortalZombie/zombieAtkB_06
+    21300186: immortalZombie/zombieAtkB_07
+    21300188: immortalZombie/zombieAtkB_08
+    21300190: immortalZombie/zombieAtkLoadA_00
+    21300192: immortalZombie/zombieAtkLoadA_01
+    21300194: immortalZombie/zombieAtkLoadA_02
+    21300196: immortalZombie/zombieAtkLoadA_03
+    21300198: immortalZombie/zombieAtkLoadA_04
+    21300200: immortalZombie/zombieAtkLoadA_05
+    21300202: immortalZombie/zombieAtkLoadB_00
+    21300204: immortalZombie/zombieAtkLoadB_01
+    21300206: immortalZombie/zombieAtkLoadB_02
+    21300208: immortalZombie/zombieAtkLoadB_03
+    21300210: immortalZombie/zombieAtkLoadB_04
+    21300212: immortalZombie/zombieAtkLoadB_05
+    21300214: immortalZombie/zombieClimbA_00
+    21300216: immortalZombie/zombieClimbA_01
+    21300218: immortalZombie/zombieClimbA_02
+    21300220: immortalZombie/zombieClimbA_03
+    21300222: immortalZombie/zombieClimbA_04
+    21300224: immortalZombie/zombieClimbA_05
+    21300226: immortalZombie/zombieClimbA_06
+    21300228: immortalZombie/zombieClimbA_07
+    21300230: immortalZombie/zombieClimbA_08
+    21300232: immortalZombie/zombieClimbA_09
+    21300234: immortalZombie/zombieClimbA_10
+    21300236: immortalZombie/zombieClimbA_11
+    21300238: immortalZombie/zombieClimbB_00
+    21300240: immortalZombie/zombieClimbB_01
+    21300242: immortalZombie/zombieClimbB_02
+    21300244: immortalZombie/zombieClimbB_03
+    21300246: immortalZombie/zombieClimbB_04
+    21300248: immortalZombie/zombieClimbB_05
+    21300250: immortalZombie/zombieClimbB_06
+    21300252: immortalZombie/zombieClimbB_07
+    21300254: immortalZombie/zombieClimbB_08
+    21300256: immortalZombie/zombieClimbB_09
+    21300258: immortalZombie/zombieClimbB_10
+    21300260: immortalZombie/zombieClimbIdleA_00
+    21300262: immortalZombie/zombieClimbIdleB_00
+    21300264: immortalZombie/zombieEndClimb_00
+    21300266: immortalZombie/zombieEndClimb_01
+    21300268: immortalZombie/zombieEndClimb_02
+    21300270: immortalZombie/zombieEndClimb_03
+    21300272: immortalZombie/zombieEndClimb_04
+    21300274: immortalZombie/zombieEndClimb_05
+    21300276: immortalZombie/zombieEndClimb_06
+    21300278: immortalZombie/zombieEndClimb_07
+    21300280: immortalZombie/zombieFall_00
+    21300282: immortalZombie/zombieFall_01
+    21300284: immortalZombie/zombieFall_02
+    21300286: immortalZombie/zombieFall_03
+    21300288: immortalZombie/zombieFall_04
+    21300290: immortalZombie/zombieFall_05
+    21300292: immortalZombie/zombieFall_06
+    21300294: immortalZombie/zombieFall_07
+    21300296: immortalZombie/zombieFall_08
+    21300298: immortalZombie/zombieFall_09
+    21300300: immortalZombie/zombieFall_10
+    21300302: immortalZombie/zombieFall_11
+    21300304: immortalZombie/zombieFall_12
+    21300306: immortalZombie/zombieFall_13
+    21300308: immortalZombie/zombieIdleA_00
+    21300310: immortalZombie/zombieIdleA_01
+    21300312: immortalZombie/zombieIdleA_02
+    21300314: immortalZombie/zombieIdleA_03
+    21300316: immortalZombie/zombieIdleA_04
+    21300318: immortalZombie/zombieIdleA_05
+    21300320: immortalZombie/zombieIdleA_06
+    21300322: immortalZombie/zombieIdleA_07
+    21300324: immortalZombie/zombieIdleA_08
+    21300326: immortalZombie/zombieIdleA_09
+    21300328: immortalZombie/zombieIdleA_10
+    21300330: immortalZombie/zombieIdleA_11
+    21300332: immortalZombie/zombieIdleA_12
+    21300334: immortalZombie/zombieIdleA_13
+    21300336: immortalZombie/zombieIdleA_14
+    21300338: immortalZombie/zombieIdleA_15
+    21300340: immortalZombie/zombieIdleA_16
+    21300342: immortalZombie/zombieIdleA_17
+    21300344: immortalZombie/zombieIdleA_18
+    21300346: immortalZombie/zombieIdleA_19
+    21300348: immortalZombie/zombieIdleA_20
+    21300350: immortalZombie/zombieIdleA_21
+    21300352: immortalZombie/zombieIdleA_22
+    21300354: immortalZombie/zombieIdleA_23
+    21300356: immortalZombie/zombieIdleA_24
+    21300358: immortalZombie/zombieIdleA_25
+    21300360: immortalZombie/zombieIdleA_26
+    21300362: immortalZombie/zombieIdleA_27
+    21300364: immortalZombie/zombieIdleA_28
+    21300366: immortalZombie/zombieIdleA_29
+    21300368: immortalZombie/zombieIdleA_30
+    21300370: immortalZombie/zombieIdleA_31
+    21300372: immortalZombie/zombieIdleA_32
+    21300374: immortalZombie/zombieIdleA_33
+    21300376: immortalZombie/zombieIdleA_34
+    21300378: immortalZombie/zombieIdleA_35
+    21300380: immortalZombie/zombieLand_00
+    21300382: immortalZombie/zombieRise_00
+    21300384: immortalZombie/zombieRise_01
+    21300386: immortalZombie/zombieRise_02
+    21300388: immortalZombie/zombieRise_03
+    21300390: immortalZombie/zombieRise_04
+    21300392: immortalZombie/zombieRise_05
+    21300394: immortalZombie/zombieRise_06
+    21300396: immortalZombie/zombieRise_07
+    21300398: immortalZombie/zombieRise_08
+    21300400: immortalZombie/zombieRise_09
+    21300402: immortalZombie/zombieRise_10
+    21300404: immortalZombie/zombieRise_11
+    21300406: immortalZombie/zombieRise_12
+    21300408: immortalZombie/zombieRise_13
+    21300410: immortalZombie/zombieRise_14
+    21300412: immortalZombie/zombieRise_15
+    21300414: immortalZombie/zombieRise_16
+    21300416: immortalZombie/zombieRise_17
+    21300418: immortalZombie/zombieRise_18
+    21300420: immortalZombie/zombieRise_19
+    21300422: immortalZombie/zombieRise_20
+    21300424: immortalZombie/zombieRise_21
+    21300426: immortalZombie/zombieRise_22
+    21300428: immortalZombie/zombieRise_23
+    21300430: immortalZombie/zombieRise_24
+    21300432: immortalZombie/zombieRun_00
+    21300434: immortalZombie/zombieRun_01
+    21300436: immortalZombie/zombieRun_02
+    21300438: immortalZombie/zombieRun_03
+    21300440: immortalZombie/zombieRun_04
+    21300442: immortalZombie/zombieRun_05
+    21300444: immortalZombie/zombieRun_06
+    21300446: immortalZombie/zombieRun_07
+    21300448: immortalZombie/zombieRun_08
+    21300450: immortalZombie/zombieRun_09
+    21300452: immortalZombie/zombieRun_10
+    21300454: immortalZombie/zombieRun_11
+    21300456: immortalZombie/zombieRun_12
+    21300458: immortalZombie/zombieRun_13
+    21300460: immortalZombie/zombieRun_14
+    21300462: immortalZombie/zombieRun_15
+    21300464: immortalZombie/zombieRun_16
+    21300466: immortalZombie/zombieRun_17
+    21300468: immortalZombie/zombieRun_18
+    21300470: immortalZombie/zombieRun_19
+    21300472: immortalZombie/zombieRun_20
+    21300474: immortalZombie/zombieRun_21
+    21300476: immortalZombie/zombieRun_22
+    21300478: immortalZombie/zombieRun_23
+    21300480: immortalZombie/zombieRun_24
+    21300482: immortalZombie/zombieStepA_00
+    21300484: immortalZombie/zombieStepA_01
+    21300486: immortalZombie/zombieStepA_02
+    21300488: immortalZombie/zombieStepA_03
+    21300490: immortalZombie/zombieStepA_04
+    21300492: immortalZombie/zombieStepA_05
+    21300494: immortalZombie/zombieStepA_06
+    21300496: immortalZombie/zombieStepA_07
+    21300498: immortalZombie/zombieStepA_08
+    21300500: immortalZombie/zombieStepA_09
+    21300502: immortalZombie/zombieStepA_10
+    21300504: immortalZombie/zombieStepA_11
+    21300506: immortalZombie/zombieStepA_12
+    21300508: immortalZombie/zombieStepA_13
+    21300510: immortalZombie/zombieStepA_14
+    21300512: immortalZombie/zombieStepA_15
+    21300514: immortalZombie/zombieStepA_16
+    21300516: immortalZombie/zombieStepA_17
+    21300518: immortalZombie/zombieStepA_18
+    21300520: immortalZombie/zombieStepA_19
+    21300522: immortalZombie/zombieStepA_20
+    21300524: immortalZombie/zombieStepA_21
+    21300526: immortalZombie/zombieStepB_00
+    21300528: immortalZombie/zombieStepB_01
+    21300530: immortalZombie/zombieStepB_02
+    21300532: immortalZombie/zombieStepB_03
+    21300534: immortalZombie/zombieStepB_04
+    21300536: immortalZombie/zombieStepB_05
+    21300538: immortalZombie/zombieStepB_06
+    21300540: immortalZombie/zombieStepB_07
+    21300542: immortalZombie/zombieStepB_08
+    21300544: immortalZombie/zombieStepB_09
+    21300546: immortalZombie/zombieStepB_10
+    21300548: immortalZombie/zombieStepB_11
+    21300550: immortalZombie/zombieStepB_12
+    21300552: immortalZombie/zombieStepB_13
+    21300554: immortalZombie/zombieStepB_14
+    21300556: immortalZombie/zombieStepB_15
+    21300558: immortalZombie/zombieStepB_16
+    21300560: immortalZombie/zombieStepB_17
+    21300562: immortalZombie/zombieStepB_18
+    21300564: immortalZombie/zombieStepB_19
+    21300566: immortalZombie/zombieStepB_20
+    21300568: immortalZombie/zombieStepC_00
+    21300570: immortalZombie/zombieStepC_01
+    21300572: immortalZombie/zombieStepC_02
+    21300574: immortalZombie/zombieStepC_03
+    21300576: immortalZombie/zombieStepC_04
+    21300578: immortalZombie/zombieStepC_05
+    21300580: immortalZombie/zombieStepC_06
+    21300582: immortalZombie/zombieStepC_07
+    21300584: immortalZombie/zombieStepC_08
+    21300586: immortalZombie/zombieStepC_09
+    21300588: immortalZombie/zombieStepC_10
+    21300590: immortalZombie/zombieStepC_11
+    21300592: immortalZombie/zombieStepC_12
+    21300594: immortalZombie/zombieStepC_13
+    21300596: immortalZombie/zombieStepC_14
+    21300598: immortalZombie/zombieStepC_15
+    21300600: immortalZombie/zombieStepC_16
+    21300602: immortalZombie/zombieStepC_17
+    21300604: immortalZombie/zombieStepC_18
+    21300606: immortalZombie/zombieStepC_19
+    21300608: immortalZombie/zombieStepC_20
+    21300610: immortalZombie/zombieWalk_00
+    21300612: immortalZombie/zombieWalk_01
+    21300614: immortalZombie/zombieWalk_02
+    21300616: immortalZombie/zombieWalk_03
+    21300618: immortalZombie/zombieWalk_04
+    21300620: immortalZombie/zombieWalk_05
+    21300622: immortalZombie/zombieWalk_06
+    21300624: immortalZombie/zombieWalk_07
+    21300626: immortalZombie/zombieWalk_08
+    21300628: immortalZombie/zombieWalk_09
+    21300630: immortalZombie/zombieWalk_10
+    21300632: immortalZombie/zombieWalk_11
+    21300634: immortalZombie/zombieWalk_12
+    21300636: immortalZombie/zombieWalk_13
+    21300638: immortalZombie/zombieWalk_14
+    21300640: immortalZombie/zombieWalk_15
+    21300642: immortalZombie/zombieWalk_16
+    21300644: immortalZombie/zombieWalk_17
+    21300646: immortalZombie/zombieWalk_18
+    21300648: immortalZombie/zombieWalk_19
+    21300650: immortalZombie/zombieWalk_20
+    21300652: immortalZombie/zombieWalk_21
+    21300654: immortalZombie/zombieWalk_22
+    21300656: immortalZombie/zombieWalk_23
+    21300658: immortalZombie/zombieWalk_24
+    21300660: immortalZombie/zombieWalk_25
+    21300662: immortalZombie/zombieWalk_26
+    21300664: immortalZombie/zombieWalk_27
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: immortalZombie/breach_00
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 176
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/breach_01
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 982
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/breach_02
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 356
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/breach_03
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 594
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/breach_04
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 789
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/breach_05
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 644
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/breach_06
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 982
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/breach_07
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 938
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/breach_08
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 679
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/breach_09
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 876
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/breach_10
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 929
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/breach_11
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 567
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/breach_12
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 981
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/breach_13
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 503
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/breach_14
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 29
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/breach_15
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 79
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/breach_16
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 396
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/breach_17
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 274
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/breach_18
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 61
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/breach_19
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 367
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/breach_20
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 134
+        width: 25
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/breach_21
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 575
+        width: 23
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/breach_22
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 704
+        width: 22
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/breach_23
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 911
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/hit_00
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 446
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/hit_01
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 834
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/hit_02
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 965
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/hit_03
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 250
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/hit_04
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 311
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/hit_05
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 850
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/hit_06
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 679
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_00
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 750
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_01
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 804
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_02
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 385
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_03
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 449
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_04
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 520
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_05
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 566
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_06
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 609
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_07
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 298
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_08
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 809
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_09
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 772
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_10
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 692
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_11
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 655
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_12
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 692
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_13
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 735
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_14
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 862
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_15
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 906
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_16
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 950
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_17
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 226
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_18
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 188
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_19
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 150
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_20
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 604
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_21
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 647
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_22
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 423
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_23
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 487
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_24
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 597
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_25
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 102
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_26
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 143
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_27
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 61
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_28
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 102
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_29
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 20
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_30
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 143
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_31
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 463
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_32
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 527
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_33
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 375
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_34
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 644
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_35
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 943
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_36
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 987
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_37
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 558
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_38
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 846
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stun_39
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 750
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stunIdle_00
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 899
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stunIdle_01
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 336
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stunIdle_02
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 843
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stunIdle_03
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 456
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stunIdle_04
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 807
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/stunIdle_05
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 735
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkA_00
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 901
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkA_01
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 516
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkA_02
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 764
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkA_03
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 264
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkA_04
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 725
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkA_05
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 597
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkA_06
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 591
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkA_07
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 745
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkA_08
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 24
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkB_00
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 767
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkB_01
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 800
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkB_02
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 855
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkB_03
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 970
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkB_04
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 305
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkB_05
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 112
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkB_06
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 831
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkB_07
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 478
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkB_08
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 969
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkLoadA_00
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 728
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkLoadA_01
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 138
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkLoadA_02
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 208
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkLoadA_03
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 266
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkLoadA_04
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 326
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkLoadA_05
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 789
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkLoadB_00
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 637
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkLoadB_01
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 61
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkLoadB_02
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 20
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkLoadB_03
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 415
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkLoadB_04
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 683
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieAtkLoadB_05
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 637
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieClimbA_00
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 626
+        width: 28
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieClimbA_01
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 441
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieClimbA_02
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 670
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieClimbA_03
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 565
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieClimbA_04
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 564
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieClimbA_05
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 826
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieClimbA_06
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 896
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieClimbA_07
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 501
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieClimbA_08
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 495
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieClimbA_09
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 960
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieClimbA_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 824
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieClimbA_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 758
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieClimbB_00
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 372
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieClimbB_01
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 910
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieClimbB_02
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 635
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieClimbB_03
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 762
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieClimbB_04
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 698
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieClimbB_05
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 962
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieClimbB_06
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 432
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieClimbB_07
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 702
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieClimbB_08
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 628
+        width: 36
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieClimbB_09
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 890
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieClimbB_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 957
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieClimbIdleA_00
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 692
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieClimbIdleB_00
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 560
+        width: 28
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieEndClimb_00
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 587
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieEndClimb_01
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 972
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieEndClimb_02
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 397
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieEndClimb_03
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 127
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieEndClimb_04
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 31
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieEndClimb_05
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 421
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieEndClimb_06
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 754
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieEndClimb_07
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 77
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieFall_00
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 469
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieFall_01
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 913
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieFall_02
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 910
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieFall_03
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 781
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieFall_04
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 310
+        width: 27
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieFall_05
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 840
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieFall_06
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 904
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieFall_07
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 965
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieFall_08
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 371
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieFall_09
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 381
+        width: 28
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieFall_10
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 845
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieFall_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 968
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieFall_12
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 357
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieFall_13
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 244
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_00
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 94
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_01
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 195
+        width: 22
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_02
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 253
+        width: 22
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_03
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 76
+        width: 23
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_04
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 192
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_05
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 253
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_06
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 76
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_07
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 137
+        width: 22
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_08
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 323
+        width: 22
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_09
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 906
+        width: 22
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_10
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 967
+        width: 22
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_11
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 722
+        width: 22
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_12
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 786
+        width: 22
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_13
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 847
+        width: 22
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_14
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 908
+        width: 22
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_15
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 137
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_16
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 195
+        width: 22
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_17
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 265
+        width: 22
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_18
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 323
+        width: 22
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_19
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 383
+        width: 22
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_20
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 458
+        width: 22
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_21
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 152
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_22
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 37
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_23
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 23
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_24
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 245
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_25
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 132
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_26
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 20
+        width: 22
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_27
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 189
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_28
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 76
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_29
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 133
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_30
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 95
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_31
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 38
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_32
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 344
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_33
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 23
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_34
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 412
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieIdleA_35
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 287
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieLand_00
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 643
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRise_00
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 643
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRise_01
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 644
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRise_02
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 264
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRise_03
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 870
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRise_04
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 826
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRise_05
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 644
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRise_06
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 835
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRise_07
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 914
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRise_08
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 347
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRise_09
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 766
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRise_10
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 790
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRise_11
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 991
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRise_12
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 954
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRise_13
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 915
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRise_14
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 879
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRise_15
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 989
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRise_16
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 643
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRise_17
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 659
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRise_18
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 919
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRise_19
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 300
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRise_20
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 586
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRise_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 192
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRise_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 134
+        width: 26
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRise_23
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 23
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRise_24
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 81
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRun_00
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 532
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRun_01
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 23
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRun_02
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 7
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRun_03
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 475
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRun_04
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 401
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRun_05
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 413
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRun_06
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 918
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRun_07
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 974
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRun_08
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 494
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRun_09
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 11
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRun_10
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 536
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRun_11
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 78
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRun_12
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 63
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRun_13
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 175
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRun_14
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 80
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRun_15
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 231
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRun_16
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 968
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRun_17
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 119
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRun_18
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 972
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRun_19
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 756
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRun_20
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 225
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRun_21
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 333
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRun_22
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 214
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRun_23
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 861
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieRun_24
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 589
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepA_00
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 911
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepA_01
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 853
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepA_02
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 795
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepA_03
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 529
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepA_04
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 586
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepA_05
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 526
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepA_06
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 670
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepA_07
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 583
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepA_08
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 459
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepA_09
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 684
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepA_10
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 315
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepA_11
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 175
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepA_12
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 550
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepA_13
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 644
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepA_14
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 324
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepA_15
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 265
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepA_16
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 808
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepA_17
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 421
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepA_18
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 301
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepA_19
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 188
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepA_20
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 911
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepA_21
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 911
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepB_00
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 151
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepB_01
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 18
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepB_02
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 300
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepB_03
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 739
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepB_04
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 530
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepB_05
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 687
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepB_06
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 473
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepB_07
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 742
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepB_08
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 544
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepB_09
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 613
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepB_10
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 885
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepB_11
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 225
+        width: 57
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepB_12
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1
+        width: 55
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepB_13
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 729
+        width: 53
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepB_14
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 686
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepB_15
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 184
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepB_16
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 937
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepB_17
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 550
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepB_18
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 432
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepB_19
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 858
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepB_20
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 151
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepC_00
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 911
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepC_01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 76
+        width: 26
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepC_02
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 674
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepC_03
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 792
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepC_04
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 731
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepC_05
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 645
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepC_06
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 441
+        width: 28
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepC_07
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 505
+        width: 26
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepC_08
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 642
+        width: 23
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepC_09
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 18
+        width: 23
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepC_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 18
+        width: 26
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepC_11
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 852
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepC_12
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 797
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepC_13
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 374
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepC_14
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 503
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepC_15
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 722
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepC_16
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 821
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepC_17
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 274
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepC_18
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 973
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepC_19
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 915
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieStepC_20
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 209
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieWalk_00
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 57
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieWalk_01
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 6
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieWalk_02
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 6
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieWalk_03
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 126
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieWalk_04
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 347
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieWalk_05
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 224
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieWalk_06
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 61
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieWalk_07
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 159
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieWalk_08
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 865
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieWalk_09
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 159
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieWalk_10
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 211
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieWalk_11
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 112
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieWalk_12
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 813
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieWalk_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 163
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieWalk_14
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 108
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieWalk_15
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 706
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieWalk_16
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 284
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieWalk_17
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 445
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieWalk_18
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 495
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieWalk_19
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 382
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieWalk_20
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 484
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieWalk_21
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 263
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieWalk_22
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 317
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieWalk_23
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 692
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieWalk_24
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 426
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieWalk_25
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 369
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieWalk_26
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 867
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: immortalZombie/zombieWalk_27
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 921
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

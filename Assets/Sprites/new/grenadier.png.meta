@@ -1,0 +1,5332 @@
+fileFormatVersion: 2
+guid: 696fcd8b6257ac943a1beacee4df98e9
+timeCreated: 1510260295
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: grenadier/breach_00
+    21300002: grenadier/breach_01
+    21300004: grenadier/breach_02
+    21300006: grenadier/breach_03
+    21300008: grenadier/breach_04
+    21300010: grenadier/breach_05
+    21300012: grenadier/breach_06
+    21300014: grenadier/breach_07
+    21300016: grenadier/breach_08
+    21300018: grenadier/breach_09
+    21300020: grenadier/breach_10
+    21300022: grenadier/breach_11
+    21300024: grenadier/breach_12
+    21300026: grenadier/breach_13
+    21300028: grenadier/breach_14
+    21300030: grenadier/breach_15
+    21300032: grenadier/breach_16
+    21300034: grenadier/breach_17
+    21300036: grenadier/breach_18
+    21300038: grenadier/breach_19
+    21300040: grenadier/breach_20
+    21300042: grenadier/breach_21
+    21300044: grenadier/breach_22
+    21300046: grenadier/breach_23
+    21300048: grenadier/breached_00
+    21300050: grenadier/breached_01
+    21300052: grenadier/breached_02
+    21300054: grenadier/breached_03
+    21300056: grenadier/breached_04
+    21300058: grenadier/breached_05
+    21300060: grenadier/breached_06
+    21300062: grenadier/breached_07
+    21300064: grenadier/breached_08
+    21300066: grenadier/breached_09
+    21300068: grenadier/breached_10
+    21300070: grenadier/breached_11
+    21300072: grenadier/breached_12
+    21300074: grenadier/breached_13
+    21300076: grenadier/breached_14
+    21300078: grenadier/breached_15
+    21300080: grenadier/breached_16
+    21300082: grenadier/breached_17
+    21300084: grenadier/breached_18
+    21300086: grenadier/breached_19
+    21300088: grenadier/breached_20
+    21300090: grenadier/breached_21
+    21300092: grenadier/breached_22
+    21300094: grenadier/breached_23
+    21300096: grenadier/stun_00
+    21300098: grenadier/stun_01
+    21300100: grenadier/stun_02
+    21300102: grenadier/stun_03
+    21300104: grenadier/stun_04
+    21300106: grenadier/stun_05
+    21300108: grenadier/stun_06
+    21300110: grenadier/stun_07
+    21300112: grenadier/stun_08
+    21300114: grenadier/stun_09
+    21300116: grenadier/stun_10
+    21300118: grenadier/stun_11
+    21300120: grenadier/stun_12
+    21300122: grenadier/stun_13
+    21300124: grenadier/stun_14
+    21300126: grenadier/stun_15
+    21300128: grenadier/stun_16
+    21300130: grenadier/stun_17
+    21300132: grenadier/stun_18
+    21300134: grenadier/stun_19
+    21300136: grenadier/stun_20
+    21300138: grenadier/stun_21
+    21300140: grenadier/stun_22
+    21300142: grenadier/stun_23
+    21300144: grenadier/stun_24
+    21300146: grenadier/stun_25
+    21300148: grenadier/stun_26
+    21300150: grenadier/stun_27
+    21300152: grenadier/stun_28
+    21300154: grenadier/stun_29
+    21300156: grenadier/stun_30
+    21300158: grenadier/stun_31
+    21300160: grenadier/stun_32
+    21300162: grenadier/stun_33
+    21300164: grenadier/stun_34
+    21300166: grenadier/stun_35
+    21300168: grenadier/stun_36
+    21300170: grenadier/stun_37
+    21300172: grenadier/stun_38
+    21300174: grenadier/stun_39
+    21300176: grenadier/stunIdle_00
+    21300178: grenadier/stunIdle_01
+    21300180: grenadier/stunIdle_02
+    21300182: grenadier/stunIdle_03
+    21300184: grenadier/stunIdle_04
+    21300186: grenadier/stunIdle_05
+    21300188: grenadier/zombieAtkA_00
+    21300190: grenadier/zombieAtkA_01
+    21300192: grenadier/zombieAtkA_02
+    21300194: grenadier/zombieAtkA_03
+    21300196: grenadier/zombieAtkA_04
+    21300198: grenadier/zombieAtkA_05
+    21300200: grenadier/zombieAtkA_06
+    21300202: grenadier/zombieAtkA_07
+    21300204: grenadier/zombieAtkA_08
+    21300206: grenadier/zombieAtkB_00
+    21300208: grenadier/zombieAtkB_01
+    21300210: grenadier/zombieAtkB_02
+    21300212: grenadier/zombieAtkB_03
+    21300214: grenadier/zombieAtkB_04
+    21300216: grenadier/zombieAtkB_05
+    21300218: grenadier/zombieAtkB_06
+    21300220: grenadier/zombieAtkB_07
+    21300222: grenadier/zombieAtkB_08
+    21300224: grenadier/zombieAtkLoadA_00
+    21300226: grenadier/zombieAtkLoadA_01
+    21300228: grenadier/zombieAtkLoadA_02
+    21300230: grenadier/zombieAtkLoadA_03
+    21300232: grenadier/zombieAtkLoadA_04
+    21300234: grenadier/zombieAtkLoadA_05
+    21300236: grenadier/zombieAtkLoadB_00
+    21300238: grenadier/zombieAtkLoadB_01
+    21300240: grenadier/zombieAtkLoadB_02
+    21300242: grenadier/zombieAtkLoadB_03
+    21300244: grenadier/zombieAtkLoadB_04
+    21300246: grenadier/zombieAtkLoadB_05
+    21300248: grenadier/zombieClimbA_00
+    21300250: grenadier/zombieClimbA_01
+    21300252: grenadier/zombieClimbA_02
+    21300254: grenadier/zombieClimbA_03
+    21300256: grenadier/zombieClimbA_04
+    21300258: grenadier/zombieClimbA_05
+    21300260: grenadier/zombieClimbA_06
+    21300262: grenadier/zombieClimbA_07
+    21300264: grenadier/zombieClimbA_08
+    21300266: grenadier/zombieClimbA_09
+    21300268: grenadier/zombieClimbA_10
+    21300270: grenadier/zombieClimbA_11
+    21300272: grenadier/zombieClimbB_00
+    21300274: grenadier/zombieClimbB_01
+    21300276: grenadier/zombieClimbB_02
+    21300278: grenadier/zombieClimbB_03
+    21300280: grenadier/zombieClimbB_04
+    21300282: grenadier/zombieClimbB_05
+    21300284: grenadier/zombieClimbB_06
+    21300286: grenadier/zombieClimbB_07
+    21300288: grenadier/zombieClimbB_08
+    21300290: grenadier/zombieClimbB_09
+    21300292: grenadier/zombieClimbB_10
+    21300294: grenadier/zombieClimbIdleA_00
+    21300296: grenadier/zombieClimbIdleB_00
+    21300298: grenadier/zombieEndClimb_00
+    21300300: grenadier/zombieEndClimb_01
+    21300302: grenadier/zombieEndClimb_02
+    21300304: grenadier/zombieEndClimb_03
+    21300306: grenadier/zombieEndClimb_04
+    21300308: grenadier/zombieEndClimb_05
+    21300310: grenadier/zombieEndClimb_06
+    21300312: grenadier/zombieEndClimb_07
+    21300314: grenadier/zombieFall_00
+    21300316: grenadier/zombieFall_01
+    21300318: grenadier/zombieFall_02
+    21300320: grenadier/zombieFall_03
+    21300322: grenadier/zombieFall_04
+    21300324: grenadier/zombieFall_05
+    21300326: grenadier/zombieFall_06
+    21300328: grenadier/zombieFall_07
+    21300330: grenadier/zombieFall_08
+    21300332: grenadier/zombieFall_09
+    21300334: grenadier/zombieFall_10
+    21300336: grenadier/zombieFall_11
+    21300338: grenadier/zombieFall_12
+    21300340: grenadier/zombieFall_13
+    21300342: grenadier/zombieIdleA_00
+    21300344: grenadier/zombieIdleA_01
+    21300346: grenadier/zombieIdleA_02
+    21300348: grenadier/zombieIdleA_03
+    21300350: grenadier/zombieIdleA_04
+    21300352: grenadier/zombieIdleA_05
+    21300354: grenadier/zombieIdleA_06
+    21300356: grenadier/zombieIdleA_07
+    21300358: grenadier/zombieIdleA_08
+    21300360: grenadier/zombieIdleA_09
+    21300362: grenadier/zombieIdleA_10
+    21300364: grenadier/zombieIdleA_11
+    21300366: grenadier/zombieIdleA_12
+    21300368: grenadier/zombieIdleA_13
+    21300370: grenadier/zombieIdleA_14
+    21300372: grenadier/zombieIdleA_15
+    21300374: grenadier/zombieIdleA_16
+    21300376: grenadier/zombieIdleA_17
+    21300378: grenadier/zombieIdleA_18
+    21300380: grenadier/zombieIdleA_19
+    21300382: grenadier/zombieIdleA_20
+    21300384: grenadier/zombieIdleA_21
+    21300386: grenadier/zombieIdleA_22
+    21300388: grenadier/zombieIdleA_23
+    21300390: grenadier/zombieIdleA_24
+    21300392: grenadier/zombieIdleA_25
+    21300394: grenadier/zombieIdleA_26
+    21300396: grenadier/zombieIdleA_27
+    21300398: grenadier/zombieIdleA_28
+    21300400: grenadier/zombieIdleA_29
+    21300402: grenadier/zombieIdleA_30
+    21300404: grenadier/zombieIdleA_31
+    21300406: grenadier/zombieIdleA_32
+    21300408: grenadier/zombieIdleA_33
+    21300410: grenadier/zombieIdleA_34
+    21300412: grenadier/zombieIdleA_35
+    21300414: grenadier/zombieLand_00
+    21300416: grenadier/zombieRise_00
+    21300418: grenadier/zombieRise_01
+    21300420: grenadier/zombieRise_02
+    21300422: grenadier/zombieRise_03
+    21300424: grenadier/zombieRise_04
+    21300426: grenadier/zombieRise_05
+    21300428: grenadier/zombieRise_06
+    21300430: grenadier/zombieRise_07
+    21300432: grenadier/zombieRise_08
+    21300434: grenadier/zombieRise_09
+    21300436: grenadier/zombieRise_10
+    21300438: grenadier/zombieRise_11
+    21300440: grenadier/zombieRise_12
+    21300442: grenadier/zombieRise_13
+    21300444: grenadier/zombieRise_14
+    21300446: grenadier/zombieRise_15
+    21300448: grenadier/zombieRise_16
+    21300450: grenadier/zombieRise_17
+    21300452: grenadier/zombieRise_18
+    21300454: grenadier/zombieRise_19
+    21300456: grenadier/zombieRise_20
+    21300458: grenadier/zombieRise_21
+    21300460: grenadier/zombieRise_22
+    21300462: grenadier/zombieRise_23
+    21300464: grenadier/zombieRise_24
+    21300466: grenadier/zombieRun_00
+    21300468: grenadier/zombieRun_01
+    21300470: grenadier/zombieRun_02
+    21300472: grenadier/zombieRun_03
+    21300474: grenadier/zombieRun_04
+    21300476: grenadier/zombieRun_05
+    21300478: grenadier/zombieRun_06
+    21300480: grenadier/zombieRun_07
+    21300482: grenadier/zombieRun_08
+    21300484: grenadier/zombieRun_09
+    21300486: grenadier/zombieRun_10
+    21300488: grenadier/zombieRun_11
+    21300490: grenadier/zombieRun_12
+    21300492: grenadier/zombieRun_13
+    21300494: grenadier/zombieRun_14
+    21300496: grenadier/zombieRun_15
+    21300498: grenadier/zombieRun_16
+    21300500: grenadier/zombieRun_17
+    21300502: grenadier/zombieRun_18
+    21300504: grenadier/zombieRun_19
+    21300506: grenadier/zombieRun_20
+    21300508: grenadier/zombieRun_21
+    21300510: grenadier/zombieRun_22
+    21300512: grenadier/zombieRun_23
+    21300514: grenadier/zombieRun_24
+    21300516: grenadier/zombieStepA_00
+    21300518: grenadier/zombieStepA_01
+    21300520: grenadier/zombieStepA_02
+    21300522: grenadier/zombieStepA_03
+    21300524: grenadier/zombieStepA_04
+    21300526: grenadier/zombieStepA_05
+    21300528: grenadier/zombieStepA_06
+    21300530: grenadier/zombieStepA_07
+    21300532: grenadier/zombieStepA_08
+    21300534: grenadier/zombieStepA_09
+    21300536: grenadier/zombieStepA_10
+    21300538: grenadier/zombieStepA_11
+    21300540: grenadier/zombieStepA_12
+    21300542: grenadier/zombieStepA_13
+    21300544: grenadier/zombieStepA_14
+    21300546: grenadier/zombieStepA_15
+    21300548: grenadier/zombieStepA_16
+    21300550: grenadier/zombieStepA_17
+    21300552: grenadier/zombieStepA_18
+    21300554: grenadier/zombieStepA_19
+    21300556: grenadier/zombieStepA_20
+    21300558: grenadier/zombieStepA_21
+    21300560: grenadier/zombieStepB_00
+    21300562: grenadier/zombieStepB_01
+    21300564: grenadier/zombieStepB_02
+    21300566: grenadier/zombieStepB_03
+    21300568: grenadier/zombieStepB_04
+    21300570: grenadier/zombieStepB_05
+    21300572: grenadier/zombieStepB_06
+    21300574: grenadier/zombieStepB_07
+    21300576: grenadier/zombieStepB_08
+    21300578: grenadier/zombieStepB_09
+    21300580: grenadier/zombieStepB_10
+    21300582: grenadier/zombieStepB_11
+    21300584: grenadier/zombieStepB_12
+    21300586: grenadier/zombieStepB_13
+    21300588: grenadier/zombieStepB_14
+    21300590: grenadier/zombieStepB_15
+    21300592: grenadier/zombieStepB_16
+    21300594: grenadier/zombieStepB_17
+    21300596: grenadier/zombieStepB_18
+    21300598: grenadier/zombieStepB_19
+    21300600: grenadier/zombieStepB_20
+    21300602: grenadier/zombieStepC_00
+    21300604: grenadier/zombieStepC_01
+    21300606: grenadier/zombieStepC_02
+    21300608: grenadier/zombieStepC_03
+    21300610: grenadier/zombieStepC_04
+    21300612: grenadier/zombieStepC_05
+    21300614: grenadier/zombieStepC_06
+    21300616: grenadier/zombieStepC_07
+    21300618: grenadier/zombieStepC_08
+    21300620: grenadier/zombieStepC_09
+    21300622: grenadier/zombieStepC_10
+    21300624: grenadier/zombieStepC_11
+    21300626: grenadier/zombieStepC_12
+    21300628: grenadier/zombieStepC_13
+    21300630: grenadier/zombieStepC_14
+    21300632: grenadier/zombieStepC_15
+    21300634: grenadier/zombieStepC_16
+    21300636: grenadier/zombieStepC_17
+    21300638: grenadier/zombieStepC_18
+    21300640: grenadier/zombieStepC_19
+    21300642: grenadier/zombieStepC_20
+    21300644: grenadier/zombieWalk_00
+    21300646: grenadier/zombieWalk_01
+    21300648: grenadier/zombieWalk_02
+    21300650: grenadier/zombieWalk_03
+    21300652: grenadier/zombieWalk_04
+    21300654: grenadier/zombieWalk_05
+    21300656: grenadier/zombieWalk_06
+    21300658: grenadier/zombieWalk_07
+    21300660: grenadier/zombieWalk_08
+    21300662: grenadier/zombieWalk_09
+    21300664: grenadier/zombieWalk_10
+    21300666: grenadier/zombieWalk_11
+    21300668: grenadier/zombieWalk_12
+    21300670: grenadier/zombieWalk_13
+    21300672: grenadier/zombieWalk_14
+    21300674: grenadier/zombieWalk_15
+    21300676: grenadier/zombieWalk_16
+    21300678: grenadier/zombieWalk_17
+    21300680: grenadier/zombieWalk_18
+    21300682: grenadier/zombieWalk_19
+    21300684: grenadier/zombieWalk_20
+    21300686: grenadier/zombieWalk_21
+    21300688: grenadier/zombieWalk_22
+    21300690: grenadier/zombieWalk_23
+    21300692: grenadier/zombieWalk_24
+    21300694: grenadier/zombieWalk_25
+    21300696: grenadier/zombieWalk_26
+    21300698: grenadier/zombieWalk_27
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: grenadier/breach_00
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 923
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breach_01
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 848
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breach_02
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 405
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breach_03
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 225
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breach_04
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 895
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breach_05
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 653
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breach_06
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 982
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breach_07
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 792
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breach_08
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 849
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breach_09
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 981
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breach_10
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 881
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breach_11
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 633
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breach_12
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 936
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breach_13
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 762
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breach_14
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 656
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breach_15
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 559
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breach_16
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 555
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breach_17
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 69
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breach_18
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 60
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breach_19
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 483
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breach_20
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 675
+        width: 25
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breach_21
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 441
+        width: 23
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breach_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 190
+        width: 22
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breach_23
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 77
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breached_00
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 923
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breached_01
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 848
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breached_02
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 405
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breached_03
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 225
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breached_04
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 895
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breached_05
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 653
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breached_06
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 982
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breached_07
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 792
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breached_08
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 849
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breached_09
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 981
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breached_10
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 881
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breached_11
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 633
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breached_12
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 936
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breached_13
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 762
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breached_14
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 656
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breached_15
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 559
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breached_16
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 555
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breached_17
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 69
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breached_18
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 60
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breached_19
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 483
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breached_20
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 675
+        width: 25
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breached_21
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 441
+        width: 23
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breached_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 190
+        width: 22
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/breached_23
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 77
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_00
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 729
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_01
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 775
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_02
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 523
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_03
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 592
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_04
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 315
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_05
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 277
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_06
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 239
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_07
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 201
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_08
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 88
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_09
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 126
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_10
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 51
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_11
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 89
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_12
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 14
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_13
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 14
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_14
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 52
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_15
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 15
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_16
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 343
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_17
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 380
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_18
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 435
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_19
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 485
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_20
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 353
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_21
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 418
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_22
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 859
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_23
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 903
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_24
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 945
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_25
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_26
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 709
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_27
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 766
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_28
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 808
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_29
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 854
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_30
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_31
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 726
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_32
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 768
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_33
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 814
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_34
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 669
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_35
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 906
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_36
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 947
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_37
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 987
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_38
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 820
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stun_39
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 729
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stunIdle_00
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 864
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stunIdle_01
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 473
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stunIdle_02
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 940
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stunIdle_03
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 715
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stunIdle_04
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 371
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/stunIdle_05
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 390
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkA_00
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 835
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkA_01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 131
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkA_02
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 764
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkA_03
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkA_04
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 42
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkA_05
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 512
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkA_06
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 374
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkA_07
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 802
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkA_08
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 20
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkB_00
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 926
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkB_01
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 745
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkB_02
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 856
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkB_03
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 970
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkB_04
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 807
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkB_05
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 554
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkB_06
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 836
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkB_07
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 599
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkB_08
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 138
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkLoadA_00
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 585
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkLoadA_01
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 969
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkLoadA_02
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 854
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkLoadA_03
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 912
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkLoadA_04
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 969
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkLoadA_05
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 647
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkLoadB_00
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 984
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkLoadB_01
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 899
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkLoadB_02
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 943
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkLoadB_03
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 985
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkLoadB_04
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 750
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieAtkLoadB_05
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 984
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieClimbA_00
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 626
+        width: 28
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieClimbA_01
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 311
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieClimbA_02
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 777
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieClimbA_03
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 565
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieClimbA_04
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 564
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieClimbA_05
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 826
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieClimbA_06
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 896
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieClimbA_07
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 501
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieClimbA_08
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 495
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieClimbA_09
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 960
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieClimbA_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 824
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieClimbA_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 758
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieClimbB_00
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 250
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieClimbB_01
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 589
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieClimbB_02
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 635
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieClimbB_03
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 762
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieClimbB_04
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 698
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieClimbB_05
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 962
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieClimbB_06
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 432
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieClimbB_07
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 702
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieClimbB_08
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 628
+        width: 36
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieClimbB_09
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 890
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieClimbB_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 957
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieClimbIdleA_00
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 692
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieClimbIdleB_00
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 560
+        width: 28
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieEndClimb_00
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 680
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieEndClimb_01
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 311
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieEndClimb_02
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 457
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieEndClimb_03
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 655
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieEndClimb_04
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 608
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieEndClimb_05
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 427
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieEndClimb_06
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 491
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieEndClimb_07
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 704
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieFall_00
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 134
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieFall_01
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 913
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieFall_02
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 785
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieFall_03
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 322
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieFall_04
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 310
+        width: 27
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieFall_05
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 901
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieFall_06
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 901
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieFall_07
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 965
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieFall_08
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 371
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieFall_09
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 372
+        width: 28
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieFall_10
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 382
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieFall_11
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 849
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieFall_12
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 682
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieFall_13
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 742
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_00
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 81
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_01
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 968
+        width: 22
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_02
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 910
+        width: 22
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_03
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 736
+        width: 23
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_04
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 968
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_05
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 910
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_06
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 852
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_07
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 852
+        width: 22
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_08
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 794
+        width: 22
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_09
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 446
+        width: 22
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_10
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 506
+        width: 22
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_11
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 447
+        width: 22
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_12
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 576
+        width: 22
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_13
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 643
+        width: 22
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_14
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 705
+        width: 22
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_15
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 968
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_16
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 736
+        width: 22
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_17
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 968
+        width: 22
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_18
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 910
+        width: 22
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_19
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 852
+        width: 22
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_20
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 794
+        width: 22
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_21
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 151
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_22
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 211
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_24
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 292
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_25
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 236
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_26
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 480
+        width: 22
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_27
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 292
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_28
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 349
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_29
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 420
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_30
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 276
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_31
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 24
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_32
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 94
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_33
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 268
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_34
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 154
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieIdleA_35
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 219
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieLand_00
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 653
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRise_00
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 648
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRise_01
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 648
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRise_02
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 653
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRise_03
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 307
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRise_04
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 449
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRise_05
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 363
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRise_06
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 414
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRise_07
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 271
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRise_08
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 163
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRise_09
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 125
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRise_10
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 307
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRise_11
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 652
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRise_12
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 595
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRise_13
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 557
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRise_14
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 519
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRise_15
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 398
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRise_16
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 986
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRise_17
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 725
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRise_18
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 130
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRise_19
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 536
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRise_20
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 265
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRise_21
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 727
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRise_22
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 791
+        width: 26
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRise_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 333
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRise_24
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 404
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRun_00
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 425
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRun_01
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 294
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRun_02
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 348
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRun_03
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 365
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRun_04
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 74
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRun_05
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 476
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRun_06
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 240
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRun_07
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 84
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRun_08
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 62
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRun_09
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 169
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRun_10
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 318
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRun_11
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 237
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRun_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 163
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRun_13
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 98
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRun_14
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 911
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRun_15
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 38
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRun_16
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 518
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRun_17
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 42
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRun_18
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 972
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRun_19
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 188
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRun_20
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 696
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRun_21
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 76
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRun_22
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 443
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRun_23
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 183
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieRun_24
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 481
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepA_00
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 77
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepA_01
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 17
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepA_02
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 461
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepA_03
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 195
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepA_04
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 74
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepA_05
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 17
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepA_06
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 843
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepA_07
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 191
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepA_08
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 17
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepA_09
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 537
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepA_10
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 214
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepA_11
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 27
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepA_12
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 561
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepA_13
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 607
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepA_14
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 175
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepA_15
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 270
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepA_16
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 546
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepA_17
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 544
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepA_18
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 800
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepA_19
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 857
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepA_20
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 77
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepA_21
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 77
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepB_00
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 461
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepB_01
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 794
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepB_02
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 592
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepB_03
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 738
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepB_04
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 592
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepB_05
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 687
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepB_06
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 533
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepB_07
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 598
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepB_08
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 10
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepB_09
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 679
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepB_10
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 892
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepB_11
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 630
+        width: 57
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepB_12
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 42
+        width: 55
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepB_13
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1
+        width: 53
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepB_14
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 687
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepB_15
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepB_16
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 937
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepB_17
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 819
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepB_18
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 162
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepB_19
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 858
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepB_20
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 461
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepC_00
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 77
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepC_01
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 669
+        width: 26
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepC_02
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 325
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepC_03
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 968
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepC_04
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 907
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepC_05
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 252
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepC_06
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 441
+        width: 28
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepC_07
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 381
+        width: 26
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepC_08
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 505
+        width: 23
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepC_09
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 678
+        width: 23
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepC_10
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 733
+        width: 26
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepC_11
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 719
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepC_12
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 798
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepC_13
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 548
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepC_14
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 772
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepC_15
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 981
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepC_16
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 980
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepC_17
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 19
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepC_18
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 130
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepC_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 915
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieStepC_20
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 532
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieWalk_00
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 219
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieWalk_01
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 275
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieWalk_02
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 336
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieWalk_03
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 866
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieWalk_04
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 506
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieWalk_05
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 125
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieWalk_06
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 112
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieWalk_07
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 326
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieWalk_08
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 600
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieWalk_09
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 387
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieWalk_10
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 214
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieWalk_11
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 392
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieWalk_12
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 266
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieWalk_13
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 163
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieWalk_14
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 111
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieWalk_15
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 119
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieWalk_16
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 604
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieWalk_17
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 753
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieWalk_18
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 809
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieWalk_19
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 12
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieWalk_20
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 378
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieWalk_21
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 439
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieWalk_22
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 494
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieWalk_23
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 430
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieWalk_24
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 322
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieWalk_25
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 266
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieWalk_26
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 78
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grenadier/zombieWalk_27
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 136
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

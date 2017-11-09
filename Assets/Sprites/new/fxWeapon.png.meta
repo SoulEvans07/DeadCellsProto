@@ -1,0 +1,4777 @@
+fileFormatVersion: 2
+guid: 6433a5904ba240240a37af11973b56e8
+timeCreated: 1510260294
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fxAtkBackstabber/fxAtkBackstabberA_0000
+    21300002: fxAtkBackstabber/fxAtkBackstabberA_0001
+    21300004: fxAtkBackstabber/fxAtkBackstabberA_0002
+    21300006: fxAtkBackstabber/fxAtkBackstabberB_0000
+    21300008: fxAtkBackstabber/fxAtkBackstabberB_0001
+    21300010: fxAtkBackstabber/fxAtkBackstabberB_0002
+    21300012: fxAtkShortSwordA/rFxAtkA_0000
+    21300014: fxAtkShortSwordA/rFxAtkA_0001
+    21300016: fxAtkShortSwordA/rFxAtkA_0002
+    21300018: fxAtkShortSwordA/rFxAtkA_0003
+    21300020: fxAtkShortSwordB/rFxAtkB_0000
+    21300022: fxAtkShortSwordB/rFxAtkB_0001
+    21300024: fxAtkShortSwordB/rFxAtkB_0002
+    21300026: fxAtkShortSwordB/rFxAtkB_0003
+    21300028: fxAtkShortSwordC/rFxAtkC_0000
+    21300030: fxAtkShortSwordC/rFxAtkC_0001
+    21300032: fxAtkShortSwordC/rFxAtkC_0002
+    21300034: fxAtkShortSwordC/rFxAtkC_0003
+    21300036: fxBroadSwordExport/fxAtkBroadSwordA_0000
+    21300038: fxBroadSwordExport/fxAtkBroadSwordA_0001
+    21300040: fxBroadSwordExport/fxAtkBroadSwordA_0002
+    21300042: fxBroadSwordExport/fxAtkBroadSwordA_0003
+    21300044: fxBroadSwordExport/fxAtkBroadSwordA_0004
+    21300046: fxBroadSwordExport/fxAtkBroadSwordA_0005
+    21300048: fxBroadSwordExport/fxAtkBroadSwordB_0000
+    21300050: fxBroadSwordExport/fxAtkBroadSwordB_0001
+    21300052: fxBroadSwordExport/fxAtkBroadSwordB_0002
+    21300054: fxBroadSwordExport/fxAtkBroadSwordB_0003
+    21300056: fxBroadSwordExport/fxAtkBroadSwordB_0004
+    21300058: fxBroadSwordExport/fxAtkBroadSwordB_0005
+    21300060: fxBroadSwordExport/fxAtkBroadSwordB_0006
+    21300062: fxBroadSwordExport/fxAtkBroadSwordB_0007
+    21300064: fxBroadSwordExport/fxAtkBroadSwordC_0000
+    21300066: fxBroadSwordExport/fxAtkBroadSwordC_0001
+    21300068: fxBroadSwordExport/fxAtkBroadSwordC_0002
+    21300070: fxBroadSwordExport/fxAtkBroadSwordC_0003
+    21300072: fxBroadSwordExport/fxAtkBroadSwordC_0004
+    21300074: fxBroadSwordExport/fxAtkBroadSwordC_0005
+    21300076: fxFireballA/fxFireballA_0000
+    21300078: fxFireballA/fxFireballA_0001
+    21300080: fxFireballA/fxFireballA_0002
+    21300082: fxFireballA/fxFireballA_0003
+    21300084: fxFireballA/fxFireballA_0004
+    21300086: fxFireballA/fxFireballA_0005
+    21300088: fxFireballA/fxFireballA_0006
+    21300090: fxFireballA/fxFireballA_0007
+    21300092: fxFireballA/fxFireballA_0008
+    21300094: fxFireballA/fxFireballA_0009
+    21300096: fxFireballA/fxFireballA_0010
+    21300098: fxFireballA/fxFireballA_0011
+    21300100: fxFireballA/fxFireballA_0012
+    21300102: fxFireballA/fxFireballA_0013
+    21300104: fxFireballA/fxFireballA_0014
+    21300106: fxFireballA/fxFireballA_0015
+    21300108: fxFireballB/fxFireballB_0000
+    21300110: fxFireballB/fxFireballB_0001
+    21300112: fxFireballB/fxFireballB_0002
+    21300114: fxFireballB/fxFireballB_0003
+    21300116: fxFireballB/fxFireballB_0004
+    21300118: fxFireballB/fxFireballB_0005
+    21300120: fxFireballB/fxFireballB_0006
+    21300122: fxFireballB/fxFireballB_0007
+    21300124: fxFireballB/fxFireballB_0008
+    21300126: fxFireballB/fxFireballB_0009
+    21300128: fxFireballB/fxFireballB_0010
+    21300130: fxFireballB/fxFireballB_0011
+    21300132: fxFireballC/fxFireballC_0000
+    21300134: fxFireballC/fxFireballC_0001
+    21300136: fxFireballC/fxFireballC_0002
+    21300138: fxFireballC/fxFireballC_0003
+    21300140: fxFireballC/fxFireballC_0004
+    21300142: fxFireballC/fxFireballC_0005
+    21300144: fxFireballC/fxFireballC_0006
+    21300146: fxFireballC/fxFireballC_0007
+    21300148: fxFireballC/fxFireballC_0008
+    21300150: fxFireballC/fxFireballC_0009
+    21300152: fxFireballC/fxFireballC_0010
+    21300154: fxFireballC/fxFireballC_0011
+    21300156: fxFireballC/fxFireballC_0012
+    21300158: fxFireballC/fxFireballC_0013
+    21300160: fxFireballC/fxFireballC_0014
+    21300162: fxFireballC/fxFireballC_0015
+    21300164: fxFireballC/fxFireballC_0016
+    21300166: fxFireballC/fxFireballC_0017
+    21300168: fxFireballC/fxFireballC_0018
+    21300170: fxFireballC/fxFireballC_0019
+    21300172: fxFireballC/fxFireballC_0020
+    21300174: fxFireballC/fxFireballC_0021
+    21300176: fxFireballC/fxFireballC_0022
+    21300178: fxFireballC/fxFireballC_0023
+    21300180: fxFireballC/fxFireballC_0024
+    21300182: fxFireballC/fxFireballC_0025
+    21300184: fxKnife/fxKnifeA_0000
+    21300186: fxKnife/fxKnifeA_0001
+    21300188: fxKnife/fxKnifeA_0002
+    21300190: fxKnife/fxKnifeA_0003
+    21300192: fxKnife/fxKnifeA_0004
+    21300194: fxKnife/fxKnifeA_0005
+    21300196: fxKnife/fxKnifeA_0006
+    21300198: fxKnife/fxKnifeA_0007
+    21300200: fxKnife/fxKnifeA_0008
+    21300202: fxKnife/fxKnifeA_0009
+    21300204: fxKnife/fxKnifeA_0010
+    21300206: fxKnife/fxKnifeA_0011
+    21300208: fxKnife/fxKnifeB_0000
+    21300210: fxKnife/fxKnifeB_0001
+    21300212: fxKnife/fxKnifeB_0002
+    21300214: fxKnife/fxKnifeB_0003
+    21300216: fxRapierA/0000
+    21300218: fxRapierA/0001
+    21300220: fxRapierA/0002
+    21300222: fxRapierA/0003
+    21300224: fxRapierA/0004
+    21300226: fxRapierA/0005
+    21300228: fxRapierA/fxRapierA_0000
+    21300230: fxRapierA/fxRapierA_0001
+    21300232: fxRapierA/fxRapierA_0002
+    21300234: fxRapierA/fxRapierA_0003
+    21300236: fxRapierA/fxRapierA_0004
+    21300238: fxRapierA/fxRapierA_0005
+    21300240: fxRapierA/fxRapierA_0006
+    21300242: fxRapierA/fxRapierA_0007
+    21300244: fxRapierA/fxRapierA_0008
+    21300246: fxRapierA/fxRapierA_0009
+    21300248: fxRapierA/fxRapierA_0010
+    21300250: fxRapierA/fxRapierA_0011
+    21300252: fxRapierA/fxRapierA_0012
+    21300254: fxRapierA/fxRapierA_0013
+    21300256: fxRapierA/fxRapierA_0014
+    21300258: fxRapierA/fxRapierA_0015
+    21300260: fxRapierA/fxRapierB_0000
+    21300262: fxRapierA/fxRapierB_0001
+    21300264: fxRapierA/fxRapierB_0002
+    21300266: fxRapierA/fxRapierB_0003
+    21300268: fxRapierA/fxRapierB_0004
+    21300270: fxRapierA/fxRapierB_0005
+    21300272: fxRapierA/fxRapierB_0006
+    21300274: fxRapierA/fxRapierB_0007
+    21300276: fxRapierA/fxRapierC_0000
+    21300278: fxRapierA/fxRapierC_0001
+    21300280: fxRapierA/fxRapierC_0002
+    21300282: fxRapierA/fxRapierC_0003
+    21300284: fxRapierA/fxRapierC_0004
+    21300286: fxRapierA/fxRapierC_0005
+    21300288: fxRapierA/fxRapierC_0006
+    21300290: fxRapierA/fxRapierC_0007
+    21300292: fxRapierA/fxRapierD_0000
+    21300294: fxRapierA/fxRapierD_0001
+    21300296: fxRapierA/fxRapierD_0002
+    21300298: fxRapierA/fxRapierD_0003
+    21300300: fxRapierA/fxRapierD_0004
+    21300302: fxRapierA/fxRapierD_0005
+    21300304: fxRapierA/fxRapierD_0006
+    21300306: fxRapierA/fxRapierD_0007
+    21300308: fxSaberA/fxSaberA_0000
+    21300310: fxSaberA/fxSaberA_0001
+    21300312: fxSaberA/fxSaberA_0002
+    21300314: fxSaberA/fxSaberA_0003
+    21300316: fxSaberA/fxSaberA_0004
+    21300318: fxSaberA/fxSaberA_0005
+    21300320: fxSaberA/fxSaberA_0006
+    21300322: fxSaberA/fxSaberB_0000
+    21300324: fxSaberA/fxSaberB_0001
+    21300326: fxSaberA/fxSaberB_0002
+    21300328: fxSaberA/fxSaberB_0003
+    21300330: fxSaberA/fxSaberB_0004
+    21300332: fxSaberA/fxSaberB_0005
+    21300334: fxSaberA/fxSaberB_0006
+    21300336: fxSpearA/0000
+    21300338: fxSpearA/0001
+    21300340: fxSpearA/0002
+    21300342: fxSpearA/0003
+    21300344: fxSpearA/0004
+    21300346: fxSpearA/0005
+    21300348: fxSpearA/0006
+    21300350: fxSpearA/0007
+    21300352: fxSpearA/0008
+    21300354: fxSpearA/0009
+    21300356: fxSpearA/0010
+    21300358: fxSpearA/0011
+    21300360: fxSpearA/0012
+    21300362: fxSpearA/0013
+    21300364: fxSpearA/0014
+    21300366: fxSpearA/0015
+    21300368: fxSpearA/0016
+    21300370: fxSpearA/fxSpearA_0000
+    21300372: fxSpearA/fxSpearA_0001
+    21300374: fxSpearA/fxSpearA_0002
+    21300376: fxSpearA/fxSpearA_0003
+    21300378: fxSpearA/fxSpearA_0004
+    21300380: fxSpearA/fxSpearA_0005
+    21300382: fxSpearA/fxSpearA_0006
+    21300384: fxSpearA/fxSpearA_0007
+    21300386: fxSpearA/fxSpearA_0008
+    21300388: fxSpearA/fxSpearA_0009
+    21300390: fxSpearA/fxSpearA_0010
+    21300392: fxSpearA/fxSpearA_0011
+    21300394: fxSpearA/fxSpearA_0012
+    21300396: fxSpearA/fxSpearA_0013
+    21300398: fxSpearA/fxSpearA_0014
+    21300400: fxSpearA/fxSpearB_0000
+    21300402: fxSpearA/fxSpearB_0001
+    21300404: fxSpearA/fxSpearB_0002
+    21300406: fxSpearA/fxSpearB_0003
+    21300408: fxSpearA/fxSpearB_0004
+    21300410: fxSpearA/fxSpearB_0005
+    21300412: fxSpearA/fxSpearB_0006
+    21300414: fxSpearA/fxSpearB_0007
+    21300416: fxSpearA/fxSpearB_0008
+    21300418: fxSpearA/fxSpearB_0009
+    21300420: fxSpearA/fxSpearB_0010
+    21300422: fxSpearA/fxSpearB_0011
+    21300424: fxSpearA/fxSpearB_0012
+    21300426: fxSpearA/fxSpearB_0013
+    21300428: fxSpearA/fxSpearB_0014
+    21300430: fxSpearA/fxSpearC_0000
+    21300432: fxSpearA/fxSpearC_0001
+    21300434: fxSpearA/fxSpearC_0002
+    21300436: fxSpearA/fxSpearC_0003
+    21300438: fxSpearA/fxSpearC_0004
+    21300440: fxSpearA/fxSpearC_0005
+    21300442: fxSpearA/fxSpearC_0006
+    21300444: fxSpearA/fxSpearC_0007
+    21300446: fxSpearA/fxSpearC_0008
+    21300448: fxSpearA/fxSpearC_0009
+    21300450: fxSpearA/fxSpearC_0010
+    21300452: fxSpearA/fxSpearC_0011
+    21300454: fxThrow/fxThrow_0000
+    21300456: fxThrow/fxThrow_0001
+    21300458: fxThrow/fxThrow_0002
+    21300460: fxThrow/fxThrow_0003
+    21300462: fxThrow/fxThrow_0004
+    21300464: fxThrow/fxThrow_0005
+    21300466: fxThrow/fxThrow_0006
+    21300468: fxTorchAtk/fxTorchAtkA_0000
+    21300470: fxTorchAtk/fxTorchAtkA_0001
+    21300472: fxTorchAtk/fxTorchAtkA_0002
+    21300474: fxTorchAtk/fxTorchAtkA_0003
+    21300476: fxTorchAtk/fxTorchAtkA_0004
+    21300478: fxTorchAtk/fxTorchAtkA_0005
+    21300480: fxTorchAtk/fxTorchAtkA_0006
+    21300482: fxTorchAtk/fxTorchAtkA_0007
+    21300484: fxTorchAtk/fxTorchAtkA_0008
+    21300486: fxTorchAtk/fxTorchAtkA_0009
+    21300488: fxTorchAtk/fxTorchAtkA_0010
+    21300490: fxTorchAtk/fxTorchAtkA_0011
+    21300492: fxTorchAtk/fxTorchAtkA_0012
+    21300494: fxTorchAtk/fxTorchAtkA_0013
+    21300496: fxTorchAtk/fxTorchAtkA_0014
+    21300498: fxTorchAtk/fxTorchAtkA_0015
+    21300500: fxTorchAtk/fxTorchAtkA_0016
+    21300502: fxTorchAtk/fxTorchAtkA_0017
+    21300504: fxTorchAtk/fxTorchAtkA_0018
+    21300506: fxTorchAtk/fxTorchAtkA_0019
+    21300508: fxTorchAtk/fxTorchAtkA_0020
+    21300510: fxTorchAtk/fxTorchAtkA_0021
+    21300512: fxTorchAtkB/fxTorchAtkB_0000
+    21300514: fxTorchAtkB/fxTorchAtkB_0001
+    21300516: fxTorchAtkB/fxTorchAtkB_0002
+    21300518: fxTorchAtkB/fxTorchAtkB_0003
+    21300520: fxTorchAtkB/fxTorchAtkB_0004
+    21300522: fxTorchAtkB/fxTorchAtkB_0005
+    21300524: fxTorchAtkB/fxTorchAtkB_0006
+    21300526: fxTorchAtkB/fxTorchAtkB_0007
+    21300528: fxTorchAtkB/fxTorchAtkB_0008
+    21300530: fxTorchAtkB/fxTorchAtkB_0009
+    21300532: fxTorchAtkB/fxTorchAtkB_0010
+    21300534: fxTorchAtkB/fxTorchAtkB_0011
+    21300536: fxTorchAtkB/fxTorchAtkB_0012
+    21300538: fxTorchAtkB/fxTorchAtkB_0013
+    21300540: fxTorchAtkB/fxTorchAtkB_0014
+    21300542: fxTorchAtkB/fxTorchAtkB_0015
+    21300544: fxTorchAtkB/fxTorchAtkB_0016
+    21300546: fxTorchAtkB/fxTorchAtkB_0017
+    21300548: fxTorchAtkB/fxTorchAtkB_0018
+    21300550: fxTorchAtkB/fxTorchAtkB_0019
+    21300552: fxTorchAtkB/fxTorchAtkB_0020
+    21300554: fxTorchAtkB/fxTorchAtkB_0021
+    21300556: fxTorchAtkB/fxTorchAtkB_0022
+    21300558: fxTorchAtkB/fxTorchAtkB_0023
+    21300560: fxTorchAtkB/fxTorchAtkB_0024
+    21300562: fxTorchAtkB/fxTorchAtkB_0025
+    21300564: fxTorchAtkB/fxTorchAtkB_0026
+    21300566: fxTorchAtkB/fxTorchAtkB_0027
+    21300568: fxTorchAtkB/fxTorchAtkB_0028
+    21300570: fxWhip/fxWhip_0000
+    21300572: fxWhip/fxWhip_0001
+    21300574: fxWhip/fxWhip_0002
+    21300576: fxWhip/fxWhip_0003
+    21300578: fxWhip/fxWhip_0004
+    21300580: fxWhip/fxWhip_0005
+    21300582: fxWhip/fxWhip_0006
+    21300584: fxWhip/fxWhip_0007
+    21300586: fxWhip/fxWhip_0008
+    21300588: fxWhip/fxWhip_0009
+    21300590: fxWhip/fxWhip_0010
+    21300592: fxWhip/fxWhip_0011
+    21300594: fxWhip/fxWhip_0012
+    21300596: fxWhip/fxWhip_0013
+    21300598: fxWhip/fxWhip_0014
+    21300600: fxWhip/fxWhip_0015
+    21300602: fxWhip/fxWhip_0016
+    21300604: fxWhip/fxWhip_0017
+    21300606: fxWhip/fxWhip_0018
+    21300608: fxWhip/fxWhip_0019
+    21300610: fxWhip/fxWhip_0020
+    21300612: fxWhip/fxWhip_0021
+    21300614: fxWhip/fxWhip_0022
+    21300616: fxWhip/fxWhip_0023
+    21300618: fxWhip/fxWhip_0024
+    21300620: fxWhip/fxWhip_0025
+    21300622: fxWhip/fxWhip_0026
+    21300624: fxWhip/fxWhip_0027
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fxAtkBackstabber/fxAtkBackstabberA_0000
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1442
+        width: 76
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxAtkBackstabber/fxAtkBackstabberA_0001
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1385
+        width: 76
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxAtkBackstabber/fxAtkBackstabberA_0002
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 498
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxAtkBackstabber/fxAtkBackstabberB_0000
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 497
+        width: 102
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxAtkBackstabber/fxAtkBackstabberB_0001
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 753
+        width: 104
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxAtkBackstabber/fxAtkBackstabberB_0002
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1316
+        width: 87
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxAtkShortSwordA/rFxAtkA_0000
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 691
+        width: 112
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxAtkShortSwordA/rFxAtkA_0001
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 892
+        width: 111
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxAtkShortSwordA/rFxAtkA_0002
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1100
+        width: 83
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxAtkShortSwordA/rFxAtkA_0003
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1266
+        width: 39
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxAtkShortSwordB/rFxAtkB_0000
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 946
+        width: 123
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxAtkShortSwordB/rFxAtkB_0001
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 909
+        width: 123
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxAtkShortSwordB/rFxAtkB_0002
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 887
+        width: 123
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxAtkShortSwordB/rFxAtkB_0003
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 894
+        width: 123
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxAtkShortSwordC/rFxAtkC_0000
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 620
+        width: 102
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxAtkShortSwordC/rFxAtkC_0001
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 415
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxAtkShortSwordC/rFxAtkC_0002
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1117
+        width: 84
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxAtkShortSwordC/rFxAtkC_0003
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1264
+        width: 73
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxBroadSwordExport/fxAtkBroadSwordA_0000
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 1506
+        width: 185
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxBroadSwordExport/fxAtkBroadSwordA_0001
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1435
+        width: 179
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxBroadSwordExport/fxAtkBroadSwordA_0002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1306
+        width: 160
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxBroadSwordExport/fxAtkBroadSwordA_0003
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1155
+        width: 135
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxBroadSwordExport/fxAtkBroadSwordA_0004
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1016
+        width: 125
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxBroadSwordExport/fxAtkBroadSwordA_0005
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1368
+        width: 48
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxBroadSwordExport/fxAtkBroadSwordB_0000
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1019
+        width: 130
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxBroadSwordExport/fxAtkBroadSwordB_0001
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 978
+        width: 130
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxBroadSwordExport/fxAtkBroadSwordB_0002
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1062
+        width: 130
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxBroadSwordExport/fxAtkBroadSwordB_0003
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1259
+        width: 140
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxBroadSwordExport/fxAtkBroadSwordB_0004
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1203
+        width: 140
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxBroadSwordExport/fxAtkBroadSwordB_0005
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1383
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxBroadSwordExport/fxAtkBroadSwordB_0006
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 507
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxBroadSwordExport/fxAtkBroadSwordB_0007
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1954
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxBroadSwordExport/fxAtkBroadSwordC_0000
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1528
+        width: 198
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxBroadSwordExport/fxAtkBroadSwordC_0001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1519
+        width: 172
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxBroadSwordExport/fxAtkBroadSwordC_0002
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 621
+        width: 103
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxBroadSwordExport/fxAtkBroadSwordC_0003
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1440
+        width: 87
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxBroadSwordExport/fxAtkBroadSwordC_0004
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 794
+        width: 63
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxBroadSwordExport/fxAtkBroadSwordC_0005
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 541
+        width: 41
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballA/fxFireballA_0000
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1909
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballA/fxFireballA_0001
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 674
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballA/fxFireballA_0002
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 741
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballA/fxFireballA_0003
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 425
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballA/fxFireballA_0004
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 574
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballA/fxFireballA_0005
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1002
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballA/fxFireballA_0006
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1002
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballA/fxFireballA_0007
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 650
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballA/fxFireballA_0008
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1326
+        width: 53
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballA/fxFireballA_0009
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1114
+        width: 133
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballA/fxFireballA_0010
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 1670
+        width: 143
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballA/fxFireballA_0011
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 1115
+        width: 135
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballA/fxFireballA_0012
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 831
+        width: 109
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballA/fxFireballA_0013
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 490
+        width: 104
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballA/fxFireballA_0014
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 1762
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballA/fxFireballA_0015
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 513
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballB/fxFireballB_0000
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1944
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballB/fxFireballB_0001
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 454
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballB/fxFireballB_0002
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 565
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballB/fxFireballB_0003
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 458
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballB/fxFireballB_0004
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 610
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballB/fxFireballB_0005
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 488
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballB/fxFireballB_0006
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 603
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballB/fxFireballB_0007
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1154
+        width: 138
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballB/fxFireballB_0008
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 1039
+        width: 131
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballB/fxFireballB_0009
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 956
+        width: 125
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballB/fxFireballB_0010
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 690
+        width: 120
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballB/fxFireballB_0011
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 809
+        width: 110
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballC/fxFireballC_0000
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1404
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballC/fxFireballC_0001
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 933
+        width: 67
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballC/fxFireballC_0002
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1331
+        width: 76
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballC/fxFireballC_0003
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1399
+        width: 75
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballC/fxFireballC_0004
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1499
+        width: 77
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballC/fxFireballC_0005
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1663
+        width: 79
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballC/fxFireballC_0006
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1736
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballC/fxFireballC_0007
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 657
+        width: 47
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballC/fxFireballC_0008
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 783
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballC/fxFireballC_0009
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1233
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballC/fxFireballC_0010
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 704
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballC/fxFireballC_0011
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 708
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballC/fxFireballC_0012
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 849
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballC/fxFireballC_0013
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1236
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballC/fxFireballC_0014
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 411
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballC/fxFireballC_0015
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 620
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballC/fxFireballC_0016
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 473
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballC/fxFireballC_0017
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1284
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballC/fxFireballC_0018
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 667
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballC/fxFireballC_0019
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1284
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballC/fxFireballC_0020
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1194
+        width: 138
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballC/fxFireballC_0021
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1209
+        width: 138
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballC/fxFireballC_0022
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1586
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballC/fxFireballC_0023
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1523
+        width: 71
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballC/fxFireballC_0024
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1464
+        width: 71
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxFireballC/fxFireballC_0025
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 988
+        width: 70
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxKnife/fxKnifeA_0000
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 552
+        width: 106
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxKnife/fxKnifeA_0001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 668
+        width: 103
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxKnife/fxKnifeA_0002
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 612
+        width: 102
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxKnife/fxKnifeA_0003
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 871
+        width: 63
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxKnife/fxKnifeA_0004
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 809
+        width: 63
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxKnife/fxKnifeA_0005
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxKnife/fxKnifeA_0006
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxKnife/fxKnifeA_0007
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxKnife/fxKnifeA_0008
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxKnife/fxKnifeA_0009
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxKnife/fxKnifeA_0010
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxKnife/fxKnifeA_0011
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxKnife/fxKnifeB_0000
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 777
+        width: 121
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxKnife/fxKnifeB_0001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 503
+        width: 95
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxKnife/fxKnifeB_0002
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1194
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxKnife/fxKnifeB_0003
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1328
+        width: 73
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/0000
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/0001
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/0002
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/0003
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/0004
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/0005
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierA_0000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 855
+        width: 119
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierA_0001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 855
+        width: 119
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierA_0002
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 978
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierA_0003
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1027
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierA_0004
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1051
+        width: 72
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierA_0005
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1040
+        width: 72
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierA_0006
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1717
+        width: 51
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierA_0007
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1717
+        width: 51
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierA_0008
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 614
+        width: 28
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierA_0009
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 614
+        width: 28
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierA_0010
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1433
+        width: 17
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierA_0011
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1433
+        width: 17
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierA_0012
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 1295
+        width: 16
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierA_0013
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 1295
+        width: 16
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierA_0014
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierA_0015
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierB_0000
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 858
+        width: 119
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierB_0001
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 858
+        width: 119
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierB_0002
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 693
+        width: 61
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierB_0003
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 659
+        width: 35
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierB_0004
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1918
+        width: 21
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierB_0005
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1935
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierB_0006
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1917
+        width: 13
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierB_0007
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierC_0000
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 858
+        width: 119
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierC_0001
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 858
+        width: 119
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierC_0002
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 693
+        width: 61
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierC_0003
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 659
+        width: 35
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierC_0004
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1918
+        width: 21
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierC_0005
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1935
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierC_0006
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1917
+        width: 13
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierC_0007
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierD_0000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1011
+        width: 120
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierD_0001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1011
+        width: 120
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierD_0002
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 704
+        width: 61
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierD_0003
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1721
+        width: 35
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierD_0004
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1912
+        width: 21
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierD_0005
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1929
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierD_0006
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1923
+        width: 14
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxRapierA/fxRapierD_0007
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSaberA/fxSaberA_0000
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1191
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSaberA/fxSaberA_0001
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 954
+        width: 124
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSaberA/fxSaberA_0002
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1228
+        width: 160
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSaberA/fxSaberA_0003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1043
+        width: 158
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSaberA/fxSaberA_0004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1147
+        width: 159
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSaberA/fxSaberA_0005
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 576
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSaberA/fxSaberA_0006
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 1356
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSaberA/fxSaberB_0000
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 918
+        width: 67
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSaberA/fxSaberB_0001
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1280
+        width: 172
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSaberA/fxSaberB_0002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1365
+        width: 168
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSaberA/fxSaberB_0003
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 777
+        width: 121
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSaberA/fxSaberB_0004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 917
+        width: 119
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSaberA/fxSaberB_0005
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 667
+        width: 116
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSaberA/fxSaberB_0006
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 703
+        width: 108
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/0000
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/0001
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/0002
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/0003
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/0004
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/0005
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/0006
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/0007
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/0008
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/0009
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/0010
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/0011
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/0012
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/0013
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/0014
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/0015
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/0016
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearA_0000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1994
+        width: 329
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearA_0001
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1975
+        width: 305
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearA_0002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1924
+        width: 302
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearA_0003
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1904
+        width: 284
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearA_0004
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 757
+        width: 114
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearA_0005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 603
+        width: 103
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearA_0006
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1280
+        width: 76
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearA_0007
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1892
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearA_0008
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearA_0009
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearA_0010
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearA_0011
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearA_0012
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearA_0013
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearA_0014
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearB_0000
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1978
+        width: 301
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearB_0001
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1895
+        width: 276
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearB_0002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1842
+        width: 268
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearB_0003
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1817
+        width: 254
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearB_0004
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 446
+        width: 100
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearB_0005
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1370
+        width: 87
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearB_0006
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 1061
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearB_0007
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1898
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearB_0008
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1887
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearB_0009
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearB_0010
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearB_0011
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearB_0012
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearB_0013
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearB_0014
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearC_0000
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1828
+        width: 276
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearC_0001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1754
+        width: 251
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearC_0002
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1730
+        width: 252
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearC_0003
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1740
+        width: 238
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearC_0004
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 582
+        width: 105
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearC_0005
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 531
+        width: 95
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearC_0006
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 968
+        width: 71
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearC_0007
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1912
+        width: 4
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearC_0008
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1882
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearC_0009
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearC_0010
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxSpearA/fxSpearC_0011
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxThrow/fxThrow_0000
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 645
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxThrow/fxThrow_0001
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1341
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxThrow/fxThrow_0002
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1501
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxThrow/fxThrow_0003
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 540
+        width: 102
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxThrow/fxThrow_0004
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 735
+        width: 55
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxThrow/fxThrow_0005
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 975
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxThrow/fxThrow_0006
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 1255
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtk/fxTorchAtkA_0000
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1941
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtk/fxTorchAtkA_0001
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1824
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtk/fxTorchAtkA_0002
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 979
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtk/fxTorchAtkA_0003
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1291
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtk/fxTorchAtkA_0004
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 1635
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtk/fxTorchAtkA_0005
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 1380
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtk/fxTorchAtkA_0006
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1294
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtk/fxTorchAtkA_0007
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1958
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtk/fxTorchAtkA_0008
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 1588
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtk/fxTorchAtkA_0009
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1937
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtk/fxTorchAtkA_0010
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1915
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtk/fxTorchAtkA_0011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 802
+        width: 119
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtk/fxTorchAtkA_0012
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1571
+        width: 91
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtk/fxTorchAtkA_0013
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 2004
+        width: 81
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtk/fxTorchAtkA_0014
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 1015
+        width: 68
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtk/fxTorchAtkA_0015
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1814
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtk/fxTorchAtkA_0016
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1284
+        width: 53
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtk/fxTorchAtkA_0017
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1461
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtk/fxTorchAtkA_0018
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 529
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtk/fxTorchAtkA_0019
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 498
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtk/fxTorchAtkA_0020
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 1405
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtk/fxTorchAtkA_0021
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0000
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 587
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0001
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 1779
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0002
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1880
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0003
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 543
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0004
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0005
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 892
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0006
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1858
+        width: 59
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0007
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1221
+        width: 73
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0008
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1762
+        width: 70
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0009
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1185
+        width: 51
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0010
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 383
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0011
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 539
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0012
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 502
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0013
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 529
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0014
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 564
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0015
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 600
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0016
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 549
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0017
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 939
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0018
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 774
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0019
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 745
+        width: 112
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0020
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1812
+        width: 97
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0021
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1617
+        width: 89
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0022
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1569
+        width: 78
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0023
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1128
+        width: 72
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0024
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1795
+        width: 48
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0025
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 462
+        width: 41
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0026
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 575
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0027
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 1606
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxTorchAtkB/fxTorchAtkB_0028
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxWhip/fxWhip_0000
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 782
+        width: 116
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxWhip/fxWhip_0001
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 873
+        width: 122
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxWhip/fxWhip_0002
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 601
+        width: 105
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxWhip/fxWhip_0003
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1912
+        width: 79
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxWhip/fxWhip_0004
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 923
+        width: 94
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxWhip/fxWhip_0005
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 536
+        width: 96
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxWhip/fxWhip_0006
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 525
+        width: 105
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxWhip/fxWhip_0007
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 844
+        width: 119
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxWhip/fxWhip_0008
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1660
+        width: 226
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxWhip/fxWhip_0009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1651
+        width: 245
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxWhip/fxWhip_0010
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1638
+        width: 216
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxWhip/fxWhip_0011
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1543
+        width: 213
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxWhip/fxWhip_0012
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1431
+        width: 190
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxWhip/fxWhip_0013
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1340
+        width: 148
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxWhip/fxWhip_0014
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1588
+        width: 157
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxWhip/fxWhip_0015
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1461
+        width: 164
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxWhip/fxWhip_0016
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1223
+        width: 159
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxWhip/fxWhip_0017
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1378
+        width: 163
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxWhip/fxWhip_0018
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 716
+        width: 63
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxWhip/fxWhip_0019
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 1119
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxWhip/fxWhip_0020
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxWhip/fxWhip_0021
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxWhip/fxWhip_0022
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxWhip/fxWhip_0023
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxWhip/fxWhip_0024
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxWhip/fxWhip_0025
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxWhip/fxWhip_0026
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fxWhip/fxWhip_0027
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1912
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

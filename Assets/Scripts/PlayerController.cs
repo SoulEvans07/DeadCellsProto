@@ -19,6 +19,7 @@ public class PlayerController : MonoBehaviour
 
 	// jump
 	public float jumpForce = 400.0f;
+	public GameObject airDash;
 	private bool doubleJumped = false;
 	private bool stomped = false;
 
@@ -75,6 +76,7 @@ public class PlayerController : MonoBehaviour
 			rd2d.velocity = new Vector2 (rd2d.velocity.x, 0);
 			rd2d.AddRelativeForce (new Vector2 (0, jumpForce));
 			doubleJumped = true;
+			Instantiate(airDash, groundCheck.position, groundCheck.rotation);
 			anim.SetBool ("player-doublejump", doubleJumped);
 		}
 		if (!grounded && !stomped && Input.GetButtonDown ("Jump") && Input.GetAxis ("Vertical") < 0) {

@@ -369,6 +369,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967039
   jumpForce: 400
+  airDash: {fileID: 1848173852240158, guid: 26374e53c5202644b8f9e1df20beeefd, type: 2}
 --- !u!61 &945522998
 BoxCollider2D:
   m_ObjectHideFlags: 0

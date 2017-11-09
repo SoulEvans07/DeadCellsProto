@@ -71,7 +71,7 @@ public class PlayerController : MonoBehaviour
 			anim.SetBool ("player-ground", false);
 			rd2d.AddForce (new Vector2 (0, jumpForce));
 		}
-		if (!grounded && !doubleJumped && !stomped && Input.GetButtonDown ("Jump") && Input.GetAxis ("Vertical") > 0) {
+		if (!grounded && !doubleJumped && !stomped && Input.GetButtonDown ("Jump") && Input.GetAxis ("Vertical") >= 0) {
 			rd2d.velocity = new Vector2 (rd2d.velocity.x, 0);
 			rd2d.AddRelativeForce (new Vector2 (0, jumpForce));
 			doubleJumped = true;
@@ -98,6 +98,7 @@ public class PlayerController : MonoBehaviour
 		BoxCollider2D itemBoxCollider2D = GetComponent<BoxCollider2D> ();
 		if (itemBoxCollider2D != null) {
 			itemBoxCollider2D.size = spriteRenderer.sprite.bounds.size;
+			itemBoxCollider2D.size.Scale(new Vector3(0.9f, 0.9f, 0.9f));
 		}
 	}
 }

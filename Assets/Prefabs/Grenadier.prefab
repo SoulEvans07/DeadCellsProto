@@ -53,7 +53,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1026756363626248}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.596, y: -0.005, z: 0}
+  m_LocalPosition: {x: -0.596, y: -0.037750307, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4642999092960494}
@@ -109,14 +109,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.22, y: 0.54}
+    oldSize: {x: 0.23, y: 0.53}
     newSize: {x: 0.22, y: 0.54}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.22, y: 0.54}
+  m_Size: {x: 0.23, y: 0.53}
   m_EdgeRadius: 0
 --- !u!95 &95168766724573380
 Animator:
@@ -150,7 +150,8 @@ MonoBehaviour:
   maxSpeed: 2.8
   attackDistance: 0.4
   slashFxOffset: {x: 0.213, y: 0.056, z: 0}
-  slashAttackFx: {fileID: 0}
+  slashAttackFx: {fileID: 1210502057978896, guid: a96d41b03dd0d8548bd26e0448a11c1f,
+    type: 2}
 --- !u!212 &212032831546477716
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -164,7 +165,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 685ce3ef1203e9242b76b1b2c6cde9f9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -183,7 +184,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300342, guid: 696fcd8b6257ac943a1beacee4df98e9, type: 3}
+  m_Sprite: {fileID: 21300398, guid: 696fcd8b6257ac943a1beacee4df98e9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

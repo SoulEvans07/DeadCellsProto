@@ -99,7 +99,7 @@ public class PlayerController : MonoBehaviour
 
 			if (move > 0 && !facingRight)
 				Flip ();
-			else if (move < 0 & facingRight)
+			else if (move < 0 && facingRight)
 				Flip ();
 
 			SetBoxCollider ();

@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 114601151960249694}
   m_Layer: 8
   m_Name: PlayerCharacter
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53,7 +53,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1153048497425962}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.027750043, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4778091200595204}
@@ -109,14 +109,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.33, y: 0.55}
+    oldSize: {x: 0.35, y: 0.55}
     newSize: {x: 0.33, y: 0.55}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.33, y: 0.55}
+  m_Size: {x: 0.35, y: 0.55}
   m_EdgeRadius: 0
 --- !u!95 &95456480760191802
 Animator:
@@ -146,13 +146,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 659366643a7fac44187e447e003bb327, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 5
+  maxSpeed: 2.8
   groundCheck: {fileID: 4778091200595204}
   whatIsGround:
     serializedVersion: 2
     m_Bits: 4294967039
-  jumpForce: 250
+  jumpForce: 280
   airDash: {fileID: 1848173852240158, guid: 26374e53c5202644b8f9e1df20beeefd, type: 2}
+  saberFxOffset: {x: 0.213, y: 0.056, z: 0}
+  saberAttackFx: {fileID: 1665487394090518, guid: 391434228b95a2643b8874f84b3194f8,
+    type: 2}
 --- !u!212 &212844082922840912
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -166,7 +169,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 384ab8cc293801740bb8d7dd80d5e865, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -185,7 +188,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21301708, guid: 8a438e08ceed56b4eb9353b25c127d1c, type: 3}
+  m_Sprite: {fileID: 21301734, guid: 8a438e08ceed56b4eb9353b25c127d1c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

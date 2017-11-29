@@ -37,7 +37,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4071032947653496}
   - component: {fileID: 61125999659286540}
-  - component: {fileID: 114309197902971940}
+  - component: {fileID: 114924890722795514}
   m_Layer: 10
   m_Name: Slash
   m_TagString: PlayerAtk
@@ -114,7 +114,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114309197902971940
+--- !u!114 &114924890722795514
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}

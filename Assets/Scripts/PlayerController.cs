@@ -7,6 +7,13 @@ public class PlayerController : MonoBehaviour
 	// Singleton
 	public static PlayerController instance;
 
+	// health
+	public float maxHealth;
+	private float health;
+	public float hitCooldown = 1f;
+	private float hitCooldownValue = 0;
+	private bool dead = false;
+
 	// moving and colliding
 	public float maxSpeed = 2.8f;
 	private bool facingRight = true;
@@ -57,6 +64,7 @@ public class PlayerController : MonoBehaviour
 	void FixedUpdate ()
 	{
 		attackCooldownValue -= Time.fixedDeltaTime;
+		hitCooldownValue -= Time.fixedDeltaTime;
 
 		if (attack) {
 			anim.SetTrigger ("player-attackX");
@@ -138,10 +146,29 @@ public class PlayerController : MonoBehaviour
 		}
 	}
 
-	void WaitForAnim(string animationName){
-		do {
-			// do nothing
-		} while (anim.GetCurrentAnimatorStateInfo(0).IsName(animationName));
+	void OnTriggerEnter2D(Collider2D other) {
+		if (!other.CompareTag ("EnemyAtk"))
+			return;
+
+		other.tag = "Untagged";
+		Attack playerAttack = other.GetComponent<Attack> ();
+		if (playerAttack != null){	
+			Hit(playerAttack);
+		}
+	}
+
+	void Hit(Attack attack){
+		hitCooldownValue = hitCooldown;
+
+		health -= attack.damage;
+
+		anim.Update(100);
+		anim.Play ("PlayerHit");
+
+		Debug.Log ("player[ hp: " + health + " ]");
+
+		if (health <= 0)
+			dead = true;
 	}
 
 	void Flip ()

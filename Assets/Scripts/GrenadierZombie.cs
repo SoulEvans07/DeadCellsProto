@@ -79,7 +79,7 @@ public class GrenadierZombie : MonoBehaviour {
 		}
 
 		anim.SetFloat ("zombie-x-speed", Mathf.Abs (move));
-		rd2d.velocity = new Vector2 (move, 0);
+		rd2d.velocity = new Vector2 (move, rd2d.velocity.y);
 
 		//if (move > 0 && !facingRight)
 		//	Flip ();

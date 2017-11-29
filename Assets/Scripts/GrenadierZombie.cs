@@ -15,12 +15,15 @@ public class GrenadierZombie : MonoBehaviour {
 	private SpriteRenderer spriteRenderer;
 
 	// attack
+	public float attackSignalTime = 1f;
+	private float attackSignalTimeValue;
 	public float attackCooldown = 1f;
 	private float attackCooldownValue = 0f;
 	public float attackDistance = 0.4f;
 	public Vector3 slashFxOffset = new Vector3(0.213f, 0.056f, 0);
 	private Vector3 slashFxOffsetLeft;
 	public GameObject slashAttackFx;
+	private bool attackStarted = false;
 
 	// hit
 	public float hitCooldown = 22 / 24f;
@@ -33,6 +36,8 @@ public class GrenadierZombie : MonoBehaviour {
 		// attack
 		slashFxOffsetLeft = slashFxOffset;
 		slashFxOffsetLeft.x *= -1;
+
+		attackSignalTimeValue = attackSignalTime;
 	}
 	
 
@@ -52,16 +57,26 @@ public class GrenadierZombie : MonoBehaviour {
 		attackCooldownValue -= Time.fixedDeltaTime;
 		hitCooldownValue -= Time.fixedDeltaTime;
 
+
 		if (0 < diffX && diffX < attackDistance && Mathf.Abs (diffY) < 0.1f) {
 			rd2d.velocity = new Vector2 (0, 0);
 			anim.SetFloat ("zombie-x-speed", 0);
 			if (attackCooldownValue <= 0) {
-				attackCooldownValue = attackCooldown;
-				Attack ();
+				attackStarted = true;
 			}
-		} else if (attackCooldownValue <= 0 && hitCooldownValue <= 0) {
+		} else if (!attackStarted) { // attackCooldownValue <= 0 && attackSignalTimeValue == attackSignalTime && hitCooldownValue <= 0
 			rd2d.velocity = new Vector2 (maxSpeed, 0);
 			anim.SetFloat ("zombie-x-speed", maxSpeed);
+		}
+
+		if (attackStarted) {
+			if (attackSignalTimeValue <= 0) {
+				attackSignalTimeValue = attackSignalTime;
+				attackCooldownValue = attackCooldown;
+				attackStarted = false;
+				Attack ();
+			}
+			attackSignalTimeValue -= Time.fixedDeltaTime;
 		}
 
 

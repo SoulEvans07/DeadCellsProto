@@ -393,7 +393,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.24
   far clip plane: 1000
   field of view: 60
   orthographic: 1
@@ -509,14 +509,8 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114252323198830388, guid: 1a9348b1c0e434e46803ba5bd09f6b07,
         type: 2}
-      propertyPath: slashAttackFx
-      value: 
-      objectReference: {fileID: 1210502057978896, guid: a96d41b03dd0d8548bd26e0448a11c1f,
-        type: 2}
-    - target: {fileID: 114252323198830388, guid: 1a9348b1c0e434e46803ba5bd09f6b07,
-        type: 2}
-      propertyPath: maxSpeed
-      value: 0.2
+      propertyPath: attackCooldown
+      value: 0.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a9348b1c0e434e46803ba5bd09f6b07, type: 2}

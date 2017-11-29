@@ -14,6 +14,8 @@ public class GrenadierZombie : MonoBehaviour {
 	private Rigidbody2D rd2d;
 	private Animator anim;
 	private SpriteRenderer spriteRenderer;
+	public Transform probe;
+	public LayerMask whatIsGround;
 
 	// attack
 	public float attackSignalTime = 1f;
@@ -29,11 +31,6 @@ public class GrenadierZombie : MonoBehaviour {
 	// hit
 	public float hitCooldown = 22 / 24f;
 	private float hitCooldownValue = 0;
-
-	// collision
-	public Transform probe;
-	public LayerMask whatIsGround;
-
 
 	void Start () {
 		rd2d = GetComponent<Rigidbody2D> ();
@@ -81,11 +78,6 @@ public class GrenadierZombie : MonoBehaviour {
 		anim.SetFloat ("zombie-x-speed", Mathf.Abs (move));
 		rd2d.velocity = new Vector2 (move, rd2d.velocity.y);
 
-		//if (move > 0 && !facingRight)
-		//	Flip ();
-		//else if (move < 0 & facingRight)
-		//	Flip ();
-
 		if (attackStarted) {
 			if (attackSignalTimeValue <= 0) {
 				attackSignalTimeValue = attackSignalTime;
@@ -124,13 +116,13 @@ public class GrenadierZombie : MonoBehaviour {
 			return;
 
 		other.tag = "Untagged";
-		PlayerAttack playerAttack = other.GetComponent<PlayerAttack> ();
+		Attack playerAttack = other.GetComponent<Attack> ();
 		if (playerAttack != null){	
 			Hit(playerAttack);
 		}
 	}
 
-	void Hit(PlayerAttack attack){
+	void Hit(Attack attack){
 		attackSignalTimeValue = attackSignalTime;
 		attackCooldownValue = attackCooldown;
 		attackStarted = false;
@@ -160,6 +152,10 @@ public class GrenadierZombie : MonoBehaviour {
 		Vector3 theScale = transform.localScale;
 		theScale.x *= -1;
 		transform.localScale = theScale;
+
+		theScale = probe.localScale;
+		theScale.x *= -1;
+		probe.localScale = theScale;
 	}
 
 	void SetBoxCollider ()

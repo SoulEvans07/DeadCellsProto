@@ -9,6 +9,7 @@ public class GrenadierZombie : MonoBehaviour {
 
 	// moving and colliding
 	public float maxSpeed = 0.4f;
+	private float move = 0f;
 	private bool facingRight = true;
 	private Rigidbody2D rd2d;
 	private Animator anim;
@@ -28,6 +29,11 @@ public class GrenadierZombie : MonoBehaviour {
 	// hit
 	public float hitCooldown = 22 / 24f;
 	private float hitCooldownValue = 0;
+
+	// collision
+	public Transform probe;
+	public LayerMask whatIsGround;
+
 
 	void Start () {
 		rd2d = GetComponent<Rigidbody2D> ();
@@ -59,15 +65,26 @@ public class GrenadierZombie : MonoBehaviour {
 
 
 		if (0 < diffX && diffX < attackDistance && Mathf.Abs (diffY) < 0.1f) {
-			rd2d.velocity = new Vector2 (0, 0);
-			anim.SetFloat ("zombie-x-speed", 0);
+			move = 0;
 			if (attackCooldownValue <= 0) {
 				attackStarted = true;
 			}
 		} else if (!attackStarted) { // attackCooldownValue <= 0 && attackSignalTimeValue == attackSignalTime && hitCooldownValue <= 0
-			rd2d.velocity = new Vector2 (maxSpeed, 0);
-			anim.SetFloat ("zombie-x-speed", maxSpeed);
+
+			if (Physics2D.OverlapCircle (probe.position, 0.1f, whatIsGround) != null) {
+				Flip ();
+			}
+
+			move = (facingRight ? 1 : -1) * maxSpeed;
 		}
+
+		anim.SetFloat ("zombie-x-speed", Mathf.Abs (move));
+		rd2d.velocity = new Vector2 (move, 0);
+
+		//if (move > 0 && !facingRight)
+		//	Flip ();
+		//else if (move < 0 & facingRight)
+		//	Flip ();
 
 		if (attackStarted) {
 			if (attackSignalTimeValue <= 0) {
@@ -78,17 +95,11 @@ public class GrenadierZombie : MonoBehaviour {
 			}
 			attackSignalTimeValue -= Time.fixedDeltaTime;
 		}
-
-
-		//if (move > 0 && !facingRight)
-		//	Flip ();
-		//else if (move < 0 & facingRight)
-		//	Flip ();
 	}
 
 	void Attack(){
-		SpawnSlashFx();
 		anim.Play("ZombieAtkA");
+		SpawnSlashFx();
 	}
 
 	void SpawnSlashFx(){

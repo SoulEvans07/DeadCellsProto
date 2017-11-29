@@ -34,6 +34,8 @@ public class PlayerController : MonoBehaviour
 	public Vector3 saberFxOffset = new Vector3(0.213f, 0.056f, 0);
 	private Vector3 saberFxOffsetLeft;
 	public GameObject saberAttackFx;
+	public float attackCooldown = 0.3f;
+	private float attackCooldownValue = 0f;
 
 	void Awake(){
 		if (instance != null)
@@ -54,6 +56,8 @@ public class PlayerController : MonoBehaviour
 
 	void FixedUpdate ()
 	{
+		attackCooldownValue -= Time.fixedDeltaTime;
+
 		if (attack) {
 			anim.SetTrigger ("player-attackX");
 			GameObject slash;
@@ -108,7 +112,8 @@ public class PlayerController : MonoBehaviour
 
 	void Update ()
 	{
-		if (Input.GetButtonDown ("Fire2")) {
+		if (attackCooldownValue <= 0 && Input.GetButtonDown ("Fire2")) {
+			attackCooldownValue = attackCooldown;
 			attack = true;
 			return;
 		}

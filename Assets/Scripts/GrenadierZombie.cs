@@ -131,7 +131,12 @@ public class GrenadierZombie : MonoBehaviour {
 	}
 
 	void Hit(PlayerAttack attack){
+		attackSignalTimeValue = attackSignalTime;
+		attackCooldownValue = attackCooldown;
+		attackStarted = false;
+
 		hitCooldownValue = hitCooldown;
+
 		health -= attack.damage;
 
 		anim.Update(100);

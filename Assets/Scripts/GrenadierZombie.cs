@@ -8,18 +8,23 @@ public class GrenadierZombie : MonoBehaviour {
 	private bool dead = false;
 
 	// moving and colliding
-	public float maxSpeed = 2.8f;
+	public float maxSpeed = 0.4f;
 	private bool facingRight = true;
 	private Rigidbody2D rd2d;
 	private Animator anim;
 	private SpriteRenderer spriteRenderer;
 
 	// attack
-	private bool attack = false;
+	public float attackCooldown = 1f;
+	private float attackCooldownValue = 0f;
 	public float attackDistance = 0.4f;
 	public Vector3 slashFxOffset = new Vector3(0.213f, 0.056f, 0);
 	private Vector3 slashFxOffsetLeft;
 	public GameObject slashAttackFx;
+
+	// hit
+	public float hitCooldown = 22 / 24f;
+	private float hitCooldownValue = 0;
 
 	void Start () {
 		rd2d = GetComponent<Rigidbody2D> ();
@@ -32,10 +37,6 @@ public class GrenadierZombie : MonoBehaviour {
 	
 
 	void FixedUpdate (){
-		if (attack) {
-			return;
-		}
-
 		SetBoxCollider ();
 		if (dead) {
 			Die ();
@@ -43,12 +44,24 @@ public class GrenadierZombie : MonoBehaviour {
 		}
 
 
-		// live
+		// attack
 		Transform playerTrans = PlayerController.instance.transform;
 		float diffX = playerTrans.position.x - transform.position.x;
 		float diffY = playerTrans.position.y - transform.position.y;
-		if(0 < diffX && diffX < attackDistance && Mathf.Abs(diffY) < 0.1f){
-			StartCoroutine(Attack());
+
+		attackCooldownValue -= Time.fixedDeltaTime;
+		hitCooldownValue -= Time.fixedDeltaTime;
+
+		if (0 < diffX && diffX < attackDistance && Mathf.Abs (diffY) < 0.1f) {
+			rd2d.velocity = new Vector2 (0, 0);
+			anim.SetFloat ("zombie-x-speed", 0);
+			if (attackCooldownValue <= 0) {
+				attackCooldownValue = attackCooldown;
+				Attack ();
+			}
+		} else if (attackCooldownValue <= 0 && hitCooldownValue <= 0) {
+			rd2d.velocity = new Vector2 (maxSpeed, 0);
+			anim.SetFloat ("zombie-x-speed", maxSpeed);
 		}
 
 
@@ -58,15 +71,9 @@ public class GrenadierZombie : MonoBehaviour {
 		//	Flip ();
 	}
 
-	IEnumerator Attack(){
-		attack = true;
-
+	void Attack(){
 		SpawnSlashFx();
-		anim.SetBool ("zombie-attack", true);
-		yield return new WaitForSeconds (0.8f);
-		anim.SetBool ("zombie-attack", false);
-
-		attack = false;
+		anim.Play("ZombieAtkA");
 	}
 
 	void SpawnSlashFx(){
@@ -87,15 +94,27 @@ public class GrenadierZombie : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D other) {
-		health -= 10;
 		if (!other.CompareTag ("PlayerAtk"))
 			return;
-		anim.SetTrigger ("zombie-hit");
+
+		other.tag = "Untagged";
+		PlayerAttack playerAttack = other.GetComponent<PlayerAttack> ();
+		if (playerAttack != null){	
+			Hit(playerAttack);
+		}
+	}
+
+	void Hit(PlayerAttack attack){
+		hitCooldownValue = hitCooldown;
+		health -= attack.damage;
+
+		anim.Update(100);
+		anim.Play ("ZombieHit");
+
+		Debug.Log ("zombie[ hp: " + health + " ]");
 
 		if (health <= 0)
 			dead = true;
-
-		Debug.Log ("zombie[ hp: " + health + " ]");
 	}
 
 	void Die(){

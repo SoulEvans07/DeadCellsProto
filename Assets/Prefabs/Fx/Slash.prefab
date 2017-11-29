@@ -37,6 +37,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4071032947653496}
   - component: {fileID: 61125999659286540}
+  - component: {fileID: 114309197902971940}
   m_Layer: 10
   m_Name: Slash
   m_TagString: PlayerAtk
@@ -113,6 +114,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114309197902971940
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1665487394090518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 359c68e1eb583d14e9b5dcfbaf994289, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 10
 --- !u!212 &212544766565764758
 SpriteRenderer:
   m_ObjectHideFlags: 1

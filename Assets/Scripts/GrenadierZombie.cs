@@ -153,10 +153,13 @@ public class GrenadierZombie : MonoBehaviour {
 			
 		Destroy (gameObject, 1f);
 
+		Transform playerTrans = PlayerController.instance.transform;
+
 		while(gemNum > 0){
 			Quaternion rotation = transform.rotation;
 			GameObject gem = Instantiate (spawnGem, transform.position, rotation) as GameObject;
-			gem.GetComponent<Rigidbody2D> ().AddForce(new Vector2(Random.Range(-150, 150), Random.Range(80, 150)));
+			int dir = (playerTrans.position.x - gem.transform.position.x) < 0 ? 1 : -1;
+			gem.GetComponent<Rigidbody2D> ().AddForce(new Vector2( dir * Random.Range(100, 150), Random.Range(100, 150)));
 			gemNum--;
 		}
 	}

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class PlayerController : MonoBehaviour
 	public static PlayerController instance;
 
 	// health
-	public float maxHealth = 100f;
+	public float maxHealth = 15f;
 	private float health;
 	public float hitCooldown = 1f;
 	private float hitCooldownValue = 0;
@@ -47,9 +48,10 @@ public class PlayerController : MonoBehaviour
 	public float attackCooldown = 0.3f;
 	private float attackCooldownValue = 0f;
 
-	// stats
+	// score
 	private int gold = 0;
 	private int cells = 0;
+	public TextMeshProUGUI goldLabel;
 
 
 	public PlayerController (){
@@ -69,6 +71,8 @@ public class PlayerController : MonoBehaviour
 
 	void Start ()
 	{
+		PlayerPrefs.DeleteKey ("player-gold");;
+
 		rd2d = GetComponent<Rigidbody2D> ();
 		anim = GetComponent<Animator> ();
 		spriteRenderer = GetComponent<SpriteRenderer> ();
@@ -76,7 +80,14 @@ public class PlayerController : MonoBehaviour
 		// attack
 		saberFxOffsetLeft = saberFxOffset;
 		saberFxOffsetLeft.x *= -1;
+
 		healthBar.value = (int)(100 * health / maxHealth);
+		goldLabel.text = gold.ToString();
+	}
+
+	public void PickUpGold(int value){
+		gold += value;
+		goldLabel.text = gold.ToString();
 	}
 
 	void Die(){

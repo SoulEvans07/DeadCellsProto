@@ -24,7 +24,7 @@ public class HighScoreMenu : MonoBehaviour {
 		if (highscore < gold) {
 			// change text to "new highscore"
 			highscoreLabel.text = "New Highscore!";
-
+			highscore = gold;
 			PlayerPrefs.SetInt("highscore", gold);
 		}
 
@@ -36,5 +36,10 @@ public class HighScoreMenu : MonoBehaviour {
 
 	public void MainMenu(){
 		SceneManager.LoadScene ("Menu");
+	}
+
+	public void ClearHighscore(){
+		PlayerPrefs.DeleteKey("highscore");
+		scoreLabel.text = 0.ToString();
 	}
 }

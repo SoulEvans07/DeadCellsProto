@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GrenadierZombie : MonoBehaviour {
 	// life
-	public int health = 100;
+	public float health = 100f;
 	private bool dead = false;
 
 	// moving and colliding

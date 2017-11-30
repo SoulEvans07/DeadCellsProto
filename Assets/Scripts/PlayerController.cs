@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
 	public static PlayerController instance;
 
 	// health
-	public float maxHealth;
+	public float maxHealth = 100f;
 	private float health;
 	public float hitCooldown = 1f;
 	private float hitCooldownValue = 0;
@@ -44,6 +44,15 @@ public class PlayerController : MonoBehaviour
 	public float attackCooldown = 0.3f;
 	private float attackCooldownValue = 0f;
 
+	public PlayerController (){
+		health = maxHealth;
+	}
+
+	public PlayerController(Vector3 startingPos){
+		health = maxHealth;
+		transform.position = startingPos;
+	}
+
 	void Awake(){
 		if (instance != null)
 			Debug.LogWarning ("more than one instance");
@@ -63,6 +72,10 @@ public class PlayerController : MonoBehaviour
 
 	void FixedUpdate ()
 	{
+		if (dead) {
+			Destroy (gameObject);
+		}
+			
 		attackCooldownValue -= Time.fixedDeltaTime;
 		hitCooldownValue -= Time.fixedDeltaTime;
 
@@ -167,8 +180,9 @@ public class PlayerController : MonoBehaviour
 
 		Debug.Log ("player[ hp: " + health + " ]");
 
-		if (health <= 0)
+		if (health <= 0) {
 			dead = true;
+		}
 	}
 
 	void Flip ()

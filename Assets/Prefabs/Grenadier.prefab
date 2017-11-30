@@ -175,8 +175,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 020221e0a510b8f4b9c0b6e092d8ccfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 30
   maxSpeed: 0.4
+  probe: {fileID: 4861126956279618}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 1
   attackSignalTime: 0.5
   attackCooldown: 1
   attackDistance: 0.4
@@ -184,10 +188,8 @@ MonoBehaviour:
   slashAttackFx: {fileID: 1210502057978896, guid: a96d41b03dd0d8548bd26e0448a11c1f,
     type: 2}
   hitCooldown: 0.9166667
-  probe: {fileID: 4861126956279618}
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 1
+  spawnGem: {fileID: 1470306582208548, guid: f6a94808a93965c47a6f961c89a0137f, type: 2}
+  maxGem: 5
 --- !u!212 &212032831546477716
 SpriteRenderer:
   m_ObjectHideFlags: 1

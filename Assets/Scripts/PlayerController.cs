@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
 	public static PlayerController instance;
 
 	// health
-	public float maxHealth = 15f;
+	public float maxHealth = 30f;
 	private float health;
 	public float hitCooldown = 1f;
 	private float hitCooldownValue = 0;
@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour
 
 	// score
 	private int gold = 0;
-	private int cells = 0;
+	//private int cells = 0;
 	public TextMeshProUGUI goldLabel;
 
 

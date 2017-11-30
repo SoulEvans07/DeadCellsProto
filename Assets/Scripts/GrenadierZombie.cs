@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GrenadierZombie : MonoBehaviour {
 	// life
-	public float health = 100f;
+	public float health = 30f;
 	private bool dead = false;
 
 	// moving and colliding
@@ -32,6 +32,11 @@ public class GrenadierZombie : MonoBehaviour {
 	public float hitCooldown = 22 / 24f;
 	private float hitCooldownValue = 0;
 
+	// gems
+	public GameObject spawnGem;
+	public int maxGem = 5;
+	private int gemNum;
+
 	void Start () {
 		rd2d = GetComponent<Rigidbody2D> ();
 		anim = GetComponent<Animator> ();
@@ -41,13 +46,15 @@ public class GrenadierZombie : MonoBehaviour {
 		slashFxOffsetLeft.x *= -1;
 
 		attackSignalTimeValue = attackSignalTime;
+
+		gemNum = Random.Range (0, maxGem);
 	}
 	
 
 	void FixedUpdate (){
 		SetBoxCollider ();
 		if (dead) {
-			Die ();
+			Die();
 			return;
 		}
 
@@ -143,7 +150,14 @@ public class GrenadierZombie : MonoBehaviour {
 	void Die(){
 		// play animation
 		anim.SetBool("zombie-dead", dead);
+			
 		Destroy (gameObject, 1f);
+
+		while(gemNum > 0){
+			GameObject gem = Instantiate (spawnGem, transform.position, Random.rotation) as GameObject;
+			gem.GetComponent<Rigidbody2D> ().AddForce(new Vector2(Random.Range(-150, 150), Random.Range(0, 150)));
+			gemNum--;
+		}
 	}
 
 	void Flip ()

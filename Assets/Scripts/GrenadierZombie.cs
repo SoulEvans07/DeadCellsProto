@@ -54,7 +54,7 @@ public class GrenadierZombie : MonoBehaviour {
 
 		// attack
 		Transform playerTrans = PlayerController.instance.transform;
-		float diffX = playerTrans.position.x - transform.position.x;
+		float diffX = (facingRight ? (playerTrans.position.x - transform.position.x) : (transform.position.x - playerTrans.position.x));
 		float diffY = playerTrans.position.y - transform.position.y;
 
 		attackCooldownValue -= Time.fixedDeltaTime;

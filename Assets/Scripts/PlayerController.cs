@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -13,6 +15,7 @@ public class PlayerController : MonoBehaviour
 	public float hitCooldown = 1f;
 	private float hitCooldownValue = 0;
 	private bool dead = false;
+	public Slider healthBar;
 
 	// moving and colliding
 	public float maxSpeed = 2.8f;
@@ -44,6 +47,11 @@ public class PlayerController : MonoBehaviour
 	public float attackCooldown = 0.3f;
 	private float attackCooldownValue = 0f;
 
+	// stats
+	private int gold = 0;
+	private int cells = 0;
+
+
 	public PlayerController (){
 		health = maxHealth;
 	}
@@ -68,12 +76,23 @@ public class PlayerController : MonoBehaviour
 		// attack
 		saberFxOffsetLeft = saberFxOffset;
 		saberFxOffsetLeft.x *= -1;
+		healthBar.value = (int)(100 * health / maxHealth);
+	}
+
+	void Die(){
+		PlayerPrefs.SetInt ("player-gold", gold);
+
+		// Death animation
+		Destroy(gameObject);
+
+		// Display highscore
+		SceneManager.LoadScene("HighScore");
 	}
 
 	void FixedUpdate ()
 	{
 		if (dead) {
-			Destroy (gameObject);
+			Die ();
 		}
 			
 		attackCooldownValue -= Time.fixedDeltaTime;
@@ -181,8 +200,12 @@ public class PlayerController : MonoBehaviour
 		Debug.Log ("player[ hp: " + health + " ]");
 
 		if (health <= 0) {
+			health = 0;
 			dead = true;
 		}
+
+		Debug.Log("full: " + (100 * health / maxHealth) + ", int: " + (int)(100 * health / maxHealth));
+		healthBar.value = (int)(100 * health / maxHealth);
 	}
 
 	void Flip ()

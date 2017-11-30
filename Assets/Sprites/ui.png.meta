@@ -1,0 +1,1687 @@
+fileFormatVersion: 2
+guid: fef5f43386b89f048b82230992072464
+timeCreated: 1512039186
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: title/logo
+    21300002: title/padScreen
+    21300004: title/titleBoat
+    21300006: title/titleFrontGrass0
+    21300008: title/titleFrontGrass1
+    21300010: title/titleFrontLand
+    21300012: title/titleLeaves
+    21300014: title/titleScreen
+    21300016: title/titleSelection
+    21300018: ui/alphaRamp
+    21300020: ui/babar
+    21300022: ui/btnA
+    21300024: ui/btnB
+    21300026: ui/btnLb
+    21300028: ui/btnLt
+    21300030: ui/btnRb
+    21300032: ui/btnRt
+    21300034: ui/btnSelect
+    21300036: ui/btnStart
+    21300038: ui/btnX
+    21300040: ui/btnY
+    21300042: ui/collectorTabIconAll
+    21300044: ui/collectorTabIconMeta
+    21300046: ui/collectorTabIconSkills
+    21300048: ui/collectorTabIconWeapons
+    21300050: ui/collectorTabOff
+    21300052: ui/collectorTabOn
+    21300054: ui/cptBg
+    21300056: ui/flask_0
+    21300058: ui/flask_1
+    21300060: ui/flask_2
+    21300062: ui/flask_3
+    21300064: ui/flask_4
+    21300066: ui/flaskA_0
+    21300068: ui/flaskA_1
+    21300070: ui/flaskB_0
+    21300072: ui/flaskB_1
+    21300074: ui/flaskB_2
+    21300076: ui/flaskC_0
+    21300078: ui/flaskC_1
+    21300080: ui/flaskC_2
+    21300082: ui/flaskC_3
+    21300084: ui/flaskD_0
+    21300086: ui/flaskD_1
+    21300088: ui/flaskD_2
+    21300090: ui/flaskD_3
+    21300092: ui/flaskD_4
+    21300094: ui/frameBg
+    21300096: ui/FrameCollector
+    21300098: ui/gauge
+    21300100: ui/gaugeBg
+    21300102: ui/gaugeBorder
+    21300104: ui/gaugeDeco
+    21300106: ui/heart_empty
+    21300108: ui/heart_full
+    21300110: ui/heart_half
+    21300112: ui/keyboardArrowDown
+    21300114: ui/keyboardArrowLeft
+    21300116: ui/keyboardArrowRight
+    21300118: ui/keyboardArrowUp
+    21300120: ui/keyboardLeft
+    21300122: ui/keyboardRight
+    21300124: ui/keyboardShift
+    21300126: ui/keyboardTab
+    21300128: ui/keyboardTile
+    21300130: ui/levelPill
+    21300132: ui/lifeBg
+    21300134: ui/lifeDecay
+    21300136: ui/lifeDeco
+    21300138: ui/lifeEmpty
+    21300140: ui/lifeFull
+    21300142: ui/lifeFullBoss
+    21300144: ui/lifePill
+    21300146: ui/lifeReco
+    21300148: ui/lifeSeparator
+    21300150: ui/mouseLeftClic
+    21300152: ui/mouseMiddleClic
+    21300154: ui/mouseNext
+    21300156: ui/mousePrevious
+    21300158: ui/mouseRightClic
+    21300160: ui/portrait
+    21300162: ui/ps4Circle
+    21300164: ui/ps4Cross
+    21300166: ui/ps4Dpad
+    21300168: ui/ps4Home
+    21300170: ui/ps4La
+    21300172: ui/ps4Lb
+    21300174: ui/ps4Lc
+    21300176: ui/ps4Ls
+    21300178: ui/ps4Options
+    21300180: ui/ps4Ra
+    21300182: ui/ps4Rb
+    21300184: ui/ps4Rc
+    21300186: ui/ps4Rs
+    21300188: ui/ps4Share
+    21300190: ui/ps4Square
+    21300192: ui/ps4Tactile
+    21300194: ui/ps4Triangle
+    21300196: ui/rewardItemBack
+    21300198: ui/skillBgA
+    21300200: ui/skillBgB
+    21300202: ui/skillTipBg
+    21300204: ui/Stick
+    21300206: ui/test
+    21300208: ui/uiToolTip_corner
+    21300210: ui/uiToolTip_whiteLine
+    21300212: ui/walterWhite
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: title/logo
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 833
+        width: 651
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: title/padScreen
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1548
+        width: 799
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: title/titleBoat
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1911
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: title/titleFrontGrass0
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1925
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: title/titleFrontGrass1
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1899
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: title/titleFrontLand
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 801
+        width: 466
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: title/titleLeaves
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1885
+        width: 47
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: title/titleScreen
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1046
+        width: 799
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: title/titleSelection
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 2034
+        width: 161
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/alphaRamp
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 2029
+        width: 126
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/babar
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1965
+        width: 1
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/btnA
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1733
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/btnB
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1718
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/btnLb
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 1891
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/btnLt
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 1711
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/btnRb
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 1875
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/btnRt
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1707
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/btnSelect
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 1702
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/btnStart
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1694
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/btnX
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1690
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/btnY
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 1750
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/collectorTabIconAll
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1824
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/collectorTabIconMeta
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1821
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/collectorTabIconSkills
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1741
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/collectorTabIconWeapons
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1816
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/collectorTabOff
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 1999
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/collectorTabOn
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 1860
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/cptBg
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 1817
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/flask_0
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1789
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/flask_1
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1770
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/flask_2
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 1833
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/flask_3
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1805
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/flask_4
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1806
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/flaskA_0
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 1869
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/flaskA_1
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 1794
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/flaskB_0
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1719
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/flaskB_1
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1735
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/flaskB_2
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1762
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/flaskC_0
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 1783
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/flaskC_1
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1797
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/flaskC_2
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1833
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/flaskC_3
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1807
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/flaskD_0
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1789
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/flaskD_1
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1770
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/flaskD_2
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 1833
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/flaskD_3
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1805
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/flaskD_4
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1806
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/frameBg
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1907
+        width: 102
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/FrameCollector
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1935
+        width: 116
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/gauge
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 2008
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/gaugeBg
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1978
+        width: 1
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/gaugeBorder
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1912
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/gaugeDeco
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1990
+        width: 97
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/heart_empty
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1832
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/heart_full
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1875
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/heart_half
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1853
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/keyboardArrowDown
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 1786
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/keyboardArrowLeft
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 1767
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/keyboardArrowRight
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1775
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/keyboardArrowUp
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1761
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/keyboardLeft
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 1850
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/keyboardRight
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1874
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/keyboardShift
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 1801
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/keyboardTab
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1790
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/keyboardTile
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 2010
+        width: 1
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/levelPill
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1767
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/lifeBg
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1952
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/lifeDecay
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1952
+        width: 1
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/lifeDeco
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1981
+        width: 79
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/lifeEmpty
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 1872
+        width: 1
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/lifeFull
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 1872
+        width: 1
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/lifeFullBoss
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 1872
+        width: 1
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/lifePill
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 1745
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/lifeReco
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1861
+        width: 1
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/lifeSeparator
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 2014
+        width: 3
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/mouseLeftClic
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1766
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/mouseMiddleClic
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1780
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/mouseNext
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1769
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/mousePrevious
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1762
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/mouseRightClic
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1784
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/portrait
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1999
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/ps4Circle
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1743
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/ps4Cross
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 1750
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/ps4Dpad
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 1750
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/ps4Home
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 1750
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/ps4La
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1801
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/ps4Lb
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 1729
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/ps4Lc
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1834
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/ps4Ls
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1815
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/ps4Options
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1893
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/ps4Ra
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1787
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/ps4Rb
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1725
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/ps4Rc
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1742
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/ps4Rs
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1743
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/ps4Share
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 1892
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/ps4Square
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1750
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/ps4Tactile
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1760
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/ps4Triangle
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1733
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/rewardItemBack
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 932
+        width: 304
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/skillBgA
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1834
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/skillBgB
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1845
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/skillTipBg
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1864
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/Stick
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 1971
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/test
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 1864
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/uiToolTip_corner
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 2002
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/uiToolTip_whiteLine
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 2006
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui/walterWhite
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 2006
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

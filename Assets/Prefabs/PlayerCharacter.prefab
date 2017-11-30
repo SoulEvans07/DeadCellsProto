@@ -146,6 +146,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 659366643a7fac44187e447e003bb327, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 100
+  hitCooldown: 1
   maxSpeed: 2.8
   groundCheck: {fileID: 4778091200595204}
   whatIsGround:

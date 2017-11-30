@@ -90,8 +90,11 @@ public class PlayerController : MonoBehaviour
 		goldLabel.text = gold.ToString();
 	}
 
-	void Die(){
+	public void Die(){
 		PlayerPrefs.SetInt ("player-gold", gold);
+
+		health = 0;
+		healthBar.value = 0;
 
 		// Death animation
 		Destroy(gameObject);

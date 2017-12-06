@@ -9,7 +9,7 @@ public class Food : Item
         if (!other.CompareTag ("Player"))
             return;
         
-        PlayerController.instance.PickUpFood (heal);
+        PlayerController.instance.Heal (heal);
         
         Destroy(gameObject);
     }

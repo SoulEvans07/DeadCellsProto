@@ -1,4 +1,6 @@
-﻿using TMPro;
+﻿using System;
+using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -9,15 +11,16 @@ public class PlayerController : MonoBehaviour
 	public static PlayerController instance;
 
 	// health
-	public float maxHealth = 30f;
+	public float maxHealth = 100f;
 	private float health;
 	public float hitCooldown = 1f;
 	private float hitCooldownValue = 0;
 	private bool dead = false;
 	public Slider healthBar;
-	
-	// heal
 	public GameObject healEffect;
+	public float healWait = 2f;
+	private float healPress;
+	public GameObject potion;
 
 	// moving and colliding
 	public float maxSpeed = 2.8f;
@@ -86,14 +89,6 @@ public class PlayerController : MonoBehaviour
 		goldLabel.text = gold.ToString();
 	}
 
-	public void PickUpFood(float value)
-	{
-		health += value;
-		UpdateHealthBar();
-		GameObject effect = Instantiate(healEffect, transform) as GameObject;
-		Destroy(effect, 0.8f);
-	}
-
 	public void PickUpGold(int value){
 		gold += value;
 		goldLabel.text = gold.ToString();
@@ -146,9 +141,9 @@ public class PlayerController : MonoBehaviour
 			grounded = Physics2D.OverlapCircle (groundCheck.position, groundRadius, whatIsGround);
 			if (grounded && doubleJumped) {
 				doubleJumped = false;
-				stomped = false;
+//				stomped = false;
 				anim.SetBool ("player-doublejump", doubleJumped);
-				anim.SetBool ("player-stomp", doubleJumped);
+//				anim.SetBool ("player-stomp", doubleJumped);
 			}
 		
 			anim.SetBool ("player-ground", grounded);
@@ -172,6 +167,7 @@ public class PlayerController : MonoBehaviour
 			SetBoxCollider ();
 		}
 	}
+	
 
 	void Update ()
 	{
@@ -181,9 +177,33 @@ public class PlayerController : MonoBehaviour
 			return;
 		}
 
-		if (grounded && Input.GetButtonDown ("Jump")) {
-			anim.SetBool ("player-ground", false);
-			rd2d.AddForce (new Vector2 (0, jumpForce));
+		if (Input.GetButton("Heal"))
+		{
+			healPress += Time.deltaTime;
+			if (healPress >= healWait)
+			{
+				healPress = 0;
+				if(!health.Equals(maxHealth))
+					Heal(potion.GetComponent<PotionHandler>().UsePotion());
+			}
+		}
+		else
+		{
+			healPress = 0;
+		}
+
+		if (grounded && Input.GetButtonDown ("Jump"))
+		{
+			Collider2D standingOn = Physics2D.OverlapCircle (groundCheck.position, groundRadius, whatIsGround);
+			if (standingOn != null && standingOn.CompareTag("Platform") && Input.GetAxis ("Vertical") < 0)
+			{
+				standingOn.GetComponent<OneWayPlatform>().letThroughPlayer();
+			}
+			else
+			{
+				anim.SetBool("player-ground", false);
+				rd2d.AddForce(new Vector2(0, jumpForce));
+			}
 		}
 		if (!grounded && !doubleJumped && !stomped && Input.GetButtonDown ("Jump") && Input.GetAxis ("Vertical") >= 0) {
 			rd2d.velocity = new Vector2 (rd2d.velocity.x, 0);
@@ -196,9 +216,20 @@ public class PlayerController : MonoBehaviour
 		if (!grounded && !stomped && Input.GetButtonDown ("Jump") && Input.GetAxis ("Vertical") < 0) {
 			rd2d.velocity = new Vector2 (rd2d.velocity.x, 0);
 			rd2d.AddRelativeForce (new Vector2 (0, -1 * jumpForce));
-			stomped = true;
-			anim.SetBool ("player-stomp", stomped);
+//			stomped = true;
+//			anim.SetBool ("player-stomp", true);
 		}
+	}
+
+	public void Heal(float amount)
+	{
+		if(amount <= 0)
+			return;
+		
+		health += amount;
+		UpdateHealthBar();
+		GameObject effect = Instantiate(healEffect, transform) as GameObject;
+		Destroy(effect, 0.8f);
 	}
 
 	void OnTriggerEnter2D(Collider2D other) {
@@ -213,6 +244,11 @@ public class PlayerController : MonoBehaviour
 	}
 
 	void Hit(Attack hit){
+		if (hitCooldownValue > 0)
+		{
+			return;
+		}
+
 		hitCooldownValue = hitCooldown;
 
 		health -= hit.damage;
@@ -227,7 +263,27 @@ public class PlayerController : MonoBehaviour
 			dead = true;
 		}
 
-		Debug.Log("full: " + (100 * health / maxHealth) + ", int: " + (int)(100 * health / maxHealth));
+		UpdateHealthBar();
+	}
+
+	public void SteppedInSpikes(float damage)
+	{
+		if (hitCooldownValue > 0)
+		{
+			return;
+		}
+
+		hitCooldownValue = hitCooldown;
+
+		health -= damage;
+
+		anim.Update(100);
+		anim.Play ("PlayerHit");
+
+		if (health <= 0) {
+			health = 0;
+			dead = true;
+		}
 		UpdateHealthBar();
 	}
 
@@ -248,7 +304,10 @@ public class PlayerController : MonoBehaviour
 	{
 		BoxCollider2D itemBoxCollider2D = GetComponent<BoxCollider2D> ();
 		if (itemBoxCollider2D != null) {
-			itemBoxCollider2D.size = spriteRenderer.sprite.bounds.size;
+			Vector2 spriteSize = spriteRenderer.sprite.bounds.size;
+			Vector2 colliderSize = itemBoxCollider2D.size;
+			colliderSize.y = spriteSize.y;
+			itemBoxCollider2D.size = colliderSize;
 			itemBoxCollider2D.size.Scale(new Vector3(0.9f, 0.9f, 0.9f));
 		}
 	}

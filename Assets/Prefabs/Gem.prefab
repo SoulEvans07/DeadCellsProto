@@ -106,6 +106,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 5
+  sprites:
+  - {fileID: 21300292, guid: 1b348fffbdf606b489a5301d68be3b91, type: 3}
+  - {fileID: 21300294, guid: 1b348fffbdf606b489a5301d68be3b91, type: 3}
+  - {fileID: 21300296, guid: 1b348fffbdf606b489a5301d68be3b91, type: 3}
+  - {fileID: 21300298, guid: 1b348fffbdf606b489a5301d68be3b91, type: 3}
+  - {fileID: 21300300, guid: 1b348fffbdf606b489a5301d68be3b91, type: 3}
+  - {fileID: 21300302, guid: 1b348fffbdf606b489a5301d68be3b91, type: 3}
+  - {fileID: 21300304, guid: 1b348fffbdf606b489a5301d68be3b91, type: 3}
+  - {fileID: 21300306, guid: 1b348fffbdf606b489a5301d68be3b91, type: 3}
+  - {fileID: 21300308, guid: 1b348fffbdf606b489a5301d68be3b91, type: 3}
+  - {fileID: 21300310, guid: 1b348fffbdf606b489a5301d68be3b91, type: 3}
+  - {fileID: 21300312, guid: 1b348fffbdf606b489a5301d68be3b91, type: 3}
+  - {fileID: 21300314, guid: 1b348fffbdf606b489a5301d68be3b91, type: 3}
+  - {fileID: 21300316, guid: 1b348fffbdf606b489a5301d68be3b91, type: 3}
+  - {fileID: 21300318, guid: 1b348fffbdf606b489a5301d68be3b91, type: 3}
+  - {fileID: 21300320, guid: 1b348fffbdf606b489a5301d68be3b91, type: 3}
+  - {fileID: 21300322, guid: 1b348fffbdf606b489a5301d68be3b91, type: 3}
 --- !u!212 &212344988774174048
 SpriteRenderer:
   m_ObjectHideFlags: 1

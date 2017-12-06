@@ -53,7 +53,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1153048497425962}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.453, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4778091200595204}
@@ -148,6 +148,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   hitCooldown: 1
+  healthBar: {fileID: 0}
+  healEffect: {fileID: 1755656167784738, guid: 9ffe85cb02cc1574cba3238e5fbaa491, type: 2}
+  healWait: 2
+  potion: {fileID: 0}
   maxSpeed: 2.8
   groundCheck: {fileID: 4778091200595204}
   whatIsGround:
@@ -159,6 +163,7 @@ MonoBehaviour:
   saberAttackFx: {fileID: 1665487394090518, guid: 391434228b95a2643b8874f84b3194f8,
     type: 2}
   attackCooldown: 0.3
+  goldLabel: {fileID: 0}
 --- !u!212 &212844082922840912
 SpriteRenderer:
   m_ObjectHideFlags: 1

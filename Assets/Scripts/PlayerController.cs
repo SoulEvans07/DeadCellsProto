@@ -1,9 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
@@ -17,6 +15,9 @@ public class PlayerController : MonoBehaviour
 	private float hitCooldownValue = 0;
 	private bool dead = false;
 	public Slider healthBar;
+	
+	// heal
+	public GameObject healEffect;
 
 	// moving and colliding
 	public float maxSpeed = 2.8f;
@@ -50,7 +51,7 @@ public class PlayerController : MonoBehaviour
 
 	// score
 	private int gold = 0;
-	//private int cells = 0;
+//	private int cells = 0;
 	public TextMeshProUGUI goldLabel;
 
 
@@ -89,6 +90,8 @@ public class PlayerController : MonoBehaviour
 	{
 		health += value;
 		UpdateHealthBar();
+		GameObject effect = Instantiate(healEffect, transform) as GameObject;
+		Destroy(effect, 0.8f);
 	}
 
 	public void PickUpGold(int value){
@@ -209,10 +212,10 @@ public class PlayerController : MonoBehaviour
 		}
 	}
 
-	void Hit(Attack attack){
+	void Hit(Attack hit){
 		hitCooldownValue = hitCooldown;
 
-		health -= attack.damage;
+		health -= hit.damage;
 
 		anim.Update(100);
 		anim.Play ("PlayerHit");

@@ -682,7 +682,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4023508976543796, guid: b5fedcc4d5daa22458dc483e6e11949f, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114601151960249694, guid: b5fedcc4d5daa22458dc483e6e11949f,
         type: 2}
@@ -694,6 +694,12 @@ Prefab:
       propertyPath: goldLabel
       value: 
       objectReference: {fileID: 683662160}
+    - target: {fileID: 114601151960249694, guid: b5fedcc4d5daa22458dc483e6e11949f,
+        type: 2}
+      propertyPath: healEffect
+      value: 
+      objectReference: {fileID: 1755656167784738, guid: 9ffe85cb02cc1574cba3238e5fbaa491,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b5fedcc4d5daa22458dc483e6e11949f, type: 2}
   m_IsPrefabParent: 0
@@ -1061,7 +1067,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1967220567
 Prefab:

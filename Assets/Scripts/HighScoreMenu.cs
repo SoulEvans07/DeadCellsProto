@@ -1,9 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
-using TMPro;
 
 public class HighScoreMenu : MonoBehaviour {
 
@@ -27,6 +24,7 @@ public class HighScoreMenu : MonoBehaviour {
 			highscore = gold;
 			PlayerPrefs.SetInt("highscore", gold);
 		}
+		
 
 		// set player score
 		goldLabel.text = gold.ToString();

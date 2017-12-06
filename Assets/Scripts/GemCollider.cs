@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GemCollider : MonoBehaviour {
+public class GemCollider : Item {
 
 	public int value = 5;
 
-	void OnTriggerEnter2D(Collider2D other){
+	protected override void OnPickUp(Collider2D other)
+	{
 		if (!other.CompareTag ("Player"))
 			return;
 
@@ -14,4 +15,5 @@ public class GemCollider : MonoBehaviour {
 
 		Destroy (gameObject);
 	}
+
 }

@@ -85,6 +85,12 @@ public class PlayerController : MonoBehaviour
 		goldLabel.text = gold.ToString();
 	}
 
+	public void PickUpFood(float value)
+	{
+		health += value;
+		UpdateHealthBar();
+	}
+
 	public void PickUpGold(int value){
 		gold += value;
 		goldLabel.text = gold.ToString();
@@ -94,7 +100,7 @@ public class PlayerController : MonoBehaviour
 		PlayerPrefs.SetInt ("player-gold", gold);
 
 		health = 0;
-		healthBar.value = 0;
+		UpdateHealthBar();
 
 		// Death animation
 		Destroy(gameObject);
@@ -219,7 +225,12 @@ public class PlayerController : MonoBehaviour
 		}
 
 		Debug.Log("full: " + (100 * health / maxHealth) + ", int: " + (int)(100 * health / maxHealth));
-		healthBar.value = (int)(100 * health / maxHealth);
+		UpdateHealthBar();
+	}
+
+	void UpdateHealthBar()
+	{
+		healthBar.value = (int)(100 * health / maxHealth);	
 	}
 
 	void Flip ()

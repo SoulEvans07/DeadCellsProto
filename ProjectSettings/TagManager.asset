@@ -7,7 +7,7 @@ TagManager:
   - Enemy
   - PlayerAtk
   - EnemyAtk
-  - Gem
+  - Item
   layers:
   - Default
   - TransparentFX

@@ -150,7 +150,7 @@ MonoBehaviour:
   hitCooldown: 1
   healthBar: {fileID: 0}
   healEffect: {fileID: 1755656167784738, guid: 9ffe85cb02cc1574cba3238e5fbaa491, type: 2}
-  healWait: 2
+  healWait: 1
   potion: {fileID: 0}
   maxSpeed: 2.8
   groundCheck: {fileID: 4778091200595204}

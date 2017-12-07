@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
 	private bool dead = false;
 	public Slider healthBar;
 	public GameObject healEffect;
-	public float healWait = 2f;
+	public float healWait = 1f;
 	private float healPress;
 	public GameObject potion;
 
@@ -56,15 +56,15 @@ public class PlayerController : MonoBehaviour
 	private int gold = 0;
 //	private int cells = 0;
 	public TextMeshProUGUI goldLabel;
+	
+	// buffs and debuffs
+	public GameObject flameDotObject;
+	private DamageOverTime flameDot;
+	private float timer;
 
 
 	public PlayerController (){
 		health = maxHealth;
-	}
-
-	public PlayerController(Vector3 startingPos){
-		health = maxHealth;
-		transform.position = startingPos;
 	}
 
 	void Awake(){
@@ -107,12 +107,33 @@ public class PlayerController : MonoBehaviour
 		SceneManager.LoadScene("HighScore");
 	}
 
+	public void Affect(DamageOverTime dot)
+	{
+		flameDot = dot;
+	}
+
 	void FixedUpdate ()
 	{
 		if (dead) {
 			Die ();
 		}
-			
+
+		if (flameDot != null)
+		{
+			timer += Time.fixedDeltaTime;
+			if (timer > 1f)
+			{
+				timer = 0;
+				if (flameDot.timeLeft == 0)
+					flameDot = null;
+				else
+				{
+					health -= flameDot.Damage();
+					UpdateHealthBar();
+				}
+			}
+		}
+
 		attackCooldownValue -= Time.fixedDeltaTime;
 		hitCooldownValue -= Time.fixedDeltaTime;
 

@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 212032831546477716}
   - component: {fileID: 95168766724573380}
   - component: {fileID: 114252323198830388}
+  - component: {fileID: 114771498890227916}
   m_Layer: 9
   m_Name: Grenadier
   m_TagString: Enemy
@@ -190,6 +191,17 @@ MonoBehaviour:
   hitCooldown: 0.9166667
   spawnGem: {fileID: 1470306582208548, guid: f6a94808a93965c47a6f961c89a0137f, type: 2}
   maxGem: 5
+--- !u!114 &114771498890227916
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1026756363626248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25f77fd9df3643bdb1fab5eb0d8b4fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212032831546477716
 SpriteRenderer:
   m_ObjectHideFlags: 1

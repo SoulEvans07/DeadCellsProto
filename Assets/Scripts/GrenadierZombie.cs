@@ -119,11 +119,17 @@ public class GrenadierZombie : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D other) {
-		if (!other.CompareTag ("PlayerAtk"))
+		if (!other.CompareTag ("PlayerAtk") && !other.CompareTag("PlayerAtkArrow"))
 			return;
 
-		other.tag = "Untagged";
 		Attack playerAttack = other.GetComponent<Attack> ();
+		if (other.CompareTag("PlayerAtkArrow"))
+		{
+			other.GetComponent<Rigidbody2D>().isKinematic = true;
+			other.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+			Destroy(other.gameObject);
+		}
+		other.tag = "Untagged";
 		if (playerAttack != null){	
 			Hit(playerAttack);
 		}

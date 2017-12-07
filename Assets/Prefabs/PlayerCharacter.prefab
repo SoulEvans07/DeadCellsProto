@@ -53,7 +53,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1153048497425962}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.453, y: 0, z: 0}
+  m_LocalPosition: {x: -1.453, y: 2.43, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4778091200595204}
@@ -164,6 +164,11 @@ MonoBehaviour:
     type: 2}
   attackCooldown: 0.3
   goldLabel: {fileID: 0}
+  flameDotObject: {fileID: 0}
+  arrowFxOffset: {x: 0.213, y: 0.056, z: 0}
+  arrow: {fileID: 1705701654128926, guid: 01cdb055304337a4990529d736d81fe9, type: 2}
+  shootCooldown: 1.2
+  arrowForce: 700
 --- !u!212 &212844082922840912
 SpriteRenderer:
   m_ObjectHideFlags: 1

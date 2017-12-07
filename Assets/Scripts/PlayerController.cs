@@ -61,6 +61,15 @@ public class PlayerController : MonoBehaviour
 	public GameObject flameDotObject;
 	private DamageOverTime flameDot;
 	private float timer;
+	
+	// shoot
+	private bool shoot = false;
+	public Vector3 arrowFxOffset = new Vector3(0.213f, 0.056f, 0);
+	private Vector3 arrowFxOffsetLeft;
+	public GameObject arrow;
+	public float shootCooldown = 1.2f;
+	private float shootCooldownValue = 0f;
+	public float arrowForce = 100f;
 
 
 	public PlayerController (){
@@ -83,7 +92,9 @@ public class PlayerController : MonoBehaviour
 		anim.SetBool ("player-doublejump", doubleJumped);
 		// attack
 		saberFxOffsetLeft = saberFxOffset;
+		arrowFxOffsetLeft = arrowFxOffset;
 		saberFxOffsetLeft.x *= -1;
+		arrowFxOffsetLeft.x *= -1;
 
 		healthBar.value = (int)(100 * health / maxHealth);
 		goldLabel.text = gold.ToString();
@@ -112,10 +123,11 @@ public class PlayerController : MonoBehaviour
 		flameDot = dot;
 	}
 
-	void FixedUpdate ()
+	void FixedUpdate()
 	{
-		if (dead) {
-			Die ();
+		if (dead)
+		{
+			Die();
 		}
 
 		if (flameDot != null)
@@ -135,66 +147,112 @@ public class PlayerController : MonoBehaviour
 		}
 
 		attackCooldownValue -= Time.fixedDeltaTime;
+		shootCooldownValue -= Time.fixedDeltaTime;
 		hitCooldownValue -= Time.fixedDeltaTime;
 
-		if (attack) {
-			anim.SetTrigger ("player-attackX");
+		if (shootCooldownValue < 0)
+		{
+			shoot = false;
+		}
+
+		// start anim prep
+		// instantiate arrow
+		// start shoot
+
+		if (shootCooldownValue > 0 && shootCooldownValue < (shootCooldown - 25.0f / 24.0f) && !shoot)
+		{
+			shoot = true;
+			anim.Play("PlayerLongBowShot");
+			GameObject arrowObject;
+			if (facingRight)
+			{
+				arrowObject = Instantiate(arrow, transform.position + arrowFxOffset, transform.rotation) as GameObject;
+			}
+			else
+			{
+				arrowObject = Instantiate(arrow, transform.position + arrowFxOffsetLeft, transform.rotation) as GameObject;
+				Vector3 theScale = arrowObject.transform.localScale;
+				theScale.x *= -1;
+				arrowObject.transform.localScale = theScale;
+			}
+			if (arrowObject != null)
+			{
+				arrowObject.GetComponent<Rigidbody2D>().AddForce(new Vector2((facingRight? arrowForce : -arrowForce), 0));
+				Destroy(arrowObject, 5f);
+			}
+		}
+		else if (attack)
+		{
+			anim.SetTrigger("player-attackX");
 			GameObject slash;
-			if (facingRight) {
-				slash = Instantiate(saberAttackFx, transform.position+saberFxOffset, transform.rotation) as GameObject;
-			} else {
-				slash = Instantiate(saberAttackFx, transform.position+saberFxOffsetLeft, transform.rotation) as GameObject;
-				slash.transform.parent = gameObject.transform;
+			if (facingRight)
+			{
+				slash = Instantiate(saberAttackFx, transform.position + saberFxOffset, transform.rotation) as GameObject;
+			}
+			else
+			{
+				slash = Instantiate(saberAttackFx, transform.position + saberFxOffsetLeft, transform.rotation) as GameObject;
 				Vector3 theScale = slash.transform.localScale;
 				theScale.x *= -1;
 				slash.transform.localScale = theScale;
 			}
-			if (slash != null) {
+			if (slash != null)
+			{
 				slash.transform.parent = gameObject.transform;
-				Destroy (slash, 1f);
+				Destroy(slash, 1f);
 			}
 			//Debug.Log ("attack: " + attack);
 			//WaitForAnim("AtkBackStabberB");
 			attack = false;
 			//Debug.Log ("attack: " + attack);
-		} else {
+		}
+		else
+		{
 
-			grounded = Physics2D.OverlapCircle (groundCheck.position, groundRadius, whatIsGround);
-			if (grounded && doubleJumped) {
+			grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
+			if (grounded && doubleJumped)
+			{
 				doubleJumped = false;
 //				stomped = false;
-				anim.SetBool ("player-doublejump", doubleJumped);
+				anim.SetBool("player-doublejump", doubleJumped);
 //				anim.SetBool ("player-stomp", doubleJumped);
 			}
-		
-			anim.SetBool ("player-ground", grounded);
-			anim.SetFloat ("player-y-speed", rd2d.velocity.y);
 
-			float vertical = Input.GetAxis ("Vertical");
+			anim.SetBool("player-ground", grounded);
+			anim.SetFloat("player-y-speed", rd2d.velocity.y);
+
+			float vertical = Input.GetAxis("Vertical");
 			crouch = grounded && (vertical < 0);
-			anim.SetBool ("player-crouch", crouch);
+			anim.SetBool("player-crouch", crouch);
 
-			float move = Input.GetAxis ("Horizontal");
-			if (!crouch) {
-				anim.SetFloat ("player-x-speed", Mathf.Abs (move));
-				rd2d.velocity = new Vector2 (move * maxSpeed, rd2d.velocity.y);
+			float move = Input.GetAxis("Horizontal");
+			if (!crouch)
+			{
+				anim.SetFloat("player-x-speed", Mathf.Abs(move));
+				rd2d.velocity = new Vector2(move * maxSpeed, rd2d.velocity.y);
 			}
 
 			if (move > 0 && !facingRight)
-				Flip ();
+				Flip();
 			else if (move < 0 && facingRight)
-				Flip ();
+				Flip();
 
-			SetBoxCollider ();
+			SetBoxCollider();
 		}
 	}
 	
 
 	void Update ()
 	{
-		if (attackCooldownValue <= 0 && Input.GetButtonDown ("Fire2")) {
+		if (attackCooldownValue <= 0 && Input.GetButtonDown ("Fire1")) {
 			attackCooldownValue = attackCooldown;
 			attack = true;
+			return;
+		}
+		
+		if (shootCooldownValue <= 0 && Input.GetButtonDown ("Fire2")) {
+			shootCooldownValue = shootCooldown;
+			anim.Play("PlayerLongBow");
 			return;
 		}
 
@@ -240,6 +298,11 @@ public class PlayerController : MonoBehaviour
 //			stomped = true;
 //			anim.SetBool ("player-stomp", true);
 		}
+	}
+
+	public void Shoot()
+	{
+		
 	}
 
 	public void Heal(float amount)

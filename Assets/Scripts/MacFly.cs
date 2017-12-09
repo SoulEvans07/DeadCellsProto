@@ -94,10 +94,14 @@ public class MacFly : MonoBehaviour
 			Vector2 velocity = Vector2.Lerp(minVelocity, minVelocity * maxSpeed, acceleration);
 			rgbody.velocity = velocity;
 		}
-		else if(!attack && atkCdValue.Equals(0))
+		else
 		{
-			StartAttack();
-			return;
+			if (!attack && atkCdValue.Equals(0))
+			{
+				StartAttack();
+				return;
+			}
+			rgbody.velocity = Vector2.zero;
 		}
 		
 		renderR.flipX = (transform.position.x - lastPos.x) < 0;

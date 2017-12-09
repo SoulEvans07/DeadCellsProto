@@ -159,9 +159,9 @@ public class PlayerController : MonoBehaviour
 		// instantiate arrow
 		// start shoot
 
-		if (shootCooldownValue > 0 && shootCooldownValue < (shootCooldown - 25.0f / 24.0f) && !shoot)
+		if (shoot && shootCooldownValue > 0 && shootCooldownValue < (shootCooldown - 25.0f / 24.0f))
 		{
-			shoot = true;
+			shoot = false;
 			anim.Play("PlayerLongBowShot");
 			GameObject arrowObject;
 			if (facingRight)
@@ -208,7 +208,8 @@ public class PlayerController : MonoBehaviour
 		}
 		else
 		{
-
+			if(shoot)
+				return;
 			grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
 			if (grounded && doubleJumped)
 			{
@@ -244,15 +245,16 @@ public class PlayerController : MonoBehaviour
 
 	void Update ()
 	{
-		if (attackCooldownValue <= 0 && Input.GetButtonDown ("Fire1")) {
+		if (!attack && attackCooldownValue <= 0 && Input.GetButtonDown ("Fire1")) {
 			attackCooldownValue = attackCooldown;
 			attack = true;
 			return;
 		}
 		
-		if (shootCooldownValue <= 0 && Input.GetButtonDown ("Fire2")) {
+		if (!shoot && shootCooldownValue <= 0 && Input.GetButtonDown ("Fire2")) {
 			shootCooldownValue = shootCooldown;
 			anim.Play("PlayerLongBow");
+			shoot = true;
 			return;
 		}
 
@@ -273,6 +275,7 @@ public class PlayerController : MonoBehaviour
 
 		if (grounded && Input.GetButtonDown ("Jump"))
 		{
+			shoot = false;
 			Collider2D standingOn = Physics2D.OverlapCircle (groundCheck.position, groundRadius, whatIsGround);
 			if (standingOn != null && standingOn.CompareTag("Platform") && Input.GetAxis ("Vertical") < 0)
 			{
@@ -298,11 +301,6 @@ public class PlayerController : MonoBehaviour
 //			stomped = true;
 //			anim.SetBool ("player-stomp", true);
 		}
-	}
-
-	public void Shoot()
-	{
-		
 	}
 
 	public void Heal(float amount)
@@ -332,6 +330,9 @@ public class PlayerController : MonoBehaviour
 		{
 			return;
 		}
+
+		attack = false;
+		shoot = false;
 
 		hitCooldownValue = hitCooldown;
 

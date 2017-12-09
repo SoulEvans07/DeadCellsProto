@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 10
-  force: 10
+  force: 5
 --- !u!212 &212992226855173060
 SpriteRenderer:
   m_ObjectHideFlags: 1

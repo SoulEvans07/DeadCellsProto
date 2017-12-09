@@ -14,7 +14,8 @@ public class MacFly : MonoBehaviour
 
 	private Transform target;
 
-	public float speed = 0.5f;
+	public float maxSpeed = 0.5f;
+	public float acceleration = 0.4f;
 	private Vector2 lastPos;
 	private SpriteRenderer renderR;
 	private Rigidbody2D rgbody;
@@ -61,7 +62,7 @@ public class MacFly : MonoBehaviour
 
 		if (hitCdValue > 0)
 		{
-			rgbody.velocity -= rgbody.velocity * 0.1f;
+			rgbody.velocity -= rgbody.velocity * Time.fixedDeltaTime;
 			return;
 		}
 		
@@ -89,9 +90,8 @@ public class MacFly : MonoBehaviour
 
 		if (Vector2.Distance(transform.position, target.position) > followingDistance)
 		{
-			//Vector2 nextPos = Vector2.Lerp(transform.position, target.position, speed);
-			Vector2 velocity = (target.position-transform.position) * speed;
-			Debug.Log(velocity);
+			Vector2 minVelocity = (target.position - transform.position).normalized;
+			Vector2 velocity = Vector2.Lerp(minVelocity, minVelocity * maxSpeed, acceleration);
 			rgbody.velocity = velocity;
 		}
 		else if(!attack && atkCdValue.Equals(0))

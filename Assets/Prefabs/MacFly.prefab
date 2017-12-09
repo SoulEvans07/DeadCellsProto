@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 58717399720058398}
   - component: {fileID: 114612718748422010}
   - component: {fileID: 95437991874763052}
-  m_Layer: 9
+  m_Layer: 15
   m_Name: MacFly
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -51,7 +51,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1589418151011856}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -63,7 +63,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!58 &58717399720058398
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -107,16 +107,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbee04bd086fc0c47aa932e8d8cfd662, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DrawGizmos: 0
+  DrawGizmos: 1
   trackingRange: 1
   followingRange: 10
   followingDistance: 0.5
-  speed: 0.01
+  maxSpeed: 0.5
+  acceleration: 0.4
   atkLoad: 0.33333334
   atkCooldown: 2
+  hitCooldown: 1
   attackFx: {fileID: 1902895988443480, guid: 4698f530a86966f43a4001751cc3e70a, type: 2}
   fxOffset: {x: 0.3, y: -0.05}
-  maxHealth: 10
+  maxHealth: 20
   spawnGem: {fileID: 1470306582208548, guid: f6a94808a93965c47a6f961c89a0137f, type: 2}
   maxGem: 3
 --- !u!212 &212760675007365116
@@ -150,7 +152,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 50
   m_Sprite: {fileID: 21300024, guid: f137bccafb3a837448227b84de68db3c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

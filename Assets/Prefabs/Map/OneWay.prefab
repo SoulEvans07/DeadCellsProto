@@ -96,8 +96,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1813233444256034}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.2560319, y: -2.6906605, z: 0}
-  m_LocalScale: {x: 0.56, y: 0.25, z: 1}
+  m_LocalPosition: {x: -2.42, y: -3.45, z: 0}
+  m_LocalScale: {x: 0.19, y: 0.25, z: 1}
   m_Children:
   - {fileID: 4187240284398828}
   - {fileID: 4019906935800650}
@@ -253,7 +253,7 @@ PlatformEffector2D:
   m_UseColliderMask: 1
   m_ColliderMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294934527
   m_RotationalOffset: 0
   m_UseOneWay: 1
   m_UseOneWayGrouping: 0

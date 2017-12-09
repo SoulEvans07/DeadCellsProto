@@ -15,7 +15,11 @@ public class GrenadierZombie : MonoBehaviour {
 	private Animator anim;
 	private SpriteRenderer spriteRenderer;
 	public Transform probe;
+	public Transform groundCheck;
+	public float edgeRadius = 0.01f;
 	public LayerMask whatIsGround;
+	public LayerMask whatIsLedge;
+	public Collider2D lastLedge;
 
 	// attack
 	public float attackSignalTime = 1f;
@@ -74,9 +78,11 @@ public class GrenadierZombie : MonoBehaviour {
 				attackStarted = true;
 			}
 		} else if (!attackStarted) { // attackCooldownValue <= 0 && attackSignalTimeValue == attackSignalTime && hitCooldownValue <= 0
-
-			if (Physics2D.OverlapCircle (probe.position, 0.1f, whatIsGround) != null) {
+			Collider2D coll = Physics2D.OverlapCircle(groundCheck.position, edgeRadius, whatIsLedge);
+			if ((Physics2D.OverlapCircle(groundCheck.position, edgeRadius, whatIsLedge) && coll != lastLedge) || 
+			     (Physics2D.OverlapCircle (probe.position, 0.1f, whatIsGround) != null)) {
 				Flip ();
+				lastLedge = coll;
 			}
 
 			move = (facingRight ? 1 : -1) * maxSpeed;

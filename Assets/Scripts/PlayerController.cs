@@ -386,7 +386,8 @@ public class PlayerController : MonoBehaviour
 
 	void SetBoxCollider ()
 	{
-		BoxCollider2D itemBoxCollider2D = GetComponent<BoxCollider2D> ();
+//		BoxCollider2D itemBoxCollider2D = GetComponent<BoxCollider2D> ();
+		CapsuleCollider2D itemBoxCollider2D = GetComponent<CapsuleCollider2D> ();
 		if (itemBoxCollider2D != null) {
 			Vector2 spriteSize = spriteRenderer.sprite.bounds.size;
 			Vector2 colliderSize = itemBoxCollider2D.size;

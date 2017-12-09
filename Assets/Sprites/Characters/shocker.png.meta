@@ -1,0 +1,1132 @@
+fileFormatVersion: 2
+guid: 1a8d72fa592761d4cafbcb064912b2ed
+timeCreated: 1512837569
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: shocker/atkLoad/atkLoad_0000
+    21300002: shocker/atkLoad/atkLoad_0001
+    21300004: shocker/atkLoad/atkLoad_0002
+    21300006: shocker/atkLoad/atkLoad_0003
+    21300008: shocker/atkLoad/atkLoad_0004
+    21300010: shocker/atkLoad/atkLoad_0005
+    21300012: shocker/atkLoad/atkLoad_0006
+    21300014: shocker/atkLoad/atkLoad_0007
+    21300016: shocker/atkLoad/atkLoad_0008
+    21300018: shocker/atkLoad/atkLoad_0009
+    21300020: shocker/idle/idle_0000
+    21300022: shocker/idle/idle_0001
+    21300024: shocker/idle/idle_0002
+    21300026: shocker/idle/idle_0003
+    21300028: shocker/idle/idle_0004
+    21300030: shocker/idle/idle_0005
+    21300032: shocker/idle/idle_0006
+    21300034: shocker/idle/idle_0007
+    21300036: shocker/idle/idle_0008
+    21300038: shocker/idle/idle_0009
+    21300040: shocker/idle/idle_0010
+    21300042: shocker/idle/idle_0011
+    21300044: shocker/idle/idle_0012
+    21300046: shocker/idle/idle_0013
+    21300048: shocker/idle/idle_0014
+    21300050: shocker/idle/idle_0015
+    21300052: shocker/idle/idle_0016
+    21300054: shocker/idle/idle_0017
+    21300056: shocker/idle/idle_0018
+    21300058: shocker/idle/idle_0019
+    21300060: shocker/idle/idle_0020
+    21300062: shocker/idle/idle_0021
+    21300064: shocker/idle/idle_0022
+    21300066: shocker/idle/idle_0023
+    21300068: shocker/idle/idle_0024
+    21300070: shocker/idle/idle_0025
+    21300072: shocker/idle/idle_0026
+    21300074: shocker/idle/idle_0027
+    21300076: shocker/idle/idle_0028
+    21300078: shocker/idle/idle_0029
+    21300080: shocker/walk/walk_0000
+    21300082: shocker/walk/walk_0001
+    21300084: shocker/walk/walk_0002
+    21300086: shocker/walk/walk_0003
+    21300088: shocker/walk/walk_0004
+    21300090: shocker/walk/walk_0005
+    21300092: shocker/walk/walk_0006
+    21300094: shocker/walk/walk_0007
+    21300096: shocker/walk/walk_0008
+    21300098: shocker/walk/walk_0009
+    21300100: shocker/walk/walk_0010
+    21300102: shocker/walk/walk_0011
+    21300104: shocker/walk/walk_0012
+    21300106: shocker/walk/walk_0013
+    21300108: shocker/walk/walk_0014
+    21300110: shocker/walk/walk_0015
+    21300112: shocker/walk/walk_0016
+    21300114: shocker/walk/walk_0017
+    21300116: shocker/walk/walk_0018
+    21300118: shocker/walk/walk_0019
+    21300120: shocker/walk/walk_0020
+    21300122: shocker/walk/walk_0021
+    21300124: shocker/walk/walk_0022
+    21300126: shocker/walk/walk_0023
+    21300128: shocker/walk/walk_0024
+    21300130: shocker/walk/walk_0025
+    21300132: shocker/walk/walk_0026
+    21300134: shocker/walk/walk_0027
+    21300136: shocker/walk/walk_0028
+    21300138: shocker/walk/walk_0029
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shocker/atkLoad/atkLoad_0000
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 446
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/atkLoad/atkLoad_0001
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 377
+        width: 55
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/atkLoad/atkLoad_0002
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 239
+        width: 57
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/atkLoad/atkLoad_0003
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 445
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/atkLoad/atkLoad_0004
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 170
+        width: 60
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/atkLoad/atkLoad_0005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 160
+        width: 61
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/atkLoad/atkLoad_0006
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 376
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/atkLoad/atkLoad_0007
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 308
+        width: 57
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/atkLoad/atkLoad_0008
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 307
+        width: 53
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/atkLoad/atkLoad_0009
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 446
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0000
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 32
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0001
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 238
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0002
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 169
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0003
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 238
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0004
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 102
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0005
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 171
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0006
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 307
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0007
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 376
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0008
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 445
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0009
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 100
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0010
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 169
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0011
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 238
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0012
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 307
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0013
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 240
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0014
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 309
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0015
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 378
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0016
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 376
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0017
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 446
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0018
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 445
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0019
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 31
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0020
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 90
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0021
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 20
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0022
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 443
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0023
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 372
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0024
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 301
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0025
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 230
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0026
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 90
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0027
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 20
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0028
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 100
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/idle/idle_0029
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 34
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0000
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 32
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0001
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 238
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0002
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 169
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0003
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 238
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0004
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 102
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0005
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 171
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0006
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 307
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0007
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 376
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0008
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 445
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0009
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 100
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0010
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 169
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0011
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 238
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0012
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 307
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0013
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 240
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0014
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 309
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0015
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 378
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0016
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 376
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0017
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 446
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0018
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 445
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0019
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 31
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0020
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 90
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0021
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 20
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0022
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 443
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0023
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 372
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0024
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 301
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0025
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 230
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0026
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 90
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0027
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 20
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0028
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 100
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shocker/walk/walk_0029
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 34
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

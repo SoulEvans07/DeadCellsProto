@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 199416035522026524}
   - component: {fileID: 61181609168777272}
   - component: {fileID: 114805561305679524}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Flame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,7 +139,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -952754788
+  randomSeed: -1413114865
   InitialModule:
     serializedVersion: 3
     enabled: 1

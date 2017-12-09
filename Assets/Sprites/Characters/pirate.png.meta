@@ -1,0 +1,2812 @@
+fileFormatVersion: 2
+guid: 1ef6e07c07de72042a26f9616adcb6c4
+timeCreated: 1512840257
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: pirate/atk_00
+    21300002: pirate/atk_01
+    21300004: pirate/atk_02
+    21300006: pirate/atk_03
+    21300008: pirate/atk_04
+    21300010: pirate/atk_05
+    21300012: pirate/atk_06
+    21300014: pirate/atk_07
+    21300016: pirate/atk_08
+    21300018: pirate/atk_09
+    21300020: pirate/atk_10
+    21300022: pirate/atk_11
+    21300024: pirate/atk_12
+    21300026: pirate/atk_13
+    21300028: pirate/atk_14
+    21300030: pirate/atk_15
+    21300032: pirate/atk_16
+    21300034: pirate/atk_17
+    21300036: pirate/atk_18
+    21300038: pirate/atk_19
+    21300040: pirate/atk_20
+    21300042: pirate/atk_21
+    21300044: pirate/atk_22
+    21300046: pirate/atk_23
+    21300048: pirate/atkLoad_00
+    21300050: pirate/atkLoad_01
+    21300052: pirate/atkLoad_02
+    21300054: pirate/atkLoad_03
+    21300056: pirate/atkLoad_04
+    21300058: pirate/atkLoad_05
+    21300060: pirate/atkLoad_06
+    21300062: pirate/atkLoad_07
+    21300064: pirate/atkLoad_08
+    21300066: pirate/atkLoad_09
+    21300068: pirate/atkLoad_10
+    21300070: pirate/atkLoad_11
+    21300072: pirate/atkLoad_12
+    21300074: pirate/atkLoad_13
+    21300076: pirate/atkLoad_14
+    21300078: pirate/bash_00
+    21300080: pirate/bash_01
+    21300082: pirate/bash_02
+    21300084: pirate/bash_03
+    21300086: pirate/bash_04
+    21300088: pirate/bash_05
+    21300090: pirate/bash_06
+    21300092: pirate/bash_07
+    21300094: pirate/bash_08
+    21300096: pirate/bash_09
+    21300098: pirate/bash_10
+    21300100: pirate/bash_11
+    21300102: pirate/bash_12
+    21300104: pirate/bash_13
+    21300106: pirate/bash_14
+    21300108: pirate/bashLoad_00
+    21300110: pirate/bashLoad_01
+    21300112: pirate/bashLoad_02
+    21300114: pirate/bashLoad_03
+    21300116: pirate/bashLoad_04
+    21300118: pirate/bashLoad_05
+    21300120: pirate/bashLoad_06
+    21300122: pirate/fall_00
+    21300124: pirate/fall_01
+    21300126: pirate/fall_02
+    21300128: pirate/fall_03
+    21300130: pirate/fall_04
+    21300132: pirate/fall_05
+    21300134: pirate/fall_06
+    21300136: pirate/fall_07
+    21300138: pirate/fall_08
+    21300140: pirate/fall_09
+    21300142: pirate/fall_10
+    21300144: pirate/fall_11
+    21300146: pirate/fall_12
+    21300148: pirate/fall_13
+    21300150: pirate/fall_14
+    21300152: pirate/fall_15
+    21300154: pirate/idle_00
+    21300156: pirate/idle_01
+    21300158: pirate/idle_02
+    21300160: pirate/idle_03
+    21300162: pirate/idle_04
+    21300164: pirate/idle_05
+    21300166: pirate/idle_06
+    21300168: pirate/idle_07
+    21300170: pirate/idle_08
+    21300172: pirate/idle_09
+    21300174: pirate/idle_10
+    21300176: pirate/idle_11
+    21300178: pirate/idle_12
+    21300180: pirate/idle_13
+    21300182: pirate/idle_14
+    21300184: pirate/idle_15
+    21300186: pirate/idle_16
+    21300188: pirate/idle_17
+    21300190: pirate/idle_18
+    21300192: pirate/idle_19
+    21300194: pirate/idle_20
+    21300196: pirate/idle_21
+    21300198: pirate/idle_22
+    21300200: pirate/idle_23
+    21300202: pirate/idle_24
+    21300204: pirate/idle_25
+    21300206: pirate/idle_26
+    21300208: pirate/idle_27
+    21300210: pirate/idle_28
+    21300212: pirate/idle_29
+    21300214: pirate/idle_30
+    21300216: pirate/idle_31
+    21300218: pirate/idle_32
+    21300220: pirate/idle_33
+    21300222: pirate/idle_34
+    21300224: pirate/idle_35
+    21300226: pirate/idle_36
+    21300228: pirate/idle_37
+    21300230: pirate/idle_38
+    21300232: pirate/idle_39
+    21300234: pirate/idle_40
+    21300236: pirate/idleAtkLoad_00
+    21300238: pirate/idleAtkLoad_01
+    21300240: pirate/idleAtkLoad_02
+    21300242: pirate/idleAtkLoad_03
+    21300244: pirate/idleAtkLoad_04
+    21300246: pirate/idleBashLoad_00
+    21300248: pirate/idleBashLoad_01
+    21300250: pirate/idleBashLoad_02
+    21300252: pirate/idleBashLoad_03
+    21300254: pirate/idleBashLoad_04
+    21300256: pirate/idleBashLoad_05
+    21300258: pirate/idleBashLoad_06
+    21300260: pirate/idleBashLoad_07
+    21300262: pirate/idleBashLoad_08
+    21300264: pirate/land_00
+    21300266: pirate/rise_00
+    21300268: pirate/rise_01
+    21300270: pirate/rise_02
+    21300272: pirate/rise_03
+    21300274: pirate/rise_04
+    21300276: pirate/rise_05
+    21300278: pirate/rise_06
+    21300280: pirate/rise_07
+    21300282: pirate/rise_08
+    21300284: pirate/rise_09
+    21300286: pirate/stun_00
+    21300288: pirate/stunIdle_00
+    21300290: pirate/stunIdle_01
+    21300292: pirate/stunIdle_02
+    21300294: pirate/stunIdle_03
+    21300296: pirate/stunIdle_04
+    21300298: pirate/stunIdle_05
+    21300300: pirate/stunIdle_06
+    21300302: pirate/stunIdle_07
+    21300304: pirate/stunIdle_08
+    21300306: pirate/stunIdle_09
+    21300308: pirate/walk_00
+    21300310: pirate/walk_01
+    21300312: pirate/walk_02
+    21300314: pirate/walk_03
+    21300316: pirate/walk_04
+    21300318: pirate/walk_05
+    21300320: pirate/walk_06
+    21300322: pirate/walk_07
+    21300324: pirate/walk_08
+    21300326: pirate/walk_09
+    21300328: pirate/walk_10
+    21300330: pirate/walk_11
+    21300332: pirate/walk_12
+    21300334: pirate/walk_13
+    21300336: pirate/walk_14
+    21300338: pirate/walk_15
+    21300340: pirate/walk_16
+    21300342: pirate/walk_17
+    21300344: pirate/walk_18
+    21300346: pirate/walk_19
+    21300348: pirate/walk_20
+    21300350: pirate/walk_21
+    21300352: pirate/walk_22
+    21300354: pirate/walk_23
+    21300356: pirate/walk_24
+    21300358: pirate/walk_25
+    21300360: pirate/walk_26
+    21300362: pirate/walk_27
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pirate/atk_00
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 237
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atk_01
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 101
+        width: 59
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atk_02
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 195
+        width: 59
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atk_03
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 20
+        width: 58
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atk_04
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 20
+        width: 58
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atk_05
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 156
+        width: 59
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atk_06
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 276
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atk_07
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1410
+        width: 75
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atk_08
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1466
+        width: 76
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atk_09
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1310
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atk_10
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1236
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atk_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1152
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atk_12
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1186
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atk_13
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 972
+        width: 66
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atk_14
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 687
+        width: 65
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atk_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 318
+        width: 62
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atk_16
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 261
+        width: 61
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atk_17
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 276
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atk_18
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 349
+        width: 60
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atk_19
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 369
+        width: 60
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atk_20
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 317
+        width: 61
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atk_21
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1451
+        width: 61
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atk_22
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 431
+        width: 63
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atk_23
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 510
+        width: 64
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atkLoad_00
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 276
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atkLoad_01
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 276
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atkLoad_02
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 276
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atkLoad_03
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 276
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atkLoad_04
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 276
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atkLoad_05
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 276
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atkLoad_06
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 276
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atkLoad_07
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 276
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atkLoad_08
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 276
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atkLoad_09
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 276
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atkLoad_10
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 276
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atkLoad_11
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 276
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atkLoad_12
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 276
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atkLoad_13
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 276
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/atkLoad_14
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 276
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/bash_00
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1726
+        width: 107
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/bash_01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1621
+        width: 107
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/bash_02
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1734
+        width: 106
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/bash_03
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1627
+        width: 105
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/bash_04
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1663
+        width: 97
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/bash_05
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1593
+        width: 97
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/bash_06
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1559
+        width: 97
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/bash_07
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1565
+        width: 97
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/bash_08
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1655
+        width: 97
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/bash_09
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1600
+        width: 97
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/bash_10
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1535
+        width: 91
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/bash_11
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1551
+        width: 81
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/bash_12
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1179
+        width: 69
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/bash_13
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 356
+        width: 62
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/bash_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 480
+        width: 64
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/bashLoad_00
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1833
+        width: 107
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/bashLoad_01
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1942
+        width: 107
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/bashLoad_02
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1942
+        width: 107
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/bashLoad_03
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1834
+        width: 107
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/bashLoad_04
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1834
+        width: 107
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/bashLoad_05
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1826
+        width: 107
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/bashLoad_06
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1725
+        width: 107
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/fall_00
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1220
+        width: 59
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/fall_01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 129
+        width: 59
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/fall_02
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 18
+        width: 59
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/fall_03
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 148
+        width: 58
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/fall_04
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 128
+        width: 58
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/fall_05
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 38
+        width: 58
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/fall_06
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 17
+        width: 57
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/fall_07
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 17
+        width: 57
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/fall_08
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 45
+        width: 58
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/fall_09
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 158
+        width: 58
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/fall_10
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 48
+        width: 58
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/fall_11
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 158
+        width: 58
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/fall_12
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 269
+        width: 59
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/fall_13
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 258
+        width: 59
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/fall_14
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 238
+        width: 59
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/fall_15
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1220
+        width: 59
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_00
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 547
+        width: 64
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_01
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 526
+        width: 64
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_02
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 517
+        width: 64
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_03
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 515
+        width: 64
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_04
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 778
+        width: 65
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_05
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 765
+        width: 65
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_06
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 647
+        width: 65
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_07
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 684
+        width: 65
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_08
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 594
+        width: 65
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_09
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 564
+        width: 65
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_10
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 696
+        width: 65
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 896
+        width: 66
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_12
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1017
+        width: 66
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_13
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 936
+        width: 66
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_14
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 898
+        width: 66
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_15
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 845
+        width: 66
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 814
+        width: 66
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_17
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1015
+        width: 66
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_18
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 935
+        width: 66
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_19
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 854
+        width: 66
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_20
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 816
+        width: 66
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_21
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 763
+        width: 66
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 732
+        width: 66
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_23
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 980
+        width: 66
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_24
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 927
+        width: 66
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_25
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1049
+        width: 67
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_26
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1018
+        width: 66
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_27
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1063
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_28
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1010
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_29
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 978
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_30
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 849
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_31
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 768
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_32
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 730
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_33
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 1876
+        width: 64
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_34
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 1790
+        width: 64
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_35
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 677
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 647
+        width: 65
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_37
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 799
+        width: 65
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_38
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 599
+        width: 64
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_39
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 562
+        width: 64
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idle_40
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 547
+        width: 64
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idleAtkLoad_00
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 547
+        width: 64
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idleAtkLoad_01
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 465
+        width: 64
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idleAtkLoad_02
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 400
+        width: 63
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idleAtkLoad_03
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 240
+        width: 61
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idleAtkLoad_04
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 181
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idleBashLoad_00
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 547
+        width: 64
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idleBashLoad_01
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 717
+        width: 65
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idleBashLoad_02
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1331
+        width: 73
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idleBashLoad_03
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1489
+        width: 78
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idleBashLoad_04
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1402
+        width: 76
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idleBashLoad_05
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1409
+        width: 77
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idleBashLoad_06
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1934
+        width: 107
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idleBashLoad_07
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1941
+        width: 113
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/idleBashLoad_08
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1718
+        width: 107
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/land_00
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1535
+        width: 78
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/rise_00
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1501
+        width: 78
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/rise_01
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1479
+        width: 77
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/rise_02
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1346
+        width: 73
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/rise_03
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1095
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/rise_04
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 950
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/rise_05
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 451
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/rise_06
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 631
+        width: 64
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/rise_07
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 884
+        width: 65
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/rise_08
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 610
+        width: 64
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/rise_09
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 478
+        width: 64
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/stun_00
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1535
+        width: 78
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/stunIdle_00
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1501
+        width: 78
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/stunIdle_01
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1479
+        width: 77
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/stunIdle_02
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1346
+        width: 73
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/stunIdle_03
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1095
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/stunIdle_04
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 950
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/stunIdle_05
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 451
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/stunIdle_06
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 631
+        width: 64
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/stunIdle_07
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 884
+        width: 65
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/stunIdle_08
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 610
+        width: 64
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/stunIdle_09
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 478
+        width: 64
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/walk_00
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 426
+        width: 64
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/walk_01
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1102
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/walk_02
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1097
+        width: 68
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/walk_03
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1155
+        width: 71
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/walk_04
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1263
+        width: 72
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/walk_05
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1325
+        width: 74
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/walk_06
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1403
+        width: 75
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/walk_07
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1379
+        width: 74
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/walk_08
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1314
+        width: 73
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/walk_09
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1237
+        width: 73
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/walk_10
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1185
+        width: 70
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/walk_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1063
+        width: 69
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/walk_12
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1362
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/walk_13
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 862
+        width: 65
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/walk_14
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 1962
+        width: 64
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/walk_15
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 430
+        width: 63
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/walk_16
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 340
+        width: 62
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/walk_17
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 380
+        width: 60
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/walk_18
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 601
+        width: 64
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/walk_19
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1099
+        width: 68
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/walk_20
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1616
+        width: 72
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/walk_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1227
+        width: 73
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/walk_22
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1703
+        width: 71
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/walk_23
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1148
+        width: 70
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/walk_24
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1274
+        width: 68
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/walk_25
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1243
+        width: 69
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/walk_26
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1133
+        width: 66
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pirate/walk_27
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 396
+        width: 64
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -5,7 +5,6 @@ using UnityEngine;
 public class FallToDeath : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other) {
-		Debug.Log (other);
 		if (other.CompareTag ("Player")) {
 			other.GetComponent<PlayerController>().Die ();
 		}

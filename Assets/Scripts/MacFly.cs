@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class MacFly : MonoBehaviour
 {
 	public bool DrawGizmos = false;
@@ -13,9 +14,10 @@ public class MacFly : MonoBehaviour
 
 	private Transform target;
 
-	public float speed = 0.01f;
+	public float speed = 0.5f;
 	private Vector2 lastPos;
 	private SpriteRenderer renderR;
+	private Rigidbody2D rgbody;
 
 	private Animator anim;
 	public float atkLoad = 2/6f;
@@ -23,6 +25,9 @@ public class MacFly : MonoBehaviour
 	public float atkCooldown = 2f;
 	private float atkCdValue = 0;
 	private bool attack = false;
+
+	public float hitCooldown = 1f;
+	private float hitCdValue = 0;
 
 	public GameObject attackFx;
 	public Vector2 fxOffset = new Vector2(0.3f, -0.05f);
@@ -42,6 +47,9 @@ public class MacFly : MonoBehaviour
 		anim = GetComponent<Animator>();
 		health = maxHealth;
 		gemNum = (int) Random.Range (maxGem * 0.6f, maxGem);
+		
+		rgbody = GetComponent<Rigidbody2D>();
+		rgbody.gravityScale = 0;
 	}
 
 	void FixedUpdate()
@@ -50,6 +58,12 @@ public class MacFly : MonoBehaviour
 			return;
 		
 		FixedUpdateTimers();
+
+		if (hitCdValue > 0)
+		{
+			rgbody.velocity -= rgbody.velocity * 0.1f;
+			return;
+		}
 		
 		if (target != null && Vector2.Distance(transform.position, target.position) > followingRange)
 		{
@@ -68,21 +82,29 @@ public class MacFly : MonoBehaviour
 		}
 
 		if (target == null)
+		{
+			rgbody.velocity = Vector2.zero;
 			return;
+		}
 
 		if (Vector2.Distance(transform.position, target.position) > followingDistance)
 		{
-			Vector2 nextPos = Vector2.Lerp(transform.position, target.position, speed);
-			renderR.flipX = (nextPos.x - lastPos.x) < 0;
-			transform.position = nextPos;
-			lastPos = nextPos;
+			//Vector2 nextPos = Vector2.Lerp(transform.position, target.position, speed);
+			Vector2 velocity = (target.position-transform.position) * speed;
+			Debug.Log(velocity);
+			rgbody.velocity = velocity;
 		}
 		else if(!attack && atkCdValue.Equals(0))
 		{
 			StartAttack();
 			return;
 		}
-
+		
+		renderR.flipX = (transform.position.x - lastPos.x) < 0;
+		if(target != null)
+			renderR.flipX = (target.position.x - transform.position.x) < 0;
+		lastPos = transform.position;
+		
 		if (attack && atkLoadValue.Equals(0))
 		{
 			Attack();
@@ -102,15 +124,22 @@ public class MacFly : MonoBehaviour
 		}
 		other.tag = "Untagged";
 		if (playerAttack != null){	
-			Hit(playerAttack);
+			HitBy(playerAttack, other.transform.position);
 		}
 	}
 	
-	void Hit(Attack playerAttack)
+	void HitBy(Attack playerAttack, Vector3 pos)
 	{
+		Vector2 force = new Vector2(transform.position.x - pos.x, transform.position.y - pos.y);
+		force.Scale(new Vector2(playerAttack.force, playerAttack.force));
+		rgbody.velocity += force;
+		
+		
 		attack = false;
 		atkCdValue = atkCooldown;
 		atkLoadValue = 0;
+
+		hitCdValue = hitCooldown;
 
 		health -= playerAttack.damage;
 
@@ -148,7 +177,7 @@ public class MacFly : MonoBehaviour
 		fxPos.y += fxOffset.y;
 		GameObject fx = Instantiate(attackFx, fxPos, transform.rotation) as GameObject;
 		fx.GetComponentInChildren<SpriteRenderer>().flipX = renderR.flipX;
-		Destroy(fx, 10f);
+		Destroy(fx, 1f);
 		attack = false;
 	}
 
@@ -161,21 +190,32 @@ public class MacFly : MonoBehaviour
 
 	private void FixedUpdateTimers()
 	{
-		if (atkLoadValue > 0)
-			atkLoadValue -= Time.fixedDeltaTime;
-		else
-			atkLoadValue = 0;
-		
-		if (atkCdValue > 0)
-			atkCdValue -= Time.fixedDeltaTime;
-		else
-			atkCdValue = 0;
+		atkLoadValue = FixedUpdateTimer(atkLoadValue);
+		atkCdValue = FixedUpdateTimer(atkCdValue);
+		hitCdValue = FixedUpdateTimer(hitCdValue);
+	}
+
+	private static float FixedUpdateTimer(float value)
+	{
+		if (value > 0)
+			return value - Time.fixedDeltaTime;
+		return 0;
 	}
 	
 	void OnDrawGizmosSelected() {
 		if(!DrawGizmos)
 			return;
 		
+		Handles.color = Color.white;
+		if (target != null)
+		{
+			UnityEditor.Handles.DrawDottedLine(transform.position, target.position, 1);
+			UnityEditor.Handles.DrawWireDisc(transform.position ,Vector3.back, followingDistance);
+		}
+		
+		if(rgbody != null)
+			Handles.DrawLine(transform.position, transform.position+(Vector3)rgbody.velocity);
+
 		Handles.color = Color.red;
 		UnityEditor.Handles.DrawWireDisc(transform.position ,Vector3.back, trackingRange);
 		Handles.color = Color.yellow;

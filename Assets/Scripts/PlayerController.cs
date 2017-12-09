@@ -340,8 +340,6 @@ public class PlayerController : MonoBehaviour
 		anim.Update(100);
 		anim.Play ("PlayerHit");
 
-		Debug.Log ("player[ hp: " + health + " ]");
-
 		if (health <= 0) {
 			health = 0;
 			dead = true;

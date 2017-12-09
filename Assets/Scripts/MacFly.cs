@@ -13,6 +13,8 @@ public class MacFly : MonoBehaviour
 	public Transform target;
 
 	public float speed = 0.01f;
+	private Vector2 lastPos;
+	private SpriteRenderer renderR;
 	
 	void OnDrawGizmosSelected() {
 		if(!DrawGizmos)
@@ -24,11 +26,12 @@ public class MacFly : MonoBehaviour
 		UnityEditor.Handles.DrawWireDisc(transform.position ,Vector3.back, followingRange);
 	}
 
-	void Start () {
-		
+	void Start ()
+	{
+		renderR = GetComponent<SpriteRenderer>();
 	}
-	
-	void FixedUpdate ()
+
+	void FixedUpdate()
 	{
 		if (target != null && Vector2.Distance(transform.position, target.position) > followingRange)
 		{
@@ -46,10 +49,20 @@ public class MacFly : MonoBehaviour
 			}
 		}
 
-		if(target == null)
+		if (target == null)
 			return;
 
-		if(Vector2.Distance(transform.position, target.position) > followingDistance)
-			transform.position = Vector2.Lerp(transform.position, target.position, speed);
+		if (Vector2.Distance(transform.position, target.position) > followingDistance)
+		{
+			Vector2 nextPos = Vector2.Lerp(transform.position, target.position, speed);
+			renderR.flipX = (nextPos.x - lastPos.x) < 0;
+			transform.position = nextPos;
+			lastPos = nextPos;
+		}
+		else
+
+		{
+			// attack
+		}
 	}
 }

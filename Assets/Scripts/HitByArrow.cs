@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 
-public class ArrowHit : MonoBehaviour
+public class HitByArrow : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         if(!other.CompareTag("PlayerAtkArrow"))
             return;

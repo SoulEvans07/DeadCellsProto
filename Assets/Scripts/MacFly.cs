@@ -213,6 +213,7 @@ public class MacFly : MonoBehaviour
 			UnityEditor.Handles.DrawWireDisc(transform.position ,Vector3.back, followingDistance);
 		}
 		
+		Handles.color = Color.cyan;
 		if(rgbody != null)
 			Handles.DrawLine(transform.position, transform.position+(Vector3)rgbody.velocity);
 

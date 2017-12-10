@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class MacFly : MonoBehaviour
@@ -37,6 +38,11 @@ public class MacFly : MonoBehaviour
 	private float health;
 	private bool dead = false;
 	
+	public GameObject hpBarPref;
+	public Vector2 healthBarOffset = new Vector2(0, 0.01f);
+	private GameObject healthBarObject;
+	private Slider healthBar;
+	
 	public GameObject spawnGem;
 	public int maxGem = 3;
 	private int gemNum;
@@ -57,6 +63,13 @@ public class MacFly : MonoBehaviour
 	{
 		if(dead)
 			return;
+		
+		if (healthBarObject == null && health < maxHealth)
+		{
+			CreateHealthBar();
+		}
+		
+		UpdateHPBar();
 		
 		FixedUpdateTimers();
 
@@ -115,6 +128,22 @@ public class MacFly : MonoBehaviour
 		}
 	}
 	
+	void CreateHealthBar()
+	{
+		healthBarObject = Instantiate(hpBarPref, CanvasManager.instance.gameObject.transform) as GameObject;
+		SliderFollowObject followObject = healthBarObject.GetComponent<SliderFollowObject>();
+		followObject.target = transform;
+		followObject.offset = healthBarOffset;
+		followObject.UpdatePos();
+		healthBar = healthBarObject.GetComponent<Slider>();
+	}
+	
+	void UpdateHPBar()
+	{
+		if(healthBar != null)
+			healthBar.value = health / maxHealth;
+	}
+	
 	void OnTriggerEnter2D(Collider2D other) {
 		if (!other.CompareTag ("PlayerAtk") && !other.CompareTag("PlayerAtkArrow"))
 			return;
@@ -158,6 +187,7 @@ public class MacFly : MonoBehaviour
 	{
 		dead = true;
 		Destroy (gameObject, 0.5f);
+		Destroy(healthBarObject);
 		Transform playerTrans = PlayerController.instance.transform;
 
 		while(gemNum > 0){

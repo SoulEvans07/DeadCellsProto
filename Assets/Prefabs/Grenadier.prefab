@@ -68,7 +68,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1026756363626248}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.66, y: -1.24, z: 0}
+  m_LocalPosition: {x: -4.71, y: -1.16, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4642999092960494}
@@ -175,17 +175,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 020221e0a510b8f4b9c0b6e092d8ccfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 30
+  maxHealth: 30
+  hpBarPref: {fileID: 1654325925104120, guid: b2a1eaa4d5b135f4d85e9907d7cdf168, type: 2}
+  healthBarOffset: {x: 0, y: 0.3}
   maxSpeed: 0.4
   probe: {fileID: 4861126956279618}
   groundCheck: {fileID: 4642999092960494}
-  groundRadius: 0
+  edgeRadius: 0.01
   whatIsGround:
     serializedVersion: 2
     m_Bits: 1
   whatIsLedge:
     serializedVersion: 2
     m_Bits: 16384
+  lastLedge: {fileID: 0}
   attackSignalTime: 0.5
   attackCooldown: 1
   attackDistance: 0.4

@@ -1,11 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GrenadierZombie : MonoBehaviour {
 	// life
-	public float health = 30f;
+	public float maxHealth = 30f;
+	private float health;
 	private bool dead = false;
+	public GameObject hpBarPref;
+	public Vector2 healthBarOffset = new Vector2(0, 0.3f);
+	private GameObject healthBarObject;
+	private Slider healthBar;
 
 	// moving and colliding
 	public float maxSpeed = 0.4f;
@@ -41,7 +47,10 @@ public class GrenadierZombie : MonoBehaviour {
 	public int maxGem = 5;
 	private int gemNum;
 
-	void Start () {
+	void Start ()
+	{
+		health = maxHealth;
+		
 		rd2d = GetComponent<Rigidbody2D> ();
 		anim = GetComponent<Animator> ();
 		spriteRenderer = GetComponent<SpriteRenderer> ();
@@ -62,7 +71,13 @@ public class GrenadierZombie : MonoBehaviour {
 			return;
 		}
 
+		if (healthBarObject == null && health < maxHealth)
+		{
+			CreateHealthBar();
+		}
 
+		UpdateHPBar();
+		
 		// attack
 		Transform playerTrans = PlayerController.instance.transform;
 		float diffX = (facingRight ? (playerTrans.position.x - transform.position.x) : (transform.position.x - playerTrans.position.x));
@@ -100,6 +115,22 @@ public class GrenadierZombie : MonoBehaviour {
 			}
 			attackSignalTimeValue -= Time.fixedDeltaTime;
 		}
+	}
+
+	void CreateHealthBar()
+	{
+		healthBarObject = Instantiate(hpBarPref, CanvasManager.instance.gameObject.transform) as GameObject;
+		SliderFollowObject followObject = healthBarObject.GetComponent<SliderFollowObject>();
+		followObject.target = transform;
+		followObject.offset = healthBarOffset;
+		followObject.UpdatePos();
+		healthBar = healthBarObject.GetComponent<Slider>();
+	}
+	
+	void UpdateHPBar()
+	{
+		if(healthBar != null)
+			healthBar.value = health / maxHealth;
 	}
 
 	void Attack(){
@@ -164,6 +195,7 @@ public class GrenadierZombie : MonoBehaviour {
 		anim.SetBool("zombie-dead", dead);
 			
 		Destroy (gameObject, 1f);
+		Destroy(healthBarObject);
 
 		Transform playerTrans = PlayerController.instance.transform;
 

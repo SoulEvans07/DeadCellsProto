@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
 	public LayerMask whatIsGround;
 	private bool grounded = false;
 	private float groundRadius = 0.2f;
+	public Transform probe;
 
 	// jump
 	public float jumpForce = 400.0f;
@@ -69,7 +70,7 @@ public class PlayerController : MonoBehaviour
 	public GameObject arrow;
 	public float shootCooldown = 1.2f;
 	private float shootCooldownValue = 0f;
-	public float arrowForce = 100f;
+	public float arrowForce = 900f;
 
 
 	public PlayerController (){
@@ -230,6 +231,10 @@ public class PlayerController : MonoBehaviour
 			if (!crouch)
 			{
 				anim.SetFloat("player-x-speed", Mathf.Abs(move));
+				if (!grounded && Physics2D.OverlapCircle(probe.position, 0.1f, whatIsGround) != null)
+				{
+					move = 0;
+				}
 				rd2d.velocity = new Vector2(move * maxSpeed, rd2d.velocity.y);
 			}
 

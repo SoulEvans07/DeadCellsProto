@@ -119,6 +119,8 @@ public class GrenadierZombie : MonoBehaviour {
 
 	void CreateHealthBar()
 	{
+		if(CanvasManager.instance == null)
+			return;
 		healthBarObject = Instantiate(hpBarPref, CanvasManager.instance.gameObject.transform) as GameObject;
 		SliderFollowObject followObject = healthBarObject.GetComponent<SliderFollowObject>();
 		followObject.target = transform;
@@ -183,8 +185,6 @@ public class GrenadierZombie : MonoBehaviour {
 
 		anim.Update(100);
 		anim.Play ("ZombieHit");
-
-		Debug.Log ("zombie[ hp: " + health + " ]");
 
 		if (health <= 0)
 			dead = true;

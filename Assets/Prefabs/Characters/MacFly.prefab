@@ -24,7 +24,6 @@ GameObject:
   - component: {fileID: 58717399720058398}
   - component: {fileID: 114612718748422010}
   - component: {fileID: 95437991874763052}
-  - component: {fileID: 114003487347840632}
   m_Layer: 15
   m_Name: MacFly
   m_TagString: Enemy
@@ -97,19 +96,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114003487347840632
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1589418151011856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4aab718152e4b6f8825e439dc877231, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  play: ActionIntro
-  next: ActionLoop
 --- !u!114 &114612718748422010
 MonoBehaviour:
   m_ObjectHideFlags: 1

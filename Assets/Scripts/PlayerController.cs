@@ -85,7 +85,7 @@ public class PlayerController : MonoBehaviour
 
 	void Start ()
 	{
-		PlayerPrefs.DeleteKey ("player-gold");;
+		PlayerPrefs.DeleteKey ("player-gold");
 
 		rd2d = GetComponent<Rigidbody2D> ();
 		anim = GetComponent<Animator> ();

@@ -8,5 +8,6 @@ public class OptionsMenu : MonoBehaviour
     public void SetVolume(float value)
     {
         mixer.SetFloat("MainVolume", value);
+        PlayerPrefs.SetFloat("volume", value);
     }
 }

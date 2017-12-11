@@ -35,6 +35,8 @@ public class HighScoreMenu : MonoBehaviour {
 	}
 
 	public void MainMenu(){
+		AudioManager.instance.Stop("Highscore");
+		AudioManager.instance.Play("Main");
 		SceneManager.LoadScene ("Menu");
 	}
 

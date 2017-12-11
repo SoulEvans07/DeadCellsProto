@@ -115,6 +115,8 @@ public class PlayerController : MonoBehaviour
 		// Death animation
 		Destroy(gameObject);
 
+		AudioManager.instance.Stop(AudioManager.instance.playing);
+		
 		// Display highscore
 		SceneManager.LoadScene("HighScore");
 	}

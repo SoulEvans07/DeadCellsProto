@@ -10,4 +10,11 @@ public class CanvasManager : MonoBehaviour
             Debug.LogWarning ("more than one instance");
         instance = this;
     }
+
+    private void Start()
+    {
+        AudioManager.instance.Stop(AudioManager.instance.playing);
+        AudioManager.instance.Play("ActionIntro");
+        AudioManager.instance.PlayAfter("ActionLoop");
+    }
 }

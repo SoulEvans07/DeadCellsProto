@@ -1,7 +1,6 @@
 ﻿using System.CodeDom;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -236,24 +235,24 @@ public class MacFly : MonoBehaviour
 		return 0;
 	}
 	
-	void OnDrawGizmosSelected() {
-		if(!DrawGizmos)
-			return;
-		
-		Handles.color = Color.white;
-		if (target != null)
-		{
-			UnityEditor.Handles.DrawDottedLine(transform.position, target.position, 1);
-			UnityEditor.Handles.DrawWireDisc(transform.position ,Vector3.back, followingDistance);
-		}
-		
-		Handles.color = Color.cyan;
-		if(rgbody != null)
-			Handles.DrawLine(transform.position, transform.position+(Vector3)rgbody.velocity);
-
-		Handles.color = Color.red;
-		UnityEditor.Handles.DrawWireDisc(transform.position ,Vector3.back, trackingRange);
-		Handles.color = Color.yellow;
-		UnityEditor.Handles.DrawWireDisc(transform.position ,Vector3.back, followingRange);
-	}
+//	void OnDrawGizmosSelected() {
+//		if(!DrawGizmos)
+//			return;
+//		
+//		Handles.color = Color.white;
+//		if (target != null)
+//		{
+//			UnityEditor.Handles.DrawDottedLine(transform.position, target.position, 1);
+//			UnityEditor.Handles.DrawWireDisc(transform.position ,Vector3.back, followingDistance);
+//		}
+//		
+//		Handles.color = Color.cyan;
+//		if(rgbody != null)
+//			Handles.DrawLine(transform.position, transform.position+(Vector3)rgbody.velocity);
+//
+//		Handles.color = Color.red;
+//		UnityEditor.Handles.DrawWireDisc(transform.position ,Vector3.back, trackingRange);
+//		Handles.color = Color.yellow;
+//		UnityEditor.Handles.DrawWireDisc(transform.position ,Vector3.back, followingRange);
+//	}
 }

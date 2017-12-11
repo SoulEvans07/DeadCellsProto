@@ -9,6 +9,8 @@ public class HighScoreMenu : MonoBehaviour {
 	public TextMeshProUGUI scoreLabel;
 
 	void Start(){
+		AudioManager.instance.Play("Highscore");
+		
 		int gold = 0;
 		int highscore = 0;
 

@@ -271,8 +271,10 @@ public class PlayerController : MonoBehaviour
 			if (healPress >= healWait)
 			{
 				healPress = 0;
-				if(!health.Equals(maxHealth))
+				if (!health.Equals(maxHealth))
+				{
 					Heal(potion.GetComponent<PotionHandler>().UsePotion());
+				}
 			}
 		}
 		else

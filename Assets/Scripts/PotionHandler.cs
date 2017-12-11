@@ -14,8 +14,6 @@ public class PotionHandler : MonoBehaviour
     {
         volume = maxVolume;
         image = GetComponent<Image>();
-
-
         image.sprite = sprites[getId()];
     }
 
@@ -31,7 +29,7 @@ public class PotionHandler : MonoBehaviour
 
         volume--;
         image.sprite = sprites[getId()];
-        return volume * healMultiplier;
+        return maxVolume * healMultiplier;
     }
     
 }

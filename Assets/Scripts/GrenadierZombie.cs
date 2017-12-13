@@ -65,6 +65,8 @@ public class GrenadierZombie : MonoBehaviour {
 	
 
 	void FixedUpdate (){
+		if(PlayerController.instance == null)
+			return;
 		SetBoxCollider ();
 		if (dead) {
 			Die();

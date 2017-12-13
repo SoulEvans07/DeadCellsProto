@@ -13,8 +13,10 @@ public class CanvasManager : MonoBehaviour
 
     private void Start()
     {
-        AudioManager.instance.Stop(AudioManager.instance.playing);
-        AudioManager.instance.Play("ActionIntro");
-        AudioManager.instance.PlayAfter("ActionLoop");
+        if(AudioManager.instance != null){
+            AudioManager.instance.Stop("Main");
+            AudioManager.instance.Play("ActionIntro");
+            AudioManager.instance.PlayAfter("ActionLoop");
+        }
     }
 }

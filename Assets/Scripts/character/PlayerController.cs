@@ -72,6 +72,10 @@ public class PlayerController : MonoBehaviour
 	private float shootCooldownValue = 0f;
 	public float arrowForce = 900f;
 
+	// throw bomb
+	public GameObject bombObject;
+	public float throwForce = 250f;
+	private bool throwing = false;
 
 	public PlayerController (){
 		health = maxHealth;
@@ -256,20 +260,20 @@ public class PlayerController : MonoBehaviour
 
 	void Update ()
 	{
-		if (!attack && attackCooldownValue <= 0 && Input.GetButtonDown ("Fire1")) {
+		if (!attack && attackCooldownValue <= 0 && Input.GetButtonDown (InputManager.ATTACK1)) {
 			attackCooldownValue = attackCooldown;
 			attack = true;
 			return;
 		}
 		
-		if (!shoot && shootCooldownValue <= 0 && Input.GetButtonDown ("Fire2")) {
+		if (!shoot && shootCooldownValue <= 0 && Input.GetButtonDown (InputManager.ATTACK2)) {
 			shootCooldownValue = shootCooldown;
 			anim.Play("PlayerLongBow");
 			shoot = true;
 			return;
 		}
 
-		if (Input.GetButton("Heal"))
+		if (Input.GetButton(InputManager.HEAL))
 		{
 			healPress += Time.deltaTime;
 			if (healPress >= healWait)
@@ -286,7 +290,7 @@ public class PlayerController : MonoBehaviour
 			healPress = 0;
 		}
 
-		if (grounded && Input.GetButtonDown ("Jump"))
+		if (grounded && Input.GetButtonDown (InputManager.JUMP))
 		{
 			shoot = false;
 			Collider2D standingOn = Physics2D.OverlapCircle (groundCheck.position, groundRadius, whatIsGround);
@@ -314,6 +318,21 @@ public class PlayerController : MonoBehaviour
 //			stomped = true;
 //			anim.SetBool ("player-stomp", true);
 		}
+		if (Input.GetAxisRaw(InputManager.SKILL1).Equals(0))
+		{
+			throwing = false;
+		}
+		if (!throwing && Input.GetAxisRaw(InputManager.SKILL1) > 0)
+		{
+			ThrowBomb();
+			throwing = true;
+		}
+	}
+
+	public void ThrowBomb()
+	{
+		GameObject bomb = Instantiate(bombObject, probe.position, transform.rotation) as GameObject;
+		bomb.GetComponent<Rigidbody2D>().AddForce(new Vector2(throwForce * (facingRight? 1 : -1), throwForce));
 	}
 
 	public void Heal(float amount)
@@ -332,13 +351,13 @@ public class PlayerController : MonoBehaviour
 			return;
 
 		other.tag = "Untagged";
-		Attack playerAttack = other.GetComponent<Attack> ();
+		AttackFx playerAttack = other.GetComponent<AttackFx> ();
 		if (playerAttack != null){	
 			Hit(playerAttack);
 		}
 	}
 
-	void Hit(Attack hit){
+	void Hit(AttackFx hit){
 		if (hitCooldownValue > 0)
 		{
 			return;

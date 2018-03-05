@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Attack : MonoBehaviour {
+public class AttackFx : MonoBehaviour {
 	public int damage = 10;
 	public float force = 5;
 }

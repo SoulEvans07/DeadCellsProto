@@ -796,6 +796,7 @@ TextureImporter:
     21301578: tpDownGlow
     21301580: tpUpGlow
     21301582: treasureGodRay
+  externalObjects: {}
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -849,20 +850,24 @@ TextureImporter:
   platformSettings:
   - buildTarget: DefaultTexturePlatform
     maxTextureSize: 8192
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
   - buildTarget: Standalone
     maxTextureSize: 8192
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -3268,8 +3273,8 @@ TextureImporter:
         y: 878
         width: 70
         height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.493498, y: 0.43497926}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3296,8 +3301,8 @@ TextureImporter:
         y: 1025
         width: 68
         height: 98
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.52767044, y: 0.20959847}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3324,8 +3329,8 @@ TextureImporter:
         y: 485
         width: 74
         height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.50691676, y: 0.11180518}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3352,8 +3357,8 @@ TextureImporter:
         y: 490
         width: 56
         height: 82
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14167339}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3380,8 +3385,8 @@ TextureImporter:
         y: 1561
         width: 49
         height: 79
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.52556187, y: 0.13136466}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3408,8 +3413,8 @@ TextureImporter:
         y: 784
         width: 41
         height: 79
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16008131}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

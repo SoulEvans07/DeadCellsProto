@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4862451863339072}
   - component: {fileID: 61097352209060812}
-  - component: {fileID: 114426150239291294}
+  - component: {fileID: 114808682210020090}
   m_Layer: 11
   m_Name: ZombieSlash
   m_TagString: EnemyAtk
@@ -114,7 +114,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114426150239291294
+--- !u!114 &114808682210020090
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1210502057978896}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 359c68e1eb583d14e9b5dcfbaf994289, type: 3}
+  m_Script: {fileID: 11500000, guid: 1dd3ac2dc0084e75b707c1069ad10d22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 10
@@ -136,6 +136,7 @@ SpriteRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -151,6 +152,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5

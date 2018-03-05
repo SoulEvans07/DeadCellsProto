@@ -163,7 +163,7 @@ public class GrenadierZombie : MonoBehaviour {
 		if (!other.CompareTag ("PlayerAtk") && !other.CompareTag("PlayerAtkArrow"))
 			return;
 
-		Attack playerAttack = other.GetComponent<Attack> ();
+		AttackFx playerAttack = other.GetComponent<AttackFx> ();
 		if (other.CompareTag("PlayerAtkArrow"))
 		{
 			other.GetComponent<Rigidbody2D>().isKinematic = true;
@@ -176,7 +176,7 @@ public class GrenadierZombie : MonoBehaviour {
 		}
 	}
 
-	void Hit(Attack attack){
+	void Hit(AttackFx attack){
 		attackSignalTimeValue = attackSignalTime;
 		attackCooldownValue = attackCooldown;
 		attackStarted = false;

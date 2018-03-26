@@ -22,8 +22,9 @@ GameObject:
   - component: {fileID: 212013445216024322}
   - component: {fileID: 60723032894899260}
   - component: {fileID: 68712192761863468}
-  - component: {fileID: 114022201850436502}
   - component: {fileID: 50100358569828710}
+  - component: {fileID: 114201904368156116}
+  - component: {fileID: 114497884565336944}
   m_Layer: 10
   m_Name: Arrow
   m_TagString: PlayerAtkArrow
@@ -110,7 +111,7 @@ EdgeCollider2D:
   - {x: 0.04253204, y: 0.026447058}
   - {x: 0.16221696, y: -0.005307084}
   - {x: 0.04325962, y: -0.03676787}
---- !u!114 &114022201850436502
+--- !u!114 &114201904368156116
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -118,11 +119,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1705701654128926}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 359c68e1eb583d14e9b5dcfbaf994289, type: 3}
+  m_Script: {fileID: 11500000, guid: 1dd3ac2dc0084e75b707c1069ad10d22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 15
-  force: 2
+  damage: 10
+  force: 5
+--- !u!114 &114497884565336944
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1705701654128926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25f77fd9df3643bdb1fab5eb0d8b4fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212013445216024322
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -132,6 +144,7 @@ SpriteRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -147,6 +160,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5

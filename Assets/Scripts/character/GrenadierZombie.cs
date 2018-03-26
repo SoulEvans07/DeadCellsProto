@@ -65,8 +65,8 @@ public class GrenadierZombie : MonoBehaviour {
 	
 
 	void FixedUpdate (){
-		if(PlayerController.instance == null)
-			return;
+//		if(PlayerController.instance == null)
+//			return;
 		SetBoxCollider ();
 		if (dead) {
 			Die();
@@ -81,7 +81,8 @@ public class GrenadierZombie : MonoBehaviour {
 		UpdateHPBar();
 		
 		// attack
-		Transform playerTrans = PlayerController.instance.transform;
+//		Transform playerTrans = PlayerController.instance.transform;
+		Transform playerTrans = Headless.instance.transform;
 		float diffX = (facingRight ? (playerTrans.position.x - transform.position.x) : (transform.position.x - playerTrans.position.x));
 		float diffY = playerTrans.position.y - transform.position.y;
 
@@ -176,7 +177,7 @@ public class GrenadierZombie : MonoBehaviour {
 		}
 	}
 
-	void Hit(AttackFx attack){
+	public void Hit(AttackFx attack){
 		attackSignalTimeValue = attackSignalTime;
 		attackCooldownValue = attackCooldown;
 		attackStarted = false;
@@ -188,6 +189,7 @@ public class GrenadierZombie : MonoBehaviour {
 		anim.Update(100);
 		anim.Play ("ZombieHit");
 
+		Debug.Log(health);
 		if (health <= 0)
 			dead = true;
 	}
@@ -199,7 +201,8 @@ public class GrenadierZombie : MonoBehaviour {
 		Destroy (gameObject, 1f);
 		Destroy(healthBarObject);
 
-		Transform playerTrans = PlayerController.instance.transform;
+//		Transform playerTrans = PlayerController.instance.transform;
+		Transform playerTrans = Headless.instance.transform;
 
 		while(gemNum > 0){
 			Quaternion rotation = transform.rotation;

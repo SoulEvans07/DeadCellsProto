@@ -1,5 +1,7 @@
-﻿public class InputManager
-{
+﻿public static class InputManager {
+    public const string AXIS_X = "Horizontal";
+    public const string AXIS_Y = "Vertical";
+    
     public const string ATTACK1 = BTN_X;
     public const string ATTACK2 = BTN_Y;
     public const string JUMP = BTN_A;

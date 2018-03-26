@@ -21,9 +21,11 @@ GameObject:
   - component: {fileID: 4735705823787454}
   - component: {fileID: 212842736248383874}
   - component: {fileID: 95354822167263980}
-  m_Layer: 0
+  - component: {fileID: 58606613941648580}
+  - component: {fileID: 114375670431327002}
+  m_Layer: 10
   m_Name: BombExplosion
-  m_TagString: Untagged
+  m_TagString: PlayerAtk
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41,6 +43,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &58606613941648580
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1741880244614210}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.004551381, y: 0.045514524}
+  serializedVersion: 2
+  m_Radius: 1
 --- !u!95 &95354822167263980
 Animator:
   serializedVersion: 3
@@ -58,6 +75,19 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114375670431327002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1741880244614210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4350436a965c99749becf08c44e12cc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxForce: 200
+  radius: 0
 --- !u!212 &212842736248383874
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -68,7 +68,7 @@ public class PlayerController : MonoBehaviour
 	public Vector3 arrowFxOffset = new Vector3(0.213f, 0.056f, 0);
 	private Vector3 arrowFxOffsetLeft;
 	public GameObject arrow;
-	public float shootCooldown = 1.2f;
+	public float shootCooldown = 0.6f;
 	private float shootCooldownValue = 0f;
 	public float arrowForce = 900f;
 
@@ -170,7 +170,7 @@ public class PlayerController : MonoBehaviour
 		// instantiate arrow
 		// start shoot
 
-		if (shoot && shootCooldownValue > 0 && shootCooldownValue < (shootCooldown - 25.0f / 24.0f))
+		if (shoot && shootCooldownValue > 0 && shootCooldownValue < (shootCooldown - 25.0f / 24.0f / 2))
 		{
 			shoot = false;
 			anim.Play("PlayerLongBowShot");

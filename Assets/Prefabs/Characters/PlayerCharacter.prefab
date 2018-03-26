@@ -215,6 +215,8 @@ MonoBehaviour:
   arrow: {fileID: 1705701654128926, guid: 01cdb055304337a4990529d736d81fe9, type: 2}
   shootCooldown: 1.2
   arrowForce: 900
+  bombObject: {fileID: 1227444280312180, guid: 8cb167cf2ab3a174a96edfd488d03aa4, type: 2}
+  throwForce: 250
 --- !u!212 &212844082922840912
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -224,6 +226,7 @@ SpriteRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -239,6 +242,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5

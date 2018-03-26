@@ -189,7 +189,7 @@ public class GrenadierZombie : MonoBehaviour {
 		anim.Update(100);
 		anim.Play ("ZombieHit");
 
-		Debug.Log(health);
+//		Debug.Log(health);
 		if (health <= 0)
 			dead = true;
 	}

@@ -14,6 +14,7 @@ public class SpriteLoader {
             
             Sprite[] array = AssetDatabase.LoadAllAssetsAtPath(spriteSheetPath).OfType<Sprite>().ToArray();
             foreach (Sprite sprite in array) {
+//                Debug.Log("added " + sprite.name);
                 sprites.Add(sprite.name, sprite);
             }
         }

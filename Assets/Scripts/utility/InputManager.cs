@@ -10,7 +10,7 @@
     public const string SKILL1 = LT;
     public const string SKILL2 = RT;
     
-    //public const string INTERACT = RB;
+    public const string INTERACT = RB;
     
     
     

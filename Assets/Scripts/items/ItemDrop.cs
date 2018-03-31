@@ -11,6 +11,8 @@ public class ItemDrop : MonoBehaviour {
 
     public Equipment item;
 
+    public Collider2D inside = null;
+
     private void Start() {
         SpriteLoader.loadSpritesFrom(itemIconsPath);
         if (item != null) {
@@ -38,22 +40,28 @@ public class ItemDrop : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D other) {
         if(!other.CompareTag("Player") || CanvasManager.instance == null || popUpInst != null)
             return;
-        
+        inside = other;
         popUpInst = Instantiate(popUp, CanvasManager.instance.gameObject.transform);
         popUpInst.GetComponent<RectTransform>().position = transform.position + popOffset;
     }
 
-    private void OnTriggerStay2D(Collider2D other) {
-        popUpInst.GetComponent<RectTransform>().position = transform.position + popOffset;
-        if (Input.GetButtonDown(InputManager.INTERACT)) {
-            PickUp(other);
+    private void Update() {
+        if (inside != null && Input.GetButtonDown(InputManager.INTERACT)) {
+            PickUp(inside);
             Destroy(popUpInst);
             popUpInst = null;
+            inside = null;
         }
-        
+    }
+
+    private void OnTriggerStay2D(Collider2D other) {
+        popUpInst.GetComponent<RectTransform>().position = transform.position + popOffset;
     }
 
     private void OnTriggerExit2D(Collider2D other) {
+        if(!other.CompareTag("Player") || popUpInst == null)
+            return;
+        inside = null;
         Destroy(popUpInst);
         popUpInst = null;
     }

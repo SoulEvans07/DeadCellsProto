@@ -1,4 +1,8 @@
-﻿using UnityEditor;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.Collections;
 using UnityEngine.UI;
@@ -15,6 +19,7 @@ public class Headless : MonoBehaviour {
     
     // movement
     public float speed = 4.5f;
+    private float prevXSpeed = 0;
 
     public float airSlowness = 0.8f;
 
@@ -29,6 +34,7 @@ public class Headless : MonoBehaviour {
 
     private Rigidbody2D rd2d;
     private Animator anim;
+    private SpriteRenderer spriteRenderer;
     public Transform groundCheck;
     public Transform probe;
 
@@ -43,6 +49,7 @@ public class Headless : MonoBehaviour {
     void Start() {
         rd2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer> ();
 
         jumpSem = maxJumps;
     }
@@ -104,6 +111,8 @@ public class Headless : MonoBehaviour {
 //        }
     }
 
+    private HashSet<double> speeds = new HashSet<double>();
+    
     private void FixedUpdate() {
         if (jumped) {
             rd2d.velocity = new Vector2(rd2d.velocity.x, 0);
@@ -112,6 +121,24 @@ public class Headless : MonoBehaviour {
         } else {
             rd2d.velocity = new Vector2(nextVx, rd2d.velocity.y);
         }
+        
+        double vel = Math.Round(rd2d.velocity.x, 2);
+        speeds.Add(vel);
+        List<double> list = speeds.ToList();
+        list.Sort();
+        
+        StringBuilder sb = new StringBuilder();
+        foreach (double elem in list) {
+            sb.Append(elem).Append(", ");
+        }
+        
+        //Debug.Log(sb);
+
+        orientTransform();
+        
+        anim.SetBool("player-grounded", isGrounded());
+        anim.SetFloat("player-x-speed", Mathf.Abs(rd2d.velocity.x));
+        anim.SetFloat("player-y-speed", rd2d.velocity.y);
     }
 
     private void spawnEffect(GameObject fx, Transform pos, float duration) {
@@ -125,9 +152,19 @@ public class Headless : MonoBehaviour {
         return Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
     }
 
+    private void orientTransform() {
+        if (Mathf.Abs(prevXSpeed - rd2d.velocity.x) > Mathf.Abs(prevXSpeed)) {
+            transform.localScale = new Vector2((rd2d.velocity.x < 0 ? -1 : 1),
+                transform.localScale.y);
+        }
+        prevXSpeed = rd2d.velocity.x;
+    }
 
+
+    [ExecuteInEditMode]
     void OnDrawGizmosSelected() {
-//        Handles.color = Color.yellow;
-//        UnityEditor.Handles.DrawWireDisc(transform.position, Vector3.back, followingRange);
+//        Handles.color = Color.cyan;
+//        Vector3 center = spriteRenderer.sprite.bounds.center;
+//        UnityEditor.Handles.DrawSolidDisc(transform.position + center, Vector3.back, 0.01f);
     }
 }

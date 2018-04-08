@@ -51,9 +51,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be293bd649e0400885ffc66ee3c7f435, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  equipmentName: Small Bomb
   spriteName: SmallBomb
   skillFx: {fileID: 1227444280312180, guid: 8cb167cf2ab3a174a96edfd488d03aa4, type: 2}
   skillUseAnim: 
-  skillCooldown: 0.3
+  skillCooldown: 3
   skillCooldownValue: 0
   throwForce: 250

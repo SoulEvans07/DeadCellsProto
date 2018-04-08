@@ -2,13 +2,19 @@
 using UnityEngine;
 
 public class BrokenSword : Weapon {
-    public float attackCooldown = 0.3f;
-    [ShowOnly] public float attackCooldownValue = 0f;
 
-    void Start() {
-        name = "Broken Sword";
+    private void init() {
+        equipmentName = "Broken Sword";
         spriteName = "BrokenSword";
         attackAnim = "AtkSaberA";
+    }
+
+    public BrokenSword() {
+        init();
+    }
+
+    private void Start() {
+        init();
     }
 
     public override void Use() {
@@ -22,7 +28,5 @@ public class BrokenSword : Weapon {
         }
     }
 
-    private void Update() {
-        attackCooldownValue = Mathf.Clamp(attackCooldownValue -  Time.fixedDeltaTime, 0, attackCooldown);
-    }
+    
 }

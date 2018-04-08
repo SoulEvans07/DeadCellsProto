@@ -7,11 +7,11 @@ public class ItemDrop : MonoBehaviour {
 
     public GameObject popUp;
     public Vector3 popOffset = new Vector3(0, 0.2f, 0);
-    public GameObject popUpInst;
+    [ShowOnly] public GameObject popUpInst;
 
     public Equipment item;
 
-    public Collider2D inside = null;
+    [ShowOnly] public Collider2D inside = null;
 
     private void Start() {
         SpriteLoader.loadSpritesFrom(itemIconsPath);

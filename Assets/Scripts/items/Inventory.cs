@@ -21,6 +21,7 @@ public class Inventory : MonoBehaviour {
             weaponX.transform.parent = transform;
             weaponXImage.sprite = SpriteLoader.getSprite(weaponX.spriteName);
             weaponXImage.color = Color.white;
+            equipment.addIcon(weaponXImage);
         }
 
         if (equipment is Skill) {
@@ -28,6 +29,7 @@ public class Inventory : MonoBehaviour {
             skillLT.transform.parent = transform;
             skillLTImage.sprite = SpriteLoader.getSprite(skillLT.spriteName);
             skillLTImage.color = Color.white;
+            equipment.addIcon(skillLTImage);
         }
     }
 

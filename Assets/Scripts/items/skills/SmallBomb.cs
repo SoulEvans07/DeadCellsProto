@@ -1,14 +1,21 @@
 ﻿using UnityEngine;
 
 public class SmallBomb : Skill {
-    public float skillCooldown = 0.3f;
-    [ShowOnly] public float skillCooldownValue = 0f;
     public float throwForce = 250f;
 
-    void Start() {
-        name = "Small Bomb";
+    private void init() {
+        equipmentName = "Small Bomb";
         spriteName = "SmallBomb";
         skillUseAnim = "";
+        skillCooldown = 3f;
+    }
+
+    public SmallBomb() {
+        init();
+    }
+
+    private void Start() {
+        init();
     }
 
     public override void Use() {
@@ -16,14 +23,11 @@ public class SmallBomb : Skill {
             skillCooldownValue = skillCooldown;
             
             GameObject bomb = Instantiate(skillFx, transform.position, transform.rotation);
-            bomb.transform.parent = transform;
+            bomb.transform.parent = null;
             bomb.GetComponent<Rigidbody2D>().AddForce(new Vector2(throwForce, throwForce));
             
             Destroy(bomb, 1);
         }
     }
     
-    private void Update() {
-        skillCooldownValue = Mathf.Clamp(skillCooldownValue -  Time.fixedDeltaTime, 0, skillCooldown);
-    }
 }

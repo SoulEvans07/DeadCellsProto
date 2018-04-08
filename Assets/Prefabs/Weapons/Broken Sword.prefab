@@ -51,6 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2e7ea00ee316a44b9832aea0ba542b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  equipmentName: Broken Sword
   spriteName: BrokenSword
   attackFx: {fileID: 1665487394090518, guid: 391434228b95a2643b8874f84b3194f8, type: 2}
   attackAnim: AtkSaberA

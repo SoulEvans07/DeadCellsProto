@@ -66,7 +66,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1077713689201256}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.492, y: 0.68, z: 0}
+  m_LocalPosition: {x: -2.0872307, y: -0.295534, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4200807333452984}
@@ -135,9 +135,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   popUp: {fileID: 1426916063950046, guid: fb7dc7c6037b10d448f6231c64bb97a9, type: 2}
+  itemSelect: {fileID: 1557438584470360, guid: cff138418480ee245858a51f877ce5e0, type: 2}
   popOffset: {x: 0, y: 0.2, z: 0}
   popUpInst: {fileID: 0}
+  itemSelectInst: {fileID: 0}
   item: {fileID: 114082747048693902, guid: ffe3a4bf7f90bd541a0eaa72205b9020, type: 2}
+  inside: {fileID: 0}
 --- !u!212 &212259673700943292
 SpriteRenderer:
   m_ObjectHideFlags: 1

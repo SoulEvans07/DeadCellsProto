@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4941477588216648}
   - component: {fileID: 114700443593026086}
   m_Layer: 0
-  m_Name: Begginers Bow
+  m_Name: Beginners Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34,7 +34,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1190008019819530}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -2.21153, y: 0.010774668, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -52,9 +52,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   equipmentName: Begginers Bow
-  spriteName: BegginersBow
+  description: 
+  dps: 5
+  extraInfo: Can not be sold.
+  spriteName: BeginnersBow
   attackFx: {fileID: 1705701654128926, guid: 01cdb055304337a4990529d736d81fe9, type: 2}
-  attackAnim: AtkBow
+  attackAnim: PlayerLongBow
   attackCooldown: 0.3
   attackCooldownValue: 0
   bowForce: 100

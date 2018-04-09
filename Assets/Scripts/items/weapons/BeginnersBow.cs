@@ -1,16 +1,20 @@
 ﻿using UnityEngine;
 
-public class BegginersBow : Weapon {
+public class BeginnersBow : Weapon {
     public float bowForce = 10f;
 
     private void init() {
         equipmentName = "Begginers Bow";
-        spriteName = "BegginersBow";
+        spriteName = "BeginnersBow";
 //        attackAnim = "AtkBow";
         attackAnim = "PlayerLongBow";
+        
+        description = "";
+        dps = 5;
+        extraInfo = "Can not be sold.";
     }
     
-    public BegginersBow() {
+    public BeginnersBow() {
         init();
     }
 

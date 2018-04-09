@@ -8,6 +8,10 @@ public class SmallBomb : Skill {
         spriteName = "SmallBomb";
         skillUseAnim = "";
         skillCooldown = 3f;
+        
+        description = "We all like explosions.";
+        dps = 10;
+        extraInfo = null;
     }
 
     public SmallBomb() {

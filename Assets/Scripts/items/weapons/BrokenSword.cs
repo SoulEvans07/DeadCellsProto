@@ -7,6 +7,10 @@ public class BrokenSword : Weapon {
         equipmentName = "Broken Sword";
         spriteName = "BrokenSword";
         attackAnim = "AtkSaberA";
+        
+        description = "";
+        dps = 10;
+        extraInfo = "Can not be sold.";
     }
 
     public BrokenSword() {

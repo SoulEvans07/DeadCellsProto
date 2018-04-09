@@ -3,8 +3,10 @@ using UnityEngine.UI;
 
 [ExecuteInEditMode]
 public abstract class Equipment : MonoBehaviour{
-    //public string description;
     public string equipmentName;
+    public string description;
+    public int dps;
+    public string extraInfo;
     public string spriteName;
     
     protected Image inventoryIcon;

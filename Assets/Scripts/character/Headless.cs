@@ -55,14 +55,17 @@ public class Headless : MonoBehaviour {
     }
 
     void Update() {
+        if(Time.timeScale.Equals(0))
+            return;
+        
         float LX = Input.GetAxis(InputManager.AXIS_X);
 //        float LY = Input.GetAxis(InputManager.AXIS_Y);
         bool jump = Input.GetButtonDown(InputManager.JUMP);
         bool grounded = isGrounded();
         bool attackOne = Input.GetButton(InputManager.ATTACK1);
-//        bool attackTwo = Input.GetButton(InputManager.ATTACK2);
+        bool attackTwo = Input.GetButton(InputManager.ATTACK2);
         bool skillOne = Input.GetAxisRaw(InputManager.SKILL1) > 0;
-//        bool skillTwo = Input.GetButton(InputManager.SKILL2);
+        bool skillTwo = Input.GetButton(InputManager.SKILL2);
         
 
         // moving
@@ -98,9 +101,15 @@ public class Headless : MonoBehaviour {
         if(attackOne){
             inventory.UseX(anim);
         }
+        if(attackTwo){
+            inventory.UseY(anim);
+        }
 
         if (skillOne) {
             inventory.UseLT(anim);
+        }
+        if (skillTwo) {
+            inventory.UseRT(anim);
         }
 
 //        if(attackTwo){

@@ -11,7 +11,9 @@
     public const string SKILL2 = RT;
     
     public const string INTERACT = RB;
-    
+
+    public const string OK = BTN_A;
+    public const string BACK = BTN_B;
     
     
     private const string BTN_A = "Btn A";

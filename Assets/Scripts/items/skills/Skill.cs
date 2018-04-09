@@ -8,10 +8,12 @@ public abstract class Skill : Equipment {
     [ShowOnly] public float skillCooldownValue = 0f;
     
     public void Update() {
+        if(inventoryIcon == null)
+            return;
         skillCooldownValue = Mathf.Clamp(skillCooldownValue -  Time.fixedDeltaTime, 0, skillCooldown);
         if (skillCooldownValue > 0) {
             inventoryIcon.color = Color.gray;
-        } else {
+        } else if(inventoryIcon.color != Color.white) {
             inventoryIcon.color = Color.white;
         }
     }

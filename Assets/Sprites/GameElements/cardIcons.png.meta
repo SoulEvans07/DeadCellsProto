@@ -23,7 +23,7 @@ TextureImporter:
     21300032: cardIcons_16
     21300034: cardIcons_17
     21300036: BrokenSword
-    21300038: BegginersBow
+    21300038: BeginnersBow
     21300040: cardIcons_20
     21300042: cardIcons_21
     21300044: cardIcons_22
@@ -461,7 +461,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BegginersBow
+      name: BeginnersBow
       rect:
         serializedVersion: 2
         x: 0

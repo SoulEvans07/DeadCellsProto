@@ -135,8 +135,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   popUp: {fileID: 1426916063950046, guid: fb7dc7c6037b10d448f6231c64bb97a9, type: 2}
+  itemSelect: {fileID: 1557438584470360, guid: cff138418480ee245858a51f877ce5e0, type: 2}
   popOffset: {x: 0, y: 0.2, z: 0}
   popUpInst: {fileID: 0}
+  itemSelectInst: {fileID: 0}
   item: {fileID: 114700443593026086, guid: 3d39c9039210fa24e946e63d9afc3343, type: 2}
   inside: {fileID: 0}
 --- !u!212 &212016291161203198

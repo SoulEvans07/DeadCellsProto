@@ -24,8 +24,8 @@ public class Living : MonoBehaviour {
         for (int i = 0; i < size; i++) {
             float off = (-Mathf.Floor(size / 2f) + i) * (0.2f / size);
             DamageOverTime dot = dotList[i];
-            
-            dot.transform.localPosition = new Vector3(off, 0.38f);
+            if(dot != null)
+                dot.transform.localPosition = new Vector3(off, 0.38f);
         }
     }
 }

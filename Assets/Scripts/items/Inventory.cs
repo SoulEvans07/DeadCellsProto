@@ -2,6 +2,8 @@
 using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour {
+    public bool watching = false;
+    
     private Weapon weaponX;
     public Image weaponXImage;
 

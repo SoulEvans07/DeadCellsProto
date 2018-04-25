@@ -54,16 +54,18 @@ public class ItemDrop : MonoBehaviour {
 //    protected abstract void OnPickUp(Collider2D other);
 
     private void OnTriggerEnter2D(Collider2D other) {
-        if(!other.CompareTag("Player") || CanvasManager.instance == null || popUpInst != null)
+        if(!other.CompareTag("Player") || Headless.instance.inventory.watching || CanvasManager.instance == null || popUpInst != null)
             return;
         inside = other;
         popUpInst = Instantiate(popUp, CanvasManager.instance.gameObject.transform);
+        Headless.instance.inventory.watching = true;
         popUpInst.GetComponent<RectTransform>().position = transform.position + popOffset;
     }
 
     private void Update() {
         if (inside != null && Input.GetButtonDown(InputManager.INTERACT)) {
             PickUp(inside);
+            Headless.instance.inventory.watching = false;
             Destroy(popUpInst);
             popUpInst = null;
             inside = null;
@@ -73,17 +75,20 @@ public class ItemDrop : MonoBehaviour {
     private void OnTriggerStay2D(Collider2D other) {
         if(!other.CompareTag("Player") || CanvasManager.instance == null)
             return;
-        if (popUpInst == null) {
+        if (popUpInst == null && !Headless.instance.inventory.watching) {
             inside = other;
-            popUpInst = Instantiate(popUp, CanvasManager.instance.gameObject.transform);            
+            popUpInst = Instantiate(popUp, CanvasManager.instance.gameObject.transform);
+            Headless.instance.inventory.watching = true;
         }
-        popUpInst.GetComponent<RectTransform>().position = transform.position + popOffset;
+        if(popUpInst != null)    
+            popUpInst.GetComponent<RectTransform>().position = transform.position + popOffset;
     }
 
     private void OnTriggerExit2D(Collider2D other) {
         if(!other.CompareTag("Player") || popUpInst == null)
             return;
         inside = null;
+        Headless.instance.inventory.watching = false;
         Destroy(popUpInst);
         popUpInst = null;
     }

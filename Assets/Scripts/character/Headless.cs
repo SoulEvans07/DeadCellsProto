@@ -78,7 +78,10 @@ public class Headless : Living {
         } else {
             if (!grounded) {
                 // move slower (airSlowness = 0.7)
-                nextVx = LX * speed * airSlowness;
+                if(hitWall() && (LX / transform.localScale.x) > 0)
+                    nextVx = 0;
+                else
+                    nextVx = LX * speed * airSlowness;
             } else {
                 // move
                 nextVx = LX * speed;
@@ -163,6 +166,11 @@ public class Headless : Living {
     private bool isGrounded() {
         const float groundRadius = 0.05f;
         return Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
+    }
+
+    private bool hitWall() {
+        const float wallRadius = 0.05f;
+        return Physics2D.OverlapCircle(probe.position, wallRadius, whatIsGround);
     }
 
     private void orientTransform() {

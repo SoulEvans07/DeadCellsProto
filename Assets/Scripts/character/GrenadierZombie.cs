@@ -3,11 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GrenadierZombie : MonoBehaviour {
+public class GrenadierZombie : Living {
 	// life
-	public float maxHealth = 30f;
-	private float health;
-	private bool dead = false;
 	public GameObject hpBarPref;
 	public Vector2 healthBarOffset = new Vector2(0, 0.3f);
 	private GameObject healthBarObject;
@@ -61,6 +58,7 @@ public class GrenadierZombie : MonoBehaviour {
 		attackSignalTimeValue = attackSignalTime;
 
 		gemNum = (int) Random.Range (maxGem * 0.6f, maxGem);
+		dotList = new List<DamageOverTime>();
 	}
 	
 
@@ -188,6 +186,10 @@ public class GrenadierZombie : MonoBehaviour {
 
 		anim.Update(100);
 		anim.Play ("ZombieHit");
+
+		if (attack.dot != null) {
+			attack.dot.Apply(this);
+		}
 
 //		Debug.Log(health);
 		if (health <= 0)

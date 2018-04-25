@@ -1,20 +1,20 @@
 ﻿using UnityEngine;
 
-public class SmallBomb : Skill {
+public class FireBomb : Skill {
     public float throwForce = 250f;
 
     private void init() {
-        equipmentName = "Small Bomb";
-        spriteName = "SmallBomb";
+        equipmentName = "Fire Bomb";
+        spriteName = "FireBomb";
         skillUseAnim = "";
         skillCooldown = 3f;
-        
-        description = "We all like explosions.";
-        dps = 10;
+
+        description = "Let them burn!";
+        dps = 8;
         extraInfo = null;
     }
 
-    public SmallBomb() {
+    public FireBomb() {
         init();
     }
 
@@ -25,13 +25,13 @@ public class SmallBomb : Skill {
     public override void Use() {
         if (skillCooldownValue.Equals(0f)) {
             skillCooldownValue = skillCooldown;
-            
+
             GameObject bomb = Instantiate(skillFx, transform.position, transform.rotation);
+
             bomb.transform.parent = null;
             bomb.GetComponent<Rigidbody2D>().AddForce(new Vector2(Headless.instance.transform.localScale.x * throwForce, throwForce));
-            
+
             Destroy(bomb, 1);
         }
     }
-    
 }

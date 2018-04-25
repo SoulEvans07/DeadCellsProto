@@ -7,7 +7,7 @@ using UnityEngine;
 using UnityEngine.Collections;
 using UnityEngine.UI;
 
-public class Headless : MonoBehaviour {
+public class Headless : Living {
     // Singleton
     public static Headless instance;
 
@@ -43,6 +43,9 @@ public class Headless : MonoBehaviour {
     // effects
     public GameObject airDash;
     
+    // buffs and debuffs
+    public List<DamageOverTime> dot;
+    
     // inventory
     public Inventory inventory;
 
@@ -50,6 +53,7 @@ public class Headless : MonoBehaviour {
         rd2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer> ();
+        dot = new List<DamageOverTime>();
 
         jumpSem = maxJumps;
     }
@@ -65,7 +69,7 @@ public class Headless : MonoBehaviour {
         bool attackOne = Input.GetButton(InputManager.ATTACK1);
         bool attackTwo = Input.GetButton(InputManager.ATTACK2);
         bool skillOne = Input.GetAxisRaw(InputManager.SKILL1) > 0;
-        bool skillTwo = Input.GetButton(InputManager.SKILL2);
+        bool skillTwo = Input.GetAxisRaw(InputManager.SKILL2) > 0;
         
 
         // moving

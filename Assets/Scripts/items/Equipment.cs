@@ -8,6 +8,7 @@ public abstract class Equipment : MonoBehaviour{
     public int dps;
     public string extraInfo;
     public string spriteName;
+    public GameObject effect;
     
     protected Image inventoryIcon;
     

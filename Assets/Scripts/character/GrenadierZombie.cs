@@ -63,9 +63,12 @@ public class GrenadierZombie : Living {
 	
 
 	void FixedUpdate (){
-//		if(PlayerController.instance == null)
-//			return;
+		if(Headless.instance == null)
+			return;
 		SetBoxCollider ();
+		if (health <= 0)
+			dead = true;
+		
 		if (dead) {
 			Die();
 			return;
@@ -79,7 +82,6 @@ public class GrenadierZombie : Living {
 		UpdateHPBar();
 		
 		// attack
-//		Transform playerTrans = PlayerController.instance.transform;
 		Transform playerTrans = Headless.instance.transform;
 		float diffX = (facingRight ? (playerTrans.position.x - transform.position.x) : (transform.position.x - playerTrans.position.x));
 		float diffY = playerTrans.position.y - transform.position.y;
@@ -203,7 +205,6 @@ public class GrenadierZombie : Living {
 		Destroy (gameObject, 1f);
 		Destroy(healthBarObject);
 
-//		Transform playerTrans = PlayerController.instance.transform;
 		Transform playerTrans = Headless.instance.transform;
 
 		while(gemNum > 0){

@@ -28,7 +28,9 @@ public class BeginnersBow : Weapon {
 
             GameObject arrow = Instantiate(attackFx, transform.position, transform.rotation);
             arrow.transform.parent = null;
-            arrow.GetComponent<Rigidbody2D>().AddForce(new Vector2(bowForce, 0));
+            Vector3 preScale = arrow.transform.localScale;
+            arrow.transform.localScale = new Vector3(Headless.instance.transform.localScale.x * preScale.x, preScale.y, preScale.z);
+            arrow.GetComponent<Rigidbody2D>().AddForce(new Vector2(Headless.instance.transform.localScale.x * bowForce, 0));
             
             //Destroy(arrow, 1);
         }

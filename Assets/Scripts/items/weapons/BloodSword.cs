@@ -31,6 +31,8 @@ public class BloodSword : Weapon {
 			ef.SetActive(false);
 			fx.GetComponent<AttackFx>().dot = ef.GetComponent<DamageOverTime>();
 			fx.transform.parent = transform;
+			Vector3 preScale = fx.transform.localScale;
+			fx.transform.localScale = new Vector3(Headless.instance.transform.localScale.x * preScale.x, preScale.y, preScale.z); 
             
 			Destroy(fx, 1);
 		}

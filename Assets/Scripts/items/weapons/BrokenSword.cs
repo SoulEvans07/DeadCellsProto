@@ -27,6 +27,8 @@ public class BrokenSword : Weapon {
             
             GameObject fx = Instantiate(attackFx, transform.position, transform.rotation);
             fx.transform.parent = transform;
+            Vector3 preScale = fx.transform.localScale;
+            fx.transform.localScale = new Vector3(Headless.instance.transform.localScale.x * preScale.x, preScale.y, preScale.z);
             
             Destroy(fx, 1);
         }

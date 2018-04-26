@@ -2,23 +2,26 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using TMPro;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Collections;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Headless : Living {
     // Singleton
     public static Headless instance;
 
-    void Awake(){
+    void Awake() {
         if (instance != null)
-            Debug.LogWarning ("more than one instance");
+            Debug.LogWarning("more than one instance");
         instance = this;
     }
-    
+
     // movement
     public float speed = 4.5f;
+
     private float prevXSpeed = 0;
 
     public float airSlowness = 0.8f;
@@ -42,26 +45,49 @@ public class Headless : Living {
 
     // effects
     public GameObject airDash;
-    
+
     // buffs and debuffs
     public List<DamageOverTime> dot;
-    
+
     // inventory
     public Inventory inventory;
 
+    // score
+    private int gold = 0;
+
+    public TextMeshProUGUI goldLabel;
+
+    // health
+    public Slider healthBar;
+
+    public float hitCooldown = 1f;
+    protected float hitCooldownValue = 0;
+    public GameObject healEffect;
+    public float healWait = 1f;
+    private float healPress;
+    public GameObject potion;
+
     void Start() {
+        PlayerPrefs.DeleteKey("player-gold");
+        goldLabel.text = gold.ToString();
+
         rd2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer> ();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         dot = new List<DamageOverTime>();
 
         jumpSem = maxJumps;
+
+        health = maxHealth;
+        healthBar.value = (int) (100 * health / maxHealth);
     }
 
     void Update() {
-        if(Time.timeScale.Equals(0))
+        if (Time.timeScale.Equals(0))
             return;
-        
+
+        hitCooldownValue = Mathf.Clamp(hitCooldownValue - Time.deltaTime, 0, hitCooldown);
+
         float LX = Input.GetAxis(InputManager.AXIS_X);
 //        float LY = Input.GetAxis(InputManager.AXIS_Y);
         bool jump = Input.GetButtonDown(InputManager.JUMP);
@@ -70,7 +96,18 @@ public class Headless : Living {
         bool attackTwo = Input.GetButton(InputManager.ATTACK2);
         bool skillOne = Input.GetAxisRaw(InputManager.SKILL1) > 0;
         bool skillTwo = Input.GetAxisRaw(InputManager.SKILL2) > 0;
-        
+
+
+        if (Input.GetButton(InputManager.HEAL)) {
+            healPress += Time.deltaTime;
+            if (healPress >= healWait) {
+                healPress = 0;
+                if (!health.Equals(maxHealth)) {
+                    Heal(potion.GetComponent<PotionHandler>().UsePotion());
+                }
+            }
+        }
+
 
         // moving
         if (LX.Equals(0) && grounded) {
@@ -78,7 +115,7 @@ public class Headless : Living {
         } else {
             if (!grounded) {
                 // move slower (airSlowness = 0.7)
-                if(hitWall() && (LX / transform.localScale.x) > 0)
+                if (hitWall() && (LX / transform.localScale.x) > 0)
                     nextVx = 0;
                 else
                     nextVx = LX * speed * airSlowness;
@@ -105,10 +142,10 @@ public class Headless : Living {
             }
         }
 
-        if(attackOne){
+        if (attackOne) {
             inventory.UseX(anim);
         }
-        if(attackTwo){
+        if (attackTwo) {
             inventory.UseY(anim);
         }
 
@@ -127,8 +164,18 @@ public class Headless : Living {
 //        }
     }
 
+    public void Heal(float amount) {
+        if (amount <= 0)
+            return;
+
+        health += amount;
+        UpdateHealthBar();
+        GameObject effect = Instantiate(healEffect, transform) as GameObject;
+        Destroy(effect, 0.8f);
+    }
+
     private HashSet<double> speeds = new HashSet<double>();
-    
+
     private void FixedUpdate() {
         if (jumped) {
             rd2d.velocity = new Vector2(rd2d.velocity.x, 0);
@@ -137,24 +184,87 @@ public class Headless : Living {
         } else {
             rd2d.velocity = new Vector2(nextVx, rd2d.velocity.y);
         }
-        
+
         double vel = Math.Round(rd2d.velocity.x, 2);
         speeds.Add(vel);
         List<double> list = speeds.ToList();
         list.Sort();
-        
+
         StringBuilder sb = new StringBuilder();
         foreach (double elem in list) {
             sb.Append(elem).Append(", ");
         }
-        
+
         //Debug.Log(sb);
 
         orientTransform();
-        
+
         anim.SetBool("player-grounded", isGrounded());
         anim.SetFloat("player-x-speed", Mathf.Abs(rd2d.velocity.x));
         anim.SetFloat("player-y-speed", rd2d.velocity.y);
+
+        UpdateHealthBar();
+    }
+
+    void OnTriggerEnter2D(Collider2D other) {
+        if (!other.CompareTag("EnemyAtk"))
+            return;
+
+        other.tag = "Untagged";
+        AttackFx playerAttack = other.GetComponent<AttackFx>();
+        if (playerAttack != null) {
+            Hit(playerAttack);
+        }
+    }
+
+    void Hit(AttackFx hit) {
+        if (hitCooldownValue > 0) {
+            return;
+        }
+
+//        attack = false;
+//        shoot = false;
+
+        hitCooldownValue = hitCooldown;
+        health -= hit.damage;
+
+//        anim.Update(100);
+        anim.Play("PlayerHit");
+
+        if (health <= 0) {
+            health = 0;
+            Die();
+        }
+
+        UpdateHealthBar();
+    }
+
+    public void Die() {
+        PlayerPrefs.SetInt("player-gold", gold);
+
+        health = 0;
+        UpdateHealthBar();
+
+        // Death animation
+        Destroy(gameObject);
+
+        if (AudioManager.instance != null) {
+            AudioManager.instance.Stop("ActionIntro");
+            AudioManager.instance.Stop("ActionLoop");
+        }
+
+        // Display highscore
+        SceneManager.LoadScene("HighScore");
+    }
+
+    void UpdateHealthBar() {
+        healthBar.value = (int) (100 * health / maxHealth);
+    }
+
+    public void PickUpGem(Gem gem) {
+        gold += gem.value;
+        goldLabel.text = gold.ToString();
+        Destroy(gem.gameObject);
     }
 
     private void spawnEffect(GameObject fx, Transform pos, float duration) {

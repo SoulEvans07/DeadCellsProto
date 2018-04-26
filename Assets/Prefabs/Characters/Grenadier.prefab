@@ -176,6 +176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 30
+  dotList: []
   hpBarPref: {fileID: 1654325925104120, guid: b2a1eaa4d5b135f4d85e9907d7cdf168, type: 2}
   healthBarOffset: {x: 0, y: 0.3}
   maxSpeed: 0.4
@@ -184,7 +185,7 @@ MonoBehaviour:
   edgeRadius: 0.01
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 8193
   whatIsLedge:
     serializedVersion: 2
     m_Bits: 16384
@@ -207,6 +208,7 @@ SpriteRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -222,6 +224,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5

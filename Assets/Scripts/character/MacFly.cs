@@ -190,7 +190,7 @@ public class MacFly : MonoBehaviour
         dead = true;
         Destroy(gameObject, 0.5f);
         Destroy(healthBarObject);
-        Transform playerTrans = PlayerController.instance.transform;
+        Transform playerTrans = Headless.instance.transform;
 
         while (gemNum > 0)
         {

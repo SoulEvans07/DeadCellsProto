@@ -199,6 +199,8 @@ public class GrenadierZombie : Living {
 	}
 
 	void Die(){
+		Destroy(GetComponent<Rigidbody2D>());
+		Destroy(GetComponent<Collider2D>());
 		// play animation
 		anim.SetBool("zombie-dead", dead);
 			

@@ -89,9 +89,10 @@ public class Headless : Living {
         hitCooldownValue = Mathf.Clamp(hitCooldownValue - Time.deltaTime, 0, hitCooldown);
 
         float LX = Input.GetAxis(InputManager.AXIS_X);
-//        float LY = Input.GetAxis(InputManager.AXIS_Y);
+        float LY = Input.GetAxis(InputManager.AXIS_Y);
         bool jump = Input.GetButtonDown(InputManager.JUMP);
         bool grounded = isGrounded();
+        Collider2D standingOn = isGrounded();
         bool attackOne = Input.GetButton(InputManager.ATTACK1);
         bool attackTwo = Input.GetButton(InputManager.ATTACK2);
         bool skillOne = Input.GetAxisRaw(InputManager.SKILL1) > 0;
@@ -125,10 +126,15 @@ public class Headless : Living {
             }
         }
 
+        // jumping
         if (!jumped && jump) {
-            if (grounded && jumpSem > 0) {
-                jumpSem--;
-                jumped = true;
+            if (grounded) {
+                if (LY < 0 && standingOn.CompareTag("Platform")) {
+                    standingOn.GetComponent<OneWayPlatform>().letThroughPlayer();
+                } else if (jumpSem > 0) {
+                    jumpSem--;
+                    jumped = true;
+                } 
             } else if (jumpSem > 0) {
                 jumpSem--;
                 spawnEffect(airDash, groundCheck, 1f);
@@ -155,13 +161,6 @@ public class Headless : Living {
         if (skillTwo) {
             inventory.UseRT(anim);
         }
-
-//        if(attackTwo){
-//            // get secondary weapon animation
-//            playAnim();
-//            // get secondary weapon attack
-//            spawnAttack();
-//        }
     }
 
     public void Heal(float amount) {
@@ -174,8 +173,6 @@ public class Headless : Living {
         Destroy(effect, 0.8f);
     }
 
-    private HashSet<double> speeds = new HashSet<double>();
-
     private void FixedUpdate() {
         if (jumped) {
             rd2d.velocity = new Vector2(rd2d.velocity.x, 0);
@@ -184,18 +181,6 @@ public class Headless : Living {
         } else {
             rd2d.velocity = new Vector2(nextVx, rd2d.velocity.y);
         }
-
-        double vel = Math.Round(rd2d.velocity.x, 2);
-        speeds.Add(vel);
-        List<double> list = speeds.ToList();
-        list.Sort();
-
-        StringBuilder sb = new StringBuilder();
-        foreach (double elem in list) {
-            sb.Append(elem).Append(", ");
-        }
-
-        //Debug.Log(sb);
 
         orientTransform();
 
@@ -273,7 +258,7 @@ public class Headless : Living {
             Destroy(fxObject, 2f);
     }
 
-    private bool isGrounded() {
+    private Collider2D isGrounded() {
         const float groundRadius = 0.05f;
         return Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
     }

@@ -150,7 +150,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!70 &70420721727260232
 CapsuleCollider2D:
@@ -227,6 +227,7 @@ MonoBehaviour:
   inventory: {fileID: 114806099112216172}
   goldLabel: {fileID: 0}
   healthBar: {fileID: 0}
+  hitCooldown: 1
   healEffect: {fileID: 1755656167784738, guid: 9ffe85cb02cc1574cba3238e5fbaa491, type: 2}
   healWait: 1
   potion: {fileID: 0}

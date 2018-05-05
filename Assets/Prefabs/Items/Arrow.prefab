@@ -24,7 +24,6 @@ GameObject:
   - component: {fileID: 68712192761863468}
   - component: {fileID: 50100358569828710}
   - component: {fileID: 114201904368156116}
-  - component: {fileID: 114497884565336944}
   m_Layer: 10
   m_Name: Arrow
   m_TagString: PlayerAtkArrow
@@ -124,17 +123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 10
   force: 5
---- !u!114 &114497884565336944
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1705701654128926}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25f77fd9df3643bdb1fab5eb0d8b4fe2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  dot: {fileID: 0}
 --- !u!212 &212013445216024322
 SpriteRenderer:
   m_ObjectHideFlags: 1

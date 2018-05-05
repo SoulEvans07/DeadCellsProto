@@ -10,8 +10,8 @@ public class HitByArrow : MonoBehaviour
         other.tag = "Untagged";
         other.GetComponent<Rigidbody2D>().isKinematic = true;
         other.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-//        other.GetComponent<Rigidbody2D>().angularVelocity = 0;
-//        other.GetComponent<Rigidbody2D>().freezeRotation = true;
+        other.GetComponent<Rigidbody2D>().angularVelocity = 0;
+        other.GetComponent<Rigidbody2D>().freezeRotation = true;
         other.transform.parent = gameObject.transform;
     }
 }

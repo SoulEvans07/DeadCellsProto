@@ -134,7 +134,7 @@ public class Headless : Living {
                 } else if (jumpSem > 0) {
                     jumpSem--;
                     jumped = true;
-                } 
+                }
             } else if (jumpSem > 0) {
                 jumpSem--;
                 spawnEffect(airDash, groundCheck, 1f);
@@ -202,6 +202,19 @@ public class Headless : Living {
         }
     }
 
+    public void SteppedInSpikes(float damage) {
+        if (hitCooldownValue > 0) {
+            return;
+        }
+        
+        hitCooldownValue = hitCooldown;
+        health -= damage;
+        
+        anim.Play("PlayerHit");
+        
+        UpdateHealthBar();
+    }
+
     void Hit(AttackFx hit) {
         if (hitCooldownValue > 0) {
             return;
@@ -215,11 +228,6 @@ public class Headless : Living {
 
 //        anim.Update(100);
         anim.Play("PlayerHit");
-
-        if (health <= 0) {
-            health = 0;
-            Die();
-        }
 
         UpdateHealthBar();
     }
@@ -243,6 +251,14 @@ public class Headless : Living {
     }
 
     void UpdateHealthBar() {
+        if(dead)
+            return;
+        if (health <= 0) {
+            health = 0;
+            dead = true;
+            Die();
+        }
+        
         healthBar.value = (int) (100 * health / maxHealth);
     }
 

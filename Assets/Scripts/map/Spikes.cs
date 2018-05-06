@@ -21,7 +21,7 @@ public class Spikes : MonoBehaviour
 			return;
 
 		spriteR.sprite = bloody;
-		PlayerController.instance.SteppedInSpikes (damage);
+		Headless.instance.SteppedInSpikes(damage);
 	}
 
 //	private void OnTriggerEnter2D(Collider2D other)

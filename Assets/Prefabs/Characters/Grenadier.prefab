@@ -96,7 +96,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1026756363626248}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.01, y: 0.35, z: -0.1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4642999092960494}
@@ -201,6 +201,7 @@ MonoBehaviour:
   maxSpeed: 0.4
   probe: {fileID: 4470348419451872}
   groundCheck: {fileID: 4642999092960494}
+  ledgeCheck: {fileID: 4861126956279618}
   edgeRadius: 0.01
   whatIsGround:
     serializedVersion: 2
@@ -208,7 +209,6 @@ MonoBehaviour:
   whatIsLedge:
     serializedVersion: 2
     m_Bits: 16384
-  lastLedge: {fileID: 0}
   attackSignalTime: 0.5
   attackCooldown: 1
   attackDistance: 0.4

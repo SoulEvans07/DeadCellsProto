@@ -175,11 +175,11 @@ public class Headless : Living {
 
     private void FixedUpdate() {
         if (jumped) {
-            rd2d.velocity = new Vector2(rd2d.velocity.x, 0);
-            rd2d.AddRelativeForce(new Vector2(0, 400));
+            rd2d.velocity = new Vector3(rd2d.velocity.x, 0, -1);
+            rd2d.AddRelativeForce(new Vector3(0, 400, -1));
             jumped = false;
         } else {
-            rd2d.velocity = new Vector2(nextVx, rd2d.velocity.y);
+            rd2d.velocity = new Vector3(nextVx, rd2d.velocity.y, -1);
         }
 
         orientTransform();
@@ -270,8 +270,8 @@ public class Headless : Living {
 
     private void orientTransform() {
         if (Mathf.Abs(prevXSpeed - rd2d.velocity.x) > Mathf.Abs(prevXSpeed)) {
-            transform.localScale = new Vector2((rd2d.velocity.x < 0 ? -1 : 1),
-                transform.localScale.y);
+            transform.localScale = new Vector3((rd2d.velocity.x < 0 ? -1 : 1),
+                transform.localScale.y, 1);
         }
         prevXSpeed = rd2d.velocity.x;
     }

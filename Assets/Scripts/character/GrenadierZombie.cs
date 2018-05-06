@@ -19,10 +19,10 @@ public class GrenadierZombie : Living {
 	private SpriteRenderer spriteRenderer;
 	public Transform probe;
 	public Transform groundCheck;
+	public Transform ledgeCheck;
 	public float edgeRadius = 0.01f;
 	public LayerMask whatIsGround;
 	public LayerMask whatIsLedge;
-	public Collider2D lastLedge;
 
 	// attack
 	public float attackSignalTime = 1f;
@@ -96,11 +96,9 @@ public class GrenadierZombie : Living {
 				attackStarted = true;
 			}
 		} else if (!attackStarted) { // attackCooldownValue <= 0 && attackSignalTimeValue == attackSignalTime && hitCooldownValue <= 0
-			Collider2D coll = Physics2D.OverlapCircle(groundCheck.position, edgeRadius, whatIsLedge);
-			if ((Physics2D.OverlapCircle(groundCheck.position, edgeRadius, whatIsLedge) && coll != lastLedge) || 
-			     (Physics2D.OverlapCircle (probe.position, 0.1f, whatIsGround) != null)) {
+			Collider2D coll = Physics2D.OverlapCircle(ledgeCheck.position, edgeRadius, whatIsGround);
+			if (!coll || Physics2D.OverlapCircle(probe.position, 0.1f, whatIsGround)) {
 				Flip ();
-				lastLedge = coll;
 			}
 
 			move = (facingRight ? 1 : -1) * maxSpeed;

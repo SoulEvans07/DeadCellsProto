@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class GrenadierZombie : Living {
 	// life
 	public GameObject hpBarPref;
-	public Vector2 healthBarOffset = new Vector2(0, 0.3f);
+	[ShowOnly] public Vector2 healthBarOffset = new Vector2(0, 0.3f);
 	private GameObject healthBarObject;
 	private Slider healthBar;
 
@@ -22,7 +22,6 @@ public class GrenadierZombie : Living {
 	public Transform ledgeCheck;
 	public float edgeRadius = 0.01f;
 	public LayerMask whatIsGround;
-	public LayerMask whatIsLedge;
 
 	// attack
 	public float attackSignalTime = 1f;
@@ -65,7 +64,6 @@ public class GrenadierZombie : Living {
 	void FixedUpdate (){
 		if(Headless.instance == null)
 			return;
-		SetBoxCollider ();
 		if (health <= 0)
 			dead = true;
 		
@@ -226,14 +224,5 @@ public class GrenadierZombie : Living {
 		theScale = probe.localScale;
 		theScale.x *= -1;
 		probe.localScale = theScale;
-	}
-
-	void SetBoxCollider ()
-	{
-		BoxCollider2D itemBoxCollider2D = GetComponent<BoxCollider2D> ();
-		if (itemBoxCollider2D != null) {
-			itemBoxCollider2D.size = spriteRenderer.sprite.bounds.size;
-			itemBoxCollider2D.size.Scale(new Vector3(0.9f, 0.9f, 0.9f));
-		}
 	}
 }

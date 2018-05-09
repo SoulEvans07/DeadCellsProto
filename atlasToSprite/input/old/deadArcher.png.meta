@@ -1,0 +1,4161 @@
+fileFormatVersion: 2
+guid: 9bd50c2fe19fe9a47b3901df4839181d
+timeCreated: 1525818658
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: deadArcher/archerRise_00
+    21300002: deadArcher/archerRise_01
+    21300004: deadArcher/archerRise_02
+    21300006: deadArcher/archerRise_03
+    21300008: deadArcher/archerRise_04
+    21300010: deadArcher/archerRise_05
+    21300012: deadArcher/archerRise_06
+    21300014: deadArcher/archerRise_07
+    21300016: deadArcher/breach_00
+    21300018: deadArcher/breach_01
+    21300020: deadArcher/breach_02
+    21300022: deadArcher/breach_03
+    21300024: deadArcher/breach_04
+    21300026: deadArcher/breach_05
+    21300028: deadArcher/breach_06
+    21300030: deadArcher/breach_07
+    21300032: deadArcher/breach_08
+    21300034: deadArcher/breach_09
+    21300036: deadArcher/breach_10
+    21300038: deadArcher/breach_11
+    21300040: deadArcher/breach_12
+    21300042: deadArcher/breach_13
+    21300044: deadArcher/breach_14
+    21300046: deadArcher/breach_15
+    21300048: deadArcher/breach_16
+    21300050: deadArcher/breach_17
+    21300052: deadArcher/breach_18
+    21300054: deadArcher/breach_19
+    21300056: deadArcher/breach_20
+    21300058: deadArcher/breach_21
+    21300060: deadArcher/breach_22
+    21300062: deadArcher/breach_23
+    21300064: deadArcher/climbA_00
+    21300066: deadArcher/climbA_01
+    21300068: deadArcher/climbA_02
+    21300070: deadArcher/climbA_03
+    21300072: deadArcher/climbA_04
+    21300074: deadArcher/climbA_05
+    21300076: deadArcher/climbA_06
+    21300078: deadArcher/climbA_07
+    21300080: deadArcher/climbA_08
+    21300082: deadArcher/climbA_09
+    21300084: deadArcher/climbA_10
+    21300086: deadArcher/climbB_00
+    21300088: deadArcher/climbB_01
+    21300090: deadArcher/climbB_02
+    21300092: deadArcher/climbB_03
+    21300094: deadArcher/climbB_04
+    21300096: deadArcher/climbB_05
+    21300098: deadArcher/climbB_06
+    21300100: deadArcher/climbB_07
+    21300102: deadArcher/climbB_08
+    21300104: deadArcher/climbB_09
+    21300106: deadArcher/climbB_10
+    21300108: deadArcher/climbB_11
+    21300110: deadArcher/climbIdleA_00
+    21300112: deadArcher/climbIdleB_00
+    21300114: deadArcher/endClimb_00
+    21300116: deadArcher/endClimb_01
+    21300118: deadArcher/endClimb_02
+    21300120: deadArcher/endClimb_03
+    21300122: deadArcher/endClimb_04
+    21300124: deadArcher/endClimb_05
+    21300126: deadArcher/fall_00
+    21300128: deadArcher/idle_00
+    21300130: deadArcher/idle_01
+    21300132: deadArcher/idle_02
+    21300134: deadArcher/idle_03
+    21300136: deadArcher/idle_04
+    21300138: deadArcher/idle_05
+    21300140: deadArcher/idle_06
+    21300142: deadArcher/idle_07
+    21300144: deadArcher/idle_08
+    21300146: deadArcher/idle_09
+    21300148: deadArcher/idle_10
+    21300150: deadArcher/idle_11
+    21300152: deadArcher/idle_12
+    21300154: deadArcher/idle_13
+    21300156: deadArcher/idle_14
+    21300158: deadArcher/idle_15
+    21300160: deadArcher/idle_16
+    21300162: deadArcher/idle_17
+    21300164: deadArcher/idle_18
+    21300166: deadArcher/idle_19
+    21300168: deadArcher/idle_20
+    21300170: deadArcher/idle_21
+    21300172: deadArcher/idle_22
+    21300174: deadArcher/idle_23
+    21300176: deadArcher/idle_24
+    21300178: deadArcher/idle_25
+    21300180: deadArcher/idle_26
+    21300182: deadArcher/idle_27
+    21300184: deadArcher/idle_28
+    21300186: deadArcher/idle_29
+    21300188: deadArcher/idle_30
+    21300190: deadArcher/idle_31
+    21300192: deadArcher/idle_32
+    21300194: deadArcher/idle_33
+    21300196: deadArcher/idle_34
+    21300198: deadArcher/idle_35
+    21300200: deadArcher/idle_36
+    21300202: deadArcher/idle_37
+    21300204: deadArcher/idle_38
+    21300206: deadArcher/idle_39
+    21300208: deadArcher/idle_40
+    21300210: deadArcher/idle_41
+    21300212: deadArcher/idle_42
+    21300214: deadArcher/idle_43
+    21300216: deadArcher/idle_44
+    21300218: deadArcher/idle_45
+    21300220: deadArcher/land_00
+    21300222: deadArcher/shoot_00
+    21300224: deadArcher/shoot_01
+    21300226: deadArcher/shoot_02
+    21300228: deadArcher/shoot_03
+    21300230: deadArcher/shoot_04
+    21300232: deadArcher/shoot_05
+    21300234: deadArcher/shoot_06
+    21300236: deadArcher/shoot_07
+    21300238: deadArcher/shoot_08
+    21300240: deadArcher/shoot_09
+    21300242: deadArcher/shoot_10
+    21300244: deadArcher/shoot_11
+    21300246: deadArcher/shoot_12
+    21300248: deadArcher/shoot_13
+    21300250: deadArcher/shoot_14
+    21300252: deadArcher/shoot_15
+    21300254: deadArcher/shoot_16
+    21300256: deadArcher/shoot_17
+    21300258: deadArcher/shoot_18
+    21300260: deadArcher/shoot_19
+    21300262: deadArcher/shoot_20
+    21300264: deadArcher/shoot_21
+    21300266: deadArcher/shootObjective_00
+    21300268: deadArcher/stun_00
+    21300270: deadArcher/stun_01
+    21300272: deadArcher/stun_02
+    21300274: deadArcher/stun_03
+    21300276: deadArcher/stun_04
+    21300278: deadArcher/stun_05
+    21300280: deadArcher/stun_06
+    21300282: deadArcher/stun_07
+    21300284: deadArcher/stun_08
+    21300286: deadArcher/stun_09
+    21300288: deadArcher/stun_10
+    21300290: deadArcher/stun_11
+    21300292: deadArcher/stun_12
+    21300294: deadArcher/stun_13
+    21300296: deadArcher/stun_14
+    21300298: deadArcher/stun_15
+    21300300: deadArcher/stun_16
+    21300302: deadArcher/stun_17
+    21300304: deadArcher/stun_18
+    21300306: deadArcher/stun_19
+    21300308: deadArcher/stun_20
+    21300310: deadArcher/stun_21
+    21300312: deadArcher/stun_22
+    21300314: deadArcher/stun_23
+    21300316: deadArcher/stun_24
+    21300318: deadArcher/stun_25
+    21300320: deadArcher/stun_26
+    21300322: deadArcher/stun_27
+    21300324: deadArcher/stun_28
+    21300326: deadArcher/stun_29
+    21300328: deadArcher/stun_30
+    21300330: deadArcher/stun_31
+    21300332: deadArcher/stun_32
+    21300334: deadArcher/stun_33
+    21300336: deadArcher/stun_34
+    21300338: deadArcher/stun_35
+    21300340: deadArcher/stun_36
+    21300342: deadArcher/stun_37
+    21300344: deadArcher/stun_38
+    21300346: deadArcher/stun_39
+    21300348: deadArcher/stunIlde_00
+    21300350: deadArcher/stunIlde_01
+    21300352: deadArcher/stunIlde_02
+    21300354: deadArcher/stunIlde_03
+    21300356: deadArcher/stunIlde_04
+    21300358: deadArcher/stunIlde_05
+    21300360: deadArcher/stunIlde_06
+    21300362: deadArcher/walk_00
+    21300364: deadArcher/walk_01
+    21300366: deadArcher/walk_02
+    21300368: deadArcher/walk_03
+    21300370: deadArcher/walk_04
+    21300372: deadArcher/walk_05
+    21300374: deadArcher/walk_06
+    21300376: deadArcher/walk_07
+    21300378: deadArcher/walk_08
+    21300380: deadArcher/walk_09
+    21300382: deadArcher/walk_10
+    21300384: deadArcher/walk_11
+    21300386: deadArcher/walk_12
+    21300388: deadArcher/walk_13
+    21300390: deadArcher/walk_14
+    21300392: deadArcher/walk_15
+    21300394: deadArcher/walk_16
+    21300396: deadArcher/walk_17
+    21300398: deadArcher/walk_18
+    21300400: deadArcher/walk_19
+    21300402: deadArcher/walk_20
+    21300404: deadArcher/walk_21
+    21300406: deadArcher/walk_22
+    21300408: deadArcher/walk_23
+    21300410: deadArcher/walk_24
+    21300412: deadArcher/walk_25
+    21300414: deadArcher/walk_26
+    21300416: deadArcher/walk_27
+    21300418: deadArcher/walk_28
+    21300420: deadArcher/walkA_00
+    21300422: deadArcher/walkA_01
+    21300424: deadArcher/walkA_02
+    21300426: deadArcher/walkA_03
+    21300428: deadArcher/walkA_04
+    21300430: deadArcher/walkA_05
+    21300432: deadArcher/walkA_06
+    21300434: deadArcher/walkA_07
+    21300436: deadArcher/walkA_08
+    21300438: deadArcher/walkA_09
+    21300440: deadArcher/walkA_10
+    21300442: deadArcher/walkB_00
+    21300444: deadArcher/walkB_01
+    21300446: deadArcher/walkB_02
+    21300448: deadArcher/walkB_03
+    21300450: deadArcher/walkB_04
+    21300452: deadArcher/walkB_05
+    21300454: deadArcher/walkB_06
+    21300456: deadArcher/walkB_07
+    21300458: deadArcher/walkB_08
+    21300460: deadArcher/walkB_09
+    21300462: deadArcher/walkB_10
+    21300464: deadArcher/walkIdleA_00
+    21300466: deadArcher/walkIdleA_01
+    21300468: deadArcher/walkIdleA_02
+    21300470: deadArcher/walkIdleA_03
+    21300472: deadArcher/walkIdleA_04
+    21300474: deadArcher/walkIdleA_05
+    21300476: deadArcher/walkIdleA_06
+    21300478: deadArcher/walkIdleA_07
+    21300480: deadArcher/walkIdleA_08
+    21300482: deadArcher/walkIdleA_09
+    21300484: deadArcher/walkIdleA_10
+    21300486: deadArcher/walkIdleA_11
+    21300488: deadArcher/walkIdleA_12
+    21300490: deadArcher/walkIdleA_13
+    21300492: deadArcher/walkIdleA_14
+    21300494: deadArcher/walkIdleA_15
+    21300496: deadArcher/walkIdleA_16
+    21300498: deadArcher/walkIdleA_17
+    21300500: deadArcher/walkIdleA_18
+    21300502: deadArcher/walkIdleA_19
+    21300504: deadArcher/walkIdleB_00
+    21300506: deadArcher/walkIdleB_01
+    21300508: deadArcher/walkIdleB_02
+    21300510: deadArcher/walkIdleB_03
+    21300512: deadArcher/walkIdleB_04
+    21300514: deadArcher/walkIdleB_05
+    21300516: deadArcher/walkIdleB_06
+    21300518: deadArcher/walkIdleB_07
+    21300520: deadArcher/walkIdleB_08
+    21300522: deadArcher/walkIdleB_09
+    21300524: deadArcher/walkIdleB_10
+    21300526: deadArcher/walkIdleB_11
+    21300528: deadArcher/walkIdleB_12
+    21300530: deadArcher/walkIdleB_13
+    21300532: deadArcher/walkIdleB_14
+    21300534: deadArcher/walkIdleB_15
+    21300536: deadArcher/walkIdleB_16
+    21300538: deadArcher/walkIdleB_17
+    21300540: deadArcher/walkIdleB_18
+    21300542: deadArcher/walkIdleB_19
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: deadArcher/archerRise_00
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 523
+        width: 68
+        height: 42
+      alignment: 9
+      pivot: {x: 0.23333333, y: 0.48333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/archerRise_01
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 588
+        width: 65
+        height: 41
+      alignment: 9
+      pivot: {x: 0.26666668, y: 0.48333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/archerRise_02
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 592
+        width: 56
+        height: 41
+      alignment: 9
+      pivot: {x: 0.32222223, y: 0.48333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/archerRise_03
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 983
+        width: 47
+        height: 40
+      alignment: 9
+      pivot: {x: 0.33333334, y: 0.48333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/archerRise_04
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 938
+        width: 43
+        height: 42
+      alignment: 9
+      pivot: {x: 0.31111112, y: 0.48333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/archerRise_05
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 733
+        width: 42
+        height: 48
+      alignment: 9
+      pivot: {x: 0.3, y: 0.49166667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/archerRise_06
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 30
+        width: 45
+        height: 55
+      alignment: 9
+      pivot: {x: 0.25555557, y: 0.49166667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/archerRise_07
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 900
+        width: 47
+        height: 60
+      alignment: 9
+      pivot: {x: 0.21111111, y: 0.49166667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/breach_00
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 887
+        width: 52
+        height: 48
+      alignment: 9
+      pivot: {x: 0.30666667, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/breach_01
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1
+        width: 52
+        height: 43
+      alignment: 9
+      pivot: {x: 0.30666667, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/breach_02
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 651
+        width: 56
+        height: 58
+      alignment: 9
+      pivot: {x: 0.2, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/breach_03
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 636
+        width: 56
+        height: 47
+      alignment: 9
+      pivot: {x: 0.19333333, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/breach_04
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 919
+        width: 59
+        height: 47
+      alignment: 9
+      pivot: {x: 0.17333333, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/breach_05
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 24
+        width: 56
+        height: 56
+      alignment: 9
+      pivot: {x: 0.18666667, y: 0.42666668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/breach_06
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 783
+        width: 56
+        height: 53
+      alignment: 9
+      pivot: {x: 0.18666667, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/breach_07
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 839
+        width: 57
+        height: 53
+      alignment: 9
+      pivot: {x: 0.18, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/breach_08
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 969
+        width: 59
+        height: 54
+      alignment: 9
+      pivot: {x: 0.16666667, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/breach_09
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 205
+        width: 58
+        height: 51
+      alignment: 9
+      pivot: {x: 0.17333333, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/breach_10
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 538
+        width: 55
+        height: 47
+      alignment: 9
+      pivot: {x: 0.19333333, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/breach_11
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 636
+        width: 54
+        height: 47
+      alignment: 9
+      pivot: {x: 0.20666666, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/breach_12
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 836
+        width: 52
+        height: 48
+      alignment: 9
+      pivot: {x: 0.22, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/breach_13
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 784
+        width: 49
+        height: 49
+      alignment: 9
+      pivot: {x: 0.24, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/breach_14
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 632
+        width: 56
+        height: 51
+      alignment: 9
+      pivot: {x: 0.24, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/breach_15
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 205
+        width: 70
+        height: 53
+      alignment: 9
+      pivot: {x: 0.23333333, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/breach_16
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 88
+        width: 68
+        height: 55
+      alignment: 9
+      pivot: {x: 0.28, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/breach_17
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 143
+        width: 59
+        height: 57
+      alignment: 9
+      pivot: {x: 0.32666665, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/breach_18
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 774
+        width: 56
+        height: 59
+      alignment: 9
+      pivot: {x: 0.34, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/breach_19
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 824
+        width: 60
+        height: 63
+      alignment: 9
+      pivot: {x: 0.32666665, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/breach_20
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 455
+        width: 65
+        height: 65
+      alignment: 9
+      pivot: {x: 0.32666665, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/breach_21
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 378
+        width: 68
+        height: 59
+      alignment: 9
+      pivot: {x: 0.34, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/breach_22
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 750
+        width: 70
+        height: 63
+      alignment: 9
+      pivot: {x: 0.34, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/breach_23
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 523
+        width: 72
+        height: 62
+      alignment: 9
+      pivot: {x: 0.32, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/climbA_00
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 47
+        width: 46
+        height: 75
+      alignment: 9
+      pivot: {x: 0.1, y: 0.51666665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/climbA_01
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 637
+        width: 49
+        height: 71
+      alignment: 9
+      pivot: {x: 0.1, y: 0.5388889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/climbA_02
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 121
+        width: 47
+        height: 76
+      alignment: 9
+      pivot: {x: 0.1, y: 0.51666665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/climbA_03
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 200
+        width: 48
+        height: 77
+      alignment: 9
+      pivot: {x: 0.1, y: 0.51111114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/climbA_04
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 194
+        width: 47
+        height: 78
+      alignment: 9
+      pivot: {x: 0.1, y: 0.51111114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/climbA_05
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 32
+        width: 48
+        height: 78
+      alignment: 9
+      pivot: {x: 0.1, y: 0.51111114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/climbA_06
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 360
+        width: 49
+        height: 78
+      alignment: 9
+      pivot: {x: 0.1, y: 0.51111114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/climbA_07
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 194
+        width: 49
+        height: 78
+      alignment: 9
+      pivot: {x: 0.1, y: 0.51111114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/climbA_08
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 32
+        width: 48
+        height: 78
+      alignment: 9
+      pivot: {x: 0.1, y: 0.51111114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/climbA_09
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 34
+        width: 48
+        height: 76
+      alignment: 9
+      pivot: {x: 0.1, y: 0.51666665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/climbA_10
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 125
+        width: 47
+        height: 75
+      alignment: 9
+      pivot: {x: 0.1, y: 0.51666665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/climbB_00
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 787
+        width: 49
+        height: 74
+      alignment: 9
+      pivot: {x: 0.1, y: 0.5222222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/climbB_01
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 952
+        width: 50
+        height: 71
+      alignment: 9
+      pivot: {x: 0.1, y: 0.5388889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/climbB_02
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 282
+        width: 51
+        height: 76
+      alignment: 9
+      pivot: {x: 0.1, y: 0.51666665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/climbB_03
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 280
+        width: 52
+        height: 77
+      alignment: 9
+      pivot: {x: 0.1, y: 0.51111114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/climbB_04
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 275
+        width: 51
+        height: 78
+      alignment: 9
+      pivot: {x: 0.1, y: 0.51111114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/climbB_05
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 441
+        width: 51
+        height: 78
+      alignment: 9
+      pivot: {x: 0.1, y: 0.51111114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/climbB_06
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 113
+        width: 49
+        height: 78
+      alignment: 9
+      pivot: {x: 0.1, y: 0.51111114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/climbB_07
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 113
+        width: 46
+        height: 78
+      alignment: 9
+      pivot: {x: 0.1, y: 0.51111114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/climbB_08
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 113
+        width: 42
+        height: 78
+      alignment: 9
+      pivot: {x: 0.1, y: 0.51111114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/climbB_09
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 203
+        width: 41
+        height: 76
+      alignment: 9
+      pivot: {x: 0.1, y: 0.51666665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/climbB_10
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 864
+        width: 41
+        height: 75
+      alignment: 9
+      pivot: {x: 0.1, y: 0.51666665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/climbB_11
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 710
+        width: 41
+        height: 74
+      alignment: 9
+      pivot: {x: 0.1, y: 0.51666665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/climbIdleA_00
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 871
+        width: 48
+        height: 74
+      alignment: 9
+      pivot: {x: 0.1, y: 0.51666665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/climbIdleB_00
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 633
+        width: 41
+        height: 74
+      alignment: 9
+      pivot: {x: 0.1, y: 0.51666665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/endClimb_00
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 556
+        width: 41
+        height: 74
+      alignment: 9
+      pivot: {x: 0.0625, y: 0.041666668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/endClimb_01
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 948
+        width: 34
+        height: 75
+      alignment: 9
+      pivot: {x: 0.1875, y: 0.108333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/endClimb_02
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 711
+        width: 39
+        height: 73
+      alignment: 9
+      pivot: {x: 0.1875, y: 0.18333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/endClimb_03
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 805
+        width: 48
+        height: 67
+      alignment: 9
+      pivot: {x: 0.125, y: 0.275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/endClimb_04
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 952
+        width: 54
+        height: 71
+      alignment: 9
+      pivot: {x: 0.0875, y: 0.275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/endClimb_05
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 875
+        width: 57
+        height: 71
+      alignment: 9
+      pivot: {x: 0.075, y: 0.29166666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/fall_00
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 797
+        width: 58
+        height: 71
+      alignment: 9
+      pivot: {x: 0.15, y: 0.50666666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_00
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 12
+        width: 63
+        height: 61
+      alignment: 9
+      pivot: {x: 0.37333333, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_01
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 76
+        width: 61
+        height: 61
+      alignment: 9
+      pivot: {x: 0.38, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_02
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 12
+        width: 61
+        height: 61
+      alignment: 9
+      pivot: {x: 0.38, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_03
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 764
+        width: 60
+        height: 61
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_04
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 831
+        width: 60
+        height: 61
+      alignment: 9
+      pivot: {x: 0.39333335, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_05
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 419
+        width: 59
+        height: 61
+      alignment: 9
+      pivot: {x: 0.39333335, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_06
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 492
+        width: 59
+        height: 61
+      alignment: 9
+      pivot: {x: 0.39333335, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_07
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 897
+        width: 60
+        height: 61
+      alignment: 9
+      pivot: {x: 0.39333335, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_08
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 355
+        width: 59
+        height: 61
+      alignment: 9
+      pivot: {x: 0.39333335, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_09
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 895
+        width: 60
+        height: 62
+      alignment: 9
+      pivot: {x: 0.39333335, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_10
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 961
+        width: 60
+        height: 62
+      alignment: 9
+      pivot: {x: 0.39333335, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_11
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 324
+        width: 59
+        height: 62
+      alignment: 9
+      pivot: {x: 0.39333335, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_12
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 684
+        width: 58
+        height: 63
+      alignment: 9
+      pivot: {x: 0.39333335, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_13
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 893
+        width: 59
+        height: 63
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_14
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 602
+        width: 57
+        height: 64
+      alignment: 9
+      pivot: {x: 0.39333335, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_15
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 959
+        width: 58
+        height: 64
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_16
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 388
+        width: 58
+        height: 64
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_17
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 656
+        width: 58
+        height: 65
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_18
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 737
+        width: 57
+        height: 65
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_19
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 814
+        width: 57
+        height: 65
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_20
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 884
+        width: 57
+        height: 65
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_21
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 958
+        width: 57
+        height: 65
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_22
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 588
+        width: 57
+        height: 65
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_23
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 669
+        width: 57
+        height: 65
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_24
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 746
+        width: 57
+        height: 65
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_25
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 816
+        width: 57
+        height: 65
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_26
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 890
+        width: 57
+        height: 65
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_27
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 456
+        width: 58
+        height: 64
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_28
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 321
+        width: 58
+        height: 64
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_29
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 389
+        width: 58
+        height: 64
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_30
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 456
+        width: 58
+        height: 64
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_31
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 960
+        width: 59
+        height: 63
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_32
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 613
+        width: 59
+        height: 63
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_33
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 391
+        width: 59
+        height: 62
+      alignment: 9
+      pivot: {x: 0.39333335, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_34
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 828
+        width: 61
+        height: 62
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_35
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 256
+        width: 60
+        height: 62
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_36
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 458
+        width: 59
+        height: 62
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_37
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 259
+        width: 59
+        height: 62
+      alignment: 9
+      pivot: {x: 0.39333335, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_38
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 291
+        width: 59
+        height: 61
+      alignment: 9
+      pivot: {x: 0.39333335, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_39
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 227
+        width: 59
+        height: 61
+      alignment: 9
+      pivot: {x: 0.39333335, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_40
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 620
+        width: 61
+        height: 61
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_41
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 962
+        width: 60
+        height: 61
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_42
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 197
+        width: 62
+        height: 61
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_43
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 556
+        width: 61
+        height: 61
+      alignment: 9
+      pivot: {x: 0.38, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_44
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 694
+        width: 61
+        height: 61
+      alignment: 9
+      pivot: {x: 0.38, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/idle_45
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 12
+        width: 63
+        height: 61
+      alignment: 9
+      pivot: {x: 0.37333333, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/land_00
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 981
+        width: 68
+        height: 42
+      alignment: 9
+      pivot: {x: 0.1375, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/shoot_00
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 30
+        width: 44
+        height: 55
+      alignment: 9
+      pivot: {x: 0.275, y: 0.49375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/shoot_01
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 882
+        width: 45
+        height: 67
+      alignment: 9
+      pivot: {x: 0.275, y: 0.49375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/shoot_02
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 568
+        width: 43
+        height: 66
+      alignment: 9
+      pivot: {x: 0.2875, y: 0.49375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/shoot_03
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 758
+        width: 43
+        height: 63
+      alignment: 9
+      pivot: {x: 0.2875, y: 0.4875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/shoot_04
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 958
+        width: 42
+        height: 65
+      alignment: 9
+      pivot: {x: 0.2875, y: 0.4875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/shoot_05
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 568
+        width: 41
+        height: 66
+      alignment: 9
+      pivot: {x: 0.2875, y: 0.4875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/shoot_06
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 724
+        width: 43
+        height: 70
+      alignment: 9
+      pivot: {x: 0.2875, y: 0.49375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/shoot_07
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 949
+        width: 47
+        height: 74
+      alignment: 9
+      pivot: {x: 0.2875, y: 0.49375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/shoot_08
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 361
+        width: 49
+        height: 77
+      alignment: 9
+      pivot: {x: 0.2875, y: 0.49375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/shoot_09
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 356
+        width: 50
+        height: 79
+      alignment: 9
+      pivot: {x: 0.2875, y: 0.49375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/shoot_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 858
+        width: 51
+        height: 81
+      alignment: 9
+      pivot: {x: 0.2875, y: 0.49375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/shoot_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 438
+        width: 50
+        height: 81
+      alignment: 9
+      pivot: {x: 0.2875, y: 0.49375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/shoot_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 774
+        width: 51
+        height: 81
+      alignment: 9
+      pivot: {x: 0.2875, y: 0.49375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/shoot_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 690
+        width: 51
+        height: 81
+      alignment: 9
+      pivot: {x: 0.2875, y: 0.49375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/shoot_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 606
+        width: 51
+        height: 81
+      alignment: 9
+      pivot: {x: 0.2875, y: 0.49375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/shoot_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 606
+        width: 51
+        height: 81
+      alignment: 9
+      pivot: {x: 0.2875, y: 0.49375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/shoot_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 522
+        width: 51
+        height: 81
+      alignment: 9
+      pivot: {x: 0.2875, y: 0.49375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/shoot_17
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 606
+        width: 51
+        height: 81
+      alignment: 9
+      pivot: {x: 0.2875, y: 0.49375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/shoot_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 942
+        width: 61
+        height: 81
+      alignment: 9
+      pivot: {x: 0.1625, y: 0.49375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/shoot_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 942
+        width: 61
+        height: 81
+      alignment: 9
+      pivot: {x: 0.1625, y: 0.49375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/shoot_20
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 679
+        width: 54
+        height: 64
+      alignment: 9
+      pivot: {x: 0.225, y: 0.49375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/shoot_21
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 30
+        width: 44
+        height: 55
+      alignment: 9
+      pivot: {x: 0.275, y: 0.49375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/shootObjective_00
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 43
+        width: 48
+        height: 75
+      alignment: 9
+      pivot: {x: 0.2875, y: 0.49375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_00
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 364
+        width: 66
+        height: 38
+      alignment: 9
+      pivot: {x: 0.28, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_01
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 323
+        width: 66
+        height: 38
+      alignment: 9
+      pivot: {x: 0.28, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_02
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 282
+        width: 66
+        height: 38
+      alignment: 9
+      pivot: {x: 0.28, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_03
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 636
+        width: 67
+        height: 38
+      alignment: 9
+      pivot: {x: 0.28, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_04
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 553
+        width: 67
+        height: 38
+      alignment: 9
+      pivot: {x: 0.28, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_05
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 512
+        width: 67
+        height: 38
+      alignment: 9
+      pivot: {x: 0.28, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_06
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 471
+        width: 67
+        height: 38
+      alignment: 9
+      pivot: {x: 0.28, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_07
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 764
+        width: 68
+        height: 38
+      alignment: 9
+      pivot: {x: 0.27, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_08
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1
+        width: 68
+        height: 39
+      alignment: 9
+      pivot: {x: 0.27, y: 0.41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_09
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 805
+        width: 68
+        height: 39
+      alignment: 9
+      pivot: {x: 0.27, y: 0.41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_10
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 895
+        width: 68
+        height: 39
+      alignment: 9
+      pivot: {x: 0.27, y: 0.41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_11
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 729
+        width: 68
+        height: 38
+      alignment: 9
+      pivot: {x: 0.27, y: 0.41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_12
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 853
+        width: 68
+        height: 39
+      alignment: 9
+      pivot: {x: 0.27, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_13
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 686
+        width: 67
+        height: 40
+      alignment: 9
+      pivot: {x: 0.27, y: 0.39}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_14
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 677
+        width: 67
+        height: 40
+      alignment: 9
+      pivot: {x: 0.27, y: 0.39}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_15
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 720
+        width: 67
+        height: 41
+      alignment: 9
+      pivot: {x: 0.27, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_16
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 811
+        width: 68
+        height: 39
+      alignment: 9
+      pivot: {x: 0.27, y: 0.39}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_17
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 937
+        width: 68
+        height: 41
+      alignment: 9
+      pivot: {x: 0.27, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_18
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 1
+        width: 68
+        height: 40
+      alignment: 9
+      pivot: {x: 0.27, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_19
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 935
+        width: 68
+        height: 41
+      alignment: 9
+      pivot: {x: 0.27, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_20
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 891
+        width: 68
+        height: 41
+      alignment: 9
+      pivot: {x: 0.27, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_21
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 847
+        width: 68
+        height: 41
+      alignment: 9
+      pivot: {x: 0.27, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_22
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 495
+        width: 66
+        height: 40
+      alignment: 9
+      pivot: {x: 0.28, y: 0.39}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_23
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 549
+        width: 66
+        height: 40
+      alignment: 9
+      pivot: {x: 0.28, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_24
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 594
+        width: 66
+        height: 39
+      alignment: 9
+      pivot: {x: 0.28, y: 0.41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_25
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 430
+        width: 67
+        height: 38
+      alignment: 9
+      pivot: {x: 0.28, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_26
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 389
+        width: 67
+        height: 38
+      alignment: 9
+      pivot: {x: 0.28, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_27
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 348
+        width: 67
+        height: 38
+      alignment: 9
+      pivot: {x: 0.28, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_28
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 307
+        width: 67
+        height: 38
+      alignment: 9
+      pivot: {x: 0.28, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_29
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 241
+        width: 67
+        height: 38
+      alignment: 9
+      pivot: {x: 0.28, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_30
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 200
+        width: 67
+        height: 38
+      alignment: 9
+      pivot: {x: 0.28, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_31
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 241
+        width: 67
+        height: 38
+      alignment: 9
+      pivot: {x: 0.28, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_32
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 267
+        width: 67
+        height: 37
+      alignment: 9
+      pivot: {x: 0.28, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_33
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 119
+        width: 66
+        height: 37
+      alignment: 9
+      pivot: {x: 0.28, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_34
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 160
+        width: 66
+        height: 37
+      alignment: 9
+      pivot: {x: 0.28, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_35
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 120
+        width: 66
+        height: 37
+      alignment: 9
+      pivot: {x: 0.28, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_36
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 80
+        width: 66
+        height: 37
+      alignment: 9
+      pivot: {x: 0.28, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_37
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 226
+        width: 66
+        height: 38
+      alignment: 9
+      pivot: {x: 0.28, y: 0.41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_38
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 159
+        width: 66
+        height: 38
+      alignment: 9
+      pivot: {x: 0.28, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stun_39
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 364
+        width: 66
+        height: 38
+      alignment: 9
+      pivot: {x: 0.28, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stunIlde_00
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 770
+        width: 68
+        height: 38
+      alignment: 9
+      pivot: {x: 0.35333332, y: 0.44666666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stunIlde_01
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 523
+        width: 70
+        height: 42
+      alignment: 9
+      pivot: {x: 0.34, y: 0.45333335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stunIlde_02
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 979
+        width: 72
+        height: 44
+      alignment: 9
+      pivot: {x: 0.33333334, y: 0.48}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stunIlde_03
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 204
+        width: 72
+        height: 49
+      alignment: 9
+      pivot: {x: 0.33333334, y: 0.48666668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stunIlde_04
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 140
+        width: 69
+        height: 54
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stunIlde_05
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 449
+        width: 67
+        height: 59
+      alignment: 9
+      pivot: {x: 0.35333332, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/stunIlde_06
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 76
+        width: 67
+        height: 61
+      alignment: 9
+      pivot: {x: 0.35333332, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_00
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 503
+        width: 57
+        height: 60
+      alignment: 9
+      pivot: {x: 0.36666667, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_01
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 838
+        width: 56
+        height: 59
+      alignment: 9
+      pivot: {x: 0.36666667, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_02
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 316
+        width: 56
+        height: 59
+      alignment: 9
+      pivot: {x: 0.36666667, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_03
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 715
+        width: 56
+        height: 58
+      alignment: 9
+      pivot: {x: 0.36666667, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_04
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 327
+        width: 55
+        height: 58
+      alignment: 9
+      pivot: {x: 0.36666667, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_05
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 146
+        width: 55
+        height: 57
+      alignment: 9
+      pivot: {x: 0.36666667, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_06
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 394
+        width: 55
+        height: 58
+      alignment: 9
+      pivot: {x: 0.36666667, y: 0.48666668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_07
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 461
+        width: 55
+        height: 58
+      alignment: 9
+      pivot: {x: 0.37333333, y: 0.48666668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_08
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 526
+        width: 55
+        height: 58
+      alignment: 9
+      pivot: {x: 0.37333333, y: 0.48666668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_09
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 712
+        width: 55
+        height: 59
+      alignment: 9
+      pivot: {x: 0.37333333, y: 0.48666668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_10
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 387
+        width: 56
+        height: 59
+      alignment: 9
+      pivot: {x: 0.37333333, y: 0.48666668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_11
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 579
+        width: 57
+        height: 59
+      alignment: 9
+      pivot: {x: 0.37333333, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_12
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 450
+        width: 56
+        height: 59
+      alignment: 9
+      pivot: {x: 0.38, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_13
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 517
+        width: 56
+        height: 59
+      alignment: 9
+      pivot: {x: 0.38, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_14
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 645
+        width: 57
+        height: 59
+      alignment: 9
+      pivot: {x: 0.38, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_15
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 522
+        width: 57
+        height: 58
+      alignment: 9
+      pivot: {x: 0.38, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_16
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 587
+        width: 57
+        height: 58
+      alignment: 9
+      pivot: {x: 0.38, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_17
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 193
+        width: 56
+        height: 58
+      alignment: 9
+      pivot: {x: 0.38, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_18
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 273
+        width: 56
+        height: 57
+      alignment: 9
+      pivot: {x: 0.38, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_19
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 340
+        width: 56
+        height: 57
+      alignment: 9
+      pivot: {x: 0.38, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_20
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 405
+        width: 56
+        height: 57
+      alignment: 9
+      pivot: {x: 0.37333333, y: 0.48666668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_21
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 206
+        width: 57
+        height: 57
+      alignment: 9
+      pivot: {x: 0.36666667, y: 0.48666668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_22
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 83
+        width: 56
+        height: 57
+      alignment: 9
+      pivot: {x: 0.37333333, y: 0.48666668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_23
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 264
+        width: 56
+        height: 58
+      alignment: 9
+      pivot: {x: 0.38, y: 0.48666668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_24
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 132
+        width: 55
+        height: 58
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.48666668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_25
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 710
+        width: 57
+        height: 59
+      alignment: 9
+      pivot: {x: 0.37333333, y: 0.48666668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_26
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 583
+        width: 56
+        height: 59
+      alignment: 9
+      pivot: {x: 0.37333333, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_27
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 648
+        width: 56
+        height: 59
+      alignment: 9
+      pivot: {x: 0.37333333, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walk_28
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 512
+        width: 58
+        height: 59
+      alignment: 9
+      pivot: {x: 0.36, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkA_00
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 637
+        width: 51
+        height: 60
+      alignment: 9
+      pivot: {x: 0.1875, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkA_01
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 704
+        width: 50
+        height: 60
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkA_02
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 99
+        width: 50
+        height: 61
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkA_03
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 393
+        width: 50
+        height: 62
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkA_04
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 548
+        width: 50
+        height: 62
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkA_05
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 483
+        width: 50
+        height: 62
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkA_06
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 74
+        width: 50
+        height: 62
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkA_07
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 140
+        width: 50
+        height: 62
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkA_08
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 326
+        width: 51
+        height: 62
+      alignment: 9
+      pivot: {x: 0.1875, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkA_09
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 139
+        width: 51
+        height: 62
+      alignment: 9
+      pivot: {x: 0.1875, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkA_10
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 163
+        width: 50
+        height: 61
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkB_00
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 770
+        width: 50
+        height: 60
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkB_01
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 835
+        width: 50
+        height: 60
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkB_02
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 35
+        width: 50
+        height: 61
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkB_03
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 261
+        width: 50
+        height: 62
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkB_04
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 9
+        width: 50
+        height: 62
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkB_05
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 75
+        width: 50
+        height: 62
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkB_06
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 140
+        width: 50
+        height: 62
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkB_07
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 10
+        width: 50
+        height: 62
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkB_08
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 261
+        width: 51
+        height: 62
+      alignment: 9
+      pivot: {x: 0.1875, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkB_09
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 326
+        width: 51
+        height: 62
+      alignment: 9
+      pivot: {x: 0.1875, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkB_10
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 163
+        width: 51
+        height: 61
+      alignment: 9
+      pivot: {x: 0.1875, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleA_00
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 899
+        width: 50
+        height: 60
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleA_01
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 963
+        width: 50
+        height: 60
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleA_02
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 574
+        width: 50
+        height: 60
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleA_03
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 440
+        width: 50
+        height: 60
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleA_04
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 776
+        width: 50
+        height: 59
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleA_05
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 254
+        width: 50
+        height: 59
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleA_06
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 203
+        width: 50
+        height: 58
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleA_07
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 266
+        width: 50
+        height: 58
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleA_08
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 333
+        width: 50
+        height: 58
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleA_09
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 400
+        width: 50
+        height: 58
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleA_10
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 465
+        width: 50
+        height: 58
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleA_11
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 71
+        width: 50
+        height: 58
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleA_12
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 10
+        width: 50
+        height: 58
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleA_13
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 325
+        width: 50
+        height: 59
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleA_14
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 388
+        width: 50
+        height: 59
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleA_15
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 455
+        width: 50
+        height: 59
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleA_16
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 511
+        width: 50
+        height: 60
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleA_17
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 574
+        width: 50
+        height: 60
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleA_18
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 641
+        width: 50
+        height: 60
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleA_19
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 899
+        width: 50
+        height: 60
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleB_00
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 707
+        width: 50
+        height: 60
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleB_01
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 772
+        width: 50
+        height: 60
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleB_02
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 99
+        width: 50
+        height: 61
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleB_03
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 35
+        width: 50
+        height: 61
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleB_04
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 428
+        width: 50
+        height: 61
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleB_05
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 364
+        width: 50
+        height: 61
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleB_06
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 300
+        width: 50
+        height: 61
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleB_07
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 236
+        width: 50
+        height: 61
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleB_08
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 172
+        width: 50
+        height: 61
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleB_09
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 108
+        width: 50
+        height: 61
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleB_10
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 44
+        width: 50
+        height: 61
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleB_11
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 630
+        width: 50
+        height: 61
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleB_12
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 700
+        width: 50
+        height: 61
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleB_13
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 767
+        width: 50
+        height: 61
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleB_14
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 833
+        width: 50
+        height: 61
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleB_15
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 898
+        width: 50
+        height: 61
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleB_16
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 962
+        width: 50
+        height: 61
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleB_17
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 566
+        width: 50
+        height: 61
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleB_18
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 836
+        width: 50
+        height: 60
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadArcher/walkIdleB_19
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 707
+        width: 50
+        height: 60
+      alignment: 9
+      pivot: {x: 0.2, y: 0.4919355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

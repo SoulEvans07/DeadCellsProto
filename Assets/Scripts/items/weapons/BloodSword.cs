@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class BloodSword : Weapon {
 	
+	[ShowOnly] public float offsetX = 0.2f;
+	[ShowOnly] public float offsetY = 0f;
+	
 	private void init() {
 		equipmentName = "Blood Sword";
 		spriteName = "BloodSword";
@@ -25,8 +28,9 @@ public class BloodSword : Weapon {
 	public override void Use() {
 		if (attackCooldownValue.Equals(0f)) {
 			attackCooldownValue = attackCooldown;
-            
-			GameObject fx = Instantiate(attackFx, transform.position, transform.rotation);
+			
+			Vector3 offset = new Vector3(Headless.instance.transform.localScale.x * offsetX, offsetY, 0);
+			GameObject fx = Instantiate(attackFx, transform.position + offset, transform.rotation);
 			GameObject ef = Instantiate(effect);
 			ef.SetActive(false);
 			fx.GetComponent<AttackFx>().dot = ef.GetComponent<DamageOverTime>();

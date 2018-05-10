@@ -211,7 +211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f12ab68a4b8b43a47a5898e20460321c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 30
+  maxHealth: 100
   dotList: []
   speed: 4.5
   airSlowness: 0.8
@@ -262,8 +262,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1660180109
-  m_SortingLayer: 2
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21301708, guid: 8a438e08ceed56b4eb9353b25c127d1c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

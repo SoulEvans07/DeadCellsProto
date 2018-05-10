@@ -182,8 +182,7 @@ public class GrenadierZombie : Living {
 
 		health -= attack.damage;
 
-		anim.Update(100);
-		anim.Play ("ZombieHit");
+		anim.Play("ZombieHit");
 
 		if (attack.dot != null) {
 			attack.dot.Apply(this);

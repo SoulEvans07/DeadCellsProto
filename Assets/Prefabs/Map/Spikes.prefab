@@ -80,7 +80,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14fa57a425f80504e97a0ca8ec54aa4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 20
+  damage: 5
   normal: {fileID: 21300620, guid: 1b348fffbdf606b489a5301d68be3b91, type: 3}
   bloody: {fileID: 21300622, guid: 1b348fffbdf606b489a5301d68be3b91, type: 3}
 --- !u!212 &212526922234550382

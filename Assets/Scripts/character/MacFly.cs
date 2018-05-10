@@ -178,8 +178,7 @@ public class MacFly : MonoBehaviour
 
         health -= playerAttack.damage;
 
-        anim.Update(100);
-        anim.Play("MacFlyHit");
+        anim.Play("DamageTaken");
 
         if (health <= 0)
             Die();

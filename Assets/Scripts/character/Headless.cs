@@ -226,8 +226,7 @@ public class Headless : Living {
         hitCooldownValue = hitCooldown;
         health -= hit.damage;
 
-//        anim.Update(100);
-        anim.Play("PlayerHit");
+        anim.Play("DamageTaken");
 
         UpdateHealthBar();
     }

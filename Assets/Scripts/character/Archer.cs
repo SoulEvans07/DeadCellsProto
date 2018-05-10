@@ -3,22 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Archer : Living {
-    // life
-    public GameObject hpBarPref;
-
-    [ShowOnly] public Vector2 healthBarOffset = new Vector2(0.13f, 0.35f);
-    private GameObject healthBarObject;
-    private Slider healthBar;
+public class Archer : Enemy {
 
     // moving and colliding
     public float maxSpeed = 0.4f;
-
     private float move = 0f;
     private bool facingRight = true;
-    private Rigidbody2D rd2d;
-    private Animator anim;
-    private SpriteRenderer spriteRenderer;
+    
     public Transform probe;
     public Transform groundCheck;
     public Transform ledgeCheck;
@@ -38,45 +29,22 @@ public class Archer : Living {
 
     // hit
     public float hitCooldown = 22 / 24f;
-
     private float hitCooldownValue = 0;
 
-    // gems
-    public GameObject spawnGem;
-
-    public int maxGem = 5;
-    private int gemNum;
+    
 
     void Start() {
-        health = maxHealth;
-
-        rd2d = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        InitEnemy();
         // attack
 //        slashFxOffsetLeft = slashFxOffset;
 //        slashFxOffsetLeft.x *= -1;
 //
 //        attackSignalTimeValue = attackSignalTime;
-
-        gemNum = (int) Random.Range(maxGem * 0.6f, maxGem);
-        dotList = new List<DamageOverTime>();
     }
 
     void FixedUpdate() {
-        if (Headless.instance == null)
+        if (Headless.instance == null || dead)
             return;
-        if (health <= 0)
-            dead = true;
-
-        if (dead) {
-            Die();
-            return;
-        }
-
-        if (healthBarObject == null && health < maxHealth) {
-            CreateHealthBar();
-        }
 
         UpdateHPBar();
         
@@ -133,60 +101,27 @@ public class Archer : Living {
         }
     }
     
-    public void Hit(AttackFx attack){
-//        attackSignalTimeValue = attackSignalTime;
-//        attackCooldownValue = attackCooldown;
-//        attackStarted = false;
+    public void Hit(AttackFx attack) {
+        ResetAttackCooldown();
 
         hitCooldownValue = hitCooldown;
 
-        health -= attack.damage;
-
-//        anim.Update(100);
-//        anim.Play ("ZombieHit");
+        TakeDamage(attack.damage);
 
         if (attack.dot != null) {
             attack.dot.Apply(this);
         }
-
-        if (health <= 0)
-            dead = true;
     }
 
-    void CreateHealthBar() {
-        if (CanvasManager.instance == null)
-            return;
-        healthBarObject = Instantiate(hpBarPref, CanvasManager.instance.gameObject.transform) as GameObject;
-        SliderFollowObject followObject = healthBarObject.GetComponent<SliderFollowObject>();
-        followObject.target = transform;
-        followObject.offset = healthBarOffset;
-        followObject.UpdatePos();
-        healthBar = healthBarObject.GetComponent<Slider>();
+    public void TakeDamage(float damage) {
+        health -= damage;
+        anim.Play("DamageTaken");
     }
 
-    void UpdateHPBar() {
-        if (healthBar != null)
-            healthBar.value = health / maxHealth;
-    }
-
-    void Die() {
-        Destroy(GetComponent<Rigidbody2D>());
-        Destroy(GetComponent<Collider2D>());
-        // play animation
-//        anim.SetBool("zombie-dead", dead);
-
-        Destroy(gameObject, 1f);
-        Destroy(healthBarObject);
-
-        Transform playerTrans = Headless.instance.transform;
-
-        while (gemNum > 0) {
-            Quaternion rotation = transform.rotation;
-            GameObject gem = Instantiate(spawnGem, transform.position, rotation) as GameObject;
-            int dir = (playerTrans.position.x - gem.transform.position.x) < 0 ? 1 : -1;
-            gem.GetComponent<Rigidbody2D>().AddForce(new Vector2(dir * Random.Range(100, 150), Random.Range(100, 150)));
-            gemNum--;
-        }
+    void ResetAttackCooldown() {
+        attackSignalTimeValue = attackSignalTime;
+        attackCooldownValue = attackCooldown;
+        attackStarted = false;
     }
 
     void Flip() {
@@ -200,6 +135,7 @@ public class Archer : Living {
         probe.localScale = theScale;
 
         healthBarOffset.x *= -1; 
-        healthBarObject.GetComponent<SliderFollowObject>().Flip();
+        if(healthBarObject != null)
+            healthBarObject.GetComponent<SliderFollowObject>().Flip();
     }
 }

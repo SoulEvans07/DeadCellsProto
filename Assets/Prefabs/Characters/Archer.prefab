@@ -197,7 +197,9 @@ MonoBehaviour:
   maxHealth: 30
   dotList: []
   hpBarPref: {fileID: 1654325925104120, guid: b2a1eaa4d5b135f4d85e9907d7cdf168, type: 2}
-  healthBarOffset: {x: 0, y: 0.3}
+  healthBarOffset: {x: 0.13, y: 0.35}
+  spawnGem: {fileID: 1470306582208548, guid: f6a94808a93965c47a6f961c89a0137f, type: 2}
+  maxGem: 10
   maxSpeed: 0.4
   probe: {fileID: 4091571384742860}
   groundCheck: {fileID: 4671756946407110}
@@ -206,9 +208,10 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8193
+  attackSignalTime: 1
+  attackCooldown: 1
+  attackDistance: 0.4
   hitCooldown: 0.9166667
-  spawnGem: {fileID: 1470306582208548, guid: f6a94808a93965c47a6f961c89a0137f, type: 2}
-  maxGem: 10
 --- !u!212 &212646572094207872
 SpriteRenderer:
   m_ObjectHideFlags: 1

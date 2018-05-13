@@ -171,16 +171,16 @@ public class Archer : Enemy {
             healthBarObject.GetComponent<SliderFollowObject>().Flip();
     }
     
-    [ExecuteInEditMode]
-    void OnDrawGizmosSelected() {
-        Handles.color = Color.cyan;
-        UnityEditor.Handles.DrawWireDisc(transform.position, Vector3.back, attackDistance);
-        if (Headless.instance != null && Vector2.Distance(transform.position, Headless.instance.transform.position) < attackDistance) {
-            Handles.color = Color.white;
-            if(!LineOfSight())
-                UnityEditor.Handles.DrawLine(transform.position, Headless.instance.transform.position);
-            else
-                UnityEditor.Handles.DrawDottedLine(transform.position, Headless.instance.transform.position, 1f);
-        }
-    }
+//    [ExecuteInEditMode]
+//    void OnDrawGizmosSelected() {
+//        Handles.color = Color.cyan;
+//        UnityEditor.Handles.DrawWireDisc(transform.position, Vector3.back, attackDistance);
+//        if (Headless.instance != null && Vector2.Distance(transform.position, Headless.instance.transform.position) < attackDistance) {
+//            Handles.color = Color.white;
+//            if(!LineOfSight())
+//                UnityEditor.Handles.DrawLine(transform.position, Headless.instance.transform.position);
+//            else
+//                UnityEditor.Handles.DrawDottedLine(transform.position, Headless.instance.transform.position, 1f);
+//        }
+//    }
 }

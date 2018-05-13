@@ -51,7 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c38feefba64433bb518559cde73b2d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  equipmentName: Begginers Bow
+  gearName: Begginers Bow
   description: 
   dps: 100
   extraInfo: Can not be sold.
@@ -61,4 +61,4 @@ MonoBehaviour:
   attackAnim: PlayerLongBow
   attackCooldown: 0.7
   attackCooldownValue: 0
-  bowForce: 100
+  bowForce: 50

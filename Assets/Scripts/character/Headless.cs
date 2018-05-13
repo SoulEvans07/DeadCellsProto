@@ -17,6 +17,7 @@ public class Headless : Living {
         if (instance != null)
             Debug.LogWarning("more than one instance");
         instance = this;
+        DontDestroyOnLoad(this.gameObject);
     }
 
     // movement
@@ -293,9 +294,9 @@ public class Headless : Living {
     }
 
 
-    [ExecuteInEditMode]
-    void OnDrawGizmosSelected() {
-        UnityEditor.Handles.DrawSolidRectangleWithOutline(
-            new Rect(probeDown.position, probeUp.position - probeDown.position), Color.green, Color.green);
-    }
+//    [ExecuteInEditMode]
+//    void OnDrawGizmosSelected() {
+//        UnityEditor.Handles.DrawSolidRectangleWithOutline(
+//            new Rect(probeDown.position, probeUp.position - probeDown.position), Color.green, Color.green);
+//    }
 }

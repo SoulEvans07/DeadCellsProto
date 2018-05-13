@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 public class BeginnersBow : Weapon {
-    public float bowForce = 100f;
+    public float bowForce = 50f;
 
     private void init() {
         gearName = "Begginers Bow";
@@ -35,7 +35,7 @@ public class BeginnersBow : Weapon {
         arrow.GetComponent<Rigidbody2D>().AddForce(new Vector2(Headless.instance.transform.localScale.x * bowForce, 0));
         arrow.GetComponent<AttackFx>().damage =  (int) (dps * attackCooldown);
         
-        Destroy(arrow, 0.5f);
+        Destroy(arrow, 1f);
 
         return true;
     }

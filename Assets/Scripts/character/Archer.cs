@@ -111,7 +111,7 @@ public class Archer : Enemy {
         arrow.transform.localScale = new Vector3(transform.localScale.x * preScale.x, preScale.y, preScale.z);
         arrow.GetComponent<Rigidbody2D>().AddForce(new Vector2(transform.localScale.x * bowForce, 0));
         arrow.GetComponent<AttackFx>().damage =  (int) (dps * attackCooldown);
-        Destroy(arrow, 0.5f);
+        Destroy(arrow, 1f);
     }
     
     void OnTriggerEnter2D(Collider2D other) {

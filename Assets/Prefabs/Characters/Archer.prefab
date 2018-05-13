@@ -195,7 +195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 120
-  hitCooldown: 0.9166667
+  hitCooldown: 0.3
   dotList: []
   hpBarPref: {fileID: 1654325925104120, guid: b2a1eaa4d5b135f4d85e9907d7cdf168, type: 2}
   healthBarOffset: {x: 0.13, y: 0.35}

@@ -8,6 +8,10 @@ public class CameraFollow : MonoBehaviour
     public float offsetX;
     public float offsetY;
 
+    private void Awake() {
+        DontDestroyOnLoad(this.gameObject);
+    }
+
     private void LateUpdate()
     {
         if(target == null)

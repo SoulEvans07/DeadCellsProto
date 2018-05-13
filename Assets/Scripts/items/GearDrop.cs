@@ -36,7 +36,7 @@ public class GearDrop : ItemDrop {
             ItemSwitcher switcher = itemSelectInst.GetComponent<ItemSwitcher>();
             switcher.setOnGround(equip, this);
         } else {
-            Destroy(gameObject);
+            Destroy(gameObject.transform.parent.gameObject);
         }
     }
 }

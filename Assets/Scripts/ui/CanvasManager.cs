@@ -9,6 +9,7 @@ public class CanvasManager : MonoBehaviour
         if (instance != null)
             Debug.LogWarning ("more than one instance");
         instance = this;
+        DontDestroyOnLoad(this.gameObject);
     }
 
     private void Start()

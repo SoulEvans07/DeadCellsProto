@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public abstract class Skill : Equipment {
+public abstract class Skill : Gear {
     public GameObject skillFx;
     public string skillUseAnim;
     

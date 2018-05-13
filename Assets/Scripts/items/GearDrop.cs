@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 [ExecuteInEditMode]
-public class ItemDrop : MonoBehaviour {
+public class GearDrop : MonoBehaviour {
     private static string itemIconsPath = "Assets/Sprites/GameElements/cardIcons.png";
     private SpriteRenderer renderR;
 
@@ -11,7 +11,7 @@ public class ItemDrop : MonoBehaviour {
     [ShowOnly] public GameObject popUpInst;
     [ShowOnly] public GameObject itemSelectInst;
 
-    public Equipment item;
+    public Gear item;
 
     [ShowOnly] public Collider2D inside = null;
 
@@ -24,9 +24,9 @@ public class ItemDrop : MonoBehaviour {
         }
     }
 
-    public void changeItem(Equipment equipment) {
-        if (equipment != null) {
-            item = equipment;
+    public void changeItem(Gear gear) {
+        if (gear != null) {
+            item = gear;
             name = "ItemDrop[" + item.name + "]";
             renderR = GetComponent<SpriteRenderer>();
             renderR.sprite = SpriteLoader.getSprite(item.spriteName);
@@ -38,7 +38,7 @@ public class ItemDrop : MonoBehaviour {
             return;
 
         Transform playerTransform = Headless.instance.transform;
-        Equipment equip = Instantiate(item, playerTransform.position, playerTransform.rotation);
+        Gear equip = Instantiate(item, playerTransform.position, playerTransform.rotation);
         if (!Headless.instance.inventory.addItemToInventory(equip)) {
             itemSelectInst = Instantiate(itemSelect, CanvasManager.instance.gameObject.transform);
             ItemSwitcher switcher = itemSelectInst.GetComponent<ItemSwitcher>();

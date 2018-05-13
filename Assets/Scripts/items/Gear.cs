@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 
 [ExecuteInEditMode]
-public abstract class Equipment : MonoBehaviour{
+public abstract class Gear : MonoBehaviour{
     public string equipmentName;
     public string description;
     public int dps;

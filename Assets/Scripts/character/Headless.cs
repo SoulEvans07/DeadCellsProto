@@ -253,7 +253,7 @@ public class Headless : Living {
         Destroy(gem.gameObject);
     }
 
-    public bool Buy(int price, Equipment item) {
+    public bool Buy(int price, Gear item) {
         if (price > gold)
             return false;
 

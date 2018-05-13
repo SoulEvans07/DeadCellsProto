@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-public abstract class Weapon : Equipment{
+public abstract class Weapon : Gear{
     public GameObject attackFx;
     public string attackAnim;
     

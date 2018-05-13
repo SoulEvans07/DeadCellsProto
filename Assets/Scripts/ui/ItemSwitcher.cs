@@ -4,8 +4,8 @@ using UnityEngine.UI;
 
 public class ItemSwitcher : MonoBehaviour {
     // OnGround
-    [ShowOnly] public Equipment onGround;
-    [ShowOnly] public ItemDrop drop;
+    [ShowOnly] public Gear onGround;
+    [ShowOnly] public GearDrop drop;
     public GameObject onGroundSelection;
     public GameObject onGroundImg;
     private Image onGroundItemImg;
@@ -15,7 +15,7 @@ public class ItemSwitcher : MonoBehaviour {
     public TextMeshProUGUI onGroundExtra;
 
     // OnLeft
-    [ShowOnly] public Equipment onLeft;
+    [ShowOnly] public Gear onLeft;
     public GameObject onLeftSelection;
     private Image onLeftSelectionImage;
     public GameObject onLeftImg;
@@ -26,7 +26,7 @@ public class ItemSwitcher : MonoBehaviour {
     public TextMeshProUGUI onLeftExtra;
 
     // OnRight
-    [ShowOnly] public Equipment onRight;
+    [ShowOnly] public Gear onRight;
     public GameObject onRightSelection;
     private Image onRightSelectionImage;
     public GameObject onRightImg;
@@ -36,7 +36,7 @@ public class ItemSwitcher : MonoBehaviour {
     public TextMeshProUGUI onRightDescr;
     public TextMeshProUGUI onRightExtra;
 
-    public void setOnGround(Equipment onGround, ItemDrop drop) {
+    public void setOnGround(Gear onGround, GearDrop drop) {
         this.onGround = onGround;
         this.drop = drop;
         

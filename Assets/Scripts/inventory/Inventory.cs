@@ -17,22 +17,22 @@ public class Inventory : MonoBehaviour {
     public Image skillRTImage;
 
 
-    public bool addItemToInventory(Equipment equipment) {
-        if (equipment is Weapon) {
+    public bool addItemToInventory(Gear gear) {
+        if (gear is Weapon) {
             if (weaponX == null) {
-                placeX(equipment);
+                placeX(gear);
             } else if (weaponY == null) {
-                placeY(equipment);
+                placeY(gear);
             } else {
                 return false;
             }
         }
 
-        if (equipment is Skill) {
+        if (gear is Skill) {
             if (skillLT == null) {
-                placeLT(equipment);
+                placeLT(gear);
             } else if (skillRT == null) {
-                placeRT(equipment);
+                placeRT(gear);
             } else {
                 return false;
             }
@@ -41,36 +41,36 @@ public class Inventory : MonoBehaviour {
         return true;
     }
 
-    public void placeX(Equipment equipment) {
-        weaponX = (Weapon) equipment;
+    public void placeX(Gear gear) {
+        weaponX = (Weapon) gear;
         weaponX.transform.parent = transform;
-        weaponXImage.sprite = SpriteLoader.getSprite(equipment.spriteName);
+        weaponXImage.sprite = SpriteLoader.getSprite(gear.spriteName);
         weaponXImage.color = Color.white;
-        equipment.addIcon(weaponXImage);
+        gear.addIcon(weaponXImage);
     }
 
-    public void placeY(Equipment equipment) {
-        weaponY = (Weapon) equipment;
+    public void placeY(Gear gear) {
+        weaponY = (Weapon) gear;
         weaponY.transform.parent = transform;
-        weaponYImage.sprite = SpriteLoader.getSprite(equipment.spriteName);
+        weaponYImage.sprite = SpriteLoader.getSprite(gear.spriteName);
         weaponYImage.color = Color.white;
-        equipment.addIcon(weaponYImage);
+        gear.addIcon(weaponYImage);
     }
 
-    public void placeLT(Equipment equipment) {
-        skillLT = (Skill) equipment;
+    public void placeLT(Gear gear) {
+        skillLT = (Skill) gear;
         skillLT.transform.parent = transform;
         skillLTImage.sprite = SpriteLoader.getSprite(skillLT.spriteName);
         skillLTImage.color = Color.white;
-        equipment.addIcon(skillLTImage);
+        gear.addIcon(skillLTImage);
     }
 
-    public void placeRT(Equipment equipment) {
-        skillRT = (Skill) equipment;
+    public void placeRT(Gear gear) {
+        skillRT = (Skill) gear;
         skillRT.transform.parent = transform;
         skillRTImage.sprite = SpriteLoader.getSprite(skillRT.spriteName);
         skillRTImage.color = Color.white;
-        equipment.addIcon(skillRTImage);
+        gear.addIcon(skillRTImage);
     }
     
     public void UseX(Animator anim) {

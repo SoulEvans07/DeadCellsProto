@@ -7,7 +7,7 @@ public class EquipmentDrop : MonoBehaviour {
     private static string itemIconsPath = "Assets/Sprites/GameElements/cardIcons.png";
     private SpriteRenderer renderR;
 
-    public Equipment item;
+    public Gear item;
 
     private void Start() {
         SpriteLoader.loadSpritesFrom(itemIconsPath);
@@ -23,7 +23,7 @@ public class EquipmentDrop : MonoBehaviour {
             return;
 
         Transform playerTransform = Headless.instance.transform;
-        Equipment equip = Instantiate(item, playerTransform.position, playerTransform.rotation);
+        Gear equip = Instantiate(item, playerTransform.position, playerTransform.rotation);
         Headless.instance.inventory.addItemToInventory(equip);
         Destroy(gameObject);
     }

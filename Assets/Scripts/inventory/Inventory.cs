@@ -74,30 +74,26 @@ public class Inventory : MonoBehaviour {
     }
     
     public void UseX(Animator anim) {
-        if (weaponX != null) {
+        if (weaponX != null && weaponX.Use()) {
             anim.Play(weaponX.attackAnim);
-            weaponX.Use();
         }
     }
     
     public void UseY(Animator anim) {
-        if (weaponY != null) {
+        if (weaponY != null && weaponY.Use()) {
             anim.Play(weaponY.attackAnim);
-            weaponY.Use();
         }
     }
 
     public void UseLT(Animator anim) {
-        if (skillLT != null) {
+        if (skillLT != null && skillLT.Use()) {
             anim.Play(skillLT.skillUseAnim);
-            skillLT.Use();
         }
     }
     
     public void UseRT(Animator anim) {
-        if (skillRT != null) {
+        if (skillRT != null && skillRT.Use()) {
             anim.Play(skillRT.skillUseAnim);
-            skillRT.Use();
         }
     }
 

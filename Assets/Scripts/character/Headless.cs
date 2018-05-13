@@ -279,10 +279,7 @@ public class Headless : Living {
 
 //    [ExecuteInEditMode]
 //    void OnDrawGizmosSelected() {
-//        Handles.color = Color.cyan;
-//        Vector3 center = spriteRenderer.sprite.bounds.center;
-//        UnityEditor.Handles.DrawSolidDisc(transform.position + center, Vector3.back, 0.01f);
 //        UnityEditor.Handles.DrawSolidRectangleWithOutline(
-//            new Rect(probeDown.position, probeUp.position - probeDown.position), Color.green, Color.black);
+//            new Rect(probeDown.position, probeUp.position - probeDown.position), Color.green, Color.green);
 //    }
 }

@@ -22,18 +22,21 @@ public class BeginnersBow : Weapon {
         init();
     }
 
-    public override void Use() {
-        if (attackCooldownValue.Equals(0f)) {
-            attackCooldownValue = attackCooldown;
+    public override bool Use() {
+        if (attackCooldownValue > 0f)
+            return false;
+        
+        attackCooldownValue = attackCooldown;
 
-            GameObject arrow = Instantiate(attackFx, transform.position, transform.rotation);
-            arrow.transform.parent = null;
-            Vector3 preScale = arrow.transform.localScale;
-            arrow.transform.localScale = new Vector3(Headless.instance.transform.localScale.x * preScale.x, preScale.y, preScale.z);
-            arrow.GetComponent<Rigidbody2D>().AddForce(new Vector2(Headless.instance.transform.localScale.x * bowForce, 0));
-            arrow.GetComponent<AttackFx>().damage =  (int) (dps * attackCooldown);
-            
-            Destroy(arrow, 0.5f);
-        }
+        GameObject arrow = Instantiate(attackFx, transform.position, transform.rotation);
+        arrow.transform.parent = null;
+        Vector3 preScale = arrow.transform.localScale;
+        arrow.transform.localScale = new Vector3(Headless.instance.transform.localScale.x * preScale.x, preScale.y, preScale.z);
+        arrow.GetComponent<Rigidbody2D>().AddForce(new Vector2(Headless.instance.transform.localScale.x * bowForce, 0));
+        arrow.GetComponent<AttackFx>().damage =  (int) (dps * attackCooldown);
+        
+        Destroy(arrow, 0.5f);
+
+        return true;
     }
 }

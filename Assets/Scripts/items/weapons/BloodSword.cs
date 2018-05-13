@@ -25,21 +25,24 @@ public class BloodSword : Weapon {
 		init();
 	}
 	
-	public override void Use() {
-		if (attackCooldownValue.Equals(0f)) {
-			attackCooldownValue = attackCooldown;
+	public override bool Use() {
+		if (attackCooldownValue > 0f)
+			return false;
 			
-			Vector3 offset = new Vector3(Headless.instance.transform.localScale.x * offsetX, offsetY, 0);
-			GameObject fx = Instantiate(attackFx, transform.position + offset, transform.rotation);
-			GameObject ef = Instantiate(effect);
-			ef.SetActive(false);
-			fx.GetComponent<AttackFx>().dot = ef.GetComponent<DamageOverTime>();
-			fx.transform.parent = transform;
-			Vector3 preScale = fx.transform.localScale;
-			fx.transform.localScale = new Vector3(Headless.instance.transform.localScale.x * preScale.x, preScale.y, preScale.z);
-			fx.GetComponent<AttackFx>().damage =  (int) (dps * attackCooldown);
-            
-			Destroy(fx, 1);
-		}
+		attackCooldownValue = attackCooldown;
+		
+		Vector3 offset = new Vector3(Headless.instance.transform.localScale.x * offsetX, offsetY, 0);
+		GameObject fx = Instantiate(attackFx, transform.position + offset, transform.rotation);
+		GameObject ef = Instantiate(effect);
+		ef.SetActive(false);
+		fx.GetComponent<AttackFx>().dot = ef.GetComponent<DamageOverTime>();
+		fx.transform.parent = transform;
+		Vector3 preScale = fx.transform.localScale;
+		fx.transform.localScale = new Vector3(Headless.instance.transform.localScale.x * preScale.x, preScale.y, preScale.z);
+		fx.GetComponent<AttackFx>().damage =  (int) (dps * attackCooldown);
+		
+		Destroy(fx, 1);
+		
+		return true;
 	}
 }

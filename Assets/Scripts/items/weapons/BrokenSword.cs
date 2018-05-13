@@ -24,19 +24,21 @@ public class BrokenSword : Weapon {
         init();
     }
 
-    public override void Use() {
-        if (attackCooldownValue.Equals(0f)) {
-            attackCooldownValue = attackCooldown;
-            
-            Vector3 offset = new Vector3(Headless.instance.transform.localScale.x * offsetX, offsetY, 0);
-            GameObject fx = Instantiate(attackFx, transform.position + offset, transform.rotation);
-            fx.transform.parent = transform;
-            Vector3 preScale = fx.transform.localScale;
-            fx.transform.localScale = new Vector3(Headless.instance.transform.localScale.x * preScale.x, preScale.y, preScale.z);
-            fx.GetComponent<AttackFx>().damage =  (int) (dps * attackCooldown);
-            
-            Destroy(fx, 1);
-        }
+    public override bool Use() {
+        if (attackCooldownValue > 0f)
+            return false;
+        
+        attackCooldownValue = attackCooldown;
+        
+        Vector3 offset = new Vector3(Headless.instance.transform.localScale.x * offsetX, offsetY, 0);
+        GameObject fx = Instantiate(attackFx, transform.position + offset, transform.rotation);
+        fx.transform.parent = transform;
+        Vector3 preScale = fx.transform.localScale;
+        fx.transform.localScale = new Vector3(Headless.instance.transform.localScale.x * preScale.x, preScale.y, preScale.z);
+        fx.GetComponent<AttackFx>().damage =  (int) (dps * attackCooldown);
+        
+        Destroy(fx, 1);
+        return true;
     }
 
     

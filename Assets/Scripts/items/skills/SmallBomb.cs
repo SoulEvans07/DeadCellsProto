@@ -22,16 +22,17 @@ public class SmallBomb : Skill {
         init();
     }
 
-    public override void Use() {
-        if (skillCooldownValue.Equals(0f)) {
-            skillCooldownValue = skillCooldown;
-            
-            GameObject bomb = Instantiate(skillFx, transform.position, transform.rotation);
-            bomb.transform.parent = null;
-            bomb.GetComponent<Rigidbody2D>().AddForce(new Vector2(Headless.instance.transform.localScale.x * throwForce, throwForce));
-            
-            Destroy(bomb, 1);
-        }
+    public override bool Use() {
+        if (skillCooldownValue > 0f)
+            return false;
+        skillCooldownValue = skillCooldown;
+        
+        GameObject bomb = Instantiate(skillFx, transform.position, transform.rotation);
+        bomb.transform.parent = null;
+        bomb.GetComponent<Rigidbody2D>().AddForce(new Vector2(Headless.instance.transform.localScale.x * throwForce, throwForce));
+        
+        Destroy(bomb, 1);
+        return true;
     }
     
 }

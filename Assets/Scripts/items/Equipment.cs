@@ -12,7 +12,7 @@ public abstract class Equipment : MonoBehaviour{
     
     protected Image inventoryIcon;
     
-    public abstract void Use();
+    public abstract bool Use();
     
     private void Start() {
         name = equipmentName;

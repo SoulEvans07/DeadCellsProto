@@ -107,6 +107,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbee04bd086fc0c47aa932e8d8cfd662, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 80
+  hitCooldown: 1
+  dotList: []
+  hpBarPref: {fileID: 1654325925104120, guid: b2a1eaa4d5b135f4d85e9907d7cdf168, type: 2}
+  healthBarOffset: {x: 0, y: 0.01}
+  spawnGem: {fileID: 1470306582208548, guid: f6a94808a93965c47a6f961c89a0137f, type: 2}
+  maxGem: 3
   DrawGizmos: 1
   trackingRange: 1
   followingRange: 10
@@ -115,14 +122,8 @@ MonoBehaviour:
   acceleration: 0.4
   atkLoad: 0.33333334
   atkCooldown: 2
-  hitCooldown: 1
   attackFx: {fileID: 1902895988443480, guid: 4698f530a86966f43a4001751cc3e70a, type: 2}
   fxOffset: {x: 0.3, y: -0.05}
-  maxHealth: 80
-  hpBarPref: {fileID: 1654325925104120, guid: b2a1eaa4d5b135f4d85e9907d7cdf168, type: 2}
-  healthBarOffset: {x: 0, y: 0.01}
-  spawnGem: {fileID: 1470306582208548, guid: f6a94808a93965c47a6f961c89a0137f, type: 2}
-  maxGem: 3
 --- !u!212 &212760675007365116
 SpriteRenderer:
   m_ObjectHideFlags: 1

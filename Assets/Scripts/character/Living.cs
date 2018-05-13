@@ -8,7 +8,7 @@ public class Living : MonoBehaviour {
     protected Animator anim;
     protected SpriteRenderer spriteRenderer;
     
-    public int maxHealth = 30;
+    public int maxHealth;
     protected int health;
     protected bool dead = false;
     

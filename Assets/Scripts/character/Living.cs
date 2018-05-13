@@ -13,7 +13,7 @@ public class Living : MonoBehaviour {
     protected bool dead = false;
     
     public float hitCooldown = 1f;
-    protected float hitCooldownValue = 0;
+    protected float hitCdValue = 0;
     
     // buffs and debuffs
     public List<DamageOverTime> dotList;
@@ -28,15 +28,15 @@ public class Living : MonoBehaviour {
     }
 
     protected void UpdateHitCooldown() {
-        hitCooldownValue = Mathf.Clamp(hitCooldownValue - Time.deltaTime, 0, hitCooldown);
+        hitCdValue = Mathf.Clamp(hitCdValue - Time.deltaTime, 0, hitCooldown);
     }
 
     protected void ResetHitCooldown() {
-        hitCooldownValue = hitCooldown;
+        hitCdValue = hitCooldown;
     }
 
     public bool IsHitCooldownUp() {
-        return hitCooldownValue > 0;
+        return hitCdValue > 0;
     }
 
     public void DotAffect(int damage) {

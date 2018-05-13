@@ -265,10 +265,7 @@ public class Headless : Living {
     }
 
     private bool hitWall() {
-        const float wallRadius = 0.05f;
-        bool up = Physics2D.OverlapCircle(probeUp.position, wallRadius, whatIsGround);
-        bool down = Physics2D.OverlapCircle(probeDown.position, wallRadius, whatIsGround);
-        return up || down;
+        return Physics2D.OverlapBox(probeDown.position, probeUp.position - probeDown.position, 0, whatIsGround);
     }
 
     private void orientTransform() {
@@ -280,10 +277,12 @@ public class Headless : Living {
     }
 
 
-    [ExecuteInEditMode]
-    void OnDrawGizmosSelected() {
+//    [ExecuteInEditMode]
+//    void OnDrawGizmosSelected() {
 //        Handles.color = Color.cyan;
 //        Vector3 center = spriteRenderer.sprite.bounds.center;
 //        UnityEditor.Handles.DrawSolidDisc(transform.position + center, Vector3.back, 0.01f);
-    }
+//        UnityEditor.Handles.DrawSolidRectangleWithOutline(
+//            new Rect(probeDown.position, probeUp.position - probeDown.position), Color.green, Color.black);
+//    }
 }

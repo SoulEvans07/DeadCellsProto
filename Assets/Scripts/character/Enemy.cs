@@ -34,7 +34,6 @@ public class Enemy : Living {
 
         if (health <= 0) {
             health = 0;
-            dead = true;
             Die();
         }
         
@@ -54,6 +53,7 @@ public class Enemy : Living {
     }
     
     protected void Die() {
+        dead = true;
         Destroy(GetComponent<Rigidbody2D>());
         Destroy(GetComponent<Collider2D>());
         

@@ -5,8 +5,7 @@ using UnityEngine;
 //using UnityEditor;
 using UnityEngine.UI;
 
-[RequireComponent(typeof(Rigidbody2D))]
-public class MacFly : MonoBehaviour
+public class MacFly : Enemy
 {
     public bool DrawGizmos = false;
     public float trackingRange = 1f;
@@ -18,64 +17,37 @@ public class MacFly : MonoBehaviour
     public float maxSpeed = 0.5f;
     public float acceleration = 0.4f;
     private Vector2 lastPos;
-    private SpriteRenderer renderR;
-    private Rigidbody2D rgbody;
 
-    private Animator anim;
     public float atkLoad = 2 / 6f;
     private float atkLoadValue = 0;
     public float atkCooldown = 2f;
     private float atkCdValue = 0;
     private bool attack = false;
 
-    public float hitCooldown = 1f;
-    private float hitCdValue = 0;
-
     public GameObject attackFx;
     public Vector2 fxOffset = new Vector2(0.3f, -0.05f);
 
-    public float maxHealth = 10f;
-    private float health;
-    private bool dead = false;
-
-    public GameObject hpBarPref;
-    public Vector2 healthBarOffset = new Vector2(0, 0.01f);
-    private GameObject healthBarObject;
-    private Slider healthBar;
-
-    public GameObject spawnGem;
-    public int maxGem = 3;
-    private int gemNum;
-
-
     void Start()
     {
-        renderR = GetComponent<SpriteRenderer>();
-        anim = GetComponent<Animator>();
-        health = maxHealth;
-        gemNum = (int) Random.Range(maxGem * 0.6f, maxGem);
-
-        rgbody = GetComponent<Rigidbody2D>();
-        rgbody.gravityScale = 0;
+        InitEnemy();
+        rd2d.gravityScale = 0;
+    }
+    
+    void Update() {
+        UpdateHitCooldown();
     }
 
-    void FixedUpdate()
+    protected override void FixedUpdate()
     {
-        if (dead)
+        if (Headless.instance == null || dead)
             return;
-
-        if (healthBarObject == null && health < maxHealth)
-        {
-            CreateHealthBar();
-        }
-
         UpdateHPBar();
 
         FixedUpdateTimers();
 
-        if (hitCdValue > 0)
+        if (IsHitCooldownUp())
         {
-            rgbody.velocity -= rgbody.velocity * Time.fixedDeltaTime;
+            rd2d.velocity -= rd2d.velocity * Time.fixedDeltaTime;
             return;
         }
 
@@ -97,7 +69,7 @@ public class MacFly : MonoBehaviour
 
         if (target == null)
         {
-            rgbody.velocity = Vector2.zero;
+            rd2d.velocity = Vector2.zero;
             return;
         }
 
@@ -105,7 +77,7 @@ public class MacFly : MonoBehaviour
         {
             Vector2 minVelocity = (target.position - transform.position).normalized;
             Vector2 velocity = Vector2.Lerp(minVelocity, minVelocity * maxSpeed, acceleration);
-            rgbody.velocity = velocity;
+            rd2d.velocity = velocity;
         }
         else
         {
@@ -114,34 +86,18 @@ public class MacFly : MonoBehaviour
                 StartAttack();
                 return;
             }
-            rgbody.velocity = Vector2.zero;
+            rd2d.velocity = Vector2.zero;
         }
 
-        renderR.flipX = (transform.position.x - lastPos.x) < 0;
+        spriteRenderer.flipX = (transform.position.x - lastPos.x) < 0;
         if (target != null)
-            renderR.flipX = (target.position.x - transform.position.x) < 0;
+            spriteRenderer.flipX = (target.position.x - transform.position.x) < 0;
         lastPos = transform.position;
 
         if (attack && atkLoadValue.Equals(0))
         {
             Attack();
         }
-    }
-
-    void CreateHealthBar()
-    {
-        healthBarObject = Instantiate(hpBarPref, CanvasManager.instance.gameObject.transform) as GameObject;
-        SliderFollowObject followObject = healthBarObject.GetComponent<SliderFollowObject>();
-        followObject.target = transform;
-        followObject.offset = healthBarOffset;
-        followObject.UpdatePos();
-        healthBar = healthBarObject.GetComponent<Slider>();
-    }
-
-    void UpdateHPBar()
-    {
-        if (healthBar != null)
-            healthBar.value = health / maxHealth;
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -165,16 +121,19 @@ public class MacFly : MonoBehaviour
 
     void HitBy(AttackFx playerAttack, Vector3 pos)
     {
+        if(IsHitCooldownUp())
+            return;
+        
         Vector2 force = new Vector2(transform.position.x - pos.x, transform.position.y - pos.y);
         force.Scale(new Vector2(playerAttack.force, playerAttack.force));
-        rgbody.velocity += force;
+        rd2d.velocity += force;
 
 
         attack = false;
         atkCdValue = atkCooldown;
         atkLoadValue = 0;
 
-        hitCdValue = hitCooldown;
+        ResetHitCooldown();
 
         health -= playerAttack.damage;
 
@@ -184,37 +143,18 @@ public class MacFly : MonoBehaviour
             Die();
     }
 
-    void Die()
-    {
-        dead = true;
-        Destroy(gameObject, 0.5f);
-        Destroy(healthBarObject);
-        Transform playerTrans = Headless.instance.transform;
-
-        while (gemNum > 0)
-        {
-            Quaternion rotation = transform.rotation;
-            Vector3 gemPos = new Vector3(transform.position.x, transform.position.y, -1);
-            GameObject gem = Instantiate (spawnGem, gemPos, rotation) as GameObject;
-            int dir = (playerTrans.position.x - gem.transform.position.x) < 0 ? 1 : -1;
-            gem.GetComponent<Rigidbody2D>()
-                .AddForce(new Vector2(dir * Random.Range(100, 150), Random.Range(100, 150)));
-            gemNum--;
-        }
-    }
-
     private void Attack()
     {
         atkCdValue = atkCooldown;
         anim.Play("MacFlyAtk");
         Vector3 fxPos = transform.position;
-        if (renderR.flipX)
+        if (spriteRenderer.flipX)
             fxPos.x -= fxOffset.x;
         else
             fxPos.x += fxOffset.x;
         fxPos.y += fxOffset.y;
         GameObject fx = Instantiate(attackFx, fxPos, transform.rotation) as GameObject;
-        fx.GetComponentInChildren<SpriteRenderer>().flipX = renderR.flipX;
+        fx.GetComponentInChildren<SpriteRenderer>().flipX = spriteRenderer.flipX;
         Destroy(fx, 1f);
         attack = false;
     }
@@ -230,7 +170,6 @@ public class MacFly : MonoBehaviour
     {
         atkLoadValue = FixedUpdateTimer(atkLoadValue);
         atkCdValue = FixedUpdateTimer(atkCdValue);
-        hitCdValue = FixedUpdateTimer(hitCdValue);
     }
 
     private static float FixedUpdateTimer(float value)
@@ -252,8 +191,8 @@ public class MacFly : MonoBehaviour
 //		}
 //		
 //		Handles.color = Color.cyan;
-//		if(rgbody != null)
-//			Handles.DrawLine(transform.position, transform.position+(Vector3)rgbody.velocity);
+//		if(rd2d != null)
+//			Handles.DrawLine(transform.position, transform.position+(Vector3)rd2d.velocity);
 //
 //		Handles.color = Color.red;
 //		UnityEditor.Handles.DrawWireDisc(transform.position ,Vector3.back, trackingRange);

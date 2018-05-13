@@ -1,16 +1,8 @@
 ﻿using UnityEngine;
 
-public class Food : Item
+[CreateAssetMenu(fileName = "New Food", menuName = "Consumables/Food")]
+public class Food : ScriptableObject
 {
-    public float heal = 10f;
-    
-    protected override void OnPickUp(Collider2D other)
-    {
-        if (!other.CompareTag ("Player"))
-            return;
-        
-        PlayerController.instance.Heal (heal);
-        
-        Destroy(gameObject);
-    }
+    public int healValue = 30;
+    public string spriteName;
 }

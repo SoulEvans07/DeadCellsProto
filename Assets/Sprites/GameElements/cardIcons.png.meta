@@ -92,8 +92,8 @@ TextureImporter:
     21300170: cardIcons_85
     21300172: cardIcons_86
     21300174: cardIcons_87
-    21300176: cardIcons_88
-    21300178: cardIcons_89
+    21300176: Carrot
+    21300178: ChickenDrumstick
     21300180: cardIcons_90
     21300182: cardIcons_91
     21300184: cardIcons_92
@@ -115,10 +115,10 @@ TextureImporter:
     21300216: cardIcons_108
     21300218: cardIcons_109
     21300220: cardIcons_110
-    21300222: cardIcons_111
-    21300224: cardIcons_112
+    21300222: HotDog
+    21300224: Cherry
     21300226: cardIcons_113
-    21300228: cardIcons_114
+    21300228: Watermelon
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -1427,7 +1427,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cardIcons_88
+      name: Carrot
       rect:
         serializedVersion: 2
         x: 192
@@ -1441,7 +1441,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cardIcons_89
+      name: ChickenDrumstick
       rect:
         serializedVersion: 2
         x: 216
@@ -1749,7 +1749,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cardIcons_111
+      name: HotDog
       rect:
         serializedVersion: 2
         x: 336
@@ -1763,7 +1763,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cardIcons_112
+      name: Cherry
       rect:
         serializedVersion: 2
         x: 360
@@ -1791,7 +1791,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cardIcons_114
+      name: Watermelon
       rect:
         serializedVersion: 2
         x: 408

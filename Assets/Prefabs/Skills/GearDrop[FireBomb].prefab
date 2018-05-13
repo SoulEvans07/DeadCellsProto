@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 50447833823263316}
   - component: {fileID: 58921352851292494}
   m_Layer: 12
-  m_Name: ItemDrop[FireBomb]
+  m_Name: GearDrop[FireBomb]
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 58556447047306578}
   - component: {fileID: 114003210092798058}
   m_Layer: 16
-  m_Name: Item[Fire Bomb]
+  m_Name: Gear[Fire Bomb]
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -135,12 +135,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   popUp: {fileID: 1426916063950046, guid: fb7dc7c6037b10d448f6231c64bb97a9, type: 2}
-  itemSelect: {fileID: 1557438584470360, guid: cff138418480ee245858a51f877ce5e0, type: 2}
   popOffset: {x: 0, y: 0.2, z: -4.5}
   popUpInst: {fileID: 0}
+  inside: {fileID: 0}
+  itemSelect: {fileID: 1557438584470360, guid: cff138418480ee245858a51f877ce5e0, type: 2}
   itemSelectInst: {fileID: 0}
   item: {fileID: 114065683342742584, guid: fb0446bacb6659c4984230b87926ad9f, type: 2}
-  inside: {fileID: 0}
 --- !u!212 &212197451502322960
 SpriteRenderer:
   m_ObjectHideFlags: 1

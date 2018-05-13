@@ -150,7 +150,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4476943578369856, guid: 1a9348b1c0e434e46803ba5bd09f6b07, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a9348b1c0e434e46803ba5bd09f6b07, type: 2}
@@ -202,7 +202,11 @@ Prefab:
         type: 2}
     - target: {fileID: 1367768335284556, guid: 9af2228a66c05304e830de1d5a874b91, type: 2}
       propertyPath: m_Name
-      value: ItemDrop[Blood Sword]
+      value: Gear[Blood Sword]
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980725134914276, guid: 9af2228a66c05304e830de1d5a874b91, type: 2}
+      propertyPath: m_Name
+      value: GearDrop[BloodSword]
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9af2228a66c05304e830de1d5a874b91, type: 2}
@@ -286,7 +290,7 @@ Transform:
   - {fileID: 1304825355}
   - {fileID: 1640209809}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &212824616
 Prefab:
@@ -376,7 +380,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4476943578369856, guid: 1a9348b1c0e434e46803ba5bd09f6b07, type: 2}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 1026756363626248, guid: 1a9348b1c0e434e46803ba5bd09f6b07, type: 2}
       propertyPath: m_Name
@@ -975,7 +979,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1165723316008944, guid: a098ff6be54eb16409b3524647292ba5, type: 2}
       propertyPath: m_Name
-      value: ItemDrop[Fire Bomb]
+      value: Gear[Fire Bomb]
+      objectReference: {fileID: 0}
+    - target: {fileID: 1029282612048452, guid: a098ff6be54eb16409b3524647292ba5, type: 2}
+      propertyPath: m_Name
+      value: GearDrop[FireBomb]
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a098ff6be54eb16409b3524647292ba5, type: 2}
@@ -48589,7 +48597,7 @@ Transform:
   - {fileID: 572269389}
   - {fileID: 1453012422}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &659573954
 Prefab:
@@ -48628,7 +48636,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4374517503507876, guid: ab2ff360ec93c43439fd5b6a3487def8, type: 2}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ab2ff360ec93c43439fd5b6a3487def8, type: 2}
@@ -48670,7 +48678,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4005226562213176, guid: 6b861850056c210439a5f2a8a8f02df5, type: 2}
       propertyPath: m_RootOrder
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1589418151011856, guid: 6b861850056c210439a5f2a8a8f02df5, type: 2}
       propertyPath: m_Name
@@ -48725,7 +48733,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1847489089176230, guid: e4bebd707b4ff134295b186c0bf707fe, type: 2}
       propertyPath: m_Name
-      value: ItemDrop[Beginners Bow]
+      value: Gear[Beginners Bow]
+      objectReference: {fileID: 0}
+    - target: {fileID: 1187566009577388, guid: e4bebd707b4ff134295b186c0bf707fe, type: 2}
+      propertyPath: m_Name
+      value: GearDrop[Begginers Bow]
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e4bebd707b4ff134295b186c0bf707fe, type: 2}
@@ -48886,7 +48898,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4005226562213176, guid: 6b861850056c210439a5f2a8a8f02df5, type: 2}
       propertyPath: m_RootOrder
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 1589418151011856, guid: 6b861850056c210439a5f2a8a8f02df5, type: 2}
       propertyPath: m_Name
@@ -49272,7 +49284,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4005226562213176, guid: 6b861850056c210439a5f2a8a8f02df5, type: 2}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6b861850056c210439a5f2a8a8f02df5, type: 2}
@@ -49314,7 +49326,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4005226562213176, guid: 6b861850056c210439a5f2a8a8f02df5, type: 2}
       propertyPath: m_RootOrder
-      value: 21
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 1589418151011856, guid: 6b861850056c210439a5f2a8a8f02df5, type: 2}
       propertyPath: m_Name
@@ -49360,7 +49372,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4005226562213176, guid: 6b861850056c210439a5f2a8a8f02df5, type: 2}
       propertyPath: m_RootOrder
-      value: 19
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1589418151011856, guid: 6b861850056c210439a5f2a8a8f02df5, type: 2}
       propertyPath: m_Name
@@ -99273,7 +99285,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4005226562213176, guid: 6b861850056c210439a5f2a8a8f02df5, type: 2}
       propertyPath: m_RootOrder
-      value: 20
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 1589418151011856, guid: 6b861850056c210439a5f2a8a8f02df5, type: 2}
       propertyPath: m_Name
@@ -99323,11 +99335,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1077713689201256, guid: 0e2e7d56409986248a24ede296b9cd3c, type: 2}
       propertyPath: m_Name
-      value: ItemDrop[Broken Sword]
+      value: GearDrop[Broken Sword]
       objectReference: {fileID: 0}
     - target: {fileID: 1064112456866072, guid: 0e2e7d56409986248a24ede296b9cd3c, type: 2}
       propertyPath: m_Name
-      value: ItemDrop[Broken Sword]
+      value: Gear[Broken Sword]
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0e2e7d56409986248a24ede296b9cd3c, type: 2}
@@ -99432,7 +99444,7 @@ Prefab:
     - target: {fileID: 224930925310446106, guid: 1a8e6eb54daaad14f9978bf5a2e72ac0,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114256824834494798, guid: 1a8e6eb54daaad14f9978bf5a2e72ac0,
         type: 2}
@@ -99578,7 +99590,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4476943578369856, guid: 1a9348b1c0e434e46803ba5bd09f6b07, type: 2}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 1026756363626248, guid: 1a9348b1c0e434e46803ba5bd09f6b07, type: 2}
       propertyPath: m_Name
@@ -99628,14 +99640,56 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1084394230471008, guid: 027b9e0ed94119a41b60690157903951, type: 2}
       propertyPath: m_Name
-      value: ItemDrop[Small Bomb]
+      value: GearDrop[Small Bomb]
       objectReference: {fileID: 0}
     - target: {fileID: 1118429851250166, guid: 027b9e0ed94119a41b60690157903951, type: 2}
       propertyPath: m_Name
-      value: ItemDrop[Small Bomb]
+      value: Gear[Small Bomb]
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 027b9e0ed94119a41b60690157903951, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &2091600966
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4848949639037296, guid: edc23ebe831fb96438ac04faeed2f1dc, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 18.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848949639037296, guid: edc23ebe831fb96438ac04faeed2f1dc, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848949639037296, guid: edc23ebe831fb96438ac04faeed2f1dc, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848949639037296, guid: edc23ebe831fb96438ac04faeed2f1dc, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848949639037296, guid: edc23ebe831fb96438ac04faeed2f1dc, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848949639037296, guid: edc23ebe831fb96438ac04faeed2f1dc, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848949639037296, guid: edc23ebe831fb96438ac04faeed2f1dc, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848949639037296, guid: edc23ebe831fb96438ac04faeed2f1dc, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: edc23ebe831fb96438ac04faeed2f1dc, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &2098926038
 GameObject:

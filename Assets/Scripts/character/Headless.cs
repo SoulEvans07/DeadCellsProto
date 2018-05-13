@@ -148,14 +148,15 @@ public class Headless : Living {
         }
     }
 
-    public void Heal(int amount) {
-        if (amount <= 0)
-            return;
+    public bool Heal(int amount) {
+        if (amount <= 0 || health == maxHealth)
+            return false;
 
         health += amount;
         UpdateHealthBar();
         GameObject effect = Instantiate(healEffect, transform) as GameObject;
         Destroy(effect, 0.8f);
+        return true;
     }
 
     private void FixedUpdate() {
@@ -243,6 +244,8 @@ public class Headless : Living {
             dead = true;
             Die();
         }
+        if (health > maxHealth)
+            health = maxHealth;
 
         healthBar.GetComponent<SliderUpdate>().SetValue(health, maxHealth);
     }

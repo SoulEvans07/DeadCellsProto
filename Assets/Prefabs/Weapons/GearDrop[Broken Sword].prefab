@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 58296378547247912}
   - component: {fileID: 114878077915284378}
   m_Layer: 16
-  m_Name: Item[Broken Sword]
+  m_Name: Gear[Broken Sword]
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 50631846924985032}
   - component: {fileID: 58964417446121132}
   m_Layer: 12
-  m_Name: ItemDrop[Broken Sword]
+  m_Name: GearDrop[Broken Sword]
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -135,12 +135,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   popUp: {fileID: 1426916063950046, guid: fb7dc7c6037b10d448f6231c64bb97a9, type: 2}
-  itemSelect: {fileID: 1557438584470360, guid: cff138418480ee245858a51f877ce5e0, type: 2}
   popOffset: {x: 0, y: 0.2, z: -4.5}
   popUpInst: {fileID: 0}
+  inside: {fileID: 0}
+  itemSelect: {fileID: 1557438584470360, guid: cff138418480ee245858a51f877ce5e0, type: 2}
   itemSelectInst: {fileID: 0}
   item: {fileID: 114082747048693902, guid: ffe3a4bf7f90bd541a0eaa72205b9020, type: 2}
-  inside: {fileID: 0}
 --- !u!212 &212259673700943292
 SpriteRenderer:
   m_ObjectHideFlags: 1

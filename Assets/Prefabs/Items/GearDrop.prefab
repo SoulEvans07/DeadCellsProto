@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 50924868838789740}
   - component: {fileID: 58427715081119238}
   m_Layer: 12
-  m_Name: ItemDrop
+  m_Name: GearDrop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 58740870084736994}
   - component: {fileID: 114635369451707038}
   m_Layer: 16
-  m_Name: Item
+  m_Name: Gear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66,7 +66,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1250192382319370}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.74693155, y: -0.28914267, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4117117461211926}
@@ -135,12 +135,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   popUp: {fileID: 1426916063950046, guid: fb7dc7c6037b10d448f6231c64bb97a9, type: 2}
-  itemSelect: {fileID: 1557438584470360, guid: cff138418480ee245858a51f877ce5e0, type: 2}
   popOffset: {x: 0, y: 0.2, z: 0}
   popUpInst: {fileID: 0}
+  inside: {fileID: 0}
+  itemSelect: {fileID: 1557438584470360, guid: cff138418480ee245858a51f877ce5e0, type: 2}
   itemSelectInst: {fileID: 0}
   item: {fileID: 0}
-  inside: {fileID: 0}
 --- !u!212 &212256775458718616
 SpriteRenderer:
   m_ObjectHideFlags: 1

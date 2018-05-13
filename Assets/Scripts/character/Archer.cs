@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -21,10 +22,12 @@ public class Archer : Enemy {
     private float attackSignalTimeValue;
     public float attackCooldown = 1f;
     private float attackCooldownValue = 0f;
-    public float attackDistance = 0.4f;
+    public float attackDistance = 2.5f;
 //    public Vector3 slashFxOffset = new Vector3(0.213f, 0.056f, 0);
 //    private Vector3 slashFxOffsetLeft;
-//    public GameObject slashAttackFx;
+    public GameObject arrowPref;
+    public float bowForce = 100f;
+    public int dps = 30;
     private bool attackStarted = false;
 
 
@@ -41,6 +44,25 @@ public class Archer : Enemy {
         UpdateHitCooldown();
     }
 
+    [ExecuteInEditMode]
+    void OnDrawGizmosSelected() {
+        Handles.color = Color.cyan;
+        UnityEditor.Handles.DrawWireDisc(transform.position, Vector3.back, attackDistance);
+        if (Headless.instance != null && Vector2.Distance(transform.position, Headless.instance.transform.position) < attackDistance) {
+            Handles.color = Color.white;
+            if(!LineOfSight())
+                UnityEditor.Handles.DrawLine(transform.position, Headless.instance.transform.position);
+            else
+                UnityEditor.Handles.DrawDottedLine(transform.position, Headless.instance.transform.position, 1f);
+        }
+//        UnityEditor.Handles.DrawSolidRectangleWithOutline(
+//            new Rect(probeDown.position, probeUp.position - probeDown.position), Color.green, Color.green);
+    }
+
+    private bool LineOfSight() {
+        return Physics2D.Linecast(transform.position, Headless.instance.transform.position, whatIsGround);
+    }
+    
     protected void FixedUpdate() {
         if (Headless.instance == null || dead)
             return;
@@ -49,11 +71,11 @@ public class Archer : Enemy {
         // attack
         Transform playerTrans = Headless.instance.transform;
         float diffX = (facingRight ? (playerTrans.position.x - transform.position.x) : (transform.position.x - playerTrans.position.x));
-        float diffY = playerTrans.position.y - transform.position.y;
+        float diffY =  Mathf.Abs(playerTrans.position.y - transform.position.y);
 
         attackCooldownValue -= Time.fixedDeltaTime;
         
-        if (0 < diffX && diffX < attackDistance && Mathf.Abs (diffY) < 0.1f) {
+        if (0 < diffX && diffX < attackDistance && diffY < 0.1f && !LineOfSight()) {
             move = 0;
             if (attackCooldownValue <= 0) {
                 attackStarted = true;
@@ -75,10 +97,28 @@ public class Archer : Enemy {
                 attackSignalTimeValue = attackSignalTime;
                 attackCooldownValue = attackCooldown;
                 attackStarted = false;
-//                Attack ();
+                StartCoroutine(Attack ());
             }
             attackSignalTimeValue -= Time.fixedDeltaTime;
         }
+    }
+
+    IEnumerator Attack() {
+        anim.Play("ArcherShoot");
+        yield return new WaitForSeconds(15f / 36f);
+        ShootArrow();
+    }
+
+    void ShootArrow() {
+        GameObject arrow = Instantiate(arrowPref, probe.transform.position, transform.rotation);
+        arrow.transform.parent = null;
+        arrow.layer = LayerMask.NameToLayer("EnemyAttackFx");
+        arrow.tag = "EnemyAtk";
+        Vector3 preScale = arrow.transform.localScale;
+        arrow.transform.localScale = new Vector3(transform.localScale.x * preScale.x, preScale.y, preScale.z);
+        arrow.GetComponent<Rigidbody2D>().AddForce(new Vector2(transform.localScale.x * bowForce, 0));
+        arrow.GetComponent<AttackFx>().damage =  (int) (dps * attackCooldown);
+        Destroy(arrow, 0.5f);
     }
     
     void OnTriggerEnter2D(Collider2D other) {

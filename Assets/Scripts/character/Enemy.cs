@@ -22,11 +22,6 @@ public class Enemy : Living {
         gemNum = (int) Random.Range(maxGem * 0.6f, maxGem);
     }
 
-    protected virtual void FixedUpdate() {
-        
-    }
-
-
     protected void UpdateHPBar() {
         if (healthBarObject == null && health < maxHealth) {
             CreateHealthBar();

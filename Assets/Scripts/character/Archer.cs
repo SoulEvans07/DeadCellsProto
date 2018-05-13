@@ -41,7 +41,7 @@ public class Archer : Enemy {
         UpdateHitCooldown();
     }
 
-    protected override void FixedUpdate() {
+    protected void FixedUpdate() {
         if (Headless.instance == null || dead)
             return;
         UpdateHPBar();
@@ -102,14 +102,14 @@ public class Archer : Enemy {
         if (IsHitCooldownUp())
             return;
         
-        ResetAttackCooldown();
-        ResetHitCooldown();
-
         TakeDamage(attack.damage);
 
         if (attack.dot != null) {
             attack.dot.Apply(this);
         }
+
+        ResetAttackCooldown();
+        ResetHitCooldown();
     }
 
     public void TakeDamage(int damage) {

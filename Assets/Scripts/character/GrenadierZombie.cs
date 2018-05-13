@@ -39,7 +39,7 @@ public class GrenadierZombie : Enemy {
 		UpdateHitCooldown();
 	}
 	
-	protected override void FixedUpdate (){
+	protected void FixedUpdate (){
 		if (Headless.instance == null || dead)
 			return;
 		UpdateHPBar();
@@ -127,8 +127,6 @@ public class GrenadierZombie : Enemy {
 		attackCooldownValue = attackCooldown;
 		attackStarted = false;
 
-		ResetHitCooldown();
-
 		health -= attack.damage;
 
 		anim.Play("ZombieHit");
@@ -136,6 +134,7 @@ public class GrenadierZombie : Enemy {
 		if (attack.dot != null) {
 			attack.dot.Apply(this);
 		}
+		ResetHitCooldown();
 	}
 
 	void Flip ()

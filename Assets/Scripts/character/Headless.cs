@@ -34,6 +34,7 @@ public class Headless : Living {
     public Transform probeUp;
     public Transform probeDown;
     public LayerMask whatIsGround;
+    public LayerMask whatIsWall;
 
     // effects
     public GameObject airDash;
@@ -277,7 +278,7 @@ public class Headless : Living {
     }
 
     private bool hitWall() {
-        return Physics2D.OverlapBox(probeDown.position, probeUp.position - probeDown.position, 0, whatIsGround);
+        return Physics2D.OverlapBox(probeDown.position, probeUp.position - probeDown.position, 0, whatIsWall);
     }
 
     private void orientTransform() {
@@ -289,9 +290,9 @@ public class Headless : Living {
     }
 
 
-//    [ExecuteInEditMode]
-//    void OnDrawGizmosSelected() {
-//        UnityEditor.Handles.DrawSolidRectangleWithOutline(
-//            new Rect(probeDown.position, probeUp.position - probeDown.position), Color.green, Color.green);
-//    }
+    [ExecuteInEditMode]
+    void OnDrawGizmosSelected() {
+        UnityEditor.Handles.DrawSolidRectangleWithOutline(
+            new Rect(probeDown.position, probeUp.position - probeDown.position), Color.green, Color.green);
+    }
 }

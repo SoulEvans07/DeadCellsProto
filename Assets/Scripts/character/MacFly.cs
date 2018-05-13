@@ -37,7 +37,7 @@ public class MacFly : Enemy
         UpdateHitCooldown();
     }
 
-    protected override void FixedUpdate()
+    protected void FixedUpdate()
     {
         if (Headless.instance == null || dead)
             return;
@@ -133,14 +133,15 @@ public class MacFly : Enemy
         atkCdValue = atkCooldown;
         atkLoadValue = 0;
 
-        ResetHitCooldown();
-
         health -= playerAttack.damage;
 
         anim.Play("DamageTaken");
-
-        if (health <= 0)
-            Die();
+        
+        if (playerAttack.dot != null) {
+            playerAttack.dot.Apply(this);
+        }
+        
+        ResetHitCooldown();
     }
 
     private void Attack()

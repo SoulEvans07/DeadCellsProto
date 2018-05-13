@@ -99,7 +99,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1738288428470200}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.152, y: 0.248, z: 0}
+  m_LocalPosition: {x: 0.134, y: 0.248, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4293117106812520}
@@ -125,7 +125,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1125421106874732}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.56, y: -0.59999996, z: -0.96}
+  m_LocalPosition: {x: -1.53, y: -0.68, z: -0.96}
   m_LocalScale: {x: 1, y: 1.0000001, z: 1}
   m_Children:
   - {fileID: 4469632147447448}
@@ -155,7 +155,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1764396181183992}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.14100003, y: -0.22, z: 0}
+  m_LocalPosition: {x: 0.124, y: -0.22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4293117106812520}
@@ -252,10 +252,14 @@ MonoBehaviour:
   probeDown: {fileID: 4669197870210010}
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 24577
+    m_Bits: 270337
+  whatIsWall:
+    serializedVersion: 2
+    m_Bits: 8193
   airDash: {fileID: 1848173852240158, guid: 26374e53c5202644b8f9e1df20beeefd, type: 2}
   dot: []
   inventory: {fileID: 114806099112216172}
+  gold: 0
   goldLabel: {fileID: 0}
   healthBar: {fileID: 0}
   healEffect: {fileID: 1755656167784738, guid: 9ffe85cb02cc1574cba3238e5fbaa491, type: 2}

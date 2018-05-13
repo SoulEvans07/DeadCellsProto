@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4845064516039938}
   - component: {fileID: 198267553975183052}
   - component: {fileID: 199239843028233556}
-  m_Layer: 13
+  m_Layer: 19
   m_Name: FlameLightParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 199813353855007862}
   - component: {fileID: 61181609168777272}
   - component: {fileID: 114805561305679524}
-  m_Layer: 13
+  m_Layer: 19
   m_Name: Flame
   m_TagString: Untagged
   m_Icon: {fileID: 0}

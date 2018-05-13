@@ -83,7 +83,7 @@ MonoBehaviour:
     topRight: {r: 1, g: 1, b: 1, a: 1}
     bottomLeft: {r: 1, g: 1, b: 1, a: 1}
     bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 11400000, guid: 0dc86cba28a8b974e803d1d4143f86fb,
+  m_fontColorGradientPreset: {fileID: 11400000, guid: 01ad57fe4833ddf47bda472e3e6cc63a,
     type: 2}
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
@@ -174,6 +174,8 @@ MonoBehaviour:
   target: {fileID: 0}
   offset: {x: 0, y: 0, z: 0}
   label: {fileID: 114004084413678604}
+  goldGradient: {fileID: 11400000, guid: 0dc86cba28a8b974e803d1d4143f86fb, type: 2}
+  orangeGradient: {fileID: 11400000, guid: 01ad57fe4833ddf47bda472e3e6cc63a, type: 2}
 --- !u!114 &114855164725277588
 MonoBehaviour:
   m_ObjectHideFlags: 1

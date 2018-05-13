@@ -62,6 +62,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1738288428470200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4135226999584316}
+  m_Layer: 8
+  m_Name: probeUp
+  m_TagString: Untagged
+  m_Icon: {fileID: -1577725955494882426, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1764396181183992
 GameObject:
   m_ObjectHideFlags: 0
@@ -71,12 +86,25 @@ GameObject:
   m_Component:
   - component: {fileID: 4669197870210010}
   m_Layer: 8
-  m_Name: probe
+  m_Name: probeDown
   m_TagString: Untagged
   m_Icon: {fileID: -1577725955494882426, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &4135226999584316
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1738288428470200}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.141, y: 0.172, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4293117106812520}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4217535460443288
 Transform:
   m_ObjectHideFlags: 1
@@ -88,7 +116,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4293117106812520}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4293117106812520
 Transform:
@@ -97,10 +125,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1125421106874732}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.1, y: 0.27, z: -1}
+  m_LocalPosition: {x: -1.56, y: -0.59999996, z: -0.96}
   m_LocalScale: {x: 1, y: 1.0000001, z: 1}
   m_Children:
   - {fileID: 4469632147447448}
+  - {fileID: 4135226999584316}
   - {fileID: 4669197870210010}
   - {fileID: 4217535460443288}
   m_Father: {fileID: 0}
@@ -126,11 +155,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1764396181183992}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.141, y: -0.172, z: 0}
+  m_LocalPosition: {x: 0.14100003, y: -0.17199998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4293117106812520}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &50736241202284178
 Rigidbody2D:
@@ -212,13 +241,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  hitCooldown: 1
   dotList: []
   speed: 4.5
   airSlowness: 0.8
   maxJumps: 2
   jumpSem: 0
   groundCheck: {fileID: 4469632147447448}
-  probe: {fileID: 4669197870210010}
+  probeUp: {fileID: 4135226999584316}
+  probeDown: {fileID: 4669197870210010}
   whatIsGround:
     serializedVersion: 2
     m_Bits: 24577
@@ -227,7 +258,6 @@ MonoBehaviour:
   inventory: {fileID: 114806099112216172}
   goldLabel: {fileID: 0}
   healthBar: {fileID: 0}
-  hitCooldown: 1
   healEffect: {fileID: 1755656167784738, guid: 9ffe85cb02cc1574cba3238e5fbaa491, type: 2}
   healWait: 1
   potion: {fileID: 0}

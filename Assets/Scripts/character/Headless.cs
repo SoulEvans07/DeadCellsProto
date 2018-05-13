@@ -31,7 +31,8 @@ public class Headless : Living {
     [ShowOnly] public int jumpSem; // jump semaphore
     private bool jumped = false;
     public Transform groundCheck;
-    public Transform probe;
+    public Transform probeUp;
+    public Transform probeDown;
     public LayerMask whatIsGround;
 
     // effects
@@ -265,7 +266,9 @@ public class Headless : Living {
 
     private bool hitWall() {
         const float wallRadius = 0.05f;
-        return Physics2D.OverlapCircle(probe.position, wallRadius, whatIsGround);
+        bool up = Physics2D.OverlapCircle(probeUp.position, wallRadius, whatIsGround);
+        bool down = Physics2D.OverlapCircle(probeDown.position, wallRadius, whatIsGround);
+        return up || down;
     }
 
     private void orientTransform() {

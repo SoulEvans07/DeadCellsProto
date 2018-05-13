@@ -28,7 +28,8 @@ public class Archer : Enemy {
     public GameObject arrowPref;
     public float bowForce = 100f;
     public int dps = 30;
-    private bool attackStarted = false;
+    private bool attack = false;
+    private bool attackPrep = false;
 
 
     void Start() {
@@ -42,21 +43,6 @@ public class Archer : Enemy {
 
     void Update() {
         UpdateHitCooldown();
-    }
-
-    [ExecuteInEditMode]
-    void OnDrawGizmosSelected() {
-        Handles.color = Color.cyan;
-        UnityEditor.Handles.DrawWireDisc(transform.position, Vector3.back, attackDistance);
-        if (Headless.instance != null && Vector2.Distance(transform.position, Headless.instance.transform.position) < attackDistance) {
-            Handles.color = Color.white;
-            if(!LineOfSight())
-                UnityEditor.Handles.DrawLine(transform.position, Headless.instance.transform.position);
-            else
-                UnityEditor.Handles.DrawDottedLine(transform.position, Headless.instance.transform.position, 1f);
-        }
-//        UnityEditor.Handles.DrawSolidRectangleWithOutline(
-//            new Rect(probeDown.position, probeUp.position - probeDown.position), Color.green, Color.green);
     }
 
     private bool LineOfSight() {
@@ -73,40 +59,47 @@ public class Archer : Enemy {
         float diffX = (facingRight ? (playerTrans.position.x - transform.position.x) : (transform.position.x - playerTrans.position.x));
         float diffY =  Mathf.Abs(playerTrans.position.y - transform.position.y);
 
-        attackCooldownValue -= Time.fixedDeltaTime;
+        attackCooldownValue = Mathf.Clamp(attackCooldownValue - Time.fixedDeltaTime, 0, attackCooldown);;
         
         if (0 < diffX && diffX < attackDistance && diffY < 0.1f && !LineOfSight()) {
             move = 0;
             if (attackCooldownValue <= 0) {
-                attackStarted = true;
+                attack = true;
             }
-        } else if (!attackStarted) {
-            Collider2D coll = Physics2D.OverlapCircle(ledgeCheck.position, edgeRadius, whatIsGround);
-            if (!coll || Physics2D.OverlapCircle(probe.position, 0.1f, whatIsGround)) {
-                Flip ();
+        } else {
+            if (attackPrep) {
+                attackPrep = false;
+                attack = false;
+                StopCoroutine(Attack());
             }
+            if (!attack) {
+                Collider2D coll = Physics2D.OverlapCircle(ledgeCheck.position, edgeRadius, whatIsGround);
+                if (!coll || Physics2D.OverlapCircle(probe.position, 0.1f, whatIsGround)) {
+                    Flip();
+                }
 
-            move = (facingRight ? 1 : -1) * maxSpeed;
+                move = (facingRight ? 1 : -1) * maxSpeed;
+            }
         }
         
         anim.SetFloat ("x-speed", Mathf.Abs (move));
         rd2d.velocity = new Vector2 (move, rd2d.velocity.y);
         
-        if (attackStarted) {
-            if (attackSignalTimeValue <= 0) {
-                attackSignalTimeValue = attackSignalTime;
-                attackCooldownValue = attackCooldown;
-                attackStarted = false;
-                StartCoroutine(Attack ());
-            }
-            attackSignalTimeValue -= Time.fixedDeltaTime;
+        if (attack && !attackPrep) {
+            attackCooldownValue = attackCooldown;
+            StartCoroutine(Attack ());
         }
     }
 
     IEnumerator Attack() {
         anim.Play("ArcherShoot");
+        attackPrep = true;
         yield return new WaitForSeconds(15f / 36f);
-        ShootArrow();
+        attackPrep = false;
+        if (attack) {
+            ShootArrow();
+            attack = false;
+        }
     }
 
     void ShootArrow() {
@@ -138,14 +131,14 @@ public class Archer : Enemy {
         }
     }
     
-    public void Hit(AttackFx attack) {
+    public void Hit(AttackFx playerAttack) {
         if (IsHitCooldownUp())
             return;
         
-        TakeDamage(attack.damage);
+        TakeDamage(playerAttack.damage);
 
-        if (attack.dot != null) {
-            attack.dot.Apply(this);
+        if (playerAttack.dot != null) {
+            playerAttack.dot.Apply(this);
         }
 
         ResetAttackCooldown();
@@ -160,7 +153,7 @@ public class Archer : Enemy {
     void ResetAttackCooldown() {
         attackSignalTimeValue = attackSignalTime;
         attackCooldownValue = attackCooldown;
-        attackStarted = false;
+        StopCoroutine(Attack());
     }
 
     void Flip() {
@@ -176,5 +169,18 @@ public class Archer : Enemy {
         healthBarOffset.x *= -1; 
         if(healthBarObject != null)
             healthBarObject.GetComponent<SliderFollowObject>().Flip();
+    }
+    
+    [ExecuteInEditMode]
+    void OnDrawGizmosSelected() {
+        Handles.color = Color.cyan;
+        UnityEditor.Handles.DrawWireDisc(transform.position, Vector3.back, attackDistance);
+        if (Headless.instance != null && Vector2.Distance(transform.position, Headless.instance.transform.position) < attackDistance) {
+            Handles.color = Color.white;
+            if(!LineOfSight())
+                UnityEditor.Handles.DrawLine(transform.position, Headless.instance.transform.position);
+            else
+                UnityEditor.Handles.DrawDottedLine(transform.position, Headless.instance.transform.position, 1f);
+        }
     }
 }

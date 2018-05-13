@@ -12,8 +12,8 @@ public class SliderUpdate : MonoBehaviour
         slider = GetComponent<Slider>();
     }
 
-    void Update()
-    {
-        sliderValue.text = slider.value.ToString("0.0");
+    public void SetValue(int value, int max) {
+        slider.value = 100 * (float) value / max;
+        sliderValue.text = value + " / " + max;
     }
 }

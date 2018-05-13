@@ -5,7 +5,7 @@ using UnityEngine;
 public class Spikes : MonoBehaviour
 {
 
-	public float damage = 20f;
+	public int damage = 20;
 	
 	private SpriteRenderer spriteR;
 	public Sprite normal;

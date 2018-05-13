@@ -12,7 +12,7 @@ public class BrokenSword : Weapon {
         attackAnim = "AtkSaberA";
         
         description = "";
-        dps = 10;
+        dps = 119;
         extraInfo = "Can not be sold.";
     }
 
@@ -33,6 +33,7 @@ public class BrokenSword : Weapon {
             fx.transform.parent = transform;
             Vector3 preScale = fx.transform.localScale;
             fx.transform.localScale = new Vector3(Headless.instance.transform.localScale.x * preScale.x, preScale.y, preScale.z);
+            fx.GetComponent<AttackFx>().damage =  (int) (dps * attackCooldown);
             
             Destroy(fx, 1);
         }

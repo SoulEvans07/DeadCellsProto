@@ -194,7 +194,8 @@ public class MacFly : MonoBehaviour
         while (gemNum > 0)
         {
             Quaternion rotation = transform.rotation;
-            GameObject gem = Instantiate(spawnGem, transform.position, rotation) as GameObject;
+            Vector3 gemPos = new Vector3(transform.position.x, transform.position.y, -1);
+            GameObject gem = Instantiate (spawnGem, gemPos, rotation) as GameObject;
             int dir = (playerTrans.position.x - gem.transform.position.x) < 0 ? 1 : -1;
             gem.GetComponent<Rigidbody2D>()
                 .AddForce(new Vector2(dir * Random.Range(100, 150), Random.Range(100, 150)));

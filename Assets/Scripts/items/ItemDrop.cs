@@ -18,7 +18,7 @@ public class ItemDrop : MonoBehaviour {
     private void Start() {
         SpriteLoader.loadSpritesFrom(itemIconsPath);
         if (item != null) {
-            name = "Item[" + item.name + "]";
+            name = "ItemDrop[" + item.name + "]";
             renderR = GetComponent<SpriteRenderer>();
             renderR.sprite = SpriteLoader.getSprite(item.spriteName);
         }
@@ -27,7 +27,7 @@ public class ItemDrop : MonoBehaviour {
     public void changeItem(Equipment equipment) {
         if (equipment != null) {
             item = equipment;
-            name = "Item[" + item.name + "]";
+            name = "ItemDrop[" + item.name + "]";
             renderR = GetComponent<SpriteRenderer>();
             renderR.sprite = SpriteLoader.getSprite(item.spriteName);
         }

@@ -10,7 +10,7 @@ public class BeginnersBow : Weapon {
         attackAnim = "PlayerLongBow";
         
         description = "";
-        dps = 5;
+        dps = 100;
         extraInfo = "Can not be sold.";
     }
     
@@ -31,6 +31,7 @@ public class BeginnersBow : Weapon {
             Vector3 preScale = arrow.transform.localScale;
             arrow.transform.localScale = new Vector3(Headless.instance.transform.localScale.x * preScale.x, preScale.y, preScale.z);
             arrow.GetComponent<Rigidbody2D>().AddForce(new Vector2(Headless.instance.transform.localScale.x * bowForce, 0));
+            arrow.GetComponent<AttackFx>().damage =  (int) (dps * attackCooldown);
             
             Destroy(arrow, 0.5f);
         }

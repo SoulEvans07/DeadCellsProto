@@ -5,7 +5,7 @@ public class PotionHandler : MonoBehaviour
 {
     public int maxVolume = 0;
     public int volume;
-    public float healMultiplier = 10f; 
+    public int healMultiplier = 10; 
 
     private Image image;
     public Sprite[] sprites;
@@ -22,7 +22,7 @@ public class PotionHandler : MonoBehaviour
         return maxVolume * (maxVolume + 1) / 2 + volume;
     }
 
-    public float UsePotion()
+    public int UsePotion()
     {
         if (volume == 0)
             return 0;

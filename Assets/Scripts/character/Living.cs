@@ -3,14 +3,28 @@ using UnityEngine;
 using UnityEngine.Experimental.UIElements;
 
 public class Living : MonoBehaviour {
-    public float maxHealth = 30f;
-    protected float health;
+    // basic components
+    protected Rigidbody2D rd2d;
+    protected Animator anim;
+    protected SpriteRenderer spriteRenderer;
+    
+    public int maxHealth = 30;
+    protected int health;
     protected bool dead = false;
     
     // buffs and debuffs
     public List<DamageOverTime> dotList;
 
-    public void DotAffect(float damage) {
+    protected void InitLiving() {
+        rd2d = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        
+        health = maxHealth;
+        dotList = new List<DamageOverTime>();
+    }
+
+    public void DotAffect(int damage) {
         health -= damage;
     }
 

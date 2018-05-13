@@ -21,11 +21,8 @@ public class Headless : Living {
 
     // movement
     public float speed = 4.5f;
-
     private float prevXSpeed = 0;
-
     public float airSlowness = 0.8f;
-
     private float nextVx = 0;
     private float nextVy = 0;
 
@@ -34,13 +31,8 @@ public class Headless : Living {
 
     [ShowOnly] public int jumpSem; // jump semaphore
     private bool jumped = false;
-
-    private Rigidbody2D rd2d;
-    private Animator anim;
-    private SpriteRenderer spriteRenderer;
     public Transform groundCheck;
     public Transform probe;
-
     public LayerMask whatIsGround;
 
     // effects
@@ -68,18 +60,14 @@ public class Headless : Living {
     public GameObject potion;
 
     void Start() {
+        InitLiving();
+
         PlayerPrefs.DeleteKey("player-gold");
         goldLabel.text = gold.ToString();
 
-        rd2d = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        dot = new List<DamageOverTime>();
-
         jumpSem = maxJumps;
 
-        health = maxHealth;
-        healthBar.value = (int) (100 * health / maxHealth);
+        UpdateHealthBar();
     }
 
     void Update() {
@@ -163,7 +151,7 @@ public class Headless : Living {
         }
     }
 
-    public void Heal(float amount) {
+    public void Heal(int amount) {
         if (amount <= 0)
             return;
 
@@ -202,16 +190,16 @@ public class Headless : Living {
         }
     }
 
-    public void SteppedInSpikes(float damage) {
+    public void SteppedInSpikes(int damage) {
         if (hitCooldownValue > 0) {
             return;
         }
-        
+
         hitCooldownValue = hitCooldown;
         health -= damage;
-        
+
         anim.Play("PlayerHit");
-        
+
         UpdateHealthBar();
     }
 
@@ -250,15 +238,15 @@ public class Headless : Living {
     }
 
     void UpdateHealthBar() {
-        if(dead)
+        if (dead)
             return;
         if (health <= 0) {
             health = 0;
             dead = true;
             Die();
         }
-        
-        healthBar.value = (int) (100 * health / maxHealth);
+
+        healthBar.GetComponent<SliderUpdate>().SetValue(health, maxHealth);
     }
 
     public void PickUpGem(Gem gem) {

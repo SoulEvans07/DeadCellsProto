@@ -13,7 +13,7 @@ public class BloodSword : Weapon {
 		attackAnim = "AtkSaberA";
         
 		description = "";
-		dps = 13;
+		dps = 109;
 		extraInfo = "Applies bleed effect on enemies.";
 	}
 	
@@ -36,7 +36,8 @@ public class BloodSword : Weapon {
 			fx.GetComponent<AttackFx>().dot = ef.GetComponent<DamageOverTime>();
 			fx.transform.parent = transform;
 			Vector3 preScale = fx.transform.localScale;
-			fx.transform.localScale = new Vector3(Headless.instance.transform.localScale.x * preScale.x, preScale.y, preScale.z); 
+			fx.transform.localScale = new Vector3(Headless.instance.transform.localScale.x * preScale.x, preScale.y, preScale.z);
+			fx.GetComponent<AttackFx>().damage =  (int) (dps * attackCooldown);
             
 			Destroy(fx, 1);
 		}

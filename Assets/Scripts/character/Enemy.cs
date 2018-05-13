@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class Enemy : Living {
     // life
@@ -8,28 +10,23 @@ public class Enemy : Living {
     [ShowOnly] public Vector2 healthBarOffset = new Vector2(0.13f, 0.35f);
     protected GameObject healthBarObject;
     private Slider healthBar;
+    protected String deathAnim;
     
     // gems
     public GameObject spawnGem;
     public int maxGem = 5;
     private int gemNum;
     
-    // basic components
-    protected Rigidbody2D rd2d;
-    protected Animator anim;
-    protected SpriteRenderer spriteRenderer;
-
     protected void InitEnemy() {
-        rd2d = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        
-        health = maxHealth;
-        
+        InitLiving();
         gemNum = (int) Random.Range(maxGem * 0.6f, maxGem);
-        dotList = new List<DamageOverTime>();
     }
-    
+
+    protected virtual void FixedUpdate() {
+        
+    }
+
+
     protected void UpdateHPBar() {
         if (healthBarObject == null && health < maxHealth) {
             CreateHealthBar();
@@ -42,10 +39,10 @@ public class Enemy : Living {
         }
         
         if (healthBar != null)
-            healthBar.value = health / maxHealth;
+            healthBar.value = (float) health / maxHealth;
     }
     
-    void CreateHealthBar() {
+    protected void CreateHealthBar() {
         if (CanvasManager.instance == null)
             return;
         healthBarObject = Instantiate(hpBarPref, CanvasManager.instance.gameObject.transform) as GameObject;
@@ -56,11 +53,11 @@ public class Enemy : Living {
         healthBar = healthBarObject.GetComponent<Slider>();
     }
     
-    void Die() {
+    protected void Die() {
         Destroy(GetComponent<Rigidbody2D>());
         Destroy(GetComponent<Collider2D>());
         
-        // TODO: play animation
+        anim.Play("Death");
 
         Destroy(gameObject, 1f);
         Destroy(healthBarObject);
@@ -68,11 +65,12 @@ public class Enemy : Living {
         DropGems();        
     }
 
-    void DropGems() {
+    protected void DropGems() {
         Transform playerTrans = Headless.instance.transform;
         while (gemNum > 0) {
             Quaternion rotation = transform.rotation;
-            GameObject gem = Instantiate(spawnGem, transform.position, rotation) as GameObject;
+            Vector3 gemPos = new Vector3(transform.position.x, transform.position.y, -1);
+            GameObject gem = Instantiate (spawnGem, gemPos, rotation) as GameObject;
             int dir = (playerTrans.position.x - gem.transform.position.x) < 0 ? 1 : -1;
             gem.GetComponent<Rigidbody2D>().AddForce(new Vector2(dir * Random.Range(100, 150), Random.Range(100, 150)));
             gemNum--;

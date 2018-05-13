@@ -42,10 +42,9 @@ public class Archer : Enemy {
 //        attackSignalTimeValue = attackSignalTime;
     }
 
-    void FixedUpdate() {
+    protected override void FixedUpdate() {
         if (Headless.instance == null || dead)
             return;
-
         UpdateHPBar();
         
         // attack
@@ -113,7 +112,7 @@ public class Archer : Enemy {
         }
     }
 
-    public void TakeDamage(float damage) {
+    public void TakeDamage(int damage) {
         health -= damage;
         anim.Play("DamageTaken");
     }

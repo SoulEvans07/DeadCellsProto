@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 public class DamageOverTime : MonoBehaviour {
-    public float damage;
+    public int damage;
     public float duration;
     public float speed;
     [ShowOnly] public float timeLeft;
@@ -12,7 +12,7 @@ public class DamageOverTime : MonoBehaviour {
         timeLeft = duration;
     }
 
-    public float Damage() {
+    public int Damage() {
         timeLeft--;
         return damage;
     }

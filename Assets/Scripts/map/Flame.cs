@@ -6,13 +6,14 @@ public class Flame : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (!other.CompareTag("Player") && PlayerController.instance.flameDotObject == null)
+        Debug.Log(other.tag);
+        if (!other.CompareTag("Enemy") && !other.CompareTag("Player"))
             return;
 
 
         GameObject dotObject = Instantiate(flameDot, other.transform);
         DamageOverTime dot = dotObject.GetComponent<DamageOverTime>();
-        other.GetComponent<PlayerController>().Affect(dot);
+        dot.Apply(other.GetComponent<Headless>());
         Destroy(dotObject, dot.duration);
     }
 }

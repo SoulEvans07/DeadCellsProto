@@ -28,7 +28,6 @@ public class Headless : Living {
 
     // jump
     public int maxJumps = 2; // can be more with trinkets
-
     [ShowOnly] public int jumpSem; // jump semaphore
     private bool jumped = false;
     public Transform groundCheck;
@@ -51,9 +50,6 @@ public class Headless : Living {
 
     // health
     public Slider healthBar;
-
-    public float hitCooldown = 1f;
-    protected float hitCooldownValue = 0;
     public GameObject healEffect;
     public float healWait = 1f;
     private float healPress;
@@ -74,7 +70,7 @@ public class Headless : Living {
         if (Time.timeScale.Equals(0))
             return;
 
-        hitCooldownValue = Mathf.Clamp(hitCooldownValue - Time.deltaTime, 0, hitCooldown);
+        UpdateHitCooldown();
 
         float LX = Input.GetAxis(InputManager.AXIS_X);
         float LY = Input.GetAxis(InputManager.AXIS_Y);
@@ -191,11 +187,10 @@ public class Headless : Living {
     }
 
     public void SteppedInSpikes(int damage) {
-        if (hitCooldownValue > 0) {
+        if (IsHitCooldownUp())
             return;
-        }
 
-        hitCooldownValue = hitCooldown;
+        ResetHitCooldown();
         health -= damage;
 
         anim.Play("PlayerHit");
@@ -204,19 +199,21 @@ public class Headless : Living {
     }
 
     void Hit(AttackFx hit) {
-        if (hitCooldownValue > 0) {
+        if (IsHitCooldownUp())
             return;
-        }
 
 //        attack = false;
 //        shoot = false;
 
-        hitCooldownValue = hitCooldown;
-        health -= hit.damage;
-
-        anim.Play("DamageTaken");
+        ResetHitCooldown();
+        TakeDamage(hit.damage);
 
         UpdateHealthBar();
+    }
+    
+    public void TakeDamage(int damage) {
+        health -= damage;
+        anim.Play("DamageTaken");
     }
 
     public void Die() {

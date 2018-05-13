@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 public class DamageOverTime : MonoBehaviour {
-    public int damage;
+    public int dps;
     public float duration;
     public float speed;
     [ShowOnly] public float timeLeft;
@@ -10,11 +10,6 @@ public class DamageOverTime : MonoBehaviour {
 
     void Start() {
         timeLeft = duration;
-    }
-
-    public int Damage() {
-        timeLeft--;
-        return damage;
     }
 
     private void Update() {
@@ -29,7 +24,7 @@ public class DamageOverTime : MonoBehaviour {
     }
 
     public void Affect() {
-        target.DotAffect(damage);
+        target.DotAffect((int) (dps * speed));
     }
 
     public void Remove() {
@@ -38,8 +33,10 @@ public class DamageOverTime : MonoBehaviour {
     }
 
     public void Apply(Living living) {
+        if (!living.AddDot(this)) {
+            Destroy(this.gameObject);
+        }
         target = living;
-        target.AddDot(this);
         this.gameObject.SetActive(true);
     }
 }

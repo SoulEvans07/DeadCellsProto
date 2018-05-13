@@ -24,10 +24,6 @@ public class GrenadierZombie : Enemy {
 	public GameObject slashAttackFx;
 	private bool attackStarted = false;
 
-	// hit
-	public float hitCooldown = 22 / 24f;
-	private float hitCooldownValue = 0;
-
 	void Start ()
 	{
 		InitEnemy();
@@ -39,6 +35,10 @@ public class GrenadierZombie : Enemy {
 	}
 	
 
+	void Update() {
+		UpdateHitCooldown();
+	}
+	
 	protected override void FixedUpdate (){
 		if (Headless.instance == null || dead)
 			return;
@@ -50,7 +50,6 @@ public class GrenadierZombie : Enemy {
 		float diffY = playerTrans.position.y - transform.position.y;
 
 		attackCooldownValue -= Time.fixedDeltaTime;
-		hitCooldownValue -= Time.fixedDeltaTime;
 
 
 		if (0 < diffX && diffX < attackDistance && Mathf.Abs (diffY) < 0.1f) {
@@ -58,7 +57,7 @@ public class GrenadierZombie : Enemy {
 			if (attackCooldownValue <= 0) {
 				attackStarted = true;
 			}
-		} else if (!attackStarted) { // attackCooldownValue <= 0 && attackSignalTimeValue == attackSignalTime && hitCooldownValue <= 0
+		} else if (!attackStarted) {
 			Collider2D coll = Physics2D.OverlapCircle(ledgeCheck.position, edgeRadius, whatIsGround);
 			if (!coll || Physics2D.OverlapCircle(probe.position, 0.1f, whatIsGround)) {
 				Flip ();
@@ -121,11 +120,14 @@ public class GrenadierZombie : Enemy {
 	}
 
 	public void Hit(AttackFx attack){
+		if(IsHitCooldownUp())
+			return;
+		
 		attackSignalTimeValue = attackSignalTime;
 		attackCooldownValue = attackCooldown;
 		attackStarted = false;
 
-		hitCooldownValue = hitCooldown;
+		ResetHitCooldown();
 
 		health -= attack.damage;
 

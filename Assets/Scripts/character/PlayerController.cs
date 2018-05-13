@@ -151,7 +151,7 @@ public class PlayerController : MonoBehaviour
 					flameDot = null;
 				else
 				{
-					health -= flameDot.Damage();
+//					health -= flameDot.Damage();
 					UpdateHealthBar();
 				}
 			}

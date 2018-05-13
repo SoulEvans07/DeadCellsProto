@@ -198,6 +198,8 @@ MonoBehaviour:
   dotList: []
   hpBarPref: {fileID: 1654325925104120, guid: b2a1eaa4d5b135f4d85e9907d7cdf168, type: 2}
   healthBarOffset: {x: 0, y: 0.3}
+  spawnGem: {fileID: 1470306582208548, guid: f6a94808a93965c47a6f961c89a0137f, type: 2}
+  maxGem: 5
   maxSpeed: 0.4
   probe: {fileID: 4470348419451872}
   groundCheck: {fileID: 4642999092960494}
@@ -213,8 +215,6 @@ MonoBehaviour:
   slashAttackFx: {fileID: 1210502057978896, guid: a96d41b03dd0d8548bd26e0448a11c1f,
     type: 2}
   hitCooldown: 0.9166667
-  spawnGem: {fileID: 1470306582208548, guid: f6a94808a93965c47a6f961c89a0137f, type: 2}
-  maxGem: 5
 --- !u!212 &212032831546477716
 SpriteRenderer:
   m_ObjectHideFlags: 1

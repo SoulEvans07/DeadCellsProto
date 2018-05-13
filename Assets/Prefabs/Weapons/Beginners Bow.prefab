@@ -53,11 +53,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   equipmentName: Begginers Bow
   description: 
-  dps: 5
+  dps: 100
   extraInfo: Can not be sold.
   spriteName: BeginnersBow
+  effect: {fileID: 0}
   attackFx: {fileID: 1705701654128926, guid: 01cdb055304337a4990529d736d81fe9, type: 2}
   attackAnim: PlayerLongBow
-  attackCooldown: 0.3
+  attackCooldown: 0.7
   attackCooldownValue: 0
   bowForce: 100

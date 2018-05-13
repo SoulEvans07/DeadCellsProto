@@ -53,11 +53,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   equipmentName: Blood Sword
   description: 
-  dps: 13
+  dps: 109
   extraInfo: Applies bleed effect on enemies.
   spriteName: BloodSword
-  attackFx: {fileID: 1665487394090518, guid: 391434228b95a2643b8874f84b3194f8, type: 2}
   effect: {fileID: 1575127916619118, guid: fe03a434ea34b314fb7c2cd924cf9a6b, type: 2}
+  attackFx: {fileID: 1665487394090518, guid: 391434228b95a2643b8874f84b3194f8, type: 2}
   attackAnim: AtkSaberA
-  attackCooldown: 0.3
+  attackCooldown: 0.4
   attackCooldownValue: 0
+  offsetX: 0.2
+  offsetY: 0

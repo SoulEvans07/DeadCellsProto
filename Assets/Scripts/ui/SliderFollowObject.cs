@@ -22,6 +22,5 @@ public class SliderFollowObject : MonoBehaviour
         Vector3 old = offset;
         old.x *= -1;
         offset = old;
-        Debug.Log("fliped: " + offset);
     }
 }

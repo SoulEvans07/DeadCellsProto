@@ -30,6 +30,6 @@ public class Spikes : MonoBehaviour
 //			return;
 //
 //		spriteR.sprite = bloody;
-//		PlayerController.instance.SteppedInSpikes (damage);
+//		PlayerController.instance.SteppedInSpikes (dps);
 //	}
 }

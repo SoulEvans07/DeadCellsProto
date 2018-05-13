@@ -12,6 +12,9 @@ public class Living : MonoBehaviour {
     protected int health;
     protected bool dead = false;
     
+    public float hitCooldown = 1f;
+    protected float hitCooldownValue = 0;
+    
     // buffs and debuffs
     public List<DamageOverTime> dotList;
 
@@ -24,14 +27,32 @@ public class Living : MonoBehaviour {
         dotList = new List<DamageOverTime>();
     }
 
+    protected void UpdateHitCooldown() {
+        hitCooldownValue = Mathf.Clamp(hitCooldownValue - Time.deltaTime, 0, hitCooldown);
+    }
+
+    protected void ResetHitCooldown() {
+        hitCooldownValue = hitCooldown;
+    }
+
+    public bool IsHitCooldownUp() {
+        return hitCooldownValue > 0;
+    }
+
     public void DotAffect(int damage) {
         health -= damage;
     }
 
-    public void AddDot(DamageOverTime dot) {
+    public bool AddDot(DamageOverTime dot) {
+        if(IsHitCooldownUp())
+            return false;
+        
+        ResetHitCooldown();
+        
         dot.transform.parent = this.transform;
         dotList.Add(dot);
         ReArrangeDotIcons();
+        return true;
     }
 
     private void ReArrangeDotIcons() {

@@ -43,7 +43,7 @@ public class ItemSwitcher : MonoBehaviour {
         onGroundItemImg = onGroundImg.GetComponent<Image>();
         onGroundItemImg.sprite = SpriteLoader.getSprite(this.onGround.spriteName);
         onGroundName.text = this.onGround.equipmentName;
-        onGroundDps.text = this.onGround.dps + " damage/s";
+        onGroundDps.text = this.onGround.dps + " dps/s";
         onGroundDescr.text = this.onGround.description;
         onGroundExtra.text = this.onGround.extraInfo;
         onGroundExtra.enabled = !string.IsNullOrEmpty(onGroundExtra.text);
@@ -53,7 +53,7 @@ public class ItemSwitcher : MonoBehaviour {
         onLeftItemImg = onLeftImg.GetComponent<Image>();
         onLeftItemImg.sprite = SpriteLoader.getSprite(this.onLeft.spriteName);
         onLeftName.text = this.onLeft.equipmentName;
-        onLeftDps.text = this.onLeft.dps + " damage/s";
+        onLeftDps.text = this.onLeft.dps + " dps/s";
         onLeftDescr.text = this.onLeft.description;
         onLeftExtra.text = this.onLeft.extraInfo;
         onLeftExtra.enabled = !string.IsNullOrEmpty(onLeftExtra.text);
@@ -63,7 +63,7 @@ public class ItemSwitcher : MonoBehaviour {
         onRightItemImg = onRightImg.GetComponent<Image>();
         onRightItemImg.sprite = SpriteLoader.getSprite(this.onRight.spriteName);
         onRightName.text = this.onRight.equipmentName;
-        onRightDps.text = this.onRight.dps + " damage/s";
+        onRightDps.text = this.onRight.dps + " dps/s";
         onRightDescr.text = this.onRight.description;
         onRightExtra.text = this.onRight.extraInfo;
         onRightExtra.enabled = !string.IsNullOrEmpty(onRightExtra.text);

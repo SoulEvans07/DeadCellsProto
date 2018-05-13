@@ -27,11 +27,6 @@ public class Archer : Enemy {
 //    public GameObject slashAttackFx;
     private bool attackStarted = false;
 
-    // hit
-    public float hitCooldown = 22 / 24f;
-    private float hitCooldownValue = 0;
-
-    
 
     void Start() {
         InitEnemy();
@@ -40,6 +35,10 @@ public class Archer : Enemy {
 //        slashFxOffsetLeft.x *= -1;
 //
 //        attackSignalTimeValue = attackSignalTime;
+    }
+
+    void Update() {
+        UpdateHitCooldown();
     }
 
     protected override void FixedUpdate() {
@@ -53,7 +52,6 @@ public class Archer : Enemy {
         float diffY = playerTrans.position.y - transform.position.y;
 
         attackCooldownValue -= Time.fixedDeltaTime;
-        hitCooldownValue -= Time.fixedDeltaTime;
         
         if (0 < diffX && diffX < attackDistance && Mathf.Abs (diffY) < 0.1f) {
             move = 0;
@@ -101,9 +99,11 @@ public class Archer : Enemy {
     }
     
     public void Hit(AttackFx attack) {
+        if (IsHitCooldownUp())
+            return;
+        
         ResetAttackCooldown();
-
-        hitCooldownValue = hitCooldown;
+        ResetHitCooldown();
 
         TakeDamage(attack.damage);
 

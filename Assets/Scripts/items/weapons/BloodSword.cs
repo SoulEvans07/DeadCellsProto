@@ -8,7 +8,7 @@ public class BloodSword : Weapon {
 	[ShowOnly] public float offsetY = 0f;
 	
 	private void init() {
-		equipmentName = "Blood Sword";
+		gearName = "Blood Sword";
 		spriteName = "BloodSword";
 		attackAnim = "AtkSaberA";
         

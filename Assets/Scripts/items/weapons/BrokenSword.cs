@@ -7,7 +7,7 @@ public class BrokenSword : Weapon {
     [ShowOnly] public float offsetY = 0f;
 
     private void init() {
-        equipmentName = "Broken Sword";
+        gearName = "Broken Sword";
         spriteName = "BrokenSword";
         attackAnim = "AtkSaberA";
         

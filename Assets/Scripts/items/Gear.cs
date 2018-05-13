@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 [ExecuteInEditMode]
 public abstract class Gear : MonoBehaviour{
-    public string equipmentName;
+    public string gearName;
     public string description;
     public int dps;
     public string extraInfo;
@@ -15,7 +15,7 @@ public abstract class Gear : MonoBehaviour{
     public abstract bool Use();
     
     private void Start() {
-        name = equipmentName;
+        name = gearName;
     }
     
     public void addIcon(Image image) {

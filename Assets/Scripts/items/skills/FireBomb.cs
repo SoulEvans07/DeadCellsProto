@@ -4,7 +4,7 @@ public class FireBomb : Skill {
     public float throwForce = 250f;
 
     private void init() {
-        equipmentName = "Fire Bomb";
+        gearName = "Fire Bomb";
         spriteName = "FireBomb";
         skillUseAnim = "";
         skillCooldown = 3f;

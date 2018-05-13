@@ -4,7 +4,7 @@ public class BeginnersBow : Weapon {
     public float bowForce = 100f;
 
     private void init() {
-        equipmentName = "Begginers Bow";
+        gearName = "Begginers Bow";
         spriteName = "BeginnersBow";
 //        attackAnim = "AtkBow";
         attackAnim = "PlayerLongBow";

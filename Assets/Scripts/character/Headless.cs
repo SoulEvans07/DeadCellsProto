@@ -45,8 +45,7 @@ public class Headless : Living {
     public Inventory inventory;
 
     // score
-    private int gold = 0;
-
+    public int gold = 0;
     public TextMeshProUGUI goldLabel;
 
     // health
@@ -253,6 +252,19 @@ public class Headless : Living {
         Destroy(gem.gameObject);
     }
 
+    public bool Buy(int price, Equipment item) {
+        if (price > gold)
+            return false;
+
+        gold -= price;
+        goldLabel.text = gold.ToString();
+        
+        if (item != null)
+            inventory.addItemToInventory(item);
+        
+        return true;
+    }
+    
     private void spawnEffect(GameObject fx, Transform pos, float duration) {
         GameObject fxObject = Instantiate(fx, pos.position, pos.rotation) as GameObject;
         if (duration >= 0)

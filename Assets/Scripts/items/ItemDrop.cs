@@ -7,7 +7,7 @@ public class ItemDrop : MonoBehaviour {
 
     public GameObject popUp;
     public GameObject itemSelect;
-    public Vector3 popOffset = new Vector3(0, 0.2f, 0);
+    public Vector3 popOffset = new Vector3(0, 0.2f, -4.5f);
     [ShowOnly] public GameObject popUpInst;
     [ShowOnly] public GameObject itemSelectInst;
 
@@ -80,8 +80,9 @@ public class ItemDrop : MonoBehaviour {
             popUpInst = Instantiate(popUp, CanvasManager.instance.gameObject.transform);
             Headless.instance.inventory.watching = true;
         }
-        if(popUpInst != null)    
+        if (popUpInst != null) {
             popUpInst.GetComponent<RectTransform>().position = transform.position + popOffset;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other) {

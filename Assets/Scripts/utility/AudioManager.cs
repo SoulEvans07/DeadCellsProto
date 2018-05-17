@@ -63,7 +63,7 @@ public class AudioManager : MonoBehaviour
 
 	public void Play(string sound)
 	{
-		Debug.Log("play: " + sound);
+//		Debug.Log("play: " + sound);
 		Sound s = Array.Find(sounds, item => item.name == sound);
 		if (s == null)
 		{
@@ -78,7 +78,7 @@ public class AudioManager : MonoBehaviour
 
 	public void Stop(string sound)
 	{
-		Debug.Log("stop: " + sound);
+//		Debug.Log("stop: " + sound);
 		Sound s = Array.Find(sounds, item => item.name == sound);
 		if (s == null)
 		{
@@ -93,7 +93,7 @@ public class AudioManager : MonoBehaviour
 
 	public void PlayAfter(string sound)
 	{
-		Debug.Log("next: " + sound);
+//		Debug.Log("next: " + sound);
 		Sound s = Array.Find(sounds, item => item.name == sound);
 		if (s == null)
 		{

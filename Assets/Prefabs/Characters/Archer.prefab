@@ -208,7 +208,7 @@ MonoBehaviour:
   edgeRadius: 0.01
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 8193
+    m_Bits: 270337
   attackSignalTime: 1
   attackCooldown: 1
   attackDistance: 2.5

@@ -59,6 +59,10 @@ public class Headless : Living {
     void Start() {
         InitLiving();
 
+        foreach (string joystickName in Input.GetJoystickNames()) {
+            Debug.Log(joystickName);
+        }        
+
         PlayerPrefs.DeleteKey("player-gold");
         goldLabel.text = gold.ToString();
 

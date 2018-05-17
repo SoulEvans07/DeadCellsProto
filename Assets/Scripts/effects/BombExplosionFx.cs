@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 
 public class BombExplosionFx : MonoBehaviour {
@@ -32,8 +31,8 @@ public class BombExplosionFx : MonoBehaviour {
         }
     }
 
-    void OnDrawGizmosSelected() {
-        Handles.color = Color.red;
-        UnityEditor.Handles.DrawWireDisc(transform.position, Vector3.back, radius);
-    }
+//    void OnDrawGizmosSelected() {
+//        Handles.color = Color.red;
+//        UnityEditor.Handles.DrawWireDisc(transform.position, Vector3.back, radius);
+//    }
 }

@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -74,7 +73,7 @@ public class Archer : Enemy {
             }
             if (!attack) {
                 Collider2D coll = Physics2D.OverlapCircle(ledgeCheck.position, edgeRadius, whatIsGround);
-                if (!coll || Physics2D.OverlapCircle(probe.position, 0.1f, whatIsGround)) {
+                if (!coll || Physics2D.OverlapCircle(probe.position, 0.2f, whatIsGround)) {
                     Flip();
                 }
 

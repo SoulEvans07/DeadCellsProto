@@ -7,8 +7,14 @@ public class CameraFollow : MonoBehaviour
 
     public float offsetX;
     public float offsetY;
-
-    private void Awake() {
+    
+    // Singleton
+    public static CameraFollow instance;
+    
+    void Awake(){
+        if (instance != null)
+            Debug.LogWarning ("more than one instance");
+        instance = this;
         DontDestroyOnLoad(this.gameObject);
     }
 

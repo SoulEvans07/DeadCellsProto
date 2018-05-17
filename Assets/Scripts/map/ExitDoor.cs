@@ -15,6 +15,7 @@ public class ExitDoor : MonoBehaviour {
 	void NextLevel() {
 		if (nextLevel.Equals("HighScore")) {
 			PlayerPrefs.SetInt("player-gold", Headless.instance.gold);
+			Headless.DestroyAll();
 			if (AudioManager.instance != null) {
 				AudioManager.instance.Stop("ActionIntro");
 				AudioManager.instance.Stop("ActionLoop");

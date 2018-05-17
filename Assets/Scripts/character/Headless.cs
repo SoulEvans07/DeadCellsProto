@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using TMPro;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.Collections;
 using UnityEngine.SceneManagement;
@@ -102,9 +101,7 @@ public class Headless : Living {
         } else {
             if (!grounded) {
                 // move slower (airSlowness = 0.7)
-                if (hitWall() && (LX / transform.localScale.x) > 0)
-                    nextVx = 0;
-                else
+                if (!(hitWall() && (LX / transform.localScale.x) > 0))
                     nextVx = LX * speed * airSlowness;
             } else {
                 // move
@@ -226,7 +223,6 @@ public class Headless : Living {
         UpdateHealthBar();
 
         // Death animation
-        Destroy(gameObject);
 
         if (AudioManager.instance != null) {
             AudioManager.instance.Stop("ActionIntro");
@@ -234,7 +230,14 @@ public class Headless : Living {
         }
 
         // Display highscore
+        DestroyAll();
         SceneManager.LoadScene("HighScore");
+    }
+
+    public static void DestroyAll() {
+        Destroy(Headless.instance.gameObject);
+        Destroy(CanvasManager.instance.gameObject);
+        Destroy(CameraFollow.instance.gameObject);
     }
 
     void UpdateHealthBar() {
@@ -282,7 +285,7 @@ public class Headless : Living {
     }
 
     private bool hitWall() {
-        return Physics2D.OverlapBox(probeDown.position, probeUp.position - probeDown.position, 0, whatIsWall);
+        return Physics2D.OverlapBox(probeDown.position, probeDown.position - probeUp.position, 0, whatIsWall);
     }
 
     private void orientTransform() {
@@ -294,9 +297,14 @@ public class Headless : Living {
     }
 
 
-//    [ExecuteInEditMode]
-//    void OnDrawGizmosSelected() {
-//        UnityEditor.Handles.DrawSolidRectangleWithOutline(
-//            new Rect(probeDown.position, probeUp.position - probeDown.position), Color.green, Color.green);
-//    }
+    [ExecuteInEditMode]
+    void OnDrawGizmosSelected() {
+        if (hitWall()) {
+            UnityEditor.Handles.DrawSolidRectangleWithOutline(
+                new Rect(probeDown.position, probeUp.position - probeDown.position), Color.red, Color.red);
+        } else {
+            UnityEditor.Handles.DrawSolidRectangleWithOutline(
+                new Rect(probeDown.position, probeUp.position - probeDown.position), Color.green, Color.green);
+        }
+    }
 }
